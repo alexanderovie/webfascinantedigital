@@ -10,7 +10,7 @@ import MobileMenu from '../MobileMenu';
 // import AboutMenu from '../mega-menu/AboutMenu'; // Removed - About is now direct link
 // import BlogMenu from '../mega-menu/BlogMenu'; // Removed - Blog is now direct link
 // import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
-import PageMegaMenu from '../mega-menu/PageMegaMenu';
+// import PageMegaMenu from '../mega-menu/PageMegaMenu'; // Removed - Pages menu removed
 import ServicesMenu from '../mega-menu/ServicesMenu';
 import LogoV2 from './LogoV2';
 import MobileMenuButton from './MobileMenuButton';
@@ -43,8 +43,6 @@ const NavbarTwo: FC<NavbarTwoProps> = ({ className, megaMenuColor, btnClassName 
               {navigationItems.map((item) => {
                 const renderMegaMenu = () => {
                   switch (item?.megaMenuComponent) {
-                    case 'PageMegaMenu':
-                      return <PageMegaMenu className={megaMenuColor} />;
                     case 'ServicesMenu':
                       return <ServicesMenu className={megaMenuColor} />;
                     default:
