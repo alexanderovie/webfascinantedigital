@@ -6,7 +6,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const OurMission = () => {
   return (
-    <section className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden">
+    <section className="pt-7 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden">
       <div className="main-container">
         <div className="grid grid-cols-12 lg:gap-x-0 xl:gap-x-28 gap-y-12 items-center">
           <div className="col-span-12 lg:col-span-6">

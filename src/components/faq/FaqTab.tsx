@@ -5,7 +5,7 @@ import FaqTabList from './FaqTabList';
 
 const FaqTab = () => {
   return (
-    <section className="py-[100px]">
+    <section className="pt-7 pb-[100px]">
       <div className="main-container">
         <div className="text-center">
         </div>
