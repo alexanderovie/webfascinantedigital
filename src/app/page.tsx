@@ -17,8 +17,50 @@ export const metadata: Metadata = {
 };
 
 const Homepage33 = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Fascinante Digital",
+    "image": "https://fascinantedigital.com/static/logo-512.png",
+    "url": "https://fascinantedigital.com/",
+    "telephone": "+1-800-886-4981",
+    "email": "info@fascinantedigital.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2054 Vista Pkwy, Suite 400",
+      "addressLocality": "West Palm Beach",
+      "addressRegion": "FL",
+      "postalCode": "33411",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "sameAs": [
+      "https://www.instagram.com/fascinantedigital/",
+      "https://www.facebook.com/fascinantedigital/"
+    ],
+    "areaServed": ["West Palm Beach","Palm Beach County","United States","Latin America"],
+    "serviceType": [
+      "SEO",
+      "SEO Local",
+      "SEO Técnico",
+      "Diseño y Desarrollo Web",
+      "Automatización de Marketing",
+      "Social Ads (Meta/Instagram)",
+      "Google Ads"
+    ]
+  };
+
   return (
     <Fragment>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <NavbarOne
         className="bg-white dark:border border-stroke-6 dark:bg-background-9"
         btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
