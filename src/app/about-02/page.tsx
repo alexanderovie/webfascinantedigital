@@ -2,7 +2,7 @@ import FinanceIntro from '@/components/aboutpage-02/FinanceIntro';
 import OurMission from '@/components/aboutpage-02/OurMission';
 import Reviews from '@/components/aboutpage-02/Reviews';
 import VisionStatement from '@/components/aboutpage-02/VisionStatement';
-import TrustedByUsers from '@/components/homepage-07/TrustedByUsers';
+// import TrustedByUsers from '@/components/homepage-07/TrustedByUsers'; // Component removed
 import CTAV2 from '@/components/shared/cta/CTAV2';
 
 import FooterThree from '@/components/shared/footer/FooterThree';
@@ -26,19 +26,8 @@ const AboutPage02 = () => {
       <main className="bg-white dark:bg-background-8">
         <PageHero title="About us 2" heading="About us" link="/about-02" />
         <VisionStatement />
-        <TrustedByUsers
-          className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
-          title="Grow together"
-          description="We’re not just a software platform
-        we’re a partner in your long-term success."
-        />
+        {/* TrustedByUsers sections removed - component not available */}
         <OurMission />
-        <TrustedByUsers
-          className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
-          title="Grow together"
-          description="We’re not just a software platform
-        we’re a partner in your long-term success."
-        />
         <FinanceIntro />
         <Reviews />
         <CTAV2

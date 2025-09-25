@@ -1,4 +1,4 @@
-import Reviews from '@/components/homepage-09/Reviews';
+// import Reviews from '@/components/homepage-09/Reviews'; // Component removed
 import Client from '@/components/pricing-02/Client';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterThree from '@/components/shared/footer/FooterThree';
@@ -22,10 +22,7 @@ const TestimonialOnePage = () => {
       />
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero title="Testimonial" heading="Testimonial" link="/testimonial-01" />
-        <Reviews
-          badgeClass="!badge-green"
-          className="pt-[100px] pb-[75px] md:pb-[100px] lg:pb-[200px] bg-background-1 dark:bg-background-6"
-        />
+        {/* Reviews section removed - component not available */}
         <Client />
         <Integration />
         <CTAV1

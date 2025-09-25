@@ -8,6 +8,7 @@
 - **TypeScript**: Usar TypeScript como lenguaje principal, evitar `any`
 - **Modularidad**: Componentes reutilizables y escalables
 - **Performance**: Optimización desde el diseño inicial
+- **Docker-First**: SIEMPRE hacer builds en Docker para entorno limpio y consistente
 
 ### Estructura de Archivos
 - `app/` para páginas y rutas (App Router)
@@ -129,6 +130,29 @@ function createApiResponse<T>(data: T): ApiResponse<T> {
 type UserUpdate = Partial<Pick<User, 'name' | 'email'>>
 ```
 
+## 🐳 Docker y Builds
+
+### Builds Obligatorios en Docker
+- **SIEMPRE** usar `docker-compose run --rm web pnpm build` para builds
+- **NUNCA** hacer `pnpm build` directamente en el sistema local
+- Docker proporciona entorno limpio y evita problemas de cache global
+- Usar `docker-compose build --no-cache` cuando sea necesario
+
+### Comandos Docker Estándar
+```bash
+# Build en Docker (OBLIGATORIO)
+docker-compose run --rm web pnpm build
+
+# Rebuild completo
+docker-compose build --no-cache
+
+# Desarrollo
+docker-compose up -d
+
+# Logs
+docker-compose logs web
+```
+
 ## 🚀 Performance y Optimización
 
 ### Code Splitting
@@ -226,6 +250,8 @@ type UserUpdate = Partial<Pick<User, 'name' | 'email'>>
 - ❌ No usar `useEffect` para data fetching en Server Components
 - ❌ No crear componentes monolíticos
 - ❌ No usar inline styles cuando Tailwind es suficiente
+- ❌ **NUNCA** hacer `pnpm build` directamente (usar Docker)
+- ❌ No hacer builds locales que pueden fallar por cache global
 
 ## ✅ Checklist de Calidad
 

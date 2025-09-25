@@ -2,7 +2,7 @@ import feature1Img from '@public/images/home-page-8/feature-1.png';
 import Image from 'next/image';
 import NumberAnimation from '../animation/NumberAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
-import Progress from '../homepage-04/Progress';
+// import Progress from '../homepage-04/Progress'; // Component removed
 
 const OurMission = () => {
   return (
@@ -48,7 +48,7 @@ const OurMission = () => {
                           className="text-lg font-medium leading-[1.5] text-secondary dark:text-accent"></NumberAnimation>
                       </p>
                     </figcaption>
-                    <Progress />
+                    {/* Progress component removed - not available */}
                   </div>
                 </RevealAnimation>
               </figure>

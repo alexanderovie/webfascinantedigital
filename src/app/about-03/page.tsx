@@ -3,8 +3,7 @@ import Feature from '@/components/aboutpage-03/Feature';
 import Innovation from '@/components/aboutpage-03/Innovation';
 import OurMission from '@/components/aboutpage-03/OurMission';
 import OurVision from '@/components/aboutpage-03/OurVision';
-import Teams from '@/components/homepage-08/Teams';
-import CTA from '@/components/homepage-10/CTA';
+import CTA from '@/components/homepage-33/CTA';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
@@ -28,7 +27,7 @@ const AboutPage03 = () => {
         <OurMission />
         <OurVision />
         <Innovation />
-        <Teams />
+        {/* Teams section removed - component not available */}
         <AboutMap />
         <CTA />
       </main>

@@ -1,4 +1,4 @@
-import Testimonial from '@/components/homepage-03/Testimonial';
+// import Testimonial from '@/components/homepage-03/Testimonial'; // Component removed
 import CTA from '@/components/our-team-01/CTA';
 import Experience from '@/components/our-team-02/Experience';
 import Features from '@/components/our-team-02/Features';
@@ -24,11 +24,7 @@ const OurTeam02 = () => {
         <PageHero title="Our Team" heading="Our Team" link="/our-team-01" />
         <Teams />
         <Experience />
-        <Testimonial
-          badgeText="What our users say"
-          title="Hear from our customers about their experiences with us"
-          classname="pt-20 md:pt-24 lg:pt-[150px] xl:pt-[200px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] bg-background-2 dark:bg-background-5"
-        />
+        {/* Testimonial section removed - component not available */}
         <Features />
         <CTA />
       </main>

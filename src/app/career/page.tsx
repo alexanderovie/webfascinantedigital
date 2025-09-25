@@ -1,6 +1,6 @@
 import CareerContent from '@/components/career/CareerContent';
 import Positions from '@/components/career/Positions';
-import Features from '@/components/homepage-07/Features';
+// import Features from '@/components/homepage-07/Features'; // Component removed
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -22,7 +22,7 @@ const Career = () => {
       <main className="bg-background-3 dark:bg-background-5">
         <PageHero title="Career" heading="Career" link="/career" className="bg-background-3 dark:bg-background-5" />
         <CareerContent />
-        <Features className="py-[100px] xl:py-[200px]" />
+        {/* Features section removed - component not available */}
         <Positions />
         <CTAV1
           className="dark:bg-background-6 bg-white"

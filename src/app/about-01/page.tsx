@@ -2,8 +2,7 @@ import OurMission from '@/components/aboutpage-01/OurMission';
 import VisionStatement from '@/components/aboutpage-01/VisionStatement';
 import WhyChooseUs from '@/components/aboutpage-01/WhyChooseUs';
 import RevealAnimation from '@/components/animation/RevealAnimation';
-import Team from '@/components/homepage-05/Team';
-import CTA from '@/components/homepage-08/CTA';
+import CTA from '@/components/homepage-33/CTA';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import OurAchievements from '@/components/shared/OurAchievements';
@@ -52,7 +51,7 @@ const AboutPage01 = () => {
           </div>
         </section>
         <WhyChooseUs />
-        <Team className="bg-background-3 dark:bg-background-7 py-[100px]" badgeColor="badge-cyan" />
+        {/* Team section removed - component not available */}
         <ReviewsV3
           badgeText="Customer Success"
           buttonText="View all reviews"
