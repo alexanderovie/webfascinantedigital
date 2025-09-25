@@ -1,7 +1,6 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { cn } from '@/utils/cn';
-import DarkLogo from '@public/images/shared/dark-logo.svg';
-import LightLogo from '@public/images/shared/light-logo.svg';
+import mainLogo from '@public/images/shared/main-logo.svg';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
@@ -31,8 +30,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
             <RevealAnimation delay={0.3}>
               <div className="xl:max-w-[306px]">
                 <figure>
-                  <Image src={LightLogo} className="dark:hidden" alt="NextSass" />
-                  <Image src={DarkLogo} className="hidden dark:block" alt="NextSass" />
+                  <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert" />
                 </figure>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
                   Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
