@@ -43,15 +43,15 @@ export function useTitleCase(text: string): string {
  * Aplica Title Case a un objeto con propiedades de texto
  * Útil para títulos, botones, etc.
  */
-export function applyTitleCaseToObject<T extends Record<string, any>>(obj: T): T {
-  const result = { ...obj };
+export function applyTitleCaseToObject<T extends Record<string, unknown>>(obj: T): T {
+  const result = { ...obj } as T;
   
   // Propiedades comunes que contienen texto
   const textProperties = ['title', 'heading', 'text', 'label', 'buttonText', 'ctaText', 'badgeText'];
   
   textProperties.forEach(prop => {
     if (result[prop] && typeof result[prop] === 'string') {
-      result[prop] = toTitleCase(result[prop]);
+      (result as Record<string, unknown>)[prop] = toTitleCase(result[prop] as string);
     }
   });
   
@@ -61,6 +61,6 @@ export function applyTitleCaseToObject<T extends Record<string, any>>(obj: T): T
 /**
  * Aplica Title Case a un array de objetos
  */
-export function applyTitleCaseToArray<T extends Record<string, any>>(arr: T[]): T[] {
+export function applyTitleCaseToArray<T extends Record<string, unknown>>(arr: T[]): T[] {
   return arr.map(item => applyTitleCaseToObject(item));
 }

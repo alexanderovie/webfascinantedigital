@@ -1,7 +1,4 @@
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logo from '@public/images/shared/logo.svg';
 import mainLogo from '@public/images/shared/main-logo.svg';
-import fascinanteLogo from '@public/images/Favicon-Fascinante.svg';
 import fascinanteLogoPng from '@public/images/Favicon-Fascinante.png';
 import Image from 'next/image';
 import Link from 'next/link';
