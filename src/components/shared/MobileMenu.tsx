@@ -65,7 +65,7 @@ const MobileMenu = () => {
         </div>
         <div className="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10">
           <ul>
-            {/* Direct Links */}
+            {/* Direct Links - Updated Order */}
             <li>
               <Link
                 href="/"
@@ -80,17 +80,30 @@ const MobileMenu = () => {
                 About
               </Link>
             </li>
+            
+            <ServicesMenu />
+            
+            <li>
+              <Link
+                href="/faq"
+                className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/blog"
+                className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
+                Blog
+              </Link>
+            </li>
             <li>
               <Link
                 href="/contact-us"
                 className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
-                Contact Us
+                Contact
               </Link>
             </li>
-
-            {/* BlogMenu removed - Blog is now direct link */}
-
-            <ServicesMenu />
 
             <IntegrationMenu />
 
