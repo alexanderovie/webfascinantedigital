@@ -38,6 +38,12 @@ export const navigationItems: NavigationItem[] = [
     megaMenuComponent: 'ServicesMenu',
   },
   {
+    id: 'faq',
+    label: 'FAQ',
+    href: '/faq',
+    hasDropdown: false,
+  },
+  {
     id: 'blog',
     label: 'Blog',
     href: '/blog',
