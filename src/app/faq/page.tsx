@@ -8,7 +8,11 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'FAQ - NextSaaS',
+  title: 'FAQ',
+  description: 'Frequently asked questions about Fascinante Digital\'s SEO, web development, and digital marketing services. Get answers to common questions about our process and results.',
+  alternates: {
+    canonical: '/faq',
+  },
 };
 
 const FAQ = () => {

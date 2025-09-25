@@ -11,8 +11,11 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'AboutPage-02 - NextSaaS',
-  description: 'About Page - NextSaaS',
+  title: 'About Us',
+  description: 'Learn about Fascinante Digital, the leading digital marketing agency in West Palm Beach. Our mission is to help Hispanic businesses grow with data-driven strategies.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 const AboutPage02 = () => {

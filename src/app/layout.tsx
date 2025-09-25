@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'Fascinante Digital' }],
   creator: 'Fascinante Digital',
   publisher: 'Fascinante Digital',
+  metadataBase: new URL('https://fascinantedigital.com'),
+  alternates: {
+    canonical: '/',
+  },
   robots: {
     index: true,
     follow: true,

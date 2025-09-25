@@ -9,7 +9,11 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Our Services - Fascinante Digital',
+  title: 'Our Services',
+  description: 'Comprehensive digital marketing services including SEO, web development, Google Ads, and marketing automation. Drive growth with Fascinante Digital.',
+  alternates: {
+    canonical: '/services',
+  },
 };
 
 const OurServices02 = () => {

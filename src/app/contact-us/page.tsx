@@ -7,8 +7,11 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - NextSaaS',
-  description: 'Contact Us Page - NextSaaS',
+  title: 'Contact Us',
+  description: 'Get in touch with Fascinante Digital. Contact our digital marketing experts in West Palm Beach for SEO, web development, and marketing automation services.',
+  alternates: {
+    canonical: '/contact-us',
+  },
 };
 
 const ContactUs = () => {

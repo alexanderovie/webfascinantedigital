@@ -7,7 +7,11 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog page 02 - NextSaaS',
+  title: 'Blog',
+  description: 'Latest marketing insights, SEO strategies, and digital marketing tips from Fascinante Digital. Stay updated with industry trends and best practices.',
+  alternates: {
+    canonical: '/blog',
+  },
 };
 
 const BlogPage02 = () => {

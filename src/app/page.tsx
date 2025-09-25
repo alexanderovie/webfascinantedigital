@@ -14,6 +14,9 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   title: 'Fascinante Digital | SEO y Desarrollo Web en West Palm Beach',
+  alternates: {
+    canonical: '/',
+  },
 };
 
 const Homepage33 = () => {

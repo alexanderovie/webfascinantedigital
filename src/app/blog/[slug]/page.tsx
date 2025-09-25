@@ -16,6 +16,9 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   title: 'Blog Details - NextSaaS',
+  alternates: {
+    canonical: '/blog/[slug]',
+  },
 };
 
 const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {
