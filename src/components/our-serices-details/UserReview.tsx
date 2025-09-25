@@ -15,7 +15,7 @@ const UserReview = ({ service }: UserReviewProps) => {
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
           <p className="text-tagline-1">
-            &ldquo;Nextsaas delivered our entire platform ahead of schedule—flawless execution and real
+            &ldquo;Fascinante Digital delivered our entire platform ahead of schedule—flawless execution and real
             partnership.&rdquo;
           </p>
         </RevealAnimation>
