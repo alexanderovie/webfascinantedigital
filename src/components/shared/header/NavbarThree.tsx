@@ -6,9 +6,9 @@ import { navigationItems } from '@/data/header';
 import { useNavbarScroll } from '@/hooks/useScrollHeader';
 import { cn } from '@/utils/cn';
 import MobileMenu from '../MobileMenu';
-import AboutMenu from '../mega-menu/AboutMenu';
+// import AboutMenu from '../mega-menu/AboutMenu'; // Removed - About is now direct link
 import BlogMenu from '../mega-menu/BlogMenu';
-import HomeMegaMenu from '../mega-menu/HomeMegaMenu';
+// import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
 import PageMegaMenu from '../mega-menu/PageMegaMenu';
 import ServicesMenu from '../mega-menu/ServicesMenu';
 import Logo from './Logo';
@@ -34,12 +34,8 @@ const NavbarThree = ({ btnClassName }: { btnClassName?: string }) => {
                   {navigationItems.map((item) => {
                     const renderMegaMenu = () => {
                       switch (item?.megaMenuComponent) {
-                        case 'HomeMegaMenu':
-                          return <HomeMegaMenu />;
                         case 'PageMegaMenu':
                           return <PageMegaMenu />;
-                        case 'AboutMenu':
-                          return <AboutMenu />;
                         case 'ServicesMenu':
                           return <ServicesMenu />;
                         case 'BlogMenu':

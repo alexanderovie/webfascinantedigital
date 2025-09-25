@@ -8,9 +8,9 @@ import LogoGreen from '@public/images/shared/logo-green.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import MobileMenu from '../MobileMenu';
-import AboutMenu from '../mega-menu/AboutMenu';
+// import AboutMenu from '../mega-menu/AboutMenu'; // Removed - About is now direct link
 import BlogMenu from '../mega-menu/BlogMenu';
-import HomeMegaMenu from '../mega-menu/HomeMegaMenu';
+// import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
 import PageMegaMenu from '../mega-menu/PageMegaMenu';
 import ServicesMenu from '../mega-menu/ServicesMenu';
 import MobileMenuButton from './MobileMenuButton';
@@ -46,12 +46,8 @@ const NavbarFour = ({ className, megaMenuColor, btnClassName }: NavbarFourProps)
                 {navigationItems.map((item) => {
                   const renderMegaMenu = () => {
                     switch (item?.megaMenuComponent) {
-                      case 'HomeMegaMenu':
-                        return <HomeMegaMenu className={megaMenuColor} />;
                       case 'PageMegaMenu':
                         return <PageMegaMenu className={megaMenuColor} />;
-                      case 'AboutMenu':
-                        return <AboutMenu className={megaMenuColor} />;
                       case 'ServicesMenu':
                         return <ServicesMenu className={megaMenuColor} />;
                       case 'BlogMenu':

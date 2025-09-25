@@ -7,10 +7,10 @@ import logo from '@public/images/shared/logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
-import AboutUsMenu from './mobile-menu/AboutUsMenu';
+// import AboutUsMenu from './mobile-menu/AboutUsMenu'; // Removed - About is now direct link
 import BlogMenu from './mobile-menu/BlogMenu';
 import FeaturesMenu from './mobile-menu/FeaturesMenu';
-import HomeMenu from './mobile-menu/HomeMenu';
+// import HomeMenu from './mobile-menu/HomeMenu'; // Removed - Home is now direct link
 import IntegrationMenu from './mobile-menu/IntegrationMenu';
 import LoginMenu from './mobile-menu/LoginMenu';
 import PricingMenu from './mobile-menu/PricingMenu';
@@ -65,9 +65,8 @@ const MobileMenu = () => {
         </div>
         <div className="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10">
           <ul>
-            <HomeMenu />
-
-            <AboutUsMenu />
+            {/* HomeMenu removed - Home is now direct link */}
+            {/* AboutUsMenu removed - About is now direct link */}
 
             <BlogMenu />
 
