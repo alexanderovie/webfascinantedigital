@@ -107,11 +107,6 @@ const FooterFour = ({ className }: { className?: string }) => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/documentation" className="footer-link">
-                        Documentation
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="/tutorial" className="footer-link">
                         Tutorial
                       </Link>

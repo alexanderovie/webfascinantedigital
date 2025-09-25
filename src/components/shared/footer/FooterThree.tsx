@@ -220,11 +220,6 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                       </Link>
                     </li>
                     <li>
-                      <Link href="/documentation" className="footer-link-v2">
-                        Documentation
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="/tutorial" className="footer-link-v2">
                         Tutorial
                       </Link>

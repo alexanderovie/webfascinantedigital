@@ -80,7 +80,6 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
     id: 'column-1',
     items: [
       { id: 'tutorial', label: 'Tutorial Page', href: '/tutorial' },
-      { id: 'documentation', label: 'Documentation Page', href: '/documentation' },
       { id: 'faq', label: 'FAQ Page', href: '/faq' },
       { id: 'support', label: 'Support', href: '/support' },
       { id: 'career', label: 'Career Page', href: '/career' },
