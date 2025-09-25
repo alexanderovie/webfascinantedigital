@@ -47,9 +47,8 @@ export const navigationItems: NavigationItem[] = [
   {
     id: 'blog',
     label: 'Blog',
-    href: '#',
-    hasDropdown: true,
-    megaMenuComponent: 'BlogMenu',
+    href: '/blog',
+    hasDropdown: false,
   },
   {
     id: 'contact',

@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 // import AboutUsMenu from './mobile-menu/AboutUsMenu'; // Removed - About is now direct link
-import BlogMenu from './mobile-menu/BlogMenu';
+// import BlogMenu from './mobile-menu/BlogMenu'; // Removed - Blog is now direct link
 import FeaturesMenu from './mobile-menu/FeaturesMenu';
 // import HomeMenu from './mobile-menu/HomeMenu'; // Removed - Home is now direct link
 import IntegrationMenu from './mobile-menu/IntegrationMenu';
@@ -88,7 +88,7 @@ const MobileMenu = () => {
               </Link>
             </li>
 
-            <BlogMenu />
+            {/* BlogMenu removed - Blog is now direct link */}
 
             <ServicesMenu />
 

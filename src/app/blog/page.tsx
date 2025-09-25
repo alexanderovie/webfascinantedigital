@@ -1,4 +1,5 @@
-import BlogListWrapper from '@/components/blog-03/BlogListWrapper';
+import BlogShowcase from '@/components/blog-02/BlogShowcase';
+import FeaturedBlog from '@/components/blog-02/FeaturedBlog';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -6,19 +7,20 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog page 03 - NextSaaS',
+  title: 'Blog page 02 - NextSaaS',
 };
 
-const BlogPage03 = () => {
+const BlogPage02 = () => {
   return (
     <>
       <NavbarOne
         className="border border-stroke-2 bg-accent/60 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
-      <main className="bg-background-3 dark:bg-background-5">
-        <PageHero title="Our Blog" heading="Blog-03" link="#" />
-        <BlogListWrapper />
+      <main className="bg-background-4 dark:bg-background-9">
+        <PageHero title="Our Blog" heading="Latest Marketing Insights" link="/blog" />
+        <FeaturedBlog />
+        <BlogShowcase />
         <CTAV1
           className="dark:bg-background-7 bg-white"
           badgeClass="!badge-yellow-v2"
@@ -33,4 +35,4 @@ const BlogPage03 = () => {
   );
 };
 
-export default BlogPage03;
+export default BlogPage02;
