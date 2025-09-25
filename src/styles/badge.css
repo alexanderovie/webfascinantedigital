@@ -76,3 +76,26 @@ Site Badges Styles
 @utility badge-secondary-light {
   @apply bg-secondary/20 text-primary-50 dark:bg-accent/20 dark:text-accent;
 }
+
+/* =========================
+Soft Color Badges for Core Pages
+=========================== */
+@utility badge-blue-soft {
+  @apply bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300;
+}
+
+@utility badge-green-soft {
+  @apply bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300;
+}
+
+@utility badge-purple-soft {
+  @apply bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300;
+}
+
+@utility badge-orange-soft {
+  @apply bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300;
+}
+
+@utility badge-teal-soft {
+  @apply bg-teal-100 text-teal-700 dark:bg-teal-900/30 dark:text-teal-300;
+}
