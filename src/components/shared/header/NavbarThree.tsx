@@ -38,8 +38,6 @@ const NavbarThree = ({ btnClassName }: { btnClassName?: string }) => {
                           return <PageMegaMenu />;
                         case 'ServicesMenu':
                           return <ServicesMenu />;
-                        case 'BlogMenu':
-                          return <BlogMenu />;
                         default:
                           return null;
                       }

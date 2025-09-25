@@ -8,7 +8,7 @@ import { cn } from '@/utils/cn';
 import { FC } from 'react';
 import MobileMenu from '../MobileMenu';
 // import AboutMenu from '../mega-menu/AboutMenu'; // Removed - About is now direct link
-import BlogMenu from '../mega-menu/BlogMenu';
+// import BlogMenu from '../mega-menu/BlogMenu'; // Removed - Blog is now direct link
 // import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
 import PageMegaMenu from '../mega-menu/PageMegaMenu';
 import ServicesMenu from '../mega-menu/ServicesMenu';
@@ -47,8 +47,6 @@ const NavbarFive: FC<NavbarFiveProps> = ({ className, megaMenuColor }) => {
                       return <PageMegaMenu className={megaMenuColor} />;
                     case 'ServicesMenu':
                       return <ServicesMenu className={megaMenuColor} />;
-                    case 'BlogMenu':
-                      return <BlogMenu className={megaMenuColor} />;
                     default:
                       return null;
                   }

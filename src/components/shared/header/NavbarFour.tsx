@@ -9,7 +9,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MobileMenu from '../MobileMenu';
 // import AboutMenu from '../mega-menu/AboutMenu'; // Removed - About is now direct link
-import BlogMenu from '../mega-menu/BlogMenu';
+// import BlogMenu from '../mega-menu/BlogMenu'; // Removed - Blog is now direct link
 // import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
 import PageMegaMenu from '../mega-menu/PageMegaMenu';
 import ServicesMenu from '../mega-menu/ServicesMenu';
@@ -44,18 +44,16 @@ const NavbarFour = ({ className, megaMenuColor, btnClassName }: NavbarFourProps)
             <nav className="hidden items-center xl:flex">
               <ul className="flex items-center gap-6">
                 {navigationItems.map((item) => {
-                  const renderMegaMenu = () => {
-                    switch (item?.megaMenuComponent) {
-                      case 'PageMegaMenu':
-                        return <PageMegaMenu className={megaMenuColor} />;
-                      case 'ServicesMenu':
-                        return <ServicesMenu className={megaMenuColor} />;
-                      case 'BlogMenu':
-                        return <BlogMenu className={megaMenuColor} />;
-                      default:
-                        return null;
-                    }
-                  };
+                const renderMegaMenu = () => {
+                  switch (item?.megaMenuComponent) {
+                    case 'PageMegaMenu':
+                      return <PageMegaMenu className={megaMenuColor} />;
+                    case 'ServicesMenu':
+                      return <ServicesMenu className={megaMenuColor} />;
+                    default:
+                      return null;
+                  }
+                };
 
                   // mega menu render
                   return (
