@@ -1,0 +1,244 @@
+# 🎯 Reglas Elite para Fascinante Digital
+# Configuración profesional para desarrollo con Next.js 15, TypeScript y Tailwind CSS
+
+## 🏗️ Arquitectura y Estructura
+
+### Principios Fundamentales
+- **Server-First**: Priorizar Server Components sobre Client Components
+- **TypeScript**: Usar TypeScript como lenguaje principal, evitar `any`
+- **Modularidad**: Componentes reutilizables y escalables
+- **Performance**: Optimización desde el diseño inicial
+
+### Estructura de Archivos
+- `app/` para páginas y rutas (App Router)
+- `components/` para componentes reutilizables
+- `lib/` para utilidades y configuraciones
+- `utils/` para funciones auxiliares
+- `types/` para definiciones TypeScript
+
+## 🎨 Convenciones de Código
+
+### Nomenclatura
+- **Componentes**: PascalCase → `UserProfile.tsx`
+- **Utilidades**: kebab-case → `get-user-data.ts`
+- **Páginas**: kebab-case → `about-us/page.tsx`
+- **Variables**: camelCase → `userData`
+- **Constantes**: UPPER_SNAKE_CASE → `API_BASE_URL`
+
+### Componentes React
+```typescript
+// ✅ Correcto - Server Component por defecto
+export default function UserProfile({ userId }: { userId: string }) {
+  return <div>Profile for {userId}</div>
+}
+
+// ✅ Correcto - Client Component solo cuando necesario
+"use client"
+export default function InteractiveButton() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(c => c + 1)}>{count}</button>
+}
+```
+
+### Imports y Exports
+```typescript
+// ✅ Correcto - Imports organizados
+import { useState } from 'react'
+import { NextRequest } from 'next/server'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
+
+// ✅ Correcto - Exports nombrados para utilidades
+export const formatDate = (date: Date) => { /* ... */ }
+export const validateEmail = (email: string) => { /* ... */ }
+```
+
+## 🎯 Next.js 15 Específico
+
+### App Router
+- Usar `async/await` en Server Components
+- Implementar `Suspense` para loading states
+- Usar `generateStaticParams` para páginas dinámicas
+- Aplicar `revalidate` para ISR cuando sea apropiado
+
+### Performance
+- Usar `next/image` con `width`, `height` y `alt`
+- Implementar `next/font` para fuentes optimizadas
+- Aplicar lazy loading con `dynamic()`
+- Usar `next/link` para navegación
+
+### API Routes
+```typescript
+// ✅ Correcto - API Route con manejo de errores
+export async function GET(request: NextRequest) {
+  try {
+    const data = await fetchData()
+    return Response.json({ success: true, data })
+  } catch (error) {
+    return Response.json({ error: 'Internal Server Error' }, { status: 500 })
+  }
+}
+```
+
+## 🎨 Styling con Tailwind CSS
+
+### Clases y Organización
+```typescript
+// ✅ Correcto - Clases organizadas
+const buttonClasses = cn(
+  "px-4 py-2 rounded-lg font-medium transition-colors",
+  "bg-blue-600 hover:bg-blue-700 text-white",
+  "disabled:opacity-50 disabled:cursor-not-allowed"
+)
+```
+
+### Responsive Design
+- Mobile-first approach
+- Usar breakpoints: `sm:`, `md:`, `lg:`, `xl:`, `2xl:`
+- Implementar dark mode con `dark:` prefix
+
+## 🔧 TypeScript
+
+### Tipos e Interfaces
+```typescript
+// ✅ Correcto - Interfaces bien definidas
+interface User {
+  id: string
+  name: string
+  email: string
+  createdAt: Date
+}
+
+// ✅ Correcto - Props tipadas
+interface ButtonProps {
+  variant?: 'primary' | 'secondary' | 'outline'
+  size?: 'sm' | 'md' | 'lg'
+  children: React.ReactNode
+  onClick?: () => void
+}
+```
+
+### Generics y Utility Types
+```typescript
+// ✅ Correcto - Uso de generics
+function createApiResponse<T>(data: T): ApiResponse<T> {
+  return { success: true, data }
+}
+
+// ✅ Correcto - Utility types
+type UserUpdate = Partial<Pick<User, 'name' | 'email'>>
+```
+
+## 🚀 Performance y Optimización
+
+### Code Splitting
+- Usar `dynamic()` para componentes pesados
+- Implementar lazy loading para rutas
+- Aplicar `React.memo()` cuando sea necesario
+
+### Caching
+- Usar `cache()` de React para Server Components
+- Implementar `revalidateTag()` para invalidación
+- Aplicar `unstable_cache()` para funciones costosas
+
+## 🧪 Testing y Calidad
+
+### Testing
+- Escribir tests para componentes críticos
+- Usar `@testing-library/react` para tests de componentes
+- Implementar tests de integración para API routes
+
+### Linting y Formatting
+- Seguir reglas de ESLint configuradas
+- Aplicar Prettier para formato consistente
+- Usar `lint-staged` para pre-commit hooks
+
+## 🔒 Seguridad
+
+### Validación
+- Validar inputs en API routes
+- Usar `zod` para schema validation
+- Sanitizar datos antes de renderizar
+
+### Headers y CORS
+- Configurar headers de seguridad apropiados
+- Implementar CORS cuando sea necesario
+- Usar HTTPS en producción
+
+## 📱 Accesibilidad
+
+### ARIA y Semántica
+- Usar elementos semánticos HTML5
+- Implementar ARIA labels apropiados
+- Asegurar navegación por teclado
+
+### Contraste y Legibilidad
+- Mantener contraste mínimo 4.5:1
+- Usar tamaños de fuente legibles
+- Implementar focus indicators visibles
+
+## 🌐 Internacionalización
+
+### i18n Setup
+- Usar `next-intl` para internacionalización
+- Organizar traducciones en archivos JSON
+- Implementar detección de idioma automática
+
+## 🐳 Docker y Deployment
+
+### Containerización
+- Usar multi-stage builds en Dockerfile
+- Implementar health checks
+- Configurar variables de entorno apropiadas
+
+### CI/CD
+- Automatizar tests en pipeline
+- Implementar deployment automático
+- Usar preview deployments para PRs
+
+## 📊 Monitoreo y Analytics
+
+### Performance Monitoring
+- Implementar Web Vitals tracking
+- Usar `@vercel/analytics` para métricas
+- Configurar error tracking con Sentry
+
+## 🎯 Reglas Específicas del Proyecto
+
+### Fascinante Digital
+- Mantener branding consistente
+- Usar colores de marca definidos
+- Implementar componentes de UI reutilizables
+- Seguir guía de estilo de la empresa
+
+### Componentes Reutilizables
+- Crear componentes base en `components/ui/`
+- Implementar variantes con `cva` (class-variance-authority)
+- Documentar props con JSDoc
+- Exportar desde `index.ts` para imports limpios
+
+## 🚫 Anti-Patrones a Evitar
+
+- ❌ No usar `any` en TypeScript
+- ❌ No crear Client Components innecesarios
+- ❌ No hardcodear strings (usar constantes)
+- ❌ No ignorar errores de ESLint/Prettier
+- ❌ No usar `useEffect` para data fetching en Server Components
+- ❌ No crear componentes monolíticos
+- ❌ No usar inline styles cuando Tailwind es suficiente
+
+## ✅ Checklist de Calidad
+
+Antes de hacer commit, verificar:
+- [ ] TypeScript sin errores
+- [ ] ESLint sin warnings
+- [ ] Prettier aplicado
+- [ ] Tests pasando
+- [ ] Componentes documentados
+- [ ] Performance optimizada
+- [ ] Accesibilidad verificada
+- [ ] Responsive design implementado
+
+---
+
+**Desarrollado con ❤️ para Fascinante Digital - Configuración Elite**

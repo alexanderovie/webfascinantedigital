@@ -1,0 +1,29 @@
+{
+  "cursor.context7.enabled": true,
+  "cursor.context7.autoInclude": true,
+  "cursor.context7.libraries": [
+    "next.js",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "node.js",
+    "docker"
+  ],
+  "cursor.context7.includeNodeModules": false,
+  "cursor.context7.includeGitHistory": true,
+  "cursor.context7.maxContextLength": 50000,
+  "cursor.context7.includePatterns": [
+    "src/**/*",
+    "*.json",
+    "*.md",
+    "Dockerfile*",
+    "docker-compose*"
+  ],
+  "cursor.context7.excludePatterns": [
+    "node_modules/**",
+    ".next/**",
+    "dist/**",
+    "build/**",
+    "*.log"
+  ]
+}

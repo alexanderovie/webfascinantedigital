@@ -1,0 +1,21 @@
+{
+  "project": "webfascinantedigital",
+  "github": {
+    "username": "alexanderovie",
+    "email": "info@fascinantedigital.com",
+    "authenticated": true,
+    "cli_available": true
+  },
+  "git": {
+    "configured": true,
+    "credential_helper": "gh"
+  },
+  "available_commands": [
+    "gh repo create webfascinantedigital --public",
+    "git init",
+    "git add .",
+    "git commit -m 'Initial commit'",
+    "git remote add origin https://github.com/alexanderovie/webfascinantedigital.git",
+    "git push -u origin main"
+  ]
+}

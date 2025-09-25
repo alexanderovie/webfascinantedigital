@@ -1,0 +1,101 @@
+# Docker Compose para Fascinante Digital
+# Configuración completa para desarrollo y producción
+
+services:
+  # ===========================================
+  # Servicio Principal - Next.js App
+  # ===========================================
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development  # Cambiar a 'runner' para producción
+    container_name: fascinante-digital-web
+    ports:
+      - "3000:3000"
+    volumes:
+      # Hot reload para desarrollo
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+      - WATCHPACK_POLLING=true  # Para hot reload en Windows
+    networks:
+      - fascinante-network
+    restart: unless-stopped
+    depends_on:
+      - redis
+
+  # ===========================================
+  # Redis - Cache y Session Store
+  # ===========================================
+  redis:
+    image: redis:7-alpine
+    container_name: fascinante-digital-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - fascinante-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+
+  # ===========================================
+  # PostgreSQL - Base de Datos (Opcional)
+  # ===========================================
+  postgres:
+    image: postgres:16-alpine
+    container_name: fascinante-digital-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=fascinante_digital
+      - POSTGRES_USER=fascinante
+      - POSTGRES_PASSWORD=fascinante123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - fascinante-network
+    restart: unless-stopped
+    profiles:
+      - database  # Solo se ejecuta con --profile database
+
+  # ===========================================
+  # Nginx - Reverse Proxy (Producción)
+  # ===========================================
+  nginx:
+    image: nginx:alpine
+    container_name: fascinante-digital-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    networks:
+      - fascinante-network
+    restart: unless-stopped
+    profiles:
+      - production  # Solo se ejecuta con --profile production
+    depends_on:
+      - web
+
+# ===========================================
+# Volúmenes
+# ===========================================
+volumes:
+  redis_data:
+    driver: local
+  postgres_data:
+    driver: local
+
+# ===========================================
+# Redes
+# ===========================================
+networks:
+  fascinante-network:
+    driver: bridge
+    name: fascinante-digital-network

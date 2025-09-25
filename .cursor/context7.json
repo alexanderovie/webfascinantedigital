@@ -1,0 +1,64 @@
+{
+  "name": "Fascinante Digital",
+  "description": "Proyecto Next.js 15 con TypeScript, Tailwind CSS y Docker",
+  "version": "1.0.0",
+  "libraries": [
+    {
+      "name": "next.js",
+      "version": "15.4.6",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "name": "react",
+      "version": "19.1.0",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "name": "typescript",
+      "version": "5",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "name": "tailwindcss",
+      "version": "4",
+      "enabled": true,
+      "priority": "medium"
+    },
+    {
+      "name": "docker",
+      "enabled": true,
+      "priority": "medium"
+    }
+  ],
+  "context": {
+    "include": [
+      "src/**/*.tsx",
+      "src/**/*.ts",
+      "src/**/*.css",
+      "*.json",
+      "*.md",
+      "Dockerfile*",
+      "docker-compose*",
+      ".cursorrules"
+    ],
+    "exclude": [
+      "node_modules/**",
+      ".next/**",
+      "dist/**",
+      "build/**",
+      "*.log",
+      "*.cache"
+    ],
+    "maxFiles": 100,
+    "maxSize": "50MB"
+  },
+  "features": {
+    "autoInclude": true,
+    "smartContext": true,
+    "libraryDetection": true,
+    "gitIntegration": true
+  }
+}
