@@ -24,7 +24,7 @@ const BlogPage02 = () => {
           description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
           link="/blog"
           badge="Marketing Insights"
-          badgeClass="badge-purple-soft"
+          badgeClass="badge-blue-soft"
         />
         <FeaturedBlog />
         <BlogShowcase />

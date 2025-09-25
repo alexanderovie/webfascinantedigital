@@ -27,7 +27,7 @@ const OurServices02 = () => {
           description="From SEO and SEM to social media and conversion optimization, we provide comprehensive marketing solutions tailored to your business goals and target audience."
           link="/services"
           badge="Our Services"
-          badgeClass="badge-green-soft"
+          badgeClass="badge-blue-soft"
         />
         <Services />
         <ServicesV2 />

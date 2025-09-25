@@ -25,7 +25,7 @@ const FAQ = () => {
           description="Find answers to common questions about our marketing services, pricing, and how we can help grow your business. Can't find what you're looking for? Contact us directly."
           link="/faq"
           badge="Help Center"
-          badgeClass="badge-orange-soft"
+          badgeClass="badge-blue-soft"
         />
         <FaqTab />
         <Contact />

@@ -25,7 +25,7 @@ const ContactUs = () => {
           description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
           link="/contact-us"
           badge="Get in Touch"
-          badgeClass="badge-teal-soft"
+          badgeClass="badge-blue-soft"
         />
         <ContactInfo />
         <ContactMap />
