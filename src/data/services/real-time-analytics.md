@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-real-time-analytics.svg'
 coverImg: '/images/services/service-real-time-analytics-cover.png'
 userReview:
   name: 'Andrew Collins'
-  image: '/images/avatar/avatar-6.png'
+  image: '/images/home-page-33/avatar-5.webp'
   reviewContent: 'The real-time analytics dashboard gave us visibility we never had before. Our team can now make faster, data-driven decisions that directly impact revenue growth.'
   userRole: 'Data Strategy Lead, InsightEdge'
 ---

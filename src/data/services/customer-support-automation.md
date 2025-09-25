@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-customer-support.svg'
 coverImg: '/images/services/service-customer-support-cover.png'
 userReview:
   name: 'David Carter'
-  image: '/images/avatar/avatar-2.png'
+  image: '/images/home-page-33/avatar-5.webp'
   reviewContent: 'Automating our support reduced response times from hours to seconds. Customers are happier, and our support team can finally focus on high-value tasks.'
   userRole: 'Customer Experience Manager, TechNova Inc.'
 ---

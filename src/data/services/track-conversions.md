@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-track-conversions.svg'
 coverImg: '/images/services/service-track-conversions-cover.png'
 userReview:
   name: 'Ryan Mitchell'
-  image: '/images/avatar/avatar-8.png'
+  image: '/images/home-page-33/avatar-1.webp'
   reviewContent: 'With accurate conversion tracking in place, we finally understand which campaigns drive real results. Our ROI has never been clearer.'
   userRole: 'Performance Marketing Manager, Adnova'
 ---

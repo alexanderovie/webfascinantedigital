@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-big-data-consulting.svg'
 coverImg: '/images/services/service-big-data-consulting-cover.png'
 userReview:
   name: 'Sophia Martinez'
-  image: '/images/avatar/avatar-1.png'
+  image: '/images/home-page-33/avatar-2.webp'
   reviewContent: 'Their policy and program management expertise helped us create a clear governance framework and streamlined execution. It brought transparency and efficiency across our organization.'
   userRole: 'Program Director, Horizon Global'
 ---

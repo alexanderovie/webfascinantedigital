@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-asset-1.svg'
 coverImg: '/images/services/service-details-1.png'
 userReview:
   name: 'Michael Torres'
-  image: '/images/avatar/avatar-3.png'
+  image: '/images/home-page-33/avatar-6.webp'
   reviewContent: 'Our customers love the speed and reliability of digital wallet payments. It’s streamlined our checkout process and significantly increased customer satisfaction.'
   userRole: 'Head of Payments, FinEdge Solutions'
 ---

@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-asset-1.svg'
 coverImg: '/images/services/service-details-1.png'
 userReview:
   name: 'James Parker'
-  image: '/images/avatar/avatar-10.png'
+  image: '/images/home-page-33/avatar-3.webp'
   reviewContent: 'This trading platform has completely changed the way we operate. The advanced tools and seamless execution allow our team to trade smarter and faster.'
   userRole: 'Senior Portfolio Manager, GlobalInvest Capital'
 ---

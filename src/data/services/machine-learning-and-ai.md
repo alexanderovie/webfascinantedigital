@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-machine-learning-ai.svg'
 coverImg: '/images/services/service-machine-learning-ai-cover.png'
 userReview:
   name: 'Thomas Bennett'
-  image: '/images/avatar/avatar-5.png'
+  image: '/images/home-page-33/avatar-4.webp'
   reviewContent: 'Integrating AI into our workflows has saved countless hours and unlocked insights we never thought possible. It has transformed the way we operate day-to-day.'
   userRole: 'Innovation Director, FutureTech Labs'
 ---

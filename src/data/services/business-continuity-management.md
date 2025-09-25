@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-big-data-consulting.svg'
 coverImg: '/images/services/service-big-data-consulting-cover.png'
 userReview:
   name: 'James Carter'
-  image: '/images/avatar/avatar-3.png'
+  image: '/images/home-page-33/avatar-3.webp'
   reviewContent: 'Their business continuity management framework gave us the confidence to handle unexpected disruptions. We now have robust recovery plans and the assurance that critical operations won’t stop.'
   userRole: 'COO, SecureTech Solutions'
 ---

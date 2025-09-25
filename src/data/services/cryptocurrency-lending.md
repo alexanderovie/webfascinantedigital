@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-crypto-lending.svg'
 coverImg: '/images/services/service-crypto-cover.png'
 userReview:
   name: 'Jordan Lee'
-  image: '/images/avatar/avatar-1.png'
+  image: '/images/home-page-33/avatar-2.webp'
   reviewContent: "Thanks to the lending automation, we've eliminated hours of manual work each week. Our operations team now focuses on growth instead of repetitive processes."
   userRole: 'Head of Operations, BlockFi'
 ---

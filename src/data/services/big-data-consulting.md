@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-big-data-consulting.svg'
 coverImg: '/images/services/service-big-data-consulting-cover.png'
 userReview:
   name: 'Richard Evans'
-  image: '/images/avatar/avatar-11.png'
+  image: '/images/home-page-33/avatar-4.webp'
   reviewContent: 'The big data consulting team helped us transform raw data into meaningful insights. Today, our decisions are faster, more accurate, and truly data-driven.'
   userRole: 'Chief Data Officer, DataCore Systems'
 ---

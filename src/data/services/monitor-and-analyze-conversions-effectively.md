@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-big-data-consulting.svg'
 coverImg: '/images/services/service-big-data-consulting-cover.png'
 userReview:
   name: 'Daniel Lee'
-  image: '/images/avatar/avatar-5.png'
+  image: '/images/home-page-33/avatar-5.webp'
   reviewContent: 'With their conversion monitoring system, we now understand exactly where customers drop off and how to improve engagement. Our ROI has never looked better.'
   userRole: 'Head of Marketing, BrightWave Media'
 ---

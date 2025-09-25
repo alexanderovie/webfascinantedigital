@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-marketing-automation.svg'
 coverImg: '/images/services/service-marketing-automation-cover.png'
 userReview:
   name: 'Christopher Adams'
-  image: '/images/avatar/avatar-4.png'
+  image: '/images/home-page-33/avatar-4.webp'
   reviewContent: 'With marketing automation, we’ve doubled our lead conversions while cutting campaign management time in half. It’s become a vital part of our growth strategy.'
   userRole: 'Marketing Director, GrowthWave Media'
 ---

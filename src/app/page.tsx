@@ -13,7 +13,7 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Fascinante Digital - Cambio 33',
+  title: 'Fascinante Digital | SEO y Desarrollo Web en West Palm Beach',
 };
 
 const Homepage33 = () => {

@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-asset-1.svg'
 coverImg: '/images/services/service-details-1.png'
 userReview:
   name: 'Daniel Roberts'
-  image: '/images/avatar/avatar-9.png'
+  image: '/images/home-page-33/avatar-1.webp'
   reviewContent: 'Our trading volumes and user engagement have increased significantly since moving to this exchange platform. The speed, liquidity, and security give us full confidence.'
   userRole: 'Head of Trading Operations, AlphaMarkets'
 ---

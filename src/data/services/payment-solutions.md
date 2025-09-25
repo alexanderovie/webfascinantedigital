@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-asset-1.svg'
 coverImg: '/images/services/service-details-1.png'
 userReview:
   name: 'Jonathan Miller'
-  image: '/images/avatar/avatar-5.png'
+  image: '/images/home-page-33/avatar-1.webp'
   reviewContent: 'Implementing these payment solutions simplified our checkout process and reduced failed transactions. Customers now enjoy a smoother, faster, and more secure payment experience.'
   userRole: 'Head of Finance, NovaRetail Group'
 ---

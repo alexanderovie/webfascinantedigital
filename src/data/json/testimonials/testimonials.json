@@ -1,74 +1,50 @@
 [
   {
     "id": 1,
-    "quote": "The platform's intuitive interface and powerful features have revolutionized our workflow. Customer support has been exceptional every step of the way.",
-    "avatar": "/images/avatar/avatar-1.png",
-    "name": "Sarah Johnson",
+    "quote": "Fascinante Digital completely transformed our business. Their SEO strategy took us from 0 to 10,000 monthly visitors in just 6 months. Incredible results!",
+    "avatar": "/images/home-page-33/avatar-1.webp",
+    "name": "María González",
     "position": "Marketing Director",
     "rating": "4.9"
   },
   {
     "id": 2,
-    "quote": "As a small business owner, your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations. your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations.",
-    "avatar": "/images/avatar/avatar-2.png",
-    "name": "Michael Chen",
-    "position": "Tech Lead",
+    "quote": "As a restaurant owner in Miami, I needed more local customers. Their Google Business Profile and local SEO tripled my reservations. Thank you!",
+    "avatar": "/images/home-page-33/avatar-2.webp",
+    "name": "Carlos Mendoza",
+    "position": "Restaurant Owner",
     "rating": "5.0"
   },
   {
     "id": 3,
-    "quote": "As a small business owner, your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations. your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations.  ",
-    "avatar": "/images/avatar/avatar-3.png",
-    "name": "Emma Rodriguez",
+    "quote": "Our website was slow and not converting. Fascinante Digital completely optimized it. Now we convert 3x more visitors into customers.",
+    "avatar": "/images/home-page-33/avatar-3.webp",
+    "name": "Ana Rodríguez",
     "position": "Operations Manager",
     "rating": "4.8"
   },
   {
     "id": 4,
-    "quote": "As a small business owner, your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations. your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations.",
-    "avatar": "/images/avatar/avatar-4.png",
-    "name": "Jaks Rodriguez",
-    "position": "Software Manager",
-    "rating": "3.8"
-  },
-  {
-    "id": 5,
-    "quote": "I appreciate the real-time analytics and customizable dashboards. It has made tracking our KPIs so much easier and more insightful.",
-    "avatar": "/images/avatar/avatar-5.png",
-    "name": "Priya Patel",
-    "position": "Data Analyst",
+    "quote": "The marketing automation they implemented saves us 20 hours weekly. Our leads now nurture automatically. Amazing!",
+    "avatar": "/images/home-page-33/avatar-4.webp",
+    "name": "Diego Herrera",
+    "position": "Sales Manager",
     "rating": "4.7"
   },
   {
+    "id": 5,
+    "quote": "Their Google Ads and Meta campaigns are incredible. They reduced our cost per customer by 60% and increased sales by 200%. Excellent work!",
+    "avatar": "/images/home-page-33/avatar-5.webp",
+    "name": "Sofia Martínez",
+    "position": "Data Analyst",
+    "rating": "4.9"
+  },
+  {
     "id": 6,
-    "quote": "From onboarding to daily use, the experience has been smooth and intuitive. Our team collaboration has improved significantly.",
-    "avatar": "/images/avatar/avatar-6.png",
-    "name": "Lucas Meyer",
+    "quote": "From day one, Fascinante Digital's team understood our vision. Their comprehensive strategy made us grow 300% in one year.",
+    "avatar": "/images/home-page-33/avatar-6.webp",
+    "name": "Luis Fernández",
     "position": "Project Coordinator",
-    "rating": "4.6"
-  },
-  {
-    "id": 7,
-    "quote": "As a small business owner, your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations. your service has been a lifesaver in managing cash flow and optimizing financial strategies. It has truly exceeded my expectations.",
-    "avatar": "/images/avatar/avatar-7.png",
-    "name": "Lucas Meyer",
-    "position": "Project Coordinator",
-    "rating": "4.6"
-  },
-  {
-    "id": 8,
-    "quote": "From onboarding to daily use, the experience has been smooth and intuitive. Our team collaboration has improved significantly.",
-    "avatar": "/images/avatar/avatar-8.png",
-    "name": "Lucas Meyer",
-    "position": "Project Coordinator",
-    "rating": "4.6"
-  },
-  {
-    "id": 9,
-    "quote": "From onboarding to daily use, the experience has been smooth and intuitive. Our team collaboration has improved significantly.",
-    "avatar": "/images/avatar/avatar-9.png",
-    "name": "Lucas Meyer",
-    "position": "Project Coordinator",
-    "rating": "4.6"
+    "rating": "4.8"
   }
 ]

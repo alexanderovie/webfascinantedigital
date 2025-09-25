@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-cloud-integration.svg'
 coverImg: '/images/services/service-cloud-integration-cover.png'
 userReview:
   name: 'Brian Foster'
-  image: '/images/avatar/avatar-4.png'
+  image: '/images/home-page-33/avatar-4.webp'
   reviewContent: 'Cloud integration allowed us to connect multiple systems effortlessly. Now our teams work in sync, and data flows securely across the entire organization.'
   userRole: 'IT Director, SkyNet Enterprises'
 ---

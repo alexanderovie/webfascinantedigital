@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-sales-management.svg'
 coverImg: '/images/services/service-sales-management-cover.png'
 userReview:
   name: 'Matthew Harris'
-  image: '/images/avatar/avatar-7.png'
+  image: '/images/home-page-33/avatar-6.webp'
   reviewContent: 'Since adopting the sales management platform, our pipeline visibility has improved dramatically. Reps spend less time on admin and more time closing deals.'
   userRole: 'VP of Sales, GrowthSphere'
 ---

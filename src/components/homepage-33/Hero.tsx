@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
-import avatar1 from '../../../public/images/avatar/avatar-1.png';
-import avatar2 from '../../../public/images/avatar/avatar-2.png';
-import avatar3 from '../../../public/images/avatar/avatar-3.png';
+import avatar1 from '../../../public/images/home-page-33/avatar-1.webp';
+import avatar2 from '../../../public/images/home-page-33/avatar-2.webp';
+import avatar3 from '../../../public/images/home-page-33/avatar-3.webp';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 

@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-business-analysis.svg'
 coverImg: '/images/services/service-business-analysis-cover.png'
 userReview:
   name: 'Stephen Clark'
-  image: '/images/avatar/avatar-7.png'
+  image: '/images/home-page-33/avatar-3.webp'
   reviewContent: 'The business analysis team streamlined our processes and uncovered opportunities that directly boosted revenue. It gave us clarity and confidence to move forward.'
   userRole: 'Operations Manager, BrightPath Solutions'
 ---

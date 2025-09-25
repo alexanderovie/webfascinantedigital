@@ -6,7 +6,7 @@ image: '/images/home-page-1/services-big-data-consulting.svg'
 coverImg: '/images/services/service-big-data-consulting-cover.png'
 userReview:
   name: 'Michael Roberts'
-  image: '/images/avatar/avatar-7.png'
+  image: '/images/home-page-33/avatar-6.webp'
   reviewContent: 'Their sales strategy guidance helped us restructure our process and motivate our team. The result? Higher conversions, happier clients, and consistent growth.'
   userRole: 'VP of Sales, GrowthEdge Inc.'
 ---

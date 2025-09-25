@@ -19,7 +19,7 @@ const testimonialCards: TestimonialCard[] = [
     id: 1,
     name: 'Michael Lee',
     company: 'Urban Brew',
-    avatar: '/images/avatar/avatar-4.png',
+    avatar: '/images/home-page-33/avatar-4.webp',
     testimonial:
       'They captured every moment beautifully with creativity and professionalism. Their attention to detail and seamless editing exceeded our expectations. Highly recommend!',
     twitterUrl: 'https://x.com/heystaticmania',
@@ -28,7 +28,7 @@ const testimonialCards: TestimonialCard[] = [
     id: 2,
     name: 'Sarah Johnson',
     company: 'TechFlow Solutions',
-    avatar: '/images/avatar/avatar-5.png',
+    avatar: '/images/home-page-33/avatar-5.webp',
     testimonial:
       'Working with this team was a game-changer for our business. They understood our vision perfectly and executed it flawlessly, exceeding our expectations in every way.',
     twitterUrl: 'https://x.com/heystaticmania',
@@ -37,7 +37,7 @@ const testimonialCards: TestimonialCard[] = [
     id: 3,
     name: 'Emily Rodriguez',
     company: 'Creative Studios',
-    avatar: '/images/avatar/avatar-6.png',
+    avatar: '/images/home-page-33/avatar-6.webp',
     testimonial:
       "The level of creativity and technical expertise they brought to our project was outstanding. They delivered a solution that perfectly captured our brand's essence and vision.",
     twitterUrl: 'https://x.com/heystaticmania',
