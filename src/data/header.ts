@@ -69,13 +69,13 @@ export const blogMenuItems: MegaMenuItem[] = [
 
 // Services Menu Data
 export const servicesMenuItems: MegaMenuItem[] = [
-  { id: 'google-business', label: 'Google Business Profile', href: '/our-services/google-business-profile' },
-  { id: 'local-directories', label: 'Local Directories', href: '/our-services/local-directories' },
-  { id: 'landing-pages', label: 'Landing Pages', href: '/our-services/landing-pages' },
-  { id: 'website-creation', label: 'Website Creation', href: '/our-services/website-creation' },
-  { id: 'google-ads', label: 'Google Ads Campaigns', href: '/our-services/google-ads-campaigns' },
-  { id: 'social-media-ads', label: 'Social Media Ads', href: '/our-services/social-media-ads' },
-  { id: 'seo-optimization', label: 'SEO Optimization', href: '/our-services/seo-optimization' },
+  { id: 'google-business', label: 'Google Business Profile', href: '/services/google-business-profile' },
+  { id: 'local-directories', label: 'Local Directories', href: '/services/local-directories' },
+  { id: 'landing-pages', label: 'Landing Pages', href: '/services/landing-pages' },
+  { id: 'website-creation', label: 'Website Creation', href: '/services/website-creation' },
+  { id: 'google-ads', label: 'Google Ads Campaigns', href: '/services/google-ads-campaigns' },
+  { id: 'social-media-ads', label: 'Social Media Ads', href: '/services/social-media-ads' },
+  { id: 'seo-optimization', label: 'SEO Optimization', href: '/services/seo-optimization' },
 ];
 
 // Home Mega Menu Data removed - Home is now a direct link

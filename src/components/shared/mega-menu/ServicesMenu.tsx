@@ -1,6 +1,6 @@
 import { servicesMenuItems } from '@/data/header';
 import { cn } from '@/utils/cn';
-import MegaMenuItem from './MegaMenuItem';
+import ServiceMenuItem from './ServiceMenuItem';
 
 interface ServicesMenuProps {
   className?: string;
@@ -15,9 +15,9 @@ const ServicesMenu = ({ className }: ServicesMenuProps) => {
           'dark:bg-background-6 border-stroke-1 dark:border-stroke-6 pointer-events-none absolute top-full left-1/2 z-50 mt-2 w-full min-w-[280px] -translate-x-1/2 translate-y-5 overflow-hidden rounded-[20px] border bg-white px-[60px] py-[70px] opacity-0 transition-transform duration-300 group-hover/nav:pointer-events-auto group-hover/nav:translate-y-0 group-hover/nav:opacity-100',
           className,
         )}>
-        <ul className="w-full space-y-5">
+        <ul className="w-full space-y-2">
           {servicesMenuItems.map((item) => (
-            <MegaMenuItem key={item.id} item={item} />
+            <ServiceMenuItem key={item.id} item={item} />
           ))}
         </ul>
       </div>
