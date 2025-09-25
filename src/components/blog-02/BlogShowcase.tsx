@@ -7,7 +7,7 @@ const BlogShowcase = () => {
   const blogs: IBlogPost[] = getMarkDownData('src/data/blogs');
 
   return (
-    <section className="py-14 md:py-16 lg:py-[88px] xl:py-[100px]">
+    <section className="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]">
       <div className="main-container">
         <div className="text-center space-y-3 mb-10 md:mb-[70px]">
           <RevealAnimation delay={0.1}>
