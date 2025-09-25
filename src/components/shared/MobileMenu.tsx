@@ -65,8 +65,28 @@ const MobileMenu = () => {
         </div>
         <div className="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10">
           <ul>
-            {/* HomeMenu removed - Home is now direct link */}
-            {/* AboutUsMenu removed - About is now direct link */}
+            {/* Direct Links */}
+            <li>
+              <Link
+                href="/"
+                className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about-02"
+                className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact-us"
+                className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
+                Contact Us
+              </Link>
+            </li>
 
             <BlogMenu />
 
