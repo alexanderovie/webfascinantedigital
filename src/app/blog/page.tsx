@@ -22,33 +22,25 @@ const BlogPage02 = () => {
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-4 dark:bg-background-9">
-        <div className="bg-red-100 p-4">
-          <PageHero 
-            title="Our Blog" 
-            heading="Latest Marketing Insights
+        <PageHero 
+          title="Our Blog" 
+          heading="Latest Marketing Insights
 & Strategies"
-            description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
-            link="/blog"
-            badge="Marketing Insights"
-            badgeClass="badge-blue-soft"
-          />
-        </div>
-        <div className="bg-blue-200 p-4">
-          <FeaturedBlog />
-        </div>
-        <div className="bg-green-300 p-4">
-          <BlogShowcase />
-        </div>
-        <div className="bg-yellow-200 p-4">
-          <CTAV1
-            className="dark:bg-background-7 bg-white"
-            badgeClass="!badge-yellow-v2"
-            badgeText="Get started"
-            ctaHeading="Build a complete website using the assistance"
-            description="Start your free trial today and see your ideas come to life easily and creatively."
-            ctaBtnText="Get started"
-          />
-        </div>
+          description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
+          link="/blog"
+          badge="Marketing Insights"
+          badgeClass="badge-blue-soft"
+        />
+        <FeaturedBlog />
+        <BlogShowcase />
+        <CTAV1
+          className="dark:bg-background-7 bg-white"
+          badgeClass="!badge-yellow-v2"
+          badgeText="Get started"
+          ctaHeading="Build a complete website using the assistance"
+          description="Start your free trial today and see your ideas come to life easily and creatively."
+          ctaBtnText="Get started"
+        />
       </main>
       <FooterThree />
     </>
