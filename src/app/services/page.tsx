@@ -1,7 +1,6 @@
 import Features from '@/components/our-services-01/Features';
-import Pricing from '@/components/our-services-01/Pricing';
-import Services from '@/components/our-services-01/Services';
-import Solutions from '@/components/our-services-01/Solutions';
+import Services from '@/components/our-services-02/Services';
+import ServicesV2 from '@/components/our-services-02/ServicesV2';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -10,23 +9,26 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Our Services 01 - NextSaaS',
+  title: 'Our Services - Fascinante Digital',
 };
 
-const OurServices01 = () => {
+const OurServices02 = () => {
   return (
     <Fragment>
       <NavbarOne
-        className="bg-accent/60 border border-stroke-2 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
-        btnClassName="btn-primary hover:bg-secondary dark:hover:btn-accent"
-        megaMenuColor="!bg-background-3 dark:!bg-background-7"
+        className="bg-accent/60 backdrop-blur-[25px] dark:border dark:border-stroke-7 dark:bg-background-7"
+        btnClassName="btn-secondary dark:btn-accent hover:btn-primary"
+        megaMenuColor="!bg-background-3 dark:!bg-background-8"
       />
       <main className="bg-background-1 dark:bg-background-6">
-        <PageHero title="Our Services" heading="Our Services" link="/our-services-01" />
+        <PageHero title="Our Services" heading="Our Services" link="/services" />
         <Services />
-        <Features />
-        <Solutions />
-        <Pricing />
+        <ServicesV2 />
+        <Features
+          className="lg:pt-[200px] lg:pb-[100px]"
+          badgeClassName="badge-green-v2"
+          btnClassName="btn btn-xl dark:btn-transparent hover:btn-primary btn-white"
+        />
         <CTAV1
           className="dark:bg-background-6 bg-white"
           badgeClass="hidden"
@@ -42,4 +44,4 @@ const OurServices01 = () => {
   );
 };
 
-export default OurServices01;
+export default OurServices02;

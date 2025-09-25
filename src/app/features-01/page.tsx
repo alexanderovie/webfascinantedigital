@@ -1,7 +1,7 @@
 import Features from '@/components/features-01/Features';
 import FeaturesV2 from '@/components/features-01/FeaturesV2';
 import Team from '@/components/features-01/Team';
-import Feature from '@/components/our-services-03/Feature';
+// import Feature from '@/components/our-services-03/Feature'; // Component removed
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -27,7 +27,7 @@ const Features01 = () => {
         <PageHero title="Features" heading="Features" link="/features-01" />
         <Features />
         <Team />
-        <Feature className="pt-[100px]" btnClassName="btn-accent dark:btn-dark hover:btn-primary border-0 btn-md btn" />
+        {/* <Feature className="pt-[100px]" btnClassName="btn-accent dark:btn-dark hover:btn-primary border-0 btn-md btn" /> */}
         <FeaturesV2 />
         <ReviewsV2 badgeColor="badge-cyan" sectionSpacingClass="space-y-[70px] py-14 md:py-20 xl:py-[100px]" />
         <CTAV1

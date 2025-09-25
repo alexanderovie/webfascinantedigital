@@ -1,6 +1,6 @@
 import Features from '@/components/features-02/Features';
 // import WhyChooseUs from '@/components/homepage-07/WhyChooseUs'; // Component removed
-import Feature from '@/components/our-services-03/Feature';
+// import Feature from '@/components/our-services-03/Feature'; // Component removed
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -28,7 +28,7 @@ const Features02 = () => {
           link="/features-02"
         />
         <Features />
-        <Feature btnClassName="btn-accent dark:btn-dark hover:btn-primary border-0 btn-md btn" />
+        {/* <Feature btnClassName="btn-accent dark:btn-dark hover:btn-primary border-0 btn-md btn" /> */}
         {/* WhyChooseUs section removed - component not available */}
         <ReviewsV2 badgeColor="!badge-cyan" sectionSpacingClass="pt-[100px] pb-[200px] space-y-[70px]" />
 
