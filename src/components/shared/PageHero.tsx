@@ -17,10 +17,10 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
     <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
       <div className="main-container">
         {/* Hero content */}
-        <div className="text-center pb-14 lg:pb-[72px] bg-red-100 p-4">
+        <div className="text-center pb-14 lg:pb-[72px]">
           <RevealAnimation delay={0.1}>
             <div className="mb-6">
-              <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent bg-blue-200 p-2">
+              <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
               <Link
                 href="/"
                 className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
@@ -38,13 +38,13 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
           {badge && (
             <RevealAnimation delay={0.15}>
               <div className="mb-6">
-                <span className={cn('badge bg-green-300 p-2', badgeClass || 'badge-cyan')}>{badge}</span>
+                <span className={cn('badge', badgeClass || 'badge-cyan')}>{badge}</span>
               </div>
             </RevealAnimation>
           )}
           <RevealAnimation delay={0.2}>
             <div className="mb-6">
-              <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto bg-yellow-200 p-2">{heading}</h1>
+              <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">{heading}</h1>
             </div>
           </RevealAnimation>
           {description && (
