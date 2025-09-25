@@ -22,25 +22,33 @@ const ContactUs = () => {
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero
-          title="Contact Us"
-          heading="Reach Out to Our
+        <div className="bg-red-100 p-4">
+          <PageHero
+            title="Contact Us"
+            heading="Reach Out to Our
 Support Team for Help."
-          description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
-          link="/contact-us"
-          badge="Get in Touch"
-          badgeClass="badge-blue-soft"
-        />
-        <ContactInfo />
-        <ContactMap />
-        <CTAV1
-          className="dark:bg-background-5 bg-white"
-          badgeClass="badge-yellow-v2"
-          badgeText="Get Started"
-          ctaBtnText="Contact Us"
-          ctaHeading="Get in Touch"
-          description="We're here to help you with your inquiries and needs. Feel free to reach out to us using the contact form below, and we'll get back to you as soon as possible."
-        />
+            description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
+            link="/contact-us"
+            badge="Get in Touch"
+            badgeClass="badge-blue-soft"
+          />
+        </div>
+        <div className="bg-blue-200 p-4">
+          <ContactInfo />
+        </div>
+        <div className="bg-green-300 p-4">
+          <ContactMap />
+        </div>
+        <div className="bg-yellow-200 p-4">
+          <CTAV1
+            className="dark:bg-background-5 bg-white"
+            badgeClass="badge-yellow-v2"
+            badgeText="Get Started"
+            ctaBtnText="Contact Us"
+            ctaHeading="Get in Touch"
+            description="We're here to help you with your inquiries and needs. Feel free to reach out to us using the contact form below, and we'll get back to you as soon as possible."
+          />
+        </div>
       </main>
       <FooterThree />
     </>
