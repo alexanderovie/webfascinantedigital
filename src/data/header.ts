@@ -59,13 +59,7 @@ export const navigationItems: NavigationItem[] = [
 
 // About Menu Data removed - About is now a direct link
 
-// Blog Menu Data
-export const blogMenuItems: MegaMenuItem[] = [
-  { id: 'blog-1', label: 'Blog 01', href: '/blog-01' },
-  { id: 'blog-2', label: 'Blog 02', href: '/blog-02' },
-  { id: 'blog-3', label: 'Blog 03', href: '/blog-03' },
-  { id: 'blog-details', label: 'Blog Details', href: '/blog/5-strategies-for-effective-brand-storytelling' },
-];
+// Blog Menu Data removed - Blog is now a direct link
 
 // Services Menu Data
 export const servicesMenuItems: MegaMenuItem[] = [

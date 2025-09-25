@@ -40,7 +40,7 @@ const Blog = () => {
         <div className="flex justify-center mt-7 md:mt-14">
           <RevealAnimation delay={0.7}>
             <LinkButton
-              href="/blog-01"
+              href="/blog"
               className="btn btn-secondary hover:btn-white dark:hover:btn-accent dark:btn-transparent btn-md"
               aria-label="View all blog posts">
               Explore the blog

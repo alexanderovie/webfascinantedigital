@@ -17,9 +17,10 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
     <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
       <div className="main-container">
         {/* Hero content */}
-        <div className="text-center space-y-6 pb-14 lg:pb-[72px]">
+        <div className="text-center pb-14 lg:pb-[72px] bg-red-100 p-4">
           <RevealAnimation delay={0.1}>
-            <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
+            <div className="mb-6">
+              <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent bg-blue-200 p-2">
               <Link
                 href="/"
                 className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
@@ -31,15 +32,20 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
                 className="hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-300">
                 {title}
               </Link>
-            </span>
+              </span>
+            </div>
           </RevealAnimation>
           {badge && (
             <RevealAnimation delay={0.15}>
-              <span className={cn('badge', badgeClass || 'badge-cyan')}>{badge}</span>
+              <div className="mb-6">
+                <span className={cn('badge bg-green-300 p-2', badgeClass || 'badge-cyan')}>{badge}</span>
+              </div>
             </RevealAnimation>
           )}
           <RevealAnimation delay={0.2}>
-            <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">{heading}</h1>
+            <div className="mb-6">
+              <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto bg-yellow-200 p-2">{heading}</h1>
+            </div>
           </RevealAnimation>
           {description && (
             <RevealAnimation delay={0.3}>

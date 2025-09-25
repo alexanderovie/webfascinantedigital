@@ -86,7 +86,7 @@ const FooterTwo = () => {
                   <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Company</p>
                   <ul className="space-y-5 max-[400px]:space-y-3">
                     <li>
-                      <Link href="/about-01" className="footer-link">
+                      <Link href="/about" className="footer-link">
                         About Us
                       </Link>
                     </li>

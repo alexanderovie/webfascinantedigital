@@ -184,7 +184,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </p>
                   <ul className="space-y-5">
                     <li>
-                      <Link href="/about-01" className="footer-link-v2">
+                      <Link href="/about" className="footer-link-v2">
                         About Us
                       </Link>
                     </li>
@@ -225,7 +225,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                       </Link>
                     </li>
                     <li>
-                      <Link href="/learn" className="footer-link-v2">
+                      <Link href="/tutorial" className="footer-link-v2">
                         Tutorial
                       </Link>
                     </li>

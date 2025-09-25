@@ -80,7 +80,7 @@ const Services = () => {
               <RevealAnimation delay={0.4}>
                 <div>
                   <LinkButton
-                    href="/our-services-01"
+                    href="/services"
                     className="btn btn-secondary hover:btn-white dark:btn-transparent btn-md">
                     View full-service breakdown.
                   </LinkButton>
