@@ -166,7 +166,7 @@ const FooterOne = ({ className }: { className?: string }) => {
           <FooterDivider />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright &copy;NextSaaS – smart application for modern business
+              Copyright &copy;Fascinante Digital – smart application for modern business
             </p>
           </RevealAnimation>
         </div>

@@ -178,7 +178,7 @@ const FooterTwo = () => {
           <FooterDivider className="bg-stroke-6 dark:bg-accent/10" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 max-sm:text-tagline-2 text-primary-50 font-normal">
-              Copyright &copy;NextSaaS – smart application for modern business
+              Copyright &copy;Fascinante Digital – smart application for modern business
             </p>
           </RevealAnimation>
         </div>

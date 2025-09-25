@@ -165,7 +165,7 @@ const FooterFour = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright ©Pixels71. NextSaaS – smart application for modern business
+              Copyright ©Fascinante Digital – smart application for modern business
             </p>
           </RevealAnimation>
         </div>
