@@ -26,7 +26,8 @@ const AboutPage02 = () => {
       <main className="bg-white dark:bg-background-8">
         <PageHero 
           title="About" 
-          heading="Built for Progress. Designed for Possibility."
+          heading="Built for Progress.
+Designed for Possibility."
           description="At Fascinante Digital, we believe marketing should empower businesses, not overwhelm them. That's why we've created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and scale faster, without the complexity."
           link="/about"
           badge="Our Mission"
