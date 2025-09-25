@@ -21,8 +21,8 @@ const ContactUs = () => {
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero
           title="Contact Us"
-          heading="Reach Out to Our Support Team for Help."
-          description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
+          heading="Reach Out to Our Marketing Experts."
+          description="Ready to grow your business online? Our team of digital marketing specialists is here to help you succeed. From SEO and web design to social media management, we provide personalized strategies that deliver measurable results."
           link="/contact-us"
           badge="Get in Touch"
           badgeClass="badge-teal-soft"
@@ -33,9 +33,9 @@ const ContactUs = () => {
           className="dark:bg-background-5 bg-white"
           badgeClass="badge-yellow-v2"
           badgeText="Get Started"
-          ctaBtnText="Contact Us"
-          ctaHeading="Get in Touch"
-          description="We're here to help you with your inquiries and needs. Feel free to reach out to us using the contact form below, and we'll get back to you as soon as possible."
+          ctaBtnText="Start Your Project"
+          ctaHeading="Ready to Transform Your Digital Presence?"
+          description="Let's discuss how we can help your business grow online. Our team of marketing experts is ready to create a customized strategy that delivers real results for your business."
         />
       </main>
       <FooterThree />
