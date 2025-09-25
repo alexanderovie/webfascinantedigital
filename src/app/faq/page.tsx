@@ -19,7 +19,14 @@ const FAQ = () => {
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero title="FAQ" heading="Frequently asked questions" link="/faq" />
+        <PageHero 
+          title="FAQ" 
+          heading="Frequently Asked Questions"
+          description="Find answers to common questions about our marketing services, pricing, and how we can help grow your business. Can't find what you're looking for? Contact us directly."
+          link="/faq"
+          badge="Help Center"
+          badgeClass="badge-orange-soft"
+        />
         <FaqTab />
         <Contact />
         <CTAV1

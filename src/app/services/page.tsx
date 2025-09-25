@@ -21,7 +21,14 @@ const OurServices02 = () => {
         megaMenuColor="!bg-background-3 dark:!bg-background-8"
       />
       <main className="bg-background-1 dark:bg-background-6">
-        <PageHero title="Our Services" heading="Our Services" link="/services" />
+        <PageHero 
+          title="Our Services" 
+          heading="Marketing Services That Drive Results"
+          description="From SEO and SEM to social media and conversion optimization, we provide comprehensive marketing solutions tailored to your business goals and target audience."
+          link="/services"
+          badge="Our Services"
+          badgeClass="badge-green-soft"
+        />
         <Services />
         <ServicesV2 />
         <Features

@@ -9,16 +9,8 @@ import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 // import AboutUsMenu from './mobile-menu/AboutUsMenu'; // Removed - About is now direct link
 // import BlogMenu from './mobile-menu/BlogMenu'; // Removed - Blog is now direct link
-import FeaturesMenu from './mobile-menu/FeaturesMenu';
 // import HomeMenu from './mobile-menu/HomeMenu'; // Removed - Home is now direct link
-import IntegrationMenu from './mobile-menu/IntegrationMenu';
-import LoginMenu from './mobile-menu/LoginMenu';
-import PricingMenu from './mobile-menu/PricingMenu';
-import ProcessMenu from './mobile-menu/ProcessMenu';
 import ServicesMenu from './mobile-menu/ServicesMenu';
-import SignUpMenu from './mobile-menu/SignUpMenu';
-import TeamsMenu from './mobile-menu/TeamsMenu';
-import TestimonialMenu from './mobile-menu/TestimonialMenu';
 
 const MobileMenu = () => {
   const { isOpen, closeMenu } = useMobileMenuContext();
@@ -105,21 +97,6 @@ const MobileMenu = () => {
               </Link>
             </li>
 
-            <IntegrationMenu />
-
-            <FeaturesMenu />
-
-            <ProcessMenu />
-
-            <TestimonialMenu />
-
-            <TeamsMenu />
-
-            <PricingMenu />
-
-            <LoginMenu />
-
-            <SignUpMenu />
           </ul>
         </div>
       </div>
