@@ -73,7 +73,7 @@ const Services = () => {
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[512px]">
-                    Smart, secure, and designed for simplicity—NextSaaS empowers you to take control effortlessly.
+                    Smart, secure, and designed for simplicity—Fascinante Digital empowers you to take control effortlessly.
                   </p>
                 </RevealAnimation>
               </div>

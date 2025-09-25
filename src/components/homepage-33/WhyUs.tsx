@@ -73,7 +73,7 @@ const WhyUs = () => {
               <div className="md:w-full space-y-7 text-center md:text-left">
                 <div className="md:w-full space-y-3">
                   <RevealAnimation delay={0.2}>
-                    <h2 className="max-w-[571px] text-accent">Why NextSaaS?</h2>
+                    <h2 className="max-w-[571px] text-accent">Why Fascinante Digital?</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p className="max-w-[448px] md:w-full text-accent/60">

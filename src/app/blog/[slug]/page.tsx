@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: 'Blog Details - NextSaaS',
+  title: 'Blog Details - Fascinante Digital',
   alternates: {
     canonical: '/blog/[slug]',
   },

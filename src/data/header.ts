@@ -144,7 +144,7 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
 
 export const headerConfig = {
   logo: {
-    alt: 'NextSaaS',
+    alt: 'Fascinante Digital',
     mainLogoPath: '@public/images/shared/main-logo.svg',
     logoPath: '@public/images/shared/logo.svg',
     logoDarkPath: '@public/images/shared/logo-dark.svg',

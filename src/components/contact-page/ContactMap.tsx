@@ -3,7 +3,7 @@ import Map from '../shared/Map';
 
 const ContactMap = () => {
   return (
-    <section className="md:pt-[80px] lg:pt-[100px] pb-[100px] md:pb-[150px] lg:pb-[200px]" aria-label="Location Map">
+    <section className="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]" aria-label="Location Map">
       <div className="main-container">
         <RevealAnimation>
           <div className="rounded-[20px] bg-white dark:bg-background-6 p-2.5">
