@@ -24,7 +24,12 @@ const AboutPage02 = () => {
         btnClassName="btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark"
       />
       <main className="bg-white dark:bg-background-8">
-        <PageHero title="About us 2" heading="About us" link="/about-02" />
+        <PageHero 
+          title="About us 2" 
+          heading="Built for Progress. Designed for Possibility."
+          description="At Fascinante Digital, we believe marketing should empower businesses, not overwhelm them. That's why we've created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and scale faster, without the complexity."
+          link="/about-02" 
+        />
         <VisionStatement />
         {/* TrustedByUsers sections removed - component not available */}
         <OurMission />
