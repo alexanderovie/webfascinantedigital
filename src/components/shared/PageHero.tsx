@@ -8,9 +8,11 @@ interface PageHeroProps {
   heading?: string;
   description?: string;
   link?: string;
+  badge?: string;
+  badgeClass?: string;
 }
 
-const PageHero = ({ className, title, heading, description, link }: PageHeroProps) => {
+const PageHero = ({ className, title, heading, description, link, badge, badgeClass }: PageHeroProps) => {
   return (
     <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
       <div className="main-container">
@@ -31,6 +33,11 @@ const PageHero = ({ className, title, heading, description, link }: PageHeroProp
               </Link>
             </span>
           </RevealAnimation>
+          {badge && (
+            <RevealAnimation delay={0.15}>
+              <span className={cn('badge', badgeClass || 'badge-cyan')}>{badge}</span>
+            </RevealAnimation>
+          )}
           <RevealAnimation delay={0.2}>
             <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">{heading}</h1>
           </RevealAnimation>

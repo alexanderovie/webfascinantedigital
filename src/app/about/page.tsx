@@ -28,7 +28,9 @@ const AboutPage02 = () => {
           title="About" 
           heading="Built for Progress. Designed for Possibility."
           description="At Fascinante Digital, we believe marketing should empower businesses, not overwhelm them. That's why we've created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and scale faster, without the complexity."
-          link="/about" 
+          link="/about"
+          badge="Our Mission"
+          badgeClass="badge-cyan"
         />
         {/* VisionStatement removed - content duplicated in PageHero */}
         {/* TrustedByUsers sections removed - component not available */}
