@@ -75,7 +75,7 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link
-                href="/about-02"
+                href="/about"
                 className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
                 About
               </Link>

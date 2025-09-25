@@ -1,7 +1,7 @@
 import FinanceIntro from '@/components/aboutpage-02/FinanceIntro';
 import OurMission from '@/components/aboutpage-02/OurMission';
 import Reviews from '@/components/aboutpage-02/Reviews';
-import VisionStatement from '@/components/aboutpage-02/VisionStatement';
+// import VisionStatement from '@/components/aboutpage-02/VisionStatement'; // Removed - content duplicated in PageHero
 // import TrustedByUsers from '@/components/homepage-07/TrustedByUsers'; // Component removed
 import CTAV2 from '@/components/shared/cta/CTAV2';
 
@@ -25,12 +25,12 @@ const AboutPage02 = () => {
       />
       <main className="bg-white dark:bg-background-8">
         <PageHero 
-          title="About us 2" 
+          title="About" 
           heading="Built for Progress. Designed for Possibility."
           description="At Fascinante Digital, we believe marketing should empower businesses, not overwhelm them. That's why we've created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and scale faster, without the complexity."
-          link="/about-02" 
+          link="/about" 
         />
-        <VisionStatement />
+        {/* VisionStatement removed - content duplicated in PageHero */}
         {/* TrustedByUsers sections removed - component not available */}
         <OurMission />
         <FinanceIntro />

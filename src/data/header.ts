@@ -34,7 +34,7 @@ export const navigationItems: NavigationItem[] = [
   {
     id: 'about',
     label: 'About',
-    href: '/about-02',
+    href: '/about',
     hasDropdown: false,
   },
   {
