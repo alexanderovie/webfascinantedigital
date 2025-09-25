@@ -27,7 +27,7 @@ const FooterFour = ({ className }: { className?: string }) => {
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
                 <figure>
-                  <Image src={darkLogo} alt="NextSass Logo" />
+                  <Image src={darkLogo} alt="Fascinante Digital Logo" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
