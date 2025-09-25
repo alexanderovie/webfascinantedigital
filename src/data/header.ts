@@ -69,7 +69,6 @@ export const blogMenuItems: MegaMenuItem[] = [
 
 // Services Menu Data
 export const servicesMenuItems: MegaMenuItem[] = [
-  { id: 'services-main', label: 'Our Services', href: '/services' },
   { id: 'google-business', label: 'Google Business Profile', href: '/our-services/google-business-profile' },
   { id: 'local-directories', label: 'Local Directories', href: '/our-services/local-directories' },
   { id: 'landing-pages', label: 'Landing Pages', href: '/our-services/landing-pages' },
