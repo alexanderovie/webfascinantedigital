@@ -24,7 +24,6 @@ const ContactUs = () => {
           heading="Reach Out to Our Support Team for Help."
           description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
           link="/contact-us"
-          className="pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
         />
         <ContactInfo />
         <ContactMap />
