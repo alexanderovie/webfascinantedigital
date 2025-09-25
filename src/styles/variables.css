@@ -5,15 +5,15 @@ All the varaiables are added here
   /* =============== FONTS =============== */
   --font-inter-tight: 'Inter Tight', sans-serif;
   /* =============== COLORS =============== */
-  --color-primary-50: #f4f2fe;
-  --color-primary-100: #ece8ff;
-  --color-primary-200: #dcd4ff;
-  --color-primary-300: #c3b1ff;
-  --color-primary-400: #a585ff;
-  --color-primary-500: #864ffe;
-  --color-primary-600: #7c31f6;
-  --color-primary-700: #6d1fe2;
-  --color-primary-800: #5a19be;
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #e0e9ff;
+  --color-primary-200: #c7d6ff;
+  --color-primary-300: #a5b8ff;
+  --color-primary-400: #4a85ff;
+  --color-primary-500: #1462ff;
+  --color-primary-600: #0d4fcc;
+  --color-primary-700: #0a3fa6;
+  --color-primary-800: #083080;
   --color-secondary: #1a1a1c;
   --color-accent: #fcfcfc;
   --color-split-text: #1a1a1c;
