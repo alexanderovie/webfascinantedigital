@@ -1,12 +1,16 @@
-<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="44" height="44" rx="22" fill="#FCFCFC"/>
-<path d="M27.4996 20L29.6209 22.1213L27.4996 24.2426L25.3782 22.1213L27.4996 20Z" fill="#070B10"/>
-<path d="M20.6235 31.1204L18.5022 33.2418L16.3809 31.1204L18.5022 28.9991L20.6235 31.1204Z" fill="#070B10"/>
-<path d="M24.4996 17L26.6209 19.1213L24.4996 21.2426L22.3782 19.1213L24.4996 17Z" fill="#070B10"/>
-<path d="M23.6235 28.1204L21.5022 30.2418L19.3809 28.1204L21.5022 25.9991L23.6235 28.1204Z" fill="#070B10"/>
-<path d="M21.4996 14L23.6209 16.1213L21.4996 18.2426L19.3782 16.1213L21.4996 14Z" fill="#070B10"/>
-<path d="M26.6235 25.1204L24.5022 27.2418L22.3809 25.1204L24.5022 22.9991L26.6235 25.1204Z" fill="#070B10"/>
-<path d="M18.4996 11L20.6209 13.1213L18.4996 15.2426L16.3782 13.1213L18.4996 11Z" fill="#070B10"/>
-<path d="M23.6235 22.1204L21.5022 24.2418L19.3809 22.1204L21.5022 19.9991L23.6235 22.1204Z" fill="#070B10"/>
-<path d="M18.2426 22.1204L16.1213 24.2418L14 22.1204L16.1213 19.9991L18.2426 22.1204Z" fill="#070B10"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44">
+	<defs>
+		<image  width="35" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAMAAAA0AnPTAAAAAXNSR0IB2cksfwAAAvpQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////6p0A6p0A6p0A////////////6p0A6p0A6p0A6p0A6p0A6p0A6p0A////////////////////////////6p0A6p0A6p0A6p0A6p0A6p0A6p0A6p0A////////////////////6p0A6p0A6p0A6p0A6p0A////////6p0A6p0A6p0A6p0A6p0A////////////////////6p0A6p0A////////6p0A6p0A6p0A6p0A////////////////6p0A6p0A6p0A6p0A////////////6p0A6p0A////////6p0A6p0A////////6p0A6p0A6p0A////6p0A6p0A6p0A6p0A6p0A6p0A6p0A////////6p0A6p0A6p0A6p0A6p0A6p0A6p0A6p0A6p0A6p0A////6p0A6p0A////////6p0A6p0A6p0A6p0A////////6p0A6p0A6p0A6p0A6p0A6p0A////////////6p0A6p0A6p0A6p0ArQl7RAAAAP50Uk5TAAsvSFRTQycHAjyP0vz/+MV9LQE9wf6YKhCg+e+EM8utHfPntWNlh8Lt1xs2sUwTGGDH0xYU7AQRfPqZCKbGHETfdCzjJAkjHgVJ8t2z9gZm1vfDT2d/LpDUd+sl6BVQtpafgwreUk2dW2G4/YW08VWKbVHZJvsD9L83eOSaNe4NggUuByA+KwGc976CPgkZ6fAfF8Q6Z//zzpZOHwMhkg9CRi/yyWomhhLv5KBkJNoaS/XquXc7dW38oyzOKadyJ/akLUEMNNqVuaqpwOW7dP1QRzb7rghz4jpkThXUTDPWGd8rtRYwYHJ75hNN8DBeyQLsdSDg5pSegaIdqw/XNCQnAAADCklEQVR4nGWUbSyWYRTHz38lfHisiImmTYlJS1sULdGLSlmNtaw1FKsPxhYrskZRsT7UMzUrWVGz0UwxSTy1p6ERVnmJlrEmqpXeHuvpdTrnvp/Xuj7c51zX9TvXOdf/PvcNshswje92i1bXWdm1oB//Z9yAH7bBTsDbf5gFgME+Lbng25Qt44NP9P9wxZiV8Zn9QU2gwdR8KWZChRZi0MwEGd+L0bgCz5Tq/YGXyo4felQmxDAp84BPrl2WNGuAAbHL0a4w65TgYDy0KyYSvWJWPRBm47DcKBStshSNia+BuCtuDNr4GfGuG+S8SeIjdd/4uZPL1dE6J9SKYhvuCbr1JmhP84wEVcv11t4xJfLw5kC3SDk6oA+0t5Gd2FoWeR/qLdV4hV4nSjLo2P0OSq5jG19tpOgXNjo67bjKqcdH2N2NVNSwTSgjOnSL37YmViTkM4IcOFt6Je8lY33wNbbhzZxPaj+g5ToSfzGUeo4o6wovHcQRXCJK7O6ibJQSpWmNvJrqgc/zUEiUxxF0GJ5y58gGohMcR1n5VAAc57MykUtUVKSI6TiHZZz5baTVr1nKRf1UrHZiplR+vi4+jwpRopVXfjqd6CIHanLTqBTmnk2hbP/OsNOoGClh5kIS31FkLXBNvDGtXl/D1Ksc6WFylxYtSyCq0YkKwYNnNVMWmaSZ4qBqUIldRPXYR1R1sqdx3Pb9G5aBmppYDKrZJreqNpBTRUzzmJXwBXpB0Ufj2M+oko370Orro/SPNSYiEOjIkf5pj1G6cmW5mI4vc8NPbXyqZokYSBXLjLN+s3i6jE5zgu4eeYYY+QwTQ48co8TVt2eYmCdCh2EFFeeYGeo7rhezKfaY+mn2S5dGIHAI8Dcz2Sk5OmWzQOt7OawhfAQtRFt8aQzdoYss36nf0jbLdfeX5cOFtremEI0D3tbvfbIu1wINe725HebpaZoV5Fn/G8+xxOSyQkPRLu7q5IP5f6OMFXr4KM6Z/FHALOO0HcOjJHPCZfEoYlt+wsG8Vp5sz1jGn1k2k7/nlN4gQ3hIdwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #f5f5f7 } 
+	</style>
+	<path class="s0" d="m27.5 20l2.1 2.1-2.1 2.1-2.1-2.1z"/>
+	<path class="s0" d="m20.6 31.1l-2.1 2.1-2.1-2.1 2.1-2.1z"/>
+	<path class="s0" d="m24.5 17l2.1 2.1-2.1 2.1-2.1-2.1z"/>
+	<path class="s0" d="m23.6 28.1l-2.1 2.1-2.1-2.1 2.1-2.1z"/>
+	<path class="s0" d="m21.5 14l2.1 2.1-2.1 2.1-2.1-2.1z"/>
+	<path class="s0" d="m26.6 25.1l-2.1 2.1-2.1-2.1 2.1-2.1z"/>
+	<path class="s0" d="m18.5 11l2.1 2.1-2.1 2.1-2.1-2.1z"/>
+	<use id="img1" href="#img1" x="2" y="4"/>
 </svg>
