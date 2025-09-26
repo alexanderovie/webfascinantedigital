@@ -1,0 +1,72 @@
+name: 🎯 QA Automation - Fascinante Digital
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Ejecutar diariamente a las 6 AM UTC
+    - cron: '0 6 * * *'
+
+jobs:
+  qa-automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: 📦 Install dependencies
+      run: npm ci
+      
+    - name: 🏗️ Build project
+      run: npm run build
+      
+    - name: 🚀 Start application
+      run: |
+        npm start &
+        sleep 30
+      env:
+        NODE_ENV: production
+        
+    - name: 🎯 Run QA Automation
+      run: npm run qa:full
+      
+    - name: 📊 Upload QA Reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: qa-reports
+        path: |
+          reports/
+          mcp-config.json
+        retention-days: 30
+        
+    - name: 📈 Performance Check
+      run: |
+        if [ -f "reports/performance-metrics.json" ]; then
+          echo "✅ Performance metrics generated"
+          cat reports/performance-metrics.json | jq '.[-1].summary'
+        else
+          echo "❌ Performance metrics not found"
+          exit 1
+        fi
+        
+    - name: 🚨 Fail on Critical Issues
+      run: |
+        if [ -f "reports/performance-metrics.json" ]; then
+          HIGH_PRIORITY=$(cat reports/performance-metrics.json | jq '.[-1].summary.highPriorityIssues')
+          if [ "$HIGH_PRIORITY" -gt 0 ]; then
+            echo "❌ Found $HIGH_PRIORITY high priority performance issues"
+            exit 1
+          else
+            echo "✅ No high priority performance issues found"
+          fi
+        fi
