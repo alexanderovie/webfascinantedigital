@@ -22,15 +22,17 @@ const BlogPage02 = () => {
         btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-4 dark:bg-background-9">
-        <PageHero 
-          title="Our Blog" 
-          heading="Latest Marketing Insights
+        <div className="bg-orange-200">
+          <PageHero 
+            title="Our Blog" 
+            heading="Latest Marketing Insights
 & Strategies"
-          description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
-          link="/blog"
-          badge="Marketing Insights"
-          badgeClass="badge-blue-soft"
-        />
+            description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
+            link="/blog"
+            badge="Marketing Insights"
+            badgeClass="badge-blue-soft"
+          />
+        </div>
         <FeaturedBlog />
         <BlogShowcase />
         <CTAV1

@@ -22,16 +22,20 @@ const ContactUs = () => {
         btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero
-          title="Contact Us"
-          heading="Reach Out to Our
+        <div className="bg-red-100">
+          <PageHero
+            title="Contact Us"
+            heading="Reach Out to Our
 Support Team for Help."
-          description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
-          link="/contact-us"
-          badge="Get in Touch"
-          badgeClass="badge-blue-soft"
-        />
-        <ContactInfo />
+            description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
+            link="/contact-us"
+            badge="Get in Touch"
+            badgeClass="badge-blue-soft"
+          />
+        </div>
+        <div className="bg-blue-200">
+          <ContactInfo />
+        </div>
         <ContactMap />
         <CTAV1
           className="dark:bg-background-5 bg-white"
