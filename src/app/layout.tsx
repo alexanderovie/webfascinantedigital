@@ -75,9 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* ✅ Preload crítico para performance (invisible) */}
-        <link rel="preload" href="/images/home-page-33/avatar-1.webp" as="image" />
-        <link rel="preload" href="/images/home-page-33/feature-img.webp" as="image" />
+        {/* ✅ DNS prefetch para performance (invisible) */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
       </head>

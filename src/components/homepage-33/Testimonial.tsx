@@ -1,14 +1,9 @@
 import { cn } from '@/utils/cn';
 import Image from 'next/image';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
+import Marquee from 'react-fast-marquee';
 import gradient22Img from '../../../public/images/gradient/gradient-22.png';
 import RevealAnimation from '../animation/RevealAnimation';
-
-// ✅ Lazy load Marquee para mejor performance (invisible)
-const Marquee = dynamic(() => import('react-fast-marquee'), {
-  loading: () => <div className="flex gap-6" />, // Mismo layout
-});
 
 interface TestimonialCard {
   id: number;
