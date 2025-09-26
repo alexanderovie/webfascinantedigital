@@ -1,3 +1,5 @@
+'use client';
+
 import gradient17 from '@public/images/gradient/gradient-17.png';
 import gradient22 from '@public/images/gradient/gradient-22.png';
 import gradient6 from '@public/images/gradient/gradient-6.png';
