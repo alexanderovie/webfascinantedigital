@@ -87,6 +87,8 @@ const Hero = () => {
                     alt={avatar.alt}
                     width={48}
                     height={48}
+                    priority={index === 0}
+                    placeholder="blur"
                   />
                 </RevealAnimation>
               ))}

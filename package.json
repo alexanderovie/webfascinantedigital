@@ -10,7 +10,12 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "audit:full": "lighthouse https://fascinantedigital.com --output html --output-path ./reports/full-audit.html --chrome-flags=\"--headless\"",
+    "audit:perf": "lighthouse https://fascinantedigital.com --only-categories=performance --output json --output-path ./reports/performance.json --chrome-flags=\"--headless\"",
+    "audit:mobile": "lighthouse https://fascinantedigital.com --emulated-form-factor=mobile --output html --output-path ./reports/mobile-audit.html --chrome-flags=\"--headless\"",
+    "audit:local": "lighthouse http://localhost:3000 --output html --output-path ./reports/local-audit.html --chrome-flags=\"--headless\"",
+    "audit:ci": "lighthouse https://fascinantedigital.com --output json --output-path ./reports/ci-audit.json --chrome-flags=\"--headless\" --disable-storage-reset"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
