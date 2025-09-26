@@ -49,7 +49,7 @@ const FeaturedBlogSwiper = ({ featuredBlogs }: FeaturedBlogSwiperProps) => {
                     />
                   </figure>
                   <div className="p-4 md:p-6 lg:p-8 space-y-4 rounded-b-[20px]">
-                    <Link href={`/blog?category=${blog.tag.toLowerCase()}`} className="inline-block">
+                    <Link href={`/blog/category/${blog.tag.toLowerCase()}`} className="inline-block">
                       <span className="badge badge-cyan" aria-label="Article category">
                         {blog.tag}
                       </span>
