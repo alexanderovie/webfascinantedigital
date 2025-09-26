@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-4.png'
 publishDate: 'June 28, 2025'
 title: 'Building resilient business models'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-13.png'
+thumbnail: '/images/blogs/blog-13.webp'
 readTime: '6 min read'
 ---
 

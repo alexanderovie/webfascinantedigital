@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-4.png'
 publishDate: 'May 28, 2025'
 title: 'Building Outstanding Customer Experience Strategies'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-21.png'
+thumbnail: '/images/blogs/blog-21.webp'
 readTime: '6 min read'
 ---
 

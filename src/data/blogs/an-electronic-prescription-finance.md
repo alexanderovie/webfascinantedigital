@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-5.png'
 publishDate: 'May 20, 2025'
 title: 'An Electronic Prescription Tailored for the Finance Sector'
 description: 'An electronic prescription tailored for the finance sector refers to a structured, digital-first solution that streamlines financial workflows, enhances customer service, and enables institutions to operate with higher efficiency and accuracy.'
-thumbnail: '/images/blogs/blog-39.png'
+thumbnail: '/images/blogs/blog-39.webp'
 readTime: '7 min read'
 ---
 
