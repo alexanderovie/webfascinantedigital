@@ -110,7 +110,7 @@ const WhyUs = () => {
                 <RevealAnimation delay={0.4} offset={100}>
                   <figure className="md:max-w-[350px] lg:max-w-[400px] xl:max-w-[480px] rounded-2xl md:w-full order-last md:order-none">
                     <Image
-                      src="/images/home-page-33/feature-img.png"
+                      src="/images/home-page-33/feature-img.webp"
                       alt="Investment platform interface showing key features"
                       className="rounded-2xl"
                       width={480}

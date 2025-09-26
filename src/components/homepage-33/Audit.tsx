@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import auditImage from '../../../public/images/home-page-33/audit-image.png';
+import auditImage from '../../../public/images/home-page-33/audit-image.webp';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
