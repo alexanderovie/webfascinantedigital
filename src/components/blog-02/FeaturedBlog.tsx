@@ -9,7 +9,7 @@ const FeaturedBlog = () => {
   return (
     <section className="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px] bg-red-100">
       <div className="main-container bg-blue-200">
-        <div className="space-y-14 md:space-y-[70px] bg-green-300">
+        <div className="bg-green-300">
           <div className="text-center bg-yellow-200">
           </div>
           {/* Featured blog swiper */}
