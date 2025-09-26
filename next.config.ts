@@ -2,10 +2,10 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   // ✅ Performance optimizations modernas (Septiembre 2025)
-  experimental: {
-    optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet'],
-    optimizeCss: true, // Critical CSS inline
-  },
+         experimental: {
+           optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet'],
+           // optimizeCss: true, // ❌ Deshabilitado - causa error en Vercel
+         },
   
   // ✅ Image optimization moderna
   images: {
