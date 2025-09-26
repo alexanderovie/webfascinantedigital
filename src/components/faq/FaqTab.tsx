@@ -10,7 +10,7 @@ const FaqTab = () => {
         <div className="text-center">
         </div>
         <RevealAnimation delay={0.5}>
-          <div className="py-[70px]">
+          <div>
             <TabProvider defaultValue={0}>
               <FaqTabList />
               <FaqTabContent />
