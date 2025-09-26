@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <section className="pt-7 pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
       <div className="main-container">
-        <div className="mb-[70px]">
+        <div>
         </div>
         <div className="space-y-[42px] flex flex-wrap gap-4">
           <RevealAnimation delay={0.4}>
