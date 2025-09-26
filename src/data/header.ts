@@ -35,7 +35,7 @@ export const navigationItems: NavigationItem[] = [
     label: 'Services',
     href: '#',
     hasDropdown: true,
-    megaMenuComponent: 'ServicesMenu',
+    megaMenuComponent: 'ServicesMegaMenu',
   },
   {
     id: 'faq',
@@ -61,7 +61,62 @@ export const navigationItems: NavigationItem[] = [
 
 // Blog Menu Data removed - Blog is now a direct link
 
-// Services Menu Data
+// Services Mega Menu Data (3 columns - 36 services total)
+export const servicesMegaMenuColumns: MegaMenuColumn[] = [
+  {
+    id: 'column-1',
+    items: [
+      { id: 'service-1', label: '01. SEO Local', href: '/services/seo-local' },
+      { id: 'service-2', label: '02. SEO Técnico', href: '/services/seo-tecnico' },
+      { id: 'service-3', label: '03. Google Business Profile', href: '/services/google-business-profile' },
+      { id: 'service-4', label: '04. Diseño y Desarrollo Web', href: '/services/diseno-web' },
+      { id: 'service-5', label: '05. Automatización de Marketing', href: '/services/automatizacion' },
+      { id: 'service-6', label: '06. Social Ads (Meta/Instagram)', href: '/services/social-ads' },
+      { id: 'service-7', label: '07. Google Ads', href: '/services/google-ads' },
+      { id: 'service-8', label: '08. Marketing de Contenidos', href: '#' },
+      { id: 'service-9', label: '09. Email Marketing', href: '#' },
+      { id: 'service-10', label: '10. Marketing Automation', href: '#' },
+      { id: 'service-11', label: '11. PPC Management', href: '#' },
+      { id: 'service-12', label: '12. Social Media Management', href: '#' },
+    ],
+  },
+  {
+    id: 'column-2',
+    items: [
+      { id: 'service-13', label: '13. Conversion Rate Optimization', href: '#' },
+      { id: 'service-14', label: '14. Landing Page Design', href: '#' },
+      { id: 'service-15', label: '15. E-commerce SEO', href: '#' },
+      { id: 'service-16', label: '16. Local SEO Audit', href: '#' },
+      { id: 'service-17', label: '17. Technical SEO Audit', href: '#' },
+      { id: 'service-18', label: '18. Competitor Analysis', href: '#' },
+      { id: 'service-19', label: '19. Keyword Research', href: '#' },
+      { id: 'service-20', label: '20. Link Building', href: '#' },
+      { id: 'service-21', label: '21. Content Strategy', href: '#' },
+      { id: 'service-22', label: '22. Video Marketing', href: '#' },
+      { id: 'service-23', label: '23. Influencer Marketing', href: '#' },
+      { id: 'service-24', label: '24. Brand Development', href: '#' },
+    ],
+  },
+  {
+    id: 'column-3',
+    items: [
+      { id: 'service-25', label: '25. Web Analytics Setup', href: '#' },
+      { id: 'service-26', label: '26. Google Tag Manager', href: '#' },
+      { id: 'service-27', label: '27. Facebook Pixel Setup', href: '#' },
+      { id: 'service-28', label: '28. CRM Integration', href: '#' },
+      { id: 'service-29', label: '29. Lead Generation', href: '#' },
+      { id: 'service-30', label: '30. Sales Funnel Design', href: '#' },
+      { id: 'service-31', label: '31. A/B Testing', href: '#' },
+      { id: 'service-32', label: '32. Marketing Consulting', href: '#' },
+      { id: 'service-33', label: '33. Digital Strategy', href: '#' },
+      { id: 'service-34', label: '34. Performance Marketing', href: '#' },
+      { id: 'service-35', label: '35. Growth Hacking', href: '#' },
+      { id: 'service-36', label: '36. Marketing ROI Analysis', href: '#' },
+    ],
+  },
+];
+
+// Services Menu Data (legacy - keeping for compatibility)
 export const servicesMenuItems: MegaMenuItem[] = [
   { id: 'google-business', label: 'Google Business Profile', href: '/services/google-business-profile' },
   { id: 'local-directories', label: 'Local Directories', href: '/services/local-directories' },
