@@ -1,16 +1,37 @@
-import Audit from '@/components/homepage-33/Audit';
-import Blog from '@/components/homepage-33/Blog';
-import CTA from '@/components/homepage-33/CTA';
 import Hero from '@/components/homepage-33/Hero';
-import Results from '@/components/homepage-33/Results';
-import Services from '@/components/homepage-33/Services';
-import Steps from '@/components/homepage-33/Steps';
-import Testimonial from '@/components/homepage-33/Testimonial';
-import WhyUs from '@/components/homepage-33/WhyUs';
-import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import { Metadata } from 'next';
 import { Fragment } from 'react';
+import dynamic from 'next/dynamic';
+
+// ✅ Lazy load componentes no críticos para reducir JavaScript inicial
+const Audit = dynamic(() => import('@/components/homepage-33/Audit'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const Blog = dynamic(() => import('@/components/homepage-33/Blog'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const CTA = dynamic(() => import('@/components/homepage-33/CTA'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const Results = dynamic(() => import('@/components/homepage-33/Results'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const Services = dynamic(() => import('@/components/homepage-33/Services'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const Steps = dynamic(() => import('@/components/homepage-33/Steps'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const Testimonial = dynamic(() => import('@/components/homepage-33/Testimonial'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const WhyUs = dynamic(() => import('@/components/homepage-33/WhyUs'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
+});
+const FooterOne = dynamic(() => import('@/components/shared/footer/FooterOne'), {
+  loading: () => <div className="h-32 bg-gray-100 animate-pulse" />
+});
 
 export const metadata: Metadata = {
   title: 'Fascinante Digital | SEO y Desarrollo Web en West Palm Beach',

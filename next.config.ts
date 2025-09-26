@@ -4,13 +4,17 @@ const nextConfig: NextConfig = {
   // ✅ Performance optimizations modernas (Septiembre 2025)
   experimental: {
     optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet'],
+    optimizeCss: true, // Critical CSS inline
   },
   
   // ✅ Image optimization moderna
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 1060], // Agregar 1060 para optimizar
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   
   // ✅ Turbopack optimizations

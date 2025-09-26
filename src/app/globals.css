@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 /* vendors css will be added here */
 
+/* ✅ Font display optimization para mejor FCP */
+@font-face {
+  font-family: 'Inter Tight';
+  font-display: swap;
+}
+
 @import '../styles/variables.css';
 @import '../styles/icon-font.css';
 @import '../styles/typography.css';
