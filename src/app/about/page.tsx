@@ -26,7 +26,7 @@ const AboutPage02 = () => {
         className="dark:border bg-accent/60 dark:border-stroke-7 dark:bg-background-7 backdrop-blur-[25px]"
         btnClassName="btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark"
       />
-      <main className="bg-white dark:bg-background-8">
+      <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
           title="About" 
           heading="Built for Progress."
