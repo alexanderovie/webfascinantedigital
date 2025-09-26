@@ -5,7 +5,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const VisionImages = () => {
   return (
-    <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] pt-[100px]">
+    <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] pt-7">
       <div className="main-container">
         <article className="flex flex-col md:flex-row gap-8">
           <RevealAnimation delay={0.5} instant={true}>
