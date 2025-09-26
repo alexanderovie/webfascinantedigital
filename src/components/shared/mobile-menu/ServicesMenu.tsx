@@ -1,3 +1,4 @@
+import { servicesMegaMenuColumns } from '@/data/header';
 import Link from 'next/link';
 import MobileMenuItem from './MobileMenuItem';
 
@@ -9,30 +10,22 @@ const ServicesMenu = () => {
           <Link
             href="/services"
             className="text-tagline-1 text-secondary/60 dark:text-accent/60 border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200">
-            Our Services
+            All Services
           </Link>
         </li>
-        <li>
-          <Link
-            href="/services/google-business-profile"
-            className="text-tagline-1 text-secondary/60 dark:text-accent/60 border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200">
-            Google Business Profile
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/services/seo-optimization"
-            className="text-tagline-1 text-secondary/60 dark:text-accent/60 border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200">
-            SEO Optimization
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/services/ppc-advertising"
-            className="text-tagline-1 text-secondary/60 dark:text-accent/60 block w-full py-3 text-left font-normal transition-all duration-200">
-            PPC Advertising
-          </Link>
-        </li>
+        {servicesMegaMenuColumns.map((column) =>
+          column.items.map((service, index) => (
+            <li key={service.id}>
+              <Link
+                href={service.href}
+                className={`text-tagline-1 text-secondary/60 dark:text-accent/60 block w-full py-3 text-left font-normal transition-all duration-200 ${
+                  index < column.items.length - 1 ? 'border-b border-stroke-4 dark:border-stroke-6' : ''
+                }`}>
+                {service.label}
+              </Link>
+            </li>
+          ))
+        )}
       </ul>
     </MobileMenuItem>
   );
