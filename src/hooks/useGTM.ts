@@ -5,19 +5,42 @@
 
 declare global {
   interface Window {
-    dataLayer: any[];
-    gtag: (...args: any[]) => void;
+    dataLayer: GTMEvent[];
+    gtag: (...args: unknown[]) => void;
   }
 }
 
+// ✅ Tipos modernos para eventos GTM
+interface GTMEvent {
+  event: string;
+  [key: string]: unknown;
+}
+
+interface PageViewEvent extends GTMEvent {
+  event: 'page_view';
+  page_path: string;
+  page_title?: string;
+}
+
+interface ConversionEvent extends GTMEvent {
+  event: 'conversion';
+  conversion_type: string;
+  value?: number;
+  currency?: string;
+}
+
 export const useGTM = () => {
-  const pushToDataLayer = (event: Record<string, any>) => {
+  const pushToDataLayer = (event: GTMEvent) => {
     if (typeof window !== 'undefined' && window.dataLayer) {
-      window.dataLayer.push(event);
+      try {
+        window.dataLayer.push(event);
+      } catch (error) {
+        console.warn('GTM: Error pushing to dataLayer:', error);
+      }
     }
   };
 
-  const trackEvent = (eventName: string, parameters?: Record<string, any>) => {
+  const trackEvent = (eventName: string, parameters?: Record<string, unknown>) => {
     pushToDataLayer({
       event: eventName,
       ...parameters,
@@ -25,20 +48,22 @@ export const useGTM = () => {
   };
 
   const trackPageView = (pagePath: string, pageTitle?: string) => {
-    pushToDataLayer({
+    const event: PageViewEvent = {
       event: 'page_view',
       page_path: pagePath,
       page_title: pageTitle,
-    });
+    };
+    pushToDataLayer(event);
   };
 
   const trackConversion = (conversionType: string, value?: number, currency = 'USD') => {
-    pushToDataLayer({
+    const event: ConversionEvent = {
       event: 'conversion',
       conversion_type: conversionType,
       value: value,
       currency: currency,
-    });
+    };
+    pushToDataLayer(event);
   };
 
   const trackContactForm = (formType: string) => {

@@ -14,7 +14,11 @@ export default function GTMProvider({ children }: GTMProviderProps) {
 
   useEffect(() => {
     // Track page view on route change
-    trackPageView(pathname);
+    try {
+      trackPageView(pathname);
+    } catch (error) {
+      console.warn('GTM: Error tracking page view:', error);
+    }
   }, [pathname, trackPageView]);
 
   return <>{children}</>;

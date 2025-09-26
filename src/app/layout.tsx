@@ -3,6 +3,7 @@ import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import GTMProvider from '@/components/analytics/GTMProvider';
 import { interTight } from '@/utils/font';
 import { ReactNode, Suspense } from 'react';
+import Script from 'next/script';
 import type { Metadata } from 'next';
 import './globals.css';
 
@@ -76,8 +77,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* ✅ Google Tag Manager */}
-        <script
+        {/* ✅ DNS prefetch para performance (invisible) */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+      </head>
+      <body className={`${interTight.variable} antialiased`}>
+        {/* ✅ Google Tag Manager - Modern Next.js Script */}
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -88,12 +97,7 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* ✅ DNS prefetch para performance (invisible) */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-      </head>
-      <body className={`${interTight.variable} antialiased`}>
+        
         {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe
