@@ -76,7 +76,7 @@ const Steps = () => {
             <RevealAnimation delay={0.6}>
               <div className="text-start">
                 <LinkButton
-                  href="/process-01"
+                  href="/process"
                   className="btn btn-secondary btn-md dark:btn-transparent hover:btn-white"
                   role="button"
                   aria-label="Start your application">

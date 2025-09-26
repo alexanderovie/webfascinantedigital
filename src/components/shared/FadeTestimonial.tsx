@@ -166,7 +166,7 @@ const FadeTestimonial = () => {
                   </div>
                   <div className="absolute bottom-14 left-1/2 -translate-x-1/2">
                     <LinkButton
-                      href="/testimonial-01"
+                      href="/testimonial"
                       className="btn hover:btn-primary dark:btn-transparent btn-secondary btn-md">
                       Read success stories
                     </LinkButton>

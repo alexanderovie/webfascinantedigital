@@ -45,7 +45,7 @@ const Integration = () => {
         <RevealAnimation delay={0.5}>
           <div>
             <Link
-              href="/integration-02"
+              href="/integration"
               className="btn btn-secondary btn-md inline-block dark:btn-accent hover:btn-primary w-[90%] md:w-auto mx-auto md:mx-0">
               <span>See it in Action</span>
             </Link>

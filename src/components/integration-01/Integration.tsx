@@ -35,7 +35,7 @@ const Integration = () => {
               <RevealAnimation delay={0.4} instant>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">
@@ -90,7 +90,7 @@ const Integration = () => {
               <RevealAnimation delay={0.5} instant>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">
@@ -158,7 +158,7 @@ const Integration = () => {
               <RevealAnimation delay={0.2}>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">
@@ -862,7 +862,7 @@ const Integration = () => {
               <RevealAnimation delay={0.3}>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 siz-14 bg-white py-1 px-3.5 rounded-lg shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">
@@ -943,7 +943,7 @@ const Integration = () => {
               <RevealAnimation delay={0.4}>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 shrink-0 bg-white rounded-lg p-1 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">
@@ -1010,7 +1010,7 @@ const Integration = () => {
               <RevealAnimation delay={0.5}>
                 <div className="group">
                   <Link
-                    href="/integration-02"
+                    href="/integration"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">

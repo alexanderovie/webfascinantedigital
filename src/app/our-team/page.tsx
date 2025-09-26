@@ -1,8 +1,8 @@
 // import Testimonial from '@/components/homepage-03/Testimonial'; // Component removed
-// import FAQ from '@/components/homepage-12/FAQ'; // Component removed
 import CTA from '@/components/our-team-01/CTA';
-import Experience from '@/components/our-team-01/Experience';
-import Teams from '@/components/our-team-01/Teams';
+import Experience from '@/components/our-team-02/Experience';
+import Features from '@/components/our-team-02/Features';
+import Teams from '@/components/our-team-02/Teams';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
@@ -10,10 +10,10 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Our Team 01 - NextSaaS',
+  title: 'Our Team 02 - NextSaaS',
 };
 
-const OurTeam01 = () => {
+const OurTeam02 = () => {
   return (
     <Fragment>
       <NavbarOne
@@ -21,10 +21,11 @@ const OurTeam01 = () => {
         btnClassName="btn-primary hover:bg-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero title="Our Team" heading="Our Team" link="/our-team-01" />
+        <PageHero title="Our Team" heading="Our Team" link="/our-team" />
         <Teams />
         <Experience />
-        {/* Testimonial and FAQ sections removed - components not available */}
+        {/* Testimonial section removed - component not available */}
+        <Features />
         <CTA />
       </main>
       <FooterThree />
@@ -32,4 +33,4 @@ const OurTeam01 = () => {
   );
 };
 
-export default OurTeam01;
+export default OurTeam02;

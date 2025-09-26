@@ -64,7 +64,7 @@ const FinanceIntro = () => {
           <RevealAnimation delay={0.7}>
             <div>
               <LinkButton
-                href="/signup-01"
+                href="/signup"
                 className="btn btn-secondary hover:btn-white dark:btn-white-dark btn-xl block md:inline-block w-full md:w-auto mx-auto">
                 Get started
               </LinkButton>

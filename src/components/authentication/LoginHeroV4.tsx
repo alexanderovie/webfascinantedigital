@@ -57,7 +57,7 @@ const LoginHeroV4 = () => {
                 <div>
                   <p className="text-center text-tagline-2 text-secondary flex items-center justify-center gap-1 dark:text-accent font-normal">
                     Not registered yet?
-                    <Link href="/signup-04" className="text-tagline-1 font-medium footer-link-v2">
+                    <Link href="/signup" className="text-tagline-1 font-medium footer-link-v2">
                       Create an Account
                     </Link>
                   </p>

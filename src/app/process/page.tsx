@@ -1,5 +1,5 @@
-import ProcessFaq from '@/components/process-01/ProcessFaq';
-import ProcessStep from '@/components/process-01/ProcessStep';
+import ProcessOperation from '@/components/process-02/ProcessOperation';
+import ProcessStep from '@/components/process-02/ProcessStep';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Process 01 - NextSaaS',
+  title: 'Process 02 - NextSaaS',
 };
 
-const Process01 = () => {
+const Process02 = () => {
   return (
     <Fragment>
       <NavbarOne
@@ -24,14 +24,14 @@ const Process01 = () => {
           title="Process"
           className="pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
           heading="Process "
-          link="/process-01"
+          link="/process"
         />
         <ProcessStep />
-        <ProcessFaq />
+        <ProcessOperation />
         <CTAV1
           className="dark:bg-background-5 bg-white"
           badgeText="Get started"
-          badgeClass="!badge-yellow-v2"
+          badgeClass="!badge-cyan-v2"
           ctaHeading="Build a complete website using the assistance"
           description="Start your free trial today and see your ideas come to life easily and creatively."
           ctaBtnText="Get started"
@@ -43,5 +43,5 @@ const Process01 = () => {
   );
 };
 
-Process01.displayName = 'Process01';
-export default Process01;
+Process02.displayName = 'Process02';
+export default Process02;

@@ -127,7 +127,7 @@ const Integration = () => {
             <RevealAnimation delay={0.8}>
               <div className="lg:text-left text-center">
                 <LinkButton
-                  href="/integration-02"
+                  href="/integration"
                   className="btn btn-primary hover:btn-secondary btn-xl max-[376px]:w-full max-[426px]:w-[87%] md:w-auto dark:hover:btn-accent">
                   Start your journey
                 </LinkButton>

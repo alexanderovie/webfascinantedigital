@@ -106,7 +106,7 @@ const ReviewsV1 = ({
         <RevealAnimation delay={0.5}>
           <div className="text-center">
             <LinkButton
-              href={buttonLink || '/testimonial-01'}
+              href={buttonLink || '/testimonial'}
               className={cn(
                 'btn btn-md btn-secondary dark:btn-transparent hover:btn-white w-full sm:w-auto',
                 btnClassName,

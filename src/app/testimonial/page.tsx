@@ -1,18 +1,18 @@
-// import Reviews from '@/components/homepage-09/Reviews'; // Component removed
-import Client from '@/components/pricing-02/Client';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
-import Integration from '@/components/testimonial-01/Integration';
+import Experience from '@/components/testimonial-02/Experience';
+import Integration from '@/components/testimonial-02/Integration';
+import TestimonialMarquee from '@/components/testimonial-02/TestimonialMarquee';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Testimonial Page-01 - NextSaaS',
-  description: 'Testimonial Page-01 - NextSaaS',
+  title: 'Testimonial Page-02 - NextSaaS',
+  description: 'Testimonial Page-02 - NextSaaS',
 };
 
-const TestimonialOnePage = () => {
+const TestimonialTwoPage = () => {
   return (
     <>
       <NavbarOne
@@ -20,16 +20,17 @@ const TestimonialOnePage = () => {
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
         megaMenuColor="!bg-background-4 dark:!bg-background-9"
       />
-      <main className="bg-background-1 dark:bg-background-6">
-        <PageHero title="Testimonial" heading="Testimonial" link="/testimonial-01" />
-        {/* Reviews section removed - component not available */}
-        <Client />
+      <main className="bg-background-3 dark:bg-background-7">
+        <PageHero title="Testimonials" heading="Testimonials" link="/testimonial" />
+        <TestimonialMarquee />
+        <Experience />
         <Integration />
         <CTAV1
           className="dark:bg-background-6 bg-white"
-          badgeClass="badge-green"
+          badgeClass="badge-cyan"
           badgeText="Get started"
-          ctaHeading="Build a complete website using the assistance"
+          ctaHeading="Build a complete website using the"
+          spanText="assistance"
           description="Start your free trial today and see your ideas come to life easily and creatively."
           ctaBtnText="Get started"
           btnClass="hover:btn-secondary dark:hover:btn-accent"
@@ -39,5 +40,5 @@ const TestimonialOnePage = () => {
     </>
   );
 };
-TestimonialOnePage.displayName = 'TestimonialOnePage';
-export default TestimonialOnePage;
+TestimonialTwoPage.displayName = 'TestimonialTwoPage';
+export default TestimonialTwoPage;

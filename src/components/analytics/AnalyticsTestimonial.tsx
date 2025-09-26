@@ -47,7 +47,7 @@ const AnalyticsTestimonial = () => {
         <RevealAnimation delay={0.2}>
           <div className="w-fit">
             <LinkButton
-              href="/testimonial-01"
+              href="/testimonial"
               className="btn btn-primary btn-xl hover:btn-secondary dark:hover:btn-accent">
               Get started
             </LinkButton>

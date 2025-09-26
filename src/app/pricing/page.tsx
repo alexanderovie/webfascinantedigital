@@ -21,7 +21,7 @@ const Pricing02 = () => {
         megaMenuColor="!bg-accent dark:!bg-background-9"
       />
       <main className="bg-background-1 dark:bg-background-6">
-        <PageHero title="Pricing 02" heading="Pricing 02 " link="/pricing-02" />
+        <PageHero title="Pricing" heading="Pricing" link="/pricing" />
         <Pricing />
         <Client />
         <Faq />

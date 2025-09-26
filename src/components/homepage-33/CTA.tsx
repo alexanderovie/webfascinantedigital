@@ -22,7 +22,7 @@ const CTA = () => {
             <RevealAnimation delay={0.4}>
               <div className="flex justify-center">
                 <LinkButton
-                  href="/pricing-01"
+                  href="/pricing"
                   className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
                   Book Your Free Strategy Call.
                 </LinkButton>

@@ -148,9 +148,8 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
   {
     id: 'column-2',
     items: [
-      { id: 'integration-2', label: 'Integration Page 02', href: '/integration-02' },
-      { id: 'process-1', label: 'Process Page 01', href: '/process-01' },
-      { id: 'process-2', label: 'Process Page 02', href: '/process-02' },
+      { id: 'integration', label: 'Integration', href: '/integration' },
+      { id: 'process', label: 'Process', href: '/process' },
       { id: 'analytics', label: 'Analytics Page', href: '/analytics' },
       { id: 'affiliate', label: 'Affiliate Policy', href: '/affiliate-policy' },
       { id: 'gdpr', label: 'GDPR Page', href: '/gdpr' },
@@ -159,33 +158,23 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
   {
     id: 'column-3',
     items: [
-      { id: 'testimonial-1', label: 'Testimonials Page 01', href: '/testimonial-01' },
-      { id: 'testimonial-2', label: 'Testimonials Page 02', href: '/testimonial-02' },
+      { id: 'testimonial', label: 'Testimonials', href: '/testimonial' },
       { id: 'case-study', label: 'Case Study Page', href: '/case-study' },
       {
         id: 'case-study-details',
         label: 'Case Study Details',
         href: '/case-study/cove-financial-risk-management-and-compliance',
       },
-      { id: 'team-1', label: 'Our team 01', href: '/our-team-01' },
-      { id: 'team-2', label: 'Our team 02', href: '/our-team-02' },
+      { id: 'our-team', label: 'Our Team', href: '/our-team' },
       { id: 'team-details', label: 'Team details', href: '/team/cody-fisher' },
-      { id: 'pricing-1', label: 'Pricing Page 01', href: '/pricing-01' },
-      { id: 'pricing-2', label: 'Pricing Page 02', href: '/pricing-02' },
-      { id: 'pricing-3', label: 'Pricing Page 03', href: '/pricing-03' },
+      { id: 'pricing', label: 'Pricing', href: '/pricing' },
     ],
   },
   {
     id: 'column-4',
     items: [
-      { id: 'login-1', label: 'Login Page 01', href: '/login-01' },
-      { id: 'login-2', label: 'Login Page 02', href: '/login-02' },
-      { id: 'login-3', label: 'Login Page 03', href: '/login-03' },
-      { id: 'login-4', label: 'Login Page 04', href: '/login-04' },
-      { id: 'signup-1', label: 'Signup Page 01', href: '/signup-01' },
-      { id: 'signup-2', label: 'Signup Page 02', href: '/signup-02' },
-      { id: 'signup-3', label: 'Signup Page 03', href: '/signup-03' },
-      { id: 'signup-4', label: 'Signup Page 04', href: '/signup-04' },
+      { id: 'login', label: 'Login', href: '/login' },
+      { id: 'signup', label: 'Signup', href: '/signup' },
       { id: 'use-case', label: 'Use Case', href: '/use-case' },
       { id: 'affiliates', label: 'Affiliates', href: '/affiliates' },
     ],
@@ -201,6 +190,6 @@ export const headerConfig = {
   },
   cta: {
     label: 'Get started',
-    href: '/signup-01',
+    href: '/signup',
   },
 };
