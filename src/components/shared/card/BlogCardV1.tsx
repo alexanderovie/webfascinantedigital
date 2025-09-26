@@ -30,7 +30,7 @@ const BlogCardV1 = ({ blog, className }: BlogCardV1Props) => {
         <div className="space-y-6 p-6">
           <div className="flex items-center gap-2">
             <span className="badge badge-green mr-1">
-              <Link href={`/blog-03?category=${blog?.tag.toLowerCase()}`}>{blog?.tag}</Link>
+              <Link href={`/blog?category=${blog?.tag.toLowerCase()}`}>{blog?.tag}</Link>
             </span>
             <span rel="author" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
               {blog?.author}

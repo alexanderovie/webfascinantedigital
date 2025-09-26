@@ -38,10 +38,10 @@ const BlogCardV2 = ({ blog, className }: BlogCardV2Props) => {
           {/* blog badge  */}
           <div className="mb-6 space-x-2">
             <span className="badge badge-gray-light">
-              <Link href={`/blog-03?category=${blog.tag.toLowerCase()}`}>{blog?.tag}</Link>
+              <Link href={`/blog?category=${blog.tag.toLowerCase()}`}>{blog?.tag}</Link>
             </span>
             <span className="badge badge-gray-light">
-              <Link href={`/blog-03?category=${blog.tag}`}>{blog?.tag}</Link>
+              <Link href={`/blog?category=${blog.tag}`}>{blog?.tag}</Link>
             </span>
           </div>
           {/* time and title  */}
