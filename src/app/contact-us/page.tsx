@@ -18,8 +18,8 @@ const ContactUs = () => {
   return (
     <>
       <NavbarOne
-        className="border border-stroke-2 bg-accent/60 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
-        btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
+        className="bg-white dark:border border-stroke-6 dark:bg-background-9"
+        btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero

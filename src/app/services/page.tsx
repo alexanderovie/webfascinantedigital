@@ -20,9 +20,8 @@ const OurServices02 = () => {
   return (
     <Fragment>
       <NavbarOne
-        className="bg-accent/60 backdrop-blur-[25px] dark:border dark:border-stroke-7 dark:bg-background-7"
-        btnClassName="btn-secondary dark:btn-accent hover:btn-primary"
-        megaMenuColor="!bg-background-3 dark:!bg-background-8"
+        className="bg-white dark:border border-stroke-6 dark:bg-background-9"
+        btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero 

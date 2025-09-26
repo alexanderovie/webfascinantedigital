@@ -22,9 +22,8 @@ const AboutPage02 = () => {
   return (
     <>
       <NavbarOne
-        megaMenuColor="!bg-background-3 dark:!bg-background-7"
-        className="dark:border bg-accent/60 dark:border-stroke-7 dark:bg-background-7 backdrop-blur-[25px]"
-        btnClassName="btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark"
+        className="bg-white dark:border border-stroke-6 dark:bg-background-9"
+        btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
