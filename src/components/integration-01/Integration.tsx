@@ -862,7 +862,7 @@ const Integration = () => {
               <RevealAnimation delay={0.3}>
                 <div className="group">
                   <Link
-                    href="/integration-01"
+                    href="/integration-02"
                     className="flex justify-between rounded-[20px] bg-white/14 p-4 md:p-4 lg:p-8 group-hover:scale-[102%] group-hover:shadow-1 transition-all duration-500 ease-in-out">
                     <div className="flex items-center gap-4">
                       <div className="grow-0 siz-14 bg-white py-1 px-3.5 rounded-lg shrink-0 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-[103%]">

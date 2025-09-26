@@ -148,11 +148,7 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
   {
     id: 'column-2',
     items: [
-      { id: 'features-1', label: 'Features Page 01', href: '/features-01' },
-      { id: 'features-2', label: 'Features Page 02', href: '/features-02' },
-      { id: 'integration-1', label: 'Integration Page 01', href: '/integration-01' },
       { id: 'integration-2', label: 'Integration Page 02', href: '/integration-02' },
-      { id: 'integration-3', label: 'Integration Page 03', href: '/integration-03' },
       { id: 'process-1', label: 'Process Page 01', href: '/process-01' },
       { id: 'process-2', label: 'Process Page 02', href: '/process-02' },
       { id: 'analytics', label: 'Analytics Page', href: '/analytics' },

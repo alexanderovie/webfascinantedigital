@@ -106,7 +106,7 @@ const Features = ({
               <RevealAnimation delay={0.6}>
                 <div>
                   <LinkButton
-                    href="/features-01"
+                    href="/"
                     className={cn('btn btn-xl dark:btn-transparent hover:btn-primary btn-secondary', btnClassName)}>
                     Get started
                   </LinkButton>
