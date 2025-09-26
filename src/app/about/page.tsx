@@ -2,7 +2,7 @@ import FinanceIntro from '@/components/aboutpage-02/FinanceIntro';
 import OurMission from '@/components/aboutpage-02/OurMission';
 import Reviews from '@/components/aboutpage-02/Reviews';
 // import VisionStatement from '@/components/aboutpage-02/VisionStatement'; // Removed - content duplicated in PageHero
-// import TrustedByUsers from '@/components/homepage-07/TrustedByUsers'; // Component removed
+import TrustedByUsers from '@/components/homepage-07/TrustedByUsers';
 import CTAV2 from '@/components/shared/cta/CTAV2';
 
 import FooterThree from '@/components/shared/footer/FooterThree';
@@ -36,8 +36,19 @@ const AboutPage02 = () => {
           badgeClass="badge-blue-soft"
         />
         {/* VisionStatement removed - content duplicated in PageHero */}
-        {/* TrustedByUsers sections removed - component not available */}
+        <TrustedByUsers
+          className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
+          title="Grow together"
+          description="We're not just a software platform
+        we're a partner in your long-term success."
+        />
         <OurMission />
+        <TrustedByUsers
+          className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
+          title="Grow together"
+          description="We're not just a software platform
+        we're a partner in your long-term success."
+        />
         <FinanceIntro />
         <Reviews />
         <CTAV2
