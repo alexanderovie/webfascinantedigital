@@ -3,7 +3,6 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   // ✅ Performance optimizations modernas (Septiembre 2025)
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet'],
   },
   
