@@ -1,6 +1,6 @@
 import { IBlogPost } from '@/interface';
 import getMarkDownData from '@/utils/getMarkDownData';
-import RevealAnimation from '../animation/RevealAnimation';
+// import RevealAnimation from '../animation/RevealAnimation'; // Unused
 import FeaturedBlogSwiper from './FeaturedBlogSwiper';
 
 const FeaturedBlog = () => {
