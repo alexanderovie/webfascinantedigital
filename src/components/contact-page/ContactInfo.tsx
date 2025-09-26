@@ -7,6 +7,7 @@ import phoneIcon from '@public/images/icons/phone-right.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
+import useGTM from '@/hooks/useGTM';
 
 const contactInfoItems = [
   {
@@ -38,6 +39,15 @@ const contactInfoItems = [
 ];
 
 const ContactInfo = () => {
+  const { trackContactForm } = useGTM();
+
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    trackContactForm('contact_page_form');
+    // Aquí puedes agregar la lógica de envío del formulario
+    console.log('Form submitted with GTM tracking');
+  };
+
   return (
     <section className="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]" aria-label="Contact Information and Form">
       <div className="main-container">
@@ -74,7 +84,7 @@ const ContactInfo = () => {
             <RevealAnimation
               delay={0.3}
               className="max-w-[847px] w-full mx-auto bg-white dark:bg-background-6 rounded-4xl p-6 md:p-8 lg:p-11">
-              <form action="#" method="POST" className="space-y-8">
+              <form onSubmit={handleFormSubmit} className="space-y-8">
                 {/* name and phone number  */}
                 <div className="flex items-center flex-col md:flex-row gap-8 justify-between">
                   {/*  name */}
