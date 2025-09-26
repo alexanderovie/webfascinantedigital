@@ -6,7 +6,7 @@ import facebook from '@public/images/icons/facebook.svg';
 import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
-import darkLogo from '@public/images/shared/dark-logo.svg';
+import mainLogo from '@public/images/shared/main-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '../ThemeToggle';
@@ -28,7 +28,7 @@ const FooterOne = ({ className }: { className?: string }) => {
             <RevealAnimation delay={0.3}>
               <div className="max-w-[306px]">
                 <figure>
-                  <Image src={darkLogo} alt="Fascinante Digital Logo" />
+                  <Image src={mainLogo} alt="Fascinante Digital Logo" className="dark:invert" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
