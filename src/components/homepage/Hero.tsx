@@ -32,7 +32,16 @@ const avatarData: AvatarData[] = [
 const Hero = () => {
   return (
     <RevealAnimation delay={0.1}>
-      <section className="relative pt-[200px] 2xl:pt-[280px] pb-[100px] bg-[url('/images/home-page-33/hero-bg.webp')] bg-no-repeat bg-center bg-cover z-10">
+      <section className="relative pt-[200px] 2xl:pt-[280px] pb-[100px] z-10">
+        {/* Hero Background Image */}
+        <Image
+          src="/images/home-page-33/hero-bg.webp"
+          alt="Hero background"
+          fill
+          priority
+          className="object-cover -z-20"
+          sizes="100vw"
+        />
         {/* dot bg  */}
         <figure className="absolute left-1/2 -translate-x-1/2 bottom-0 h-full w-full max-w-[1362px] -z-10">
           <Image

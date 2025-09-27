@@ -96,13 +96,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         
-        {/* ✅ Preload de imágenes críticas - Solo hero background */}
-        <link 
+        {/* ✅ Preload de imágenes críticas - Hero background ahora optimizado con next/image */}
+        {/* <link 
           rel="preload" 
           as="image" 
           href="/images/home-page-33/hero-bg.webp"
           type="image/webp"
-        />
+        /> */}
       </head>
       <body className={`${interTight.variable} antialiased`} suppressHydrationWarning={true}>
         {/* ✅ Google Tag Manager - Modern Next.js Script */}
