@@ -109,7 +109,8 @@ Common Styles all over the sites
     @apply text-tagline-1 dark:text-accent before:bg-secondary dark:before:bg-accent mb-2 font-normal before:relative before:top-0.5 before:left-0 before:mr-1.5 before:inline-block before:h-2 before:w-2 before:-translate-y-1/2 before:rounded-full before:content-[''];
   }
   p {
-    @apply pb-6;
+    padding-bottom: calc(var(--spacing)*6);
+    padding-top: calc(var(--spacing)*3);
   }
   img {
     @apply mt-10 rounded-lg md:mt-[70px] md:rounded-4xl;
