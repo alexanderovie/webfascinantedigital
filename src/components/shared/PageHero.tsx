@@ -17,7 +17,7 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
     <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
       <div className="main-container">
         {/* Hero content */}
-        <div className="text-center pb-14 lg:pb-[72px]">
+        <div className="text-center pb-8 lg:pb-12">
           <RevealAnimation delay={0.1}>
             <div className="mb-6">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
