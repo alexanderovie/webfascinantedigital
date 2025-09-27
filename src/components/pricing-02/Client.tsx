@@ -1,3 +1,5 @@
+'use client';
+
 import avatar1Img from '@public/images/avatar/avatar-1.png';
 import avatar2Img from '@public/images/avatar/avatar-2.png';
 import avatar3Img from '@public/images/avatar/avatar-3.png';
@@ -13,7 +15,12 @@ import clientLogo8 from '@public/images/icons/client-logo-8.svg';
 import clientLogo9Dark from '@public/images/icons/client-logo-9-dark.svg';
 import clientLogo9 from '@public/images/icons/client-logo-9.svg';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
 import RevealAnimation from '../animation/RevealAnimation';
 
 {

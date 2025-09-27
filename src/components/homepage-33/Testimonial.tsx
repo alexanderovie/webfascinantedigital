@@ -1,8 +1,15 @@
+'use client';
+
 import { cn } from '@/utils/cn';
 import Image from 'next/image';
 import Link from 'next/link';
-import Marquee from 'react-fast-marquee';
-import gradient22Img from '../../../public/images/gradient/gradient-22.png';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
+import gradient22Img from '../../../public/images/gradient/gradient-22.webp';
 import RevealAnimation from '../animation/RevealAnimation';
 
 interface TestimonialCard {

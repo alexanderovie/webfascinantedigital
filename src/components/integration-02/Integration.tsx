@@ -1,3 +1,5 @@
+'use client';
+
 {
   /* =========================
 Integration page 2  section
@@ -21,7 +23,12 @@ import snapchatIcon from '@public/images/icons/snapchat.svg';
 import vlWhiteIcon from '@public/images/icons/vl-white.svg';
 import vlIcon from '@public/images/icons/vl.svg';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
 import RevealAnimation from '../animation/RevealAnimation';
 
 interface IntegrationProps {

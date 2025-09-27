@@ -1,3 +1,5 @@
+'use client';
+
 import confluence from '@public/images/icons/confluence.svg';
 import edge from '@public/images/icons/edge.svg';
 import figma from '@public/images/icons/figma.svg';
@@ -15,7 +17,12 @@ import snapchat from '@public/images/icons/snapchat.svg';
 import vl_white from '@public/images/icons/vl-white.svg';
 import vl from '@public/images/icons/vl.svg';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
 import RevealAnimation from '../animation/RevealAnimation';
 
 const Integration = () => {

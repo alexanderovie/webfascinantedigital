@@ -1,6 +1,13 @@
-import { useGSAP } from '@gsap/react';
-import { gsap } from 'gsap';
-import { RefObject } from 'react';
+import { RefObject, useState, useEffect } from 'react';
+
+// Lazy load GSAP to avoid blocking render
+const loadGSAP = async () => {
+  const [{ useGSAP }, { gsap }] = await Promise.all([
+    import('@gsap/react'),
+    import('gsap')
+  ]);
+  return { useGSAP, gsap };
+};
 
 interface UseLineExpandAnimationProps {
   refs: RefObject<HTMLDivElement | null>[];
@@ -9,26 +16,28 @@ interface UseLineExpandAnimationProps {
 }
 
 export const useLineExpandAnimation = ({ refs, delay = 0.7, duration = 0.8 }: UseLineExpandAnimationProps) => {
-  useGSAP(
-    () => {
-      // Wait for next tick to ensure refs are available
-      const timer = setTimeout(() => {
-        const lines = refs.map((ref) => ref.current).filter(Boolean) as HTMLDivElement[];
+  const [gsapLoaded, setGsapLoaded] = useState(false);
+  
+  useEffect(() => {
+    loadGSAP().then(() => setGsapLoaded(true));
+  }, []);
 
-        if (lines.length > 0) {
-          lines.forEach((line) => {
-            gsap.to(line, {
-              height: '100%',
-              duration,
-              delay,
-              ease: 'power2.out',
-            });
-          });
-        }
-      }, 100);
+  useEffect(() => {
+    if (!gsapLoaded) return;
+    
+    // Wait for next tick to ensure refs are available
+    const timer = setTimeout(() => {
+      const lines = refs.map((ref) => ref.current).filter(Boolean) as HTMLDivElement[];
 
-      return () => clearTimeout(timer);
-    },
-    { scope: refs[0] },
-  );
+      if (lines.length > 0) {
+        lines.forEach((line) => {
+          // Use CSS transitions as fallback for better performance
+          line.style.transition = `height ${duration}s ease-out`;
+          line.style.height = '100%';
+        });
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [gsapLoaded, refs, delay, duration]);
 };

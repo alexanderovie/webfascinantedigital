@@ -1,6 +1,13 @@
+'use client';
+
 import { cn } from '@/utils/cn';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
@@ -85,7 +92,7 @@ const Results = () => {
                       index === 0 && 'ml-8',
                     )}>
                     <div className="-z-10 absolute -top-[107%] -right-[90%] size-[500px] -rotate-[60deg] opacity-0 group-hover:opacity-100 transition-all duration-300 scale-90 group-hover:scale-100 select-none pointer-events-none">
-                      <Image src="/images/gradient/gradient-26.png" alt="gradient" width={500} height={500} />
+                      <Image src="/images/gradient/gradient-26.webp" alt="gradient" width={500} height={500} />
                     </div>
                     <div className="transition-all duration-700 ease-in-out transform group-hover:translate-y-[4px]">
                       <p className="group-hover:text-white text-secondary/60 dark:text-accent/60 text-lg mb-2 transition-colors duration-700 ease-in-out">

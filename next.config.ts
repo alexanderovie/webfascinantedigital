@@ -2,10 +2,18 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   // ✅ Performance optimizations modernas (Septiembre 2025)
-         experimental: {
-           optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet'],
-           // optimizeCss: true, // ❌ Deshabilitado - causa error en Vercel
-         },
+  experimental: {
+    optimizePackageImports: ['@gsap/react', 'swiper', 'react-leaflet', 'react-fast-marquee', 'gsap'],
+    // optimizeCss: true, // ❌ Deshabilitado - causa error en Vercel
+  },
+  
+  // ✅ Bundle optimization moderna
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  
+  // ✅ Compression moderna
+  compress: true,
   
   // ✅ Image optimization moderna
   images: {

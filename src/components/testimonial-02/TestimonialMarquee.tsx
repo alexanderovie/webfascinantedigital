@@ -1,6 +1,13 @@
+'use client';
+
 import testimonials from '@/data/json/testimonials/testimonials.json';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+});
 import RevealAnimation from '../animation/RevealAnimation';
 
 const TestimonialMarquee = () => {
