@@ -1,5 +1,6 @@
 import { IBlogPost } from '@/interface';
 import { cn } from '@/utils/cn';
+import { formatCategory } from '@/utils/formatCategory';
 import Image from 'next/image';
 import Link from 'next/link';
 import LinkButton from '../../ui/button/LinkButton';
@@ -31,7 +32,7 @@ const BlogCardV1 = ({ blog, className }: BlogCardV1Props) => {
           <div className="flex items-center gap-2">
             <span className="badge badge-green mr-1">
               <Link href={`/blog/category/${blog?.tag.toLowerCase()}`}>
-                {blog?.tag.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                {formatCategory(blog?.tag)}
               </Link>
             </span>
             <span rel="author" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
