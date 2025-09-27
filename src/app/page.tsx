@@ -1,32 +1,32 @@
-import Hero from '@/components/homepage-33/Hero';
+import Hero from '@/components/homepage/Hero';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import { Metadata } from 'next';
 import { Fragment } from 'react';
 import dynamic from 'next/dynamic';
 
 // ✅ Lazy load componentes no críticos para reducir JavaScript inicial
-const Audit = dynamic(() => import('@/components/homepage-33/Audit'), {
+const Audit = dynamic(() => import('@/components/homepage/Audit'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const Blog = dynamic(() => import('@/components/homepage-33/Blog'), {
+const Blog = dynamic(() => import('@/components/homepage/Blog'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const CTA = dynamic(() => import('@/components/homepage-33/CTA'), {
+const CTA = dynamic(() => import('@/components/homepage/CTA'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const Results = dynamic(() => import('@/components/homepage-33/Results'), {
+const Results = dynamic(() => import('@/components/homepage/Results'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const Services = dynamic(() => import('@/components/homepage-33/Services'), {
+const Services = dynamic(() => import('@/components/homepage/Services'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const Steps = dynamic(() => import('@/components/homepage-33/Steps'), {
+const Steps = dynamic(() => import('@/components/homepage/Steps'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const Testimonial = dynamic(() => import('@/components/homepage-33/Testimonial'), {
+const Testimonial = dynamic(() => import('@/components/homepage/Testimonial'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
-const WhyUs = dynamic(() => import('@/components/homepage-33/WhyUs'), {
+const WhyUs = dynamic(() => import('@/components/homepage/WhyUs'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />
 });
 const FooterOne = dynamic(() => import('@/components/shared/footer/FooterOne'), {
