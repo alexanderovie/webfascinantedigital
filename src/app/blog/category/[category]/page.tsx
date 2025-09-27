@@ -10,14 +10,14 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
 // Generate metadata for each category
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const category = params.category;
+  const { category } = await params;
   const categoryDisplayName = category
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -42,8 +42,8 @@ export async function generateStaticParams() {
   }));
 }
 
-const CategoryPage = ({ params }: CategoryPageProps) => {
-  const { category } = params;
+const CategoryPage = async ({ params }: CategoryPageProps) => {
+  const { category } = await params;
   const allBlogs: IBlogPost[] = getMarkDownData('src/data/blogs');
   
   // Filter blogs by category
