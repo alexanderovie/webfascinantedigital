@@ -9,7 +9,11 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Career - NextSaaS',
+  title: 'Career - Fascinante Digital',
+  description: 'Join our team at Fascinante Digital. We\'re looking for passionate digital marketing professionals to help Hispanic businesses grow in the USA.',
+  alternates: {
+    canonical: '/career',
+  },
 };
 
 const Career = () => {
@@ -20,18 +24,24 @@ const Career = () => {
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-5">
-        <PageHero title="Career" heading="Career" link="/career" className="bg-background-3 dark:bg-background-5" />
+        <PageHero 
+          title="Career" 
+          heading="We're building the future of digital marketing—come build it with us." 
+          description="Join our passionate team of digital marketing experts dedicated to helping Hispanic businesses dominate online."
+          link="/career" 
+          className="bg-background-3 dark:bg-background-5" 
+        />
         <CareerContent />
         {/* Features section removed - component not available */}
         <Positions />
         <CTAV1
           className="dark:bg-background-6 bg-white"
           badgeClass="badge-green"
-          badgeText="Get Started"
-          ctaHeading="Ready to start earning with NextSaaS?"
-          description="If you have any questions, feel free to reach out to our team."
+          badgeText="Join Our Team"
+          ctaHeading="Ready to make an impact with Fascinante Digital?"
+          description="If you're passionate about digital marketing and helping Hispanic businesses grow, we'd love to hear from you."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
-          ctaBtnText="Get started"
+          ctaBtnText="Apply Now"
         />
       </main>
       <FooterThree />

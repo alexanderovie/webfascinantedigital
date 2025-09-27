@@ -28,8 +28,8 @@ const AboutPage02 = () => {
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
           title="About" 
-          heading="Built for Progress."
-          description="At Fascinante Digital, we believe marketing should empower businesses, not overwhelm them. That's why we've created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and scale faster, without the complexity."
+          heading="Empowering Hispanic Businesses to Dominate Digital Marketing."
+          description="At Fascinante Digital, we believe every Hispanic business deserves to thrive in the digital landscape. That's why we've created comprehensive marketing strategies that help businesses increase visibility, drive qualified traffic, and scale revenue without the complexity."
           link="/about"
           badge="Our Mission"
           badgeClass="badge-blue-soft"
@@ -38,22 +38,22 @@ const AboutPage02 = () => {
         <TrustedByUsers
           className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
           title="Grow together"
-          description="We're not just a software platform
+          description="We're not just a digital marketing agency
         we're a partner in your long-term success."
         />
         <OurMission />
         <TrustedByUsers
           className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
           title="Grow together"
-          description="We're not just a software platform
+          description="We're not just a digital marketing agency
         we're a partner in your long-term success."
         />
         <FinanceIntro />
         <Reviews />
         <CTAV2
-          ctaHeading="Experience a free trial today and watch your business grow."
-          ctaDescription="Sign up today to enhance your customer support with our tools and solutions."
-          ctaBtnText="7- day free trial"
+          ctaHeading="Ready to dominate your local market with proven digital marketing strategies?"
+          ctaDescription="Get a free marketing audit and discover how we can help your Hispanic business grow with data-driven SEO, web development, and marketing automation."
+          ctaBtnText="Get Free Marketing Audit"
           ctaCheckListData={[
             {
               id: '1',
@@ -61,11 +61,11 @@ const AboutPage02 = () => {
             },
             {
               id: '2',
-              text: 'free for 30 day trial.',
+              text: 'Free comprehensive audit',
             },
             {
               id: '3',
-              text: 'Money back guarantee.',
+              text: 'Custom growth strategy',
             },
           ]}
         />

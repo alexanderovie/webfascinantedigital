@@ -28,11 +28,11 @@ const Reviews = () => {
               <figcaption className="text-tagline-2 font-medium dark:text-accent">From our CEO</figcaption>
             </figure>
             <p className="mt-6 mb-4 text-xl max-w-[626px] text-center mx-auto max-sm:text-tagline-2 max-sm:px-2">
-              NextSaaS was born from a simple idea: What if the tools we use to run our businesses made things easier?
-              We&apos;re building a platform that scales with you, adapts to your needs, and grows with your team.
+              Fascinante Digital was born from a simple idea: What if Hispanic businesses had access to the same powerful digital marketing strategies that big corporations use?
+              We&apos;re building a marketing agency that scales with you, adapts to your needs, and grows with your business.
             </p>
             <strong className="text-lg leading-[1.5] font-medium dark:text-accent">
-              Daniel Carter, CEO &amp; Co-Founder
+              María González, CEO &amp; Founder
             </strong>
           </div>
         </RevealAnimation>

@@ -10,12 +10,12 @@ const TermsConditionContent = () => {
             <h2>Terms &amp; conditions</h2>
             <div className="space-y-7">
               <p>
-                This site, nextsaas.com (hereafter referred to as NextSaaS, site, or website) is owned and operated by
-                NextSaaS Technologies LLC (hereafter referred to as NextSaaS, we, or company).
+                This site, fascinantedigital.com (hereafter referred to as Fascinante Digital, site, or website) is owned and operated by
+                Fascinante Digital LLC (hereafter referred to as Fascinante Digital, we, or company).
               </p>
               <p>
                 Please carefully read, review, and understand our Terms and Conditions before using any services or
-                products from nextsaas.com. Your access to and use of this website and its products indicate that you
+                products from fascinantedigital.com. Your access to and use of this website and its services indicate that you
                 accept and agree to be bound by these terms and conditions.
               </p>
               <p>
@@ -30,48 +30,48 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>1. Limitation of liability</h3>
               <p>
-                Under no circumstances shall NextSaaS be liable for any direct, indirect, incidental, special, or
+                Under no circumstances shall Fascinante Digital be liable for any direct, indirect, incidental, special, or
                 consequential damages, including but not limited to loss of data, profits, or business interruption,
-                arising out of the use, or inability to use, the materials on this site, even if NextSaaS or an
+                arising out of the use, or inability to use, our digital marketing services, even if Fascinante Digital or an
                 authorized representative has been advised of the possibility of such damages.
               </p>
               <p>
-                If your use of materials from this site results in the need for servicing, repair, or correction of
-                equipment or data, you assume all associated costs.
+                Digital marketing results may vary and are not guaranteed. While we strive to deliver exceptional results,
+                we cannot guarantee specific rankings, traffic increases, or conversion rates.
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.5}>
             <div className="space-y-6">
-              <h3>2. License</h3>
+              <h3>2. Service agreements</h3>
               <p>
-                NextSaaS services, platforms, and tools are provided under a commercial license agreement. Each
-                subscription or license purchased includes access to updates and support for 365 days from the
-                completion of the order.
+                Fascinante Digital services are provided under a service agreement that outlines the scope of work,
+                deliverables, timelines, and payment terms. Each service package includes ongoing support and strategy
+                adjustments for the duration of the agreement.
               </p>
               <p>
-                License activation is necessary to receive updates and premium support. You are not permitted to resell,
-                redistribute, or offer NextSaaS products or services, modified or unmodified, without our written
+                Service agreements are customized based on your business needs and marketing goals. You are not permitted to
+                resell, redistribute, or offer our marketing strategies, reports, or proprietary methodologies without our written
                 consent.
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.6}>
             <div className="space-y-6">
-              <h3>3. Ownership and liability</h3>
+              <h3>3. Intellectual property and ownership</h3>
               <p>
-                All NextSaaS products, solutions, and materials remain the intellectual property of NextSaaS
-                Technologies LLC. You may not claim ownership of our services, whether modified or unmodified.
+                All Fascinante Digital marketing strategies, methodologies, reports, and materials remain the intellectual property of Fascinante Digital
+                LLC. You may not claim ownership of our proprietary marketing approaches, whether modified or unmodified.
               </p>
               <p>
-                Our products and services are provided &quot;as is&quot; without warranty of any kind, expressed or
-                implied. NextSaaS is not liable for any losses or damages resulting from the use or inability to use its
-                products.
+                Our marketing services are provided &quot;as is&quot; without warranty of any kind, expressed or
+                implied. Fascinante Digital is not liable for any losses or damages resulting from the use or inability to use our
+                services.
               </p>
               <p>
-                User accounts and product licenses are
+                Client accounts and service agreements are
                 <strong className="font-bold !text-secondary dark:!text-accent"> non-transferable </strong>. For
-                agencies and development partners: Please ensure your clients purchase their own licenses if they
+                agencies and partners: Please ensure your clients have their own service agreements if they
                 require direct support access.
               </p>
             </div>
@@ -80,9 +80,9 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>4. Refund policy</h3>
               <p>
-                We believe you&apos;ll love NextSaaS! Still, if you&apos;re not satisfied, we offer a 14-day
-                no-questions-asked refund policy. Simply contact our support team within 14 days of your original
-                purchase, and we&apos;ll issue a full refund. We might ask for feedback to help us improve, but
+                We believe you&apos;ll love our digital marketing services! Still, if you&apos;re not satisfied, we offer a 14-day
+                no-questions-asked refund policy for new clients. Simply contact our support team within 14 days of your original
+                service agreement, and we&apos;ll issue a full refund. We might ask for feedback to help us improve, but
                 you&apos;re under no obligation to share.
               </p>
             </div>
@@ -96,27 +96,28 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.5}>
             <div className="space-y-6">
-              <h3>5. Warranty</h3>
+              <h3>5. Service warranty</h3>
               <p>
-                NextSaaS services are provided without any warranty, either expressed or implied. We do not guarantee
-                full compatibility with all browsers, devices, third-party plugins, or external systems. Before
-                purchasing, you may review demos or contact our support team to verify compatibility with your setup.
+                Fascinante Digital services are provided without any warranty, either expressed or implied. We do not guarantee
+                specific results, rankings, or performance metrics. Digital marketing results depend on various factors including
+                market conditions, competition, and industry changes. Before starting services, you may review our case studies
+                or contact our support team to discuss realistic expectations for your industry.
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.6}>
             <div className="space-y-6">
-              <h3>6. Account termination and suspension</h3>
+              <h3>6. Service termination and suspension</h3>
               <p>
-                NextSaaS reserves the right to suspend or terminate any user account without prior notice for reasons
+                Fascinante Digital reserves the right to suspend or terminate any service agreement without prior notice for reasons
                 including but not limited to
               </p>
               <ul>
-                <li>Abusive, defamatory, or malicious behavior towards NextSaaS staff or customers</li>
-                <li>Spreading false information or misleading reviews</li>
-                <li>Unauthorized resale, distribution, or promotion of competitor products</li>
-                <li>Involvement in hacking, spamming, piracy, or illegal activities</li>
-                <li>Security threats due to account compromise or unauthorized sharing</li>
+                <li>Abusive, defamatory, or malicious behavior towards Fascinante Digital staff or other clients</li>
+                <li>Spreading false information or misleading reviews about our services</li>
+                <li>Unauthorized sharing or distribution of our marketing strategies with competitors</li>
+                <li>Involvement in illegal business activities or unethical marketing practices</li>
+                <li>Non-payment of services or breach of service agreement terms</li>
               </ul>
             </div>
           </RevealAnimation>
@@ -124,24 +125,24 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>7. Privacy policy</h3>
               <p>
-                We value your privacy. NextSaaS does not sell, rent, or share your personal information with third
+                We value your privacy. Fascinante Digital does not sell, rent, or share your personal information with third
                 parties. Your data is used solely for purposes such as
               </p>
               <ul>
-                <li>Order processing</li>
-                <li>Account management</li>
-                <li>Billing disputes</li>
-                <li>Fraudulent activities</li>
-                <li>Legal compliance</li>
+                <li>Service delivery and account management</li>
+                <li>Marketing strategy development and reporting</li>
+                <li>Billing and payment processing</li>
+                <li>Client communication and support</li>
+                <li>Legal compliance and fraud prevention</li>
               </ul>
               <p>
-                By using NextSaaS services, you consent to the collection and use of your data by our Privacy Policy.
+                By using Fascinante Digital services, you consent to the collection and use of your data by our Privacy Policy.
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <Link
-              href="/refund-policy"
+              href="/privacy"
               className="section-button btn btn-xl dark:btn-accent hover:btn-primary btn-secondary">
               Read our detailed privacy policy
             </Link>

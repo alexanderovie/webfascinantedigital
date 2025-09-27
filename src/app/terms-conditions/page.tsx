@@ -7,7 +7,11 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions - NextSaaS',
+  title: 'Terms & Conditions - Fascinante Digital',
+  description: 'Terms and conditions for Fascinante Digital digital marketing services. Learn about our service agreements, liability limitations, and client responsibilities.',
+  alternates: {
+    canonical: '/terms-conditions',
+  },
 };
 
 const TermsConditions = () => {
@@ -24,8 +28,8 @@ const TermsConditions = () => {
           className="dark:bg-background-5 bg-white"
           badgeClass="badge-yellow-v2"
           badgeText="Get Started"
-          ctaHeading="Ready to start earning with NextSaaS?"
-          description="If you have any questions, feel free to reach out to our team."
+          ctaHeading="Ready to grow your business with Fascinante Digital?"
+          description="If you have any questions about our services or terms, feel free to reach out to our team."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
           ctaBtnText="Get started"
         />

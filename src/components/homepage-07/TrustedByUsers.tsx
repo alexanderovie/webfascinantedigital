@@ -93,7 +93,7 @@ const TrustedByUsers: FC<TrustedByUsersProps> = ({ className, title, description
                     />
                   </svg>
                 </div>
-                <span className="text-tagline-1 text-white">Top customer fulfilment</span>
+                <span className="text-tagline-1 text-white">Client satisfaction</span>
               </div>
             </RevealAnimation>
             {/* Second rating */}
@@ -154,7 +154,7 @@ const TrustedByUsers: FC<TrustedByUsersProps> = ({ className, title, description
                     />
                   </svg>
                 </div>
-                <span className="text-tagline-1 text-white">Best payment software</span>
+                <span className="text-tagline-1 text-white">SEO performance</span>
               </div>
             </RevealAnimation>
             {/* Third rating */}
@@ -202,7 +202,7 @@ const TrustedByUsers: FC<TrustedByUsersProps> = ({ className, title, description
                     />
                   </svg>
                 </div>
-                <span className="text-tagline-1 text-white">Top payment company</span>
+                <span className="text-tagline-1 text-white">Marketing ROI</span>
               </div>
             </RevealAnimation>
           </div>

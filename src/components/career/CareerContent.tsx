@@ -9,8 +9,8 @@ const CareerContent = () => {
         <div className="text-center space-y-3 mb-[70px]">
           <RevealAnimation delay={0.3}>
             <h2>
-              We&apos;re building the future of NextSaaS— <br className="hidden md:block" />
-              come build It with us.
+              We&apos;re building the future of digital marketing— <br className="hidden md:block" />
+              come build it with us.
             </h2>
           </RevealAnimation>
         </div>
@@ -21,42 +21,21 @@ const CareerContent = () => {
         </RevealAnimation>
         <RevealAnimation delay={0.5}>
           <div className="space-y-8 max-w-[840px] mx-auto">
-            <h4>Become part of a passionate community fueled by common interests.</h4>
+            <h4>Become part of a passionate community dedicated to helping Hispanic businesses thrive.</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra
-              vulputate curabitur est.
+              At Fascinante Digital, we believe that every Hispanic business deserves access to world-class digital marketing strategies. Our team is united by a common mission: to level the playing field and help Hispanic entrepreneurs dominate their local markets.
             </p>
             <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
+              We're a fast-growing digital marketing agency that combines cutting-edge SEO strategies, innovative web development, and powerful marketing automation to deliver exceptional results. Our team members are passionate about digital marketing and committed to making a real impact in the Hispanic business community.
             </p>
             <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit. Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam
-              enim eu. Adipiscing viverra vulputate curabitur est.
+              When you join Fascinante Digital, you become part of a culture that values creativity, innovation, and results. We offer competitive benefits, flexible work arrangements, and opportunities for professional growth. Most importantly, you'll work on projects that directly help Hispanic businesses grow and succeed.
             </p>
             <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
+              Our team is diverse, talented, and driven by results. We're looking for individuals who are passionate about digital marketing, eager to learn, and committed to helping our clients achieve their goals. Whether you're a seasoned expert or just starting your career, we have opportunities that will challenge and inspire you.
             </p>
             <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit. Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam
-              enim eu. Adipiscing viverra vulputate curabitur est.
-            </p>
-            <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
-            </p>
-            <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit.
+              We believe in work-life balance, continuous learning, and creating an environment where everyone can thrive. Our office culture is collaborative, supportive, and focused on delivering exceptional results for our clients. Join us and be part of something bigger than just a job—be part of a movement that's helping Hispanic businesses succeed in the digital age.
             </p>
           </div>
         </RevealAnimation>
