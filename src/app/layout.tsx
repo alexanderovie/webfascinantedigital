@@ -87,16 +87,16 @@ export default function RootLayout({
         <link rel="preconnect" href="https://track.hubspot.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         
-        {/* ✅ Preload de fuentes críticas */}
+        {/* ✅ Preload de fuentes críticas - Solo si se usan */}
         <link 
           rel="preload" 
-          href="/fonts/next-sass.ttf" 
+          href="/fonts/next-sass.woff" 
           as="font" 
-          type="font/ttf" 
+          type="font/woff" 
           crossOrigin="anonymous"
         />
         
-        {/* ✅ Preload de imágenes críticas */}
+        {/* ✅ Preload de imágenes críticas - Solo hero background */}
         <link 
           rel="preload" 
           as="image" 
