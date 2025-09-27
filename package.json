@@ -19,7 +19,8 @@
     "qa:automation": "node scripts/qa-automation.js",
     "qa:performance": "node scripts/performance-monitor.js",
     "qa:hydration": "node scripts/hydration-checker.js",
-    "qa:full": "npm run audit:local && npm run qa:performance ./reports/local-audit.html && npm run qa:hydration && npm run qa:automation",
+    "qa:analyzer": "node scripts/performance-analyzer.js",
+    "qa:full": "npm run audit:perf && npm run qa:analyzer && npm run qa:hydration && npm run qa:automation",
     "mcp:setup": "npx chrome-devtools-mcp@latest --help"
   },
   "dependencies": {
@@ -37,6 +38,7 @@
     "react-leaflet": "^5.0.0",
     "react-markdown": "^10.1.0",
     "rehype-slug": "^6.0.0",
+    "sharp": "^0.34.4",
     "swiper": "^11.2.10"
   },
   "devDependencies": {

@@ -66,7 +66,14 @@ const WhyUs = () => {
           <div className="py-[42px] bg-secondary rounded-4xl px-6 sm:px-14 relative z-10 overflow-hidden">
             <RevealAnimation delay={0.1} direction="right" offset={100}>
               <figure className="-z-10 absolute -right-[120%] -top-[44%] sm:-right-[100%] sm:-top-[35%] md:-right-[104%] md:-top-[78%] lg:-right-[74%] lg:-top-[78%] xl:-right-[54%] xl:-top-[58%] -rotate-[290deg] sm:-rotate-[260deg] size-[1060px] pointer-events-none select-none">
-                <Image src="/images/gradient/gradient-6.png" alt="gradient" width={1060} height={1060} />
+                <Image 
+                  src="/images/gradient/gradient-6.webp" 
+                  alt="gradient" 
+                  width={1060} 
+                  height={1060}
+                  priority={true}
+                  sizes="(max-width: 768px) 100vw, 1060px"
+                />
               </figure>
             </RevealAnimation>
             <div className="space-y-[70px] relative z-10">

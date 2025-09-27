@@ -81,6 +81,28 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        
+        {/* ✅ Preconnect para scripts críticos de terceros */}
+        <link rel="preconnect" href="https://js-na1.hs-scripts.com" />
+        <link rel="preconnect" href="https://track.hubspot.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        
+        {/* ✅ Preload de fuentes críticas */}
+        <link 
+          rel="preload" 
+          href="/fonts/next-sass.ttf" 
+          as="font" 
+          type="font/ttf" 
+          crossOrigin="anonymous"
+        />
+        
+        {/* ✅ Preload de imágenes críticas */}
+        <link 
+          rel="preload" 
+          as="image" 
+          href="/images/home-page-33/hero-bg.webp"
+          type="image/webp"
+        />
       </head>
       <body className={`${interTight.variable} antialiased`} suppressHydrationWarning={true}>
         {/* ✅ Google Tag Manager - Modern Next.js Script */}
