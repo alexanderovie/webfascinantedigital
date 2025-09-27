@@ -2,6 +2,7 @@ import LinkButton from '@/components/ui/button/LinkButton';
 import { CalendarIcon, StopwatchIcon } from '@/icons';
 import { IBlogPost } from '@/interface';
 import { cn } from '@/utils/cn';
+import { formatCategory } from '@/utils/formatCategory';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -36,10 +37,10 @@ const BlogCardV3 = ({ blog, className }: BlogCardV3Props) => {
           {/* blog badge  */}
           <div className="mb-6 space-x-2">
             <span className="badge badge-gray-light">
-              <Link href={`/blog/category/${blog.tag.toLowerCase()}`}>{blog?.tag}</Link>
+              <Link href={`/blog/category/${blog.tag.toLowerCase()}`}>{formatCategory(blog?.tag)}</Link>
             </span>
             <span className="badge badge-gray-light">
-              <Link href={`/blog/category/${blog.tag.toLowerCase()}`}>{blog?.tag}</Link>
+              <Link href={`/blog/category/${blog.tag.toLowerCase()}`}>{formatCategory(blog?.tag)}</Link>
             </span>
           </div>
           {/* time and title  */}
