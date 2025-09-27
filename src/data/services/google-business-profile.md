@@ -7,7 +7,7 @@ coverImg: '/images/services/service-google-business-cover.png'
 userReview:
   name: 'Christopher Adams'
   image: '/images/home-page-33/avatar-4.webp'
-  reviewContent: 'With Google Business Profile optimization, we've doubled our local visibility while cutting marketing costs in half. It's become a vital part of our growth strategy.'
+  reviewContent: 'With Google Business Profile optimization, we have doubled our local visibility while cutting marketing costs in half. It has become a vital part of our growth strategy.'
   userRole: 'Marketing Director, GrowthWave Media'
 ---
 
