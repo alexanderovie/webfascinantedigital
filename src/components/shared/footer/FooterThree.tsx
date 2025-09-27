@@ -91,7 +91,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.youtube.com" className="footer-social-link">
+                  <Link target="_blank" href="https://www.youtube.com/@fascinantedigital" className="footer-social-link">
                     <span className="sr-only">Youtube</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
                       <path
@@ -115,7 +115,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.linkedin.com" className="footer-social-link">
+                  <Link target="_blank" href="https://www.linkedin.com/company/fascinante-digital" className="footer-social-link">
                     <span className="sr-only">LinkedIn</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
                       <path
@@ -125,7 +125,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.dribbble.com" className="footer-social-link">
+                  <Link target="_blank" href="https://www.dribbble.com/fascinantedigital" className="footer-social-link">
                     <span className="sr-only">Dribbble</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
@@ -144,7 +144,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.behance.net" className="footer-social-link">
+                  <Link target="_blank" href="https://www.behance.net/fascinantedigital" className="footer-social-link">
                     <span className="sr-only">Behance</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
                       <path
@@ -275,7 +275,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-secondary dark:text-accent/60">
-              Copyright &copy;Fascinante Digital – smart application for modern business
+              Copyright &copy;Fascinante Digital – Digital marketing agency for Hispanic businesses in the USA
             </p>
           </RevealAnimation>
         </div>
