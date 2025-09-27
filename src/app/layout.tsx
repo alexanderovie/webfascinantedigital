@@ -82,7 +82,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
       </head>
-      <body className={`${interTight.variable} antialiased`}>
+      <body className={`${interTight.variable} antialiased`} suppressHydrationWarning={true}>
         {/* ✅ Google Tag Manager - Modern Next.js Script */}
         <Script
           id="gtm-script"

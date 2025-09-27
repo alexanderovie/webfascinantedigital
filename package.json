@@ -18,7 +18,8 @@
     "audit:ci": "lighthouse https://fascinantedigital.com --output json --output-path ./reports/ci-audit.json --chrome-flags=\"--headless\" --disable-storage-reset",
     "qa:automation": "node scripts/qa-automation.js",
     "qa:performance": "node scripts/performance-monitor.js",
-    "qa:full": "npm run audit:local && npm run qa:performance ./reports/local-audit.json && npm run qa:automation",
+    "qa:hydration": "node scripts/hydration-checker.js",
+    "qa:full": "npm run audit:local && npm run qa:performance ./reports/local-audit.html && npm run qa:hydration && npm run qa:automation",
     "mcp:setup": "npx chrome-devtools-mcp@latest --help"
   },
   "dependencies": {

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-09-27T14:32:12.510Z",
+  "issues": [
+    {
+      "type": "Server/Client Mismatch",
+      "description": "Diferencias entre renderizado del servidor y cliente",
+      "commonCauses": [
+        "Uso de `typeof window !== 'undefined'` en componentes",
+        "Valores dinámicos como `Date.now()` o `Math.random()`",
+        "Formateo de fechas que varía entre servidor y cliente",
+        "Datos externos sin snapshot consistente"
+      ],
+      "solutions": [
+        "Usar `useEffect` para lógica específica del cliente",
+        "Implementar `suppressHydrationWarning` donde sea necesario",
+        "Usar `useState` con valores iniciales consistentes",
+        "Evitar valores dinámicos en el render inicial"
+      ]
+    },
+    {
+      "type": "Browser Extension Interference",
+      "description": "Extensiones del navegador modifican el HTML",
+      "commonCauses": [
+        "Extensiones de traducción",
+        "Bloqueadores de anuncios",
+        "Extensiones de productividad",
+        "Herramientas de desarrollo"
+      ],
+      "solutions": [
+        "Usar `suppressHydrationWarning` en elementos afectados",
+        "Implementar detección de extensiones",
+        "Usar `useEffect` para lógica post-hidratación"
+      ]
+    },
+    {
+      "type": "Invalid HTML Nesting",
+      "description": "Estructura HTML inválida",
+      "commonCauses": [
+        "Elementos `<div>` dentro de `<p>`",
+        "Elementos inline dentro de block",
+        "Estructura de tabla incorrecta"
+      ],
+      "solutions": [
+        "Revisar estructura HTML",
+        "Usar elementos semánticos correctos",
+        "Validar HTML con herramientas"
+      ]
+    }
+  ],
+  "specificError": {
+    "error": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties",
+    "location": "src/app/layout.tsx (85:7)",
+    "element": "<body className={`${interTight.variable} antialiased`}>",
+    "suspectedCause": "cz-shortcut-listen=\"true\" attribute added by browser extension"
+  },
+  "fixScript": "\n// 🔧 Script de corrección para error de hidratación\n// Aplicar en src/app/layout.tsx\n\nexport default function RootLayout({ children }: { children: ReactNode }) {\n  return (\n    <html lang=\"en\" suppressHydrationWarning>\n      <head>\n        {/* DNS prefetch para performance */}\n        <link rel=\"dns-prefetch\" href=\"//fonts.googleapis.com\" />\n        <link rel=\"dns-prefetch\" href=\"//fonts.gstatic.com\" />\n        <link rel=\"dns-prefetch\" href=\"//www.googletagmanager.com\" />\n      </head>\n      <body \n        className={`${interTight.variable} antialiased`}\n        suppressHydrationWarning={true}\n      >\n        {/* Resto del contenido */}\n        {children}\n      </body>\n    </html>\n  );\n}\n",
+  "verification": [
+    "1. Aplicar suppressHydrationWarning al elemento body",
+    "2. Reiniciar el servidor de desarrollo",
+    "3. Recargar la página y verificar consola",
+    "4. Ejecutar npm run qa:full para verificación completa"
+  ]
+}
