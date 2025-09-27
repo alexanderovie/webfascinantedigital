@@ -20,7 +20,7 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
         <div className="p-4 md:p-6 lg:p-8 space-y-4 rounded-b-[20px]">
           <Link href={`/blog/category/${blog.tag.toLowerCase()}`} className="inline-block">
             <span className="badge badge-cyan" aria-label="Article category">
-              {blog.tag}
+              {blog.tag.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
             </span>
           </Link>
           <div className="flex items-center gap-4">

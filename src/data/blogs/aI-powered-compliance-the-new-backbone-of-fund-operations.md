@@ -1,5 +1,5 @@
 ---
-tag: 'finance'
+tag: 'marketing-automation'
 author: 'Sohel khan'
 authorImage: '/images/avatar/avatar-7.png'
 publishDate: 'June 02, 2025'
@@ -92,3 +92,15 @@ Brand storytelling in banking is not a one-time campaign—it’s a continuous e
 The banks that thrive will be those that weave authentic narratives into their customer experiences, turning everyday transactions into stories of empowerment, progress, and impact.
 
 In the financial world where numbers dominate, stories are the **true currency of connection**.
+
+
+
+
+
+
+
+
+
+
+
+
