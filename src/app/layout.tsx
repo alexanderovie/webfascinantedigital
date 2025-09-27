@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://fascinantedigital.com',
     siteName: 'Fascinante Digital',
     title: 'Agencia SEO y Desarrollo Web en West Palm Beach',
-    description: 'SEO avanzado, sitios web rápidos y automatización para crecer con resultados medibles.',
+    description: 'SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y estrategias probadas para PYMEs hispanas.',
     images: [
       {
         url: '/static/og-image-1200x630.jpg',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fascinante Digital — SEO & Web',
-    description: 'Resultados medibles para PYMEs hispanas.',
+    description: 'Agencia de marketing digital especializada en SEO, desarrollo web y automatización para PYMEs hispanas en West Palm Beach con resultados medibles.',
     images: ['/static/og-image-1200x630.jpg'],
   },
   appleWebApp: {

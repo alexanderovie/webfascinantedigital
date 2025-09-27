@@ -9,7 +9,7 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description: 'Frequently asked questions about Fascinante Digital\'s SEO, web development, and digital marketing services. Get answers to common questions about our process and results.',
+  description: 'Frequently asked questions about Fascinante Digital\'s SEO, web development, and digital marketing services. Get answers about our process and results.',
   alternates: {
     canonical: '/faq',
   },

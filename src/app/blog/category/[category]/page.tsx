@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
   return {
     title: `${categoryDisplayName} | Blog - Fascinante Digital`,
-    description: `Explore our latest ${categoryDisplayName} insights, strategies, and tips. Expert content from Fascinante Digital's marketing professionals.`,
+    description: `Explore our latest ${categoryDisplayName} insights, strategies, and expert tips from Fascinante Digital's professional marketing team and experts.`,
     alternates: {
       canonical: `/blog/category/${category}`,
     },

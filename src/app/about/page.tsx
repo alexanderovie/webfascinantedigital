@@ -12,7 +12,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Fascinante Digital, the leading digital marketing agency in West Palm Beach. Our mission is to help Hispanic businesses grow with data-driven strategies.',
+  description: 'Learn about Fascinante Digital, the leading digital marketing agency in West Palm Beach. We help Hispanic businesses grow with proven strategies.',
   alternates: {
     canonical: '/about',
   },
