@@ -4,6 +4,7 @@ import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import getMarkDownData from '@/utils/getMarkDownData';
+import getMarkDownContent from '@/utils/getMarkDownContent';
 import { Metadata } from 'next';
 import { Fragment } from 'react';
 
@@ -14,16 +15,22 @@ export async function generateStaticParams() {
   }));
 }
 
-export const metadata: Metadata = {
-  title: 'Service Details - Fascinante Digital',
-  description: 'Learn more about our digital marketing services. Get detailed information about SEO, web development, and marketing automation solutions.',
-  alternates: {
-    canonical: '/services/[slug]',
-  },
-};
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const slug = (await params).slug;
+  const service = getMarkDownContent('src/data/services/', slug);
+  
+  return {
+    title: `${service.data.title} - Fascinante Digital`,
+    description: service.data.description,
+    alternates: {
+      canonical: `/services/${slug}`,
+    },
+  };
+}
 
 const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const slug = (await params).slug;
+  const service = getMarkDownContent('src/data/services/', slug);
 
   return (
     <Fragment>
@@ -33,10 +40,10 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
-          title="Service Details" 
-          heading="Service Details" 
+          title="Services" 
+          heading={service.data.title} 
           link="/services"
-          badge="Service Details"
+          badge={service.data.title}
           badgeClass="badge-blue-soft"
         />
         <Contents slug={slug} />
