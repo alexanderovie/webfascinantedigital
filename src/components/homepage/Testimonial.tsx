@@ -24,29 +24,29 @@ interface TestimonialCard {
 const testimonialCards: TestimonialCard[] = [
   {
     id: 1,
-    name: 'Michael Lee',
-    company: 'Urban Brew',
+    name: 'María González',
+    company: 'West Palm Beach Restaurant',
     avatar: '/images/home-page-33/avatar-4.webp',
     testimonial:
-      'They captured every moment beautifully with creativity and professionalism. Their attention to detail and seamless editing exceeded our expectations. Highly recommend!',
+      'Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves.',
     twitterUrl: 'https://x.com/heystaticmania',
   },
   {
     id: 2,
-    name: 'Sarah Johnson',
-    company: 'TechFlow Solutions',
+    name: 'Roberto Silva',
+    company: 'Silva & Associates Law Firm',
     avatar: '/images/home-page-33/avatar-5.webp',
     testimonial:
-      'Working with this team was a game-changer for our business. They understood our vision perfectly and executed it flawlessly, exceeding our expectations in every way.',
+      'Working with Fascinante Digital was a game-changer for our law firm. They created an amazing website that loads fast, looks professional, and we get compliments from clients every day.',
     twitterUrl: 'https://x.com/heystaticmania',
   },
   {
     id: 3,
-    name: 'Emily Rodriguez',
-    company: 'Creative Studios',
+    name: 'Patricia López',
+    company: 'West Palm Beach Dental Practice',
     avatar: '/images/home-page-33/avatar-6.webp',
     testimonial:
-      "The level of creativity and technical expertise they brought to our project was outstanding. They delivered a solution that perfectly captured our brand's essence and vision.",
+      'Our SEO optimization with Fascinante Digital has been incredible. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. Highly recommend!',
     twitterUrl: 'https://x.com/heystaticmania',
   },
 ];

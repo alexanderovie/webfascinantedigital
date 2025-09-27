@@ -84,7 +84,7 @@ const WhyUs = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p className="max-w-[448px] md:w-full text-accent/60">
-                      Manage your entire mobile infrastructure from one platform.
+                      We help Hispanic businesses in the USA dominate Google search results and grow their revenue through proven digital marketing strategies.
                     </p>
                   </RevealAnimation>
                 </div>
