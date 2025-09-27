@@ -4,7 +4,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 import BlogCardV1 from '../shared/card/BlogCardV1';
 import LinkButton from '../ui/button/LinkButton';
 
-const blogs: IBlogPost[] = getMarkDownData('src/data/blogs').slice(5, 8);
+const blogs: IBlogPost[] = getMarkDownData('src/data/blogs', true, 'publishDate').slice(0, 3);
 
 const Blog = () => {
   return (
