@@ -178,7 +178,7 @@ const ContactInfo = () => {
                     htmlFor="terms"
                     className="text-tagline-3 cursor-pointer text-secondary/60 dark:text-accent/60">
                     I agree with the
-                    <Link href="#" className="text-primary-500 underline text-tagline-3">
+                    <Link href="/terms-conditions" className="text-primary-500 underline text-tagline-3">
                       {' '}
                       terms and conditions
                     </Link>

@@ -35,10 +35,10 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </figure>
                 </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
+                  We help Hispanic businesses in the USA dominate Google search results and grow their revenue through proven SEO, web development, and marketing automation strategies.
                 </p>
                 <div className="flex items-center gap-3">
-                  <Link target="_blank" href="https://www.facebook.com" className="footer-social-link">
+                  <Link target="_blank" href="https://www.facebook.com/fascinantedigital/" className="footer-social-link">
                     <span className="sr-only">Facebook</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="7" height="16" viewBox="0 0 7 16" fill="none">
                       <path
@@ -48,7 +48,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.instagram.com" className="footer-social-link">
+                  <Link target="_blank" href="https://www.instagram.com/fascinantedigital/" className="footer-social-link">
                     <span className="sr-only">Instagram</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
