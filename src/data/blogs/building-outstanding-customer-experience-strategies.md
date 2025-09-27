@@ -1,12 +1,12 @@
 ---
 tag: 'seo'
-author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-1.png'
-publishDate: 'January 15, 2025'
+author: 'Bessie Cooper'
+authorImage: '/images/avatar/avatar-4.png'
+publishDate: 'May 28, 2025'
 title: 'How to Get Your Business to Appear on Google Without Paying for Ads (2025 Guide)'
 description: 'Discover how to make your business appear on Google without spending on ads. Complete guide with proven SEO strategies for Hispanic SMEs in the USA who want to get customers for free.'
-thumbnail: '/images/blogs/seo-google-gratis.jpg'
-readTime: '8 min read'
+thumbnail: '/images/blogs/blog-21.webp'
+readTime: '6 min read'
 ---
 
 ### Introduction
