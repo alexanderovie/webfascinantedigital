@@ -47,7 +47,7 @@ Drive Results"
           spanText="assistance"
           description="Start your free trial today and see your ideas come to life easily and creatively."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
-          ctaBtnText="Get started"
+          ctaBtnText="Get Started"
         />
       </main>
       <FooterOne />

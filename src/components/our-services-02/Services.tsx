@@ -28,7 +28,7 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Big data consulting</h3>
+                      <h3>Big Data Consulting</h3>
                       <p className="max-w-[410px] w-full">
                         Utilize comprehensive data security frameworks to effectively safeguard sensitive information
                         from unauthorized access and breaches.
@@ -38,7 +38,7 @@ const Services = () => {
                       <LinkButton
                         href="/our-services/big-data-consulting"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
-                        Read more
+                        Read More
                       </LinkButton>
                     </div>
                   </div>
@@ -46,10 +46,10 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-center gap-8">
                     <figure className="max-w-[233px] w-full rounded-2xl overflow-hidden">
-                      <Image src={timeIncrease} alt="time increase" className="w-full" />
+                      <Image src={timeIncrease} alt="Time Increase" className="w-full" />
                     </figure>
                     <figure className="max-w-[350px] w-full rounded-[20px] overflow-hidden">
-                      <Image src={controlCard} alt="control car" className="w-full" />
+                      <Image src={controlCard} alt="Control Card" className="w-full" />
                     </figure>
                   </div>
                 </div>
@@ -62,19 +62,19 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-center gap-8">
                     <figure className="max-w-[326px] max-h-[317px] h-full w-full rounded-[20px] overflow-hidden">
-                      <Image src={revenue} alt="revenue" className="w-full h-full object-cover dark:hidden" />
-                      <Image src={revenueDark} alt="revenue" className="w-full h-full object-cover hidden dark:block" />
+                      <Image src={revenue} alt="Revenue" className="w-full h-full object-cover dark:hidden" />
+                      <Image src={revenueDark} alt="Revenue" className="w-full h-full object-cover hidden dark:block" />
                     </figure>
                     <figure className="max-w-[255px] max-h-[178px] h-full w-full rounded-2xl overflow-hidden">
-                      <Image src={balance} alt="balance" className="w-full h-full object-cover dark:hidden" />
-                      <Image src={balanceDark} alt="balance" className="w-full h-full object-cover hidden dark:block" />
+                      <Image src={balance} alt="Balance" className="w-full h-full object-cover dark:hidden" />
+                      <Image src={balanceDark} alt="Balance" className="w-full h-full object-cover hidden dark:block" />
                     </figure>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Machine learning &amp; AI</h3>
+                      <h3>Machine Learning &amp; AI</h3>
                       <p className="max-w-[493px] w-full">
                         Utilize advanced predictive analytics to proactively identify potential threats before they
                         escalate. by analyzing patterns and trends in data.
@@ -84,7 +84,7 @@ const Services = () => {
                       <LinkButton
                         href="/our-services/machine-learning-and-ai"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
-                        View more
+                        View More
                       </LinkButton>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Business analysis</h3>
+                      <h3>Business Analysis</h3>
                       <p className="max-w-[380px] w-full">
                         Continuously monitor for vulnerabilities and implement proactive measures to prevent cyber
                         attacks before they can occur.
@@ -108,7 +108,7 @@ const Services = () => {
                       <LinkButton
                         href="/our-services/business-analysis"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
-                        View more
+                        View More
                       </LinkButton>
                     </div>
                   </div>
@@ -116,19 +116,19 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-start gap-8">
                     <figure className="max-w-[350px] max-h-[345px] h-full w-full rounded-[20px] overflow-hidden">
-                      <Image src={earning} alt="earning" className="w-full h-full object-cover dark:hidden" />
-                      <Image src={earningDark} alt="earning" className="w-full h-full object-cover hidden dark:block" />
+                      <Image src={earning} alt="Earning" className="w-full h-full object-cover dark:hidden" />
+                      <Image src={earningDark} alt="Earning" className="w-full h-full object-cover hidden dark:block" />
                     </figure>
                     <div className="space-y-8">
                       <figure className="max-w-[286px] max-h-[190px] h-full w-full rounded-2xl overflow-hidden">
                         <Image
                           src={dailyPayment}
-                          alt="daily payment"
+                          alt="Daily Payment"
                           className="w-full h-full object-cover dark:hidden"
                         />
                         <Image
                           src={dailyPaymentDark}
-                          alt="daily payment"
+                          alt="Daily Payment"
                           className="w-full h-full object-cover hidden dark:block"
                         />
                       </figure>
@@ -172,12 +172,12 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-start -space-x-20">
                     <figure className="max-w-[408px] w-full rounded-[20px] overflow-hidden">
-                      <Image src={revenue} alt="revenue" className="w-full h-full object-cover dark:hidden" />
-                      <Image src={revenueDark} alt="revenue" className="w-full h-full object-cover hidden dark:block" />
+                      <Image src={revenue} alt="Revenue" className="w-full h-full object-cover dark:hidden" />
+                      <Image src={revenueDark} alt="Revenue" className="w-full h-full object-cover hidden dark:block" />
                     </figure>
                     <figure className="max-w-[225px] w-full rounded-2xl overflow-hidden mt-4">
-                      <Image src={balance} alt="balance" className="w-full h-full object-cover dark:hidden" />
-                      <Image src={balanceDark} alt="balance" className="w-full h-full object-cover hidden dark:block" />
+                      <Image src={balance} alt="Balance" className="w-full h-full object-cover dark:hidden" />
+                      <Image src={balanceDark} alt="Balance" className="w-full h-full object-cover hidden dark:block" />
                     </figure>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const Services = () => {
                       <LinkButton
                         href="/our-services/cloud-integration"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
-                        Read more
+                        Read More
                       </LinkButton>
                     </div>
                   </div>

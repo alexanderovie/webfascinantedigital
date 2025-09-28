@@ -10,7 +10,7 @@ const ServicesV2 = () => {
         <div className="main-container">
           <div className="relative z-10">
             <div className="absolute top-0 left-0 right-0 bottom-0 -z-10 rounded-[20px] overflow-hidden">
-              <Image src={image} alt="about bg" className="w-full h-full object-cover" />
+              <Image src={image} alt="About BG" className="w-full h-full object-cover" />
             </div>
             <div className="py-14 px-6 md:px-11 grid max-lg:grid-cols-1 grid-cols-2 max-sm:gap-10 gap-5">
               <div className="max-w-[500px]">
@@ -18,7 +18,7 @@ const ServicesV2 = () => {
                   Develop a fully functional website that includes engaging content and visuals.
                 </h5>
                 <LinkButton href="/pricing" className="btn btn-md hover:btn-primary btn-accent">
-                  Get started
+                  Get Started
                 </LinkButton>
               </div>
               <div>
