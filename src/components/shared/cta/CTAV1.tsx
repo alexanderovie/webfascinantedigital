@@ -75,7 +75,7 @@ const CTAV1 = ({
                 },
                 {
                   id: '2',
-                  text: '14-Day free trial',
+                  text: '14-Day Free Trial',
                 },
               ]}
               listTextClass={listTextClass}

@@ -52,7 +52,7 @@ const CTA = () => {
                   <span className="size-[18px] bg-secondary dark:bg-accent rounded-full flex items-center justify-center">
                     <CheckIcon />
                   </span>
-                  <p className="text-tagline-2">14-Day free trial</p>
+                  <p className="text-tagline-2">14-Day Free Trial</p>
                 </li>
               </RevealAnimation>
             </ul>

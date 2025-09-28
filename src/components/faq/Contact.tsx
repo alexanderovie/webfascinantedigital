@@ -85,7 +85,7 @@ const Contact = () => {
                     className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
                     I agree with the
                     <Link href="#" className="text-primary-500 underline text-tagline-3">
-                      terms and conditions
+                      Terms and Conditions
                     </Link>
                   </label>
                 </fieldset>
