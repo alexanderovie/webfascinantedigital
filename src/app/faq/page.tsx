@@ -25,8 +25,7 @@ const FAQ = () => {
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
           title="FAQ" 
-          heading="Frequently Asked Questions
-& Quick Answers"
+          heading="Frequently Asked Questions<br />& Quick Answers"
           description="Find answers to common questions about our marketing services, pricing, and how we can help grow your business. Can't find what you're looking for? Contact us directly."
           link="/faq"
           badge="Help Center"

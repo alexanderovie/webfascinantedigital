@@ -28,7 +28,7 @@ const AboutPage02 = () => {
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero 
           title="About" 
-          heading="Empowering Hispanic Businesses to Dominate Digital Marketing."
+          heading="Empowering Hispanic Businesses<br />to Dominate Digital"
           description="At Fascinante Digital, we believe every Hispanic business deserves to thrive in the digital landscape. That's why we've created comprehensive marketing strategies that help businesses increase visibility, drive qualified traffic, and scale revenue without the complexity."
           link="/about"
           badge="Our Mission"

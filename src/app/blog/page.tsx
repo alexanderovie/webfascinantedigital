@@ -24,8 +24,7 @@ const BlogPage02 = () => {
       <main className="bg-background-4 dark:bg-background-9">
         <PageHero 
           title="Our Blog" 
-          heading="Latest Marketing Insights
-& Strategies"
+          heading="Latest Marketing Insights<br />& Strategies"
           description="Stay ahead of the curve with expert insights, industry trends, and actionable strategies from our marketing professionals. Learn how to grow your business with data-driven marketing approaches."
           link="/blog"
           badge="Marketing Insights"
