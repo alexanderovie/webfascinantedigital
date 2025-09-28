@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-5.png'
 publishDate: 'May 20, 2025'
 title: 'How to Create a Winning Marketing Automation Strategy for Hispanic Businesses in 2025'
 description: 'Discover the proven marketing automation strategies that helped 200+ Hispanic businesses increase leads by 400% and reduce marketing costs by 60%. Complete guide with real case studies and actionable tactics.'
-thumbnail: '/images/blogs/blog-39.webp'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '7 min read'
 ---
 

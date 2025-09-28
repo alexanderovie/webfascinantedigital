@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-5.png'
 publishDate: 'July 28, 2025'
 title: 'Complete Guide to Digital Transformation in 2024'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-23.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '5 min read'
 ---
 

@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-1.png'
 publishDate: 'January 15, 2025'
 title: 'Cómo lograr que tu negocio aparezca en Google sin pagar anuncios (guía 2025)'
 description: 'Descubre cómo hacer que tu negocio aparezca en Google sin gastar en anuncios. Guía completa con estrategias SEO probadas para PYMEs hispanas en EE.UU. que quieren conseguir clientes gratis.'
-thumbnail: '/images/blogs/seo-google-gratis.jpg'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '8 min read'
 ---
 

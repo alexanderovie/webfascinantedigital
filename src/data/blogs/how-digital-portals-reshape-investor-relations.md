@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-9.png'
 publishDate: 'June 05, 2025'
 title: 'How Digital Portals Reshape Investor Relations'
 description: 'Investor relations are evolving as digital portals replace paper-heavy processes, offering transparency, accessibility, and real-time engagement for modern investors.'
-thumbnail: '/images/blogs/blog-40.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 featured: true
 ---

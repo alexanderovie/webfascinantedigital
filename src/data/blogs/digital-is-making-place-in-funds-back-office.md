@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-6.png'
 publishDate: 'May 28, 2025'
 title: 'Digital is Making Place in Funds Back-Office'
 description: 'The funds industry is experiencing a major shift as digital technologies transform back-office operations—streamlining fund administration, enhancing compliance, and improving efficiency for asset managers and investors alike.'
-thumbnail: '/images/blogs/blog-43.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 featured: true
 ---

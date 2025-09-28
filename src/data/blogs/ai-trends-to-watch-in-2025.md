@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-3.png'
 publishDate: 'April 28, 2025'
 title: 'AI trends to watch in 2025'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-12.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 

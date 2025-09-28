@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-1.png'
 publishDate: 'Feb 28, 2025'
 title: 'Raising your first round saas fundraising tips from the trenches'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-31.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '5 min read'
 ---
 

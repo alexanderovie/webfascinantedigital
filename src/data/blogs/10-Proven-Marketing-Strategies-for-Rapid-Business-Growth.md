@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-9.png'
 publishDate: 'Jan 28, 2025'
 title: '10 Proven Marketing Strategies for Rapid Business Growth'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-18.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '8 min read'
 ---
 

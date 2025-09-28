@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-7.png'
 publishDate: 'June 02, 2025'
 title: 'AI-Powered Compliance: The New Backbone of Fund Operations'
 description: 'AI and automation are transforming compliance in fund operations, helping institutions reduce risks, meet regulatory demands, and improve efficiency across the back-office.'
-thumbnail: '/images/blogs/blog-44.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '7 min read'
 ---
 

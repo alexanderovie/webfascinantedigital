@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-1.png'
 publishDate: 'May 20, 2025'
 title: 'Take control of your online banking and earn rewards.'
 description: 'An electronic prescription tailored for the finance sector refers to a structured, digital solution that streamlines financial services, enhances customer experiences, and improves operational efficiency.'
-thumbnail: '/images/blogs/blog-01.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '7 min read'
 featured: true
 ---

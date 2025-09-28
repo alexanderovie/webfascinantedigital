@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-7.png'
 publishDate: 'June 28, 2025'
 title: 'Decoding saas consolidation what it means for founders'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-28.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 

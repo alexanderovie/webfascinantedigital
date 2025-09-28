@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-8.png'
 publishDate: 'Nov 28, 2025'
 title: 'Our saas seo strategy 6 months, 300% organic traffic growth'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-17.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 

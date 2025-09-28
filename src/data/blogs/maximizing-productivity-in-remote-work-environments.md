@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-2.png'
 publishDate: 'Dec 28, 2025'
 title: 'Maximizing Productivity in Remote Work Environments'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-20.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '2 min read'
 ---
 

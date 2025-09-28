@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-5.png'
 publishDate: 'April 28, 2025'
 title: 'Mastering Operational Efficiency in Modern Banking'
 description: 'Operational efficiency is no longer just an internal goal—it’s a competitive advantage in modern banking. By combining automation, agile workflows, and customer-first strategies, banks can scale faster, cut costs, and deliver seamless financial services.'
-thumbnail: '/images/blogs/blog-43.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '7 min read'
 ---
 

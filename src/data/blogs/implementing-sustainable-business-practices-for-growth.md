@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-8.png'
 publishDate: 'Sept 28, 2025'
 title: 'Implementing Sustainable Business Practices for Growth'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/blog-24.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '2 min read'
 ---
 

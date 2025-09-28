@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-4.png'
 publishDate: 'March 31, 2025'
 title: 'How to Take Control of Your Online Banking '
 description: 'Online banking is no longer just a way to check balances—it’s a powerful tool to take control of your financial life. By combining smart features with reward programs, banks are empowering customers to save more, spend wisely, and unlock valuable benefits.'
-thumbnail: '/images/blogs/blog-37.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 

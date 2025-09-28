@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-4.png'
 publishDate: 'May 28, 2025'
 title: 'How to Get Your Business to Appear on Google Without Paying for Ads (2025 Guide)'
 description: 'Discover how to make your business appear on Google without spending on ads. Complete guide with proven SEO strategies for Hispanic SMEs in the USA who want to get customers for free.'
-thumbnail: '/images/blogs/blog-21.webp'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 
