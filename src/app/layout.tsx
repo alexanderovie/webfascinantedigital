@@ -1,7 +1,7 @@
 import SmoothScrollProvider from '@/components/shared/SmoothScroll';
 import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import GTMProvider from '@/components/analytics/GTMProvider';
-import { interTight } from '@/utils/font';
+import { geistSans, geistMono } from '@/utils/font';
 import { ReactNode, Suspense } from 'react';
 import Script from 'next/script';
 import type { Metadata } from 'next';
@@ -104,7 +104,7 @@ export default function RootLayout({
           type="image/webp"
         /> */}
       </head>
-      <body className={`${interTight.variable} antialiased`} suppressHydrationWarning={true}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning={true}>
         {/* ✅ Google Tag Manager - Modern Next.js Script */}
         <Script
           id="gtm-script"
