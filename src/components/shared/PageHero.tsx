@@ -45,12 +45,16 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
           <RevealAnimation delay={0.2}>
                 <div className="mb-6">
               <h1 className="font-semibold md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">
-                {heading?.split('\n').map((line, index) => (
-                  <span key={index}>
-                    {line}
-                    {index < heading.split('\n').length - 1 && <br />}
-                  </span>
-                ))}
+                {heading?.includes('<br />') ? (
+                  <span dangerouslySetInnerHTML={{ __html: heading }} />
+                ) : (
+                  heading?.split('\n').map((line, index) => (
+                    <span key={index}>
+                      {line}
+                      {index < heading.split('\n').length - 1 && <br />}
+                    </span>
+                  ))
+                )}
               </h1>
             </div>
           </RevealAnimation>

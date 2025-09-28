@@ -26,8 +26,7 @@ const OurServices02 = () => {
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero 
           title="Our Services" 
-          heading="Marketing Services That
-Drive Results"
+          heading="Marketing Services That<br />Drive Results"
           description="From SEO and SEM to social media and conversion optimization, we provide comprehensive marketing solutions tailored to your business goals and target audience."
           link="/services"
           badge="Our Services"
