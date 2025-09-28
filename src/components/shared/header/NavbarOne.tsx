@@ -32,6 +32,7 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
         <div
           className={cn(
             'main-container fixed top-5 xl:top-5 left-1/2 z-50 mx-auto flex w-full -translate-x-1/2 items-center justify-between rounded-full xl:rounded-full px-5 py-2.5 transition-all duration-500 ease-in-out xl:py-0',
+            'bg-red-500', // 🔴 Color de prueba para el navbar principal
             isScrolled && 'xl:top-2 transition-all duration-500 ease-in-out',
             className,
           )}>
