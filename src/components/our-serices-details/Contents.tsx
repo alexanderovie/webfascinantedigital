@@ -1,6 +1,7 @@
 import { IService } from '@/interface';
 import getMarkDownContent from '@/utils/getMarkDownContent';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import rehypeSlug from 'rehype-slug';
 import RevealAnimation from '../animation/RevealAnimation';
 import TableOfContent from './TableOfContent';
@@ -16,7 +17,7 @@ const Contents = ({ slug }: { slug: string }) => {
           <div className="lg:max-w-[767px] max-w-full w-full">
             <RevealAnimation delay={0.3}>
               <div className="services-details-content mb-[72px]">
-                <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{service.content}</ReactMarkdown>
+                <ReactMarkdown rehypePlugins={[[rehypeRaw, { allowDangerousHtml: true }], [rehypeSlug]]}>{service.content}</ReactMarkdown>
               </div>
             </RevealAnimation>
 
