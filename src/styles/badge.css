@@ -99,3 +99,30 @@ Soft Color Badges for Core Pages
 @utility badge-teal-soft {
   @apply bg-ns-cyan-light text-ns-cyan dark:bg-ns-cyan/20 dark:text-ns-cyan;
 }
+
+/* =========================
+Modern Soft Color Combinations
+=========================== */
+@utility badge-blue-modern {
+  background-color: #E0E8FB;
+  color: #5370BC;
+  border: 1px solid rgba(83, 112, 188, 0.2);
+}
+
+@utility badge-purple-modern {
+  background-color: #EEEBFC;
+  color: #8357BB;
+  border: 1px solid rgba(131, 87, 187, 0.2);
+}
+
+@utility badge-green-modern {
+  background-color: #E8F5E8;
+  color: #4A7C59;
+  border: 1px solid rgba(74, 124, 89, 0.2);
+}
+
+@utility badge-yellow-modern {
+  background-color: #FEF7E0;
+  color: #B8860B;
+  border: 1px solid rgba(184, 134, 11, 0.2);
+}

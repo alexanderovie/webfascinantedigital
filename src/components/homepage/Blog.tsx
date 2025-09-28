@@ -14,7 +14,7 @@ const Blog = () => {
       <div className="main-container">
         <div className="text-center mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-cyan mb-5">Blog</span>
+            <span className="badge badge-blue-modern mb-5">Blog</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">Actionable Insights from Real Experts.</h2>

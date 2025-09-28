@@ -65,7 +65,7 @@ const Services = () => {
             {/* Left: Intro */}
             <div className="lg:sticky lg:top-28">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-cyan mb-5">Services Overview</span>
+                <span className="badge badge-blue-modern mb-5">Services Overview</span>
               </RevealAnimation>
               <div className="space-y-2 md:max-w-[595px] mb-14">
                 <RevealAnimation delay={0.2}>
