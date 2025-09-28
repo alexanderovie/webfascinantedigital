@@ -172,6 +172,37 @@ Common Styles all over the sites
       }
     }
   }
+
+  /* Service section blocks for mobile */
+  .service-section-block {
+    @apply bg-white dark:bg-background-5 rounded-xl p-6 mb-6 border border-stroke-2 dark:border-stroke-6 shadow-sm;
+    
+    h3 {
+      @apply text-heading-5 font-semibold text-secondary dark:text-accent mb-4 pb-3 border-b border-stroke-2 dark:border-stroke-6;
+    }
+    
+    ul {
+      @apply space-y-3;
+      li {
+        @apply text-tagline-1 text-secondary/80 dark:text-accent/80 before:content-['•'] before:text-primary-500 before:font-bold before:mr-2;
+        list-style: none;
+        padding-left: 0;
+        
+        /* Remove default before styling */
+        &::before {
+          content: none;
+        }
+        
+        /* Custom bullet styling */
+        &::before {
+          content: '•';
+          color: rgb(59 130 246); /* primary-500 */
+          font-weight: bold;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
   ol {
     @apply space-y-4 mt-6 lg:mt-8;
     li:first-child {

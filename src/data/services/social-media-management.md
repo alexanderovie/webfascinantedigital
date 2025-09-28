@@ -19,6 +19,8 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
+<div class="service-section-block">
+
 ### What's Included
 
 - **Content creation** – Posts, stories, and engaging visual content
@@ -28,7 +30,11 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 - **Analytics & reporting** – Track engagement, reach, and growth metrics
 - **Influencer partnerships** – Connect with relevant industry influencers
 
+</div>
+
 ![Service images](/images/services/service-details-2.png)
+
+<div class="service-section-block">
 
 ### Use Cases
 
@@ -38,7 +44,11 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 - **SaaS platforms** – User education and product updates
 - **Healthcare** – Patient education and health awareness
 
+</div>
+
 ![Service images](/images/services/service-details-3.jpg)
+
+<div class="service-section-block">
 
 ### Built-In Security And Controls
 
@@ -47,3 +57,5 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 - **Secure account access** across all platforms
 - **Audit trails & reporting** for transparency
 - **Secure integrations** with scheduling and analytics tools
+
+</div>

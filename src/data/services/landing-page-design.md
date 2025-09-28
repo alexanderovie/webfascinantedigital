@@ -19,6 +19,8 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 
 ![Service images](/images/services/service-details-1.png)
 
+<div class="service-section-block">
+
 ### What's Included
 
 - **Custom landing page design** – Professional, mobile-responsive layouts
@@ -28,7 +30,11 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 - **Analytics & reporting** – Track conversion rates and user behavior
 - **Mobile optimization** – Perfect experience across all devices
 
+</div>
+
 ![Service images](/images/services/service-details-2.png)
+
+<div class="service-section-block">
 
 ### Use Cases
 
@@ -38,7 +44,11 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 - **E-commerce** – Product-specific landing pages and promotions
 - **SaaS trials** – Convert visitors into free trial users
 
+</div>
+
 ![Service images](/images/services/service-details-3.jpg)
+
+<div class="service-section-block">
 
 ### Built-In Security And Controls
 
@@ -47,3 +57,5 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 - **SSL encryption** for all data transmission
 - **Audit trails & reporting** for transparency
 - **Secure integrations** with CRM and analytics tools
+
+</div>
