@@ -28,15 +28,15 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Big Data Consulting</h3>
+                      <h3>SEO Optimization</h3>
                       <p className="max-w-[410px] w-full">
-                        Utilize comprehensive data security frameworks to effectively safeguard sensitive information
-                        from unauthorized access and breaches.
+                        Dominate Google search results with comprehensive SEO strategies that drive organic traffic
+                        and increase your online visibility and revenue.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/our-services/big-data-consulting"
+                        href="/services/seo-optimization"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
                         Read More
                       </LinkButton>
@@ -74,15 +74,15 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Machine Learning &amp; AI</h3>
+                      <h3>Google Ads Management</h3>
                       <p className="max-w-[493px] w-full">
-                        Utilize advanced predictive analytics to proactively identify potential threats before they
-                        escalate. by analyzing patterns and trends in data.
+                        Maximize your advertising ROI with strategic Google Ads campaigns that target high-intent
+                        customers and drive qualified leads to your business.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/our-services/machine-learning-and-ai"
+                        href="/services/google-ads"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
                         View More
                       </LinkButton>
@@ -98,15 +98,15 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Business Analysis</h3>
+                      <h3>Web Design &amp; Development</h3>
                       <p className="max-w-[380px] w-full">
-                        Continuously monitor for vulnerabilities and implement proactive measures to prevent cyber
-                        attacks before they can occur.
+                        Create stunning, conversion-focused websites that load fast, rank well, and turn visitors
+                        into customers with professional design and development.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/our-services/business-analysis"
+                        href="/services/web-design-development"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
                         View More
                       </LinkButton>
@@ -184,15 +184,15 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Cloud Integration</h3>
+                      <h3>Marketing Automation</h3>
                       <p className="max-w-[493px] w-full">
-                        Utilize advanced predictive analytics to proactively identify potential threats before they
-                        escalate. by analyzing patterns and trends in data.
+                        Streamline your marketing efforts with automated campaigns that nurture leads, increase
+                        conversions, and scale your business growth without extra manual work.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/our-services/cloud-integration"
+                        href="/services/marketing-automation"
                         className="btn hover:btn-primary btn-white dark:btn-transparent btn-md">
                         Read More
                       </LinkButton>
