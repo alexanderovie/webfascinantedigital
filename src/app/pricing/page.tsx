@@ -24,9 +24,11 @@ const Pricing02 = () => {
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero 
           title="Pricing" 
-          heading="Our Pricing" 
-          description="Select the pricing plan that best suits your digital marketing needs."
-          link="/pricing" 
+          heading="Transparent Pricing for<br />Digital Marketing Success"
+          description="Choose the perfect plan for your Hispanic business growth. From local SEO to comprehensive marketing automation, we offer flexible pricing that scales with your success."
+          link="/pricing"
+          badge="Our Pricing"
+          badgeClass="badge-blue-soft"
         />
         <Pricing />
         <Client />
