@@ -40,9 +40,9 @@ const MobileMenu = () => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <span className="sr-only">Home</span>
-            <figure className="max-w-[120px]">
-              <Image src={logo} alt="Fascinante Digital" className="block w-full dark:hidden" />
-              <Image src={logoDark} alt="Fascinante Digital" className="hidden w-full dark:block" />
+            <figure className="h-[34px]">
+              <Image src={logo} alt="Fascinante Digital" className="block w-full h-full object-contain dark:hidden" />
+              <Image src={logoDark} alt="Fascinante Digital" className="hidden w-full h-full object-contain dark:block" />
             </figure>
           </Link>
           {/* close menu btn */}
