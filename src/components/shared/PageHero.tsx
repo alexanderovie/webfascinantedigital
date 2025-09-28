@@ -44,7 +44,7 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
           )}
           <RevealAnimation delay={0.2}>
                 <div className="mb-6">
-              <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">
+              <h1 className="font-semibold md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">
                 {heading?.split('\n').map((line, index) => (
                   <span key={index}>
                     {line}
