@@ -2,5 +2,6 @@
 Default Body and Typography styles
 =========================== */
 body {
-  @apply font-geist-sans antialiased;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  @apply antialiased;
 }
