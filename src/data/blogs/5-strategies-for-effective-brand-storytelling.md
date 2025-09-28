@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-3.png'
 publishDate: 'April 28, 2025'
 title: '5 Proven SEO Strategies to Dominate Google Search Results in 2025'
 description: 'Discover the 5 most effective SEO strategies that helped our clients increase organic traffic by 300% in just 6 months. Complete guide with real data and actionable tactics for Hispanic businesses in the USA.'
-thumbnail: '/images/blogs/blog-11.png'
+thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
 readTime: '6 min read'
 ---
 
