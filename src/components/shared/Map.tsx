@@ -1,43 +1,14 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 const Map = () => {
-  const [isAppleDevice, setIsAppleDevice] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    // Detectar dispositivos Apple
-    const userAgent = navigator.userAgent.toLowerCase();
-    const isApple = /iphone|ipad|ipod|macintosh|mac os x/.test(userAgent);
-    setIsAppleDevice(isApple);
-    setIsLoaded(true);
-  }, []);
-
-  if (!isLoaded) {
+  if (typeof window === 'undefined') {
     return (
       <div className="h-full w-full">
         <div className="h-full w-full bg-gray-200 animate-pulse rounded-xl" />
       </div>
     );
   }
-
-  // Apple Maps para dispositivos Apple
-  if (isAppleDevice) {
-    return (
-      <div className="h-full w-full">
-        <iframe 
-          src="https://maps.apple.com/?q=2054+Vista+Pkwy+%23400,+West+Palm+Beach,+FL+33411&ll=26.7153,-80.0534&z=13"
-          width="100%" 
-          height="100%" 
-          style={{border: 0}}
-          title="Apple Maps - Fascinante Digital Location"
-          className="rounded-xl"
-        />
-      </div>
-    );
-  }
-
-  // Google Maps para dispositivos no-Apple
+  
   return (
     <div className="h-full w-full">
       <iframe 
