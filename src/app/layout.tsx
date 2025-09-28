@@ -49,6 +49,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  other: {
+    'fb:app_id': '1245332900658090',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Fascinante Digital — SEO & Web',
