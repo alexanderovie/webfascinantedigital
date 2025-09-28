@@ -112,10 +112,11 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
               </time>
             </div>
           </div>
-          <h3 className="font-normal sm:text-heading-5 text-tagline-1 line-clamp-1">
+          <h3 className="font-normal sm:text-heading-5 text-tagline-1 min-h-[2.5rem] flex items-start">
             <Link
               href={`/blog/${blog.slug}`}
-              aria-label="Read full article about electronic prescription in finance sector">
+              aria-label="Read full article about electronic prescription in finance sector"
+              className="line-clamp-2 leading-tight">
               {blog.title}
             </Link>
           </h3>

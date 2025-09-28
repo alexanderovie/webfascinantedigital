@@ -55,12 +55,12 @@ const BlogCardV1 = ({ blog, className }: BlogCardV1Props) => {
             </div>
           </div>
           <div>
-            <h3 className="sm:text-heading-5 text-heading-6 mb-2 font-normal">
-              <Link href={`/blog/${blog.slug}`} aria-label="Read more about electronic prescription in finance sector">
+            <h3 className="sm:text-heading-5 text-heading-6 mb-2 font-normal min-h-[3.5rem] flex items-start">
+              <Link href={`/blog/${blog.slug}`} aria-label="Read more about electronic prescription in finance sector" className="line-clamp-2 leading-tight">
                 {blog?.title}
               </Link>
             </h3>
-            <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 line-clamp-2 font-normal">
+            <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 line-clamp-3 font-normal min-h-[4.5rem]">
               {blog?.description}
             </p>
           </div>
