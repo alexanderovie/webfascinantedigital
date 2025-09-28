@@ -72,7 +72,7 @@ const ContactUs = () => {
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero
           title="Contact Us"
-          heading="Reach Out to Our<br />Support Team for Help"
+          heading="Reach Out to Our<br />Support Team"
           description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
           link="/contact-us"
           badge="Get in Touch"
