@@ -5,7 +5,7 @@ import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import getMarkDownData from '@/utils/getMarkDownData';
 import getMarkDownContent from '@/utils/getMarkDownContent';
-import { Metadata } from 'next';
+import type { Metadata, ResolvingMetadata } from 'next';
 import { Fragment } from 'react';
 
 export async function generateStaticParams() {
@@ -15,15 +15,46 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+type Props = {
+  params: Promise<{ slug: string }>
+}
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
   const slug = (await params).slug;
   const service = getMarkDownContent('src/data/services/', slug);
+  
+  // Acceder a metadatos del layout padre
+  const previousImages = (await parent).openGraph?.images || []
   
   return {
     title: `${service.data.title} - Fascinante Digital`,
     description: service.data.description,
     alternates: {
       canonical: `/services/${slug}`,
+    },
+    openGraph: {
+      title: service.data.title,
+      description: service.data.description,
+      url: `https://fascinantedigital.com/services/${slug}`,
+      type: 'website',
+      images: [
+        {
+          url: `https://fascinantedigital.com${service.data.coverImg}`,
+          width: 1200,
+          height: 630,
+          alt: service.data.title,
+        },
+        ...previousImages, // Mantener imágenes del layout padre como fallback
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: service.data.title,
+      description: service.data.description,
+      images: [`https://fascinantedigital.com${service.data.coverImg}`],
     },
   };
 }

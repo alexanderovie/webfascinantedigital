@@ -38,6 +38,7 @@ export async function generateMetadata(
     openGraph: {
       title: blogContent.data.title,
       description: blogContent.data.description,
+      url: `https://fascinantedigital.com/blog/${slug}`,
       type: 'article',
       publishedTime: blogContent.data.publishDate,
       authors: [blogContent.data.author],
