@@ -64,7 +64,7 @@ const Faq = () => {
                   </AccordionTrigger>
 
                   <AccordionContent value="3">
-                    Yes, you can upgrade or downgrade your plan at any time. We understand that business needs change, and we're flexible with our pricing plans. Contact us to discuss plan changes and we'll help you transition smoothly.
+                    Yes, you can upgrade or downgrade your plan at any time. We understand that business needs change, and we&apos;re flexible with our pricing plans. Contact us to discuss plan changes and we&apos;ll help you transition smoothly.
                   </AccordionContent>
                 </AccordionItem>
 
