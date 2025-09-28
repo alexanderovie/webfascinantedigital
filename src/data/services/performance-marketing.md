@@ -40,7 +40,7 @@ Our platform uses **comprehensive performance analysis and AI optimization** to 
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and performance data protection
 - **Role-based permissions** for campaign management

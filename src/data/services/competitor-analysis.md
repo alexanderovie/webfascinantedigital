@@ -40,7 +40,7 @@ Our platform uses **comprehensive market research and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Confidential analysis** and data protection
 - **Role-based permissions** for research management

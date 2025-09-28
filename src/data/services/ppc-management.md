@@ -40,7 +40,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Platform compliance** and advertising policies
 - **Role-based permissions** for campaign management

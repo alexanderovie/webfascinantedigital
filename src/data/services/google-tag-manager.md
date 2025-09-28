@@ -40,7 +40,7 @@ Our platform uses **comprehensive tag management and AI optimization** to ensure
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and consent management
 - **Role-based permissions** for tag management

@@ -40,7 +40,7 @@ Our platform uses **comprehensive brand strategy and AI insights** to ensure tha
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Brand protection** and trademark considerations
 - **Role-based permissions** for brand management

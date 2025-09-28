@@ -40,7 +40,7 @@ Our platform uses **professional video production and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Brand compliance** and video content guidelines
 - **Role-based permissions** for video management

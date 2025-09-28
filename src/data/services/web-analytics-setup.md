@@ -40,7 +40,7 @@ Our platform uses **comprehensive tracking implementation and AI insights** to e
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and GDPR considerations
 - **Role-based permissions** for analytics access

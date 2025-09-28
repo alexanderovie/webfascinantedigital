@@ -40,7 +40,7 @@ Our platform uses **comprehensive pixel implementation and AI optimization** to 
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and user consent management
 - **Role-based permissions** for pixel management

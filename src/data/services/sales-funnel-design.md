@@ -40,7 +40,7 @@ Our platform uses **comprehensive funnel analysis and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and customer journey protection
 - **Role-based permissions** for funnel management

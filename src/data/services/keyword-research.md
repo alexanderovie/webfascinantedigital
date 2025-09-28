@@ -40,7 +40,7 @@ Our platform uses **comprehensive keyword analysis and AI insights** to ensure t
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Secure keyword data** and research protection
 - **Role-based permissions** for research management

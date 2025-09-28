@@ -40,7 +40,7 @@ Our platform uses **data-driven analysis and AI optimization** to ensure that yo
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and user consent management
 - **Role-based permissions** for optimization management

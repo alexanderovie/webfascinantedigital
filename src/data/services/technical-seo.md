@@ -40,7 +40,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Google Search Console** integration and monitoring
 - **Role-based permissions** for technical management

@@ -40,7 +40,7 @@ Our platform uses **comprehensive integration solutions and AI automation** to e
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data security** and privacy compliance
 - **Role-based permissions** for integration management

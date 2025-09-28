@@ -40,7 +40,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Google verification** and compliance for all listings
 - **Role-based permissions** for business management

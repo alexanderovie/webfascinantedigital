@@ -40,7 +40,7 @@ Our platform uses **comprehensive technical analysis and AI insights** to ensure
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Secure website analysis** and data protection
 - **Role-based permissions** for audit management

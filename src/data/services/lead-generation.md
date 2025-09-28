@@ -40,7 +40,7 @@ Our platform uses **comprehensive lead generation strategies and AI optimization
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and lead data protection
 - **Role-based permissions** for lead management

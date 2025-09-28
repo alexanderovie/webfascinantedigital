@@ -40,7 +40,7 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Secure form handling** and data collection
 - **Role-based permissions** for page management

@@ -40,7 +40,7 @@ Our platform uses **comprehensive testing strategies and AI analysis** to ensure
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Data privacy compliance** and user consent management
 - **Role-based permissions** for test management

@@ -40,7 +40,7 @@ Our platform uses **comprehensive market analysis and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Confidential strategy** and business information protection
 - **Role-based permissions** for consulting access

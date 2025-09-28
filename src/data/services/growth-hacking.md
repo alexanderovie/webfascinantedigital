@@ -40,7 +40,7 @@ Our platform uses **comprehensive growth analysis and AI experimentation** to en
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Growth data security** and experiment protection
 - **Role-based permissions** for growth management

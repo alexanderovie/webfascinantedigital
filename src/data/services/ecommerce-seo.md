@@ -40,7 +40,7 @@ Our platform uses **product-focused optimization and AI strategies** to ensure t
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Secure product data** and inventory management
 - **Role-based permissions** for store management

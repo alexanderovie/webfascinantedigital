@@ -40,7 +40,7 @@ Our platform uses **comprehensive ROI analysis and AI insights** to ensure that 
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Financial data security** and ROI information protection
 - **Role-based permissions** for analysis access

@@ -40,7 +40,7 @@ Our platform uses **modern technologies and best practices** to ensure that your
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **SSL certificates** and security best practices
 - **Role-based permissions** for content management

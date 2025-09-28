@@ -40,7 +40,7 @@ Our platform uses **comprehensive outreach strategies and AI optimization** to e
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **White-hat techniques** and ethical link building practices
 - **Role-based permissions** for campaign management

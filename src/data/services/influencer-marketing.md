@@ -40,7 +40,7 @@ Our platform uses **comprehensive influencer research and AI matching** to ensur
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Authentic partnerships** and transparent collaborations
 - **Role-based permissions** for campaign management

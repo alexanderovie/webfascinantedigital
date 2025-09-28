@@ -40,7 +40,7 @@ Our platform uses **real-time data and AI-driven workflows** to ensure that your
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **GDPR & CAN-SPAM compliance** for all email communications
 - **Role-based permissions** for campaign management

@@ -40,7 +40,7 @@ Our platform uses **data-driven planning and AI insights** to ensure that your c
 
 ![Service images](/images/services/service-details-3.jpg)
 
-### Built-in security and controls
+### Built-In Security And Controls
 
 - **Brand compliance** and content guidelines
 - **Role-based permissions** for strategy management
