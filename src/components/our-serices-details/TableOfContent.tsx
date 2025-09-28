@@ -38,8 +38,8 @@ const TableOfContent = ({ markdownContent }: TableOfContentProps) => {
     [lenis],
   );
   return (
-    <RevealAnimation delay={0.3}>
-      <div className="table-of-contents lg:max-w-[449px] w-full lg:block lg:sticky lg:top-20 hidden">
+    <div className="table-of-contents lg:max-w-[449px] w-full lg:block lg:sticky lg:top-20 hidden">
+      <RevealAnimation delay={0.3}>
         <div className="p-11 rounded-[20px] bg-background-1 dark:bg-background-6 space-y-4 w-full">
           <h3 className="text-heading-5">Table of Contents</h3>
           <ul className="table-of-list w-full">
@@ -88,8 +88,8 @@ const TableOfContent = ({ markdownContent }: TableOfContentProps) => {
             })}
           </ul>
         </div>
-      </div>
-    </RevealAnimation>
+      </RevealAnimation>
+    </div>
   );
 };
 TableOfContent.displayName = 'TableOfContent';
