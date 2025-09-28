@@ -43,7 +43,7 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
           title="Services" 
           heading={service.data.title} 
           link="/services"
-          badge={service.data.title}
+          badge="Our Services"
           badgeClass="badge-blue-soft"
         />
         <Contents slug={slug} />
