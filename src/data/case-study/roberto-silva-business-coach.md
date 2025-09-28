@@ -14,12 +14,30 @@ results:
   - "Top 1% LinkedIn creator in Hispanic business coaching"
 challenge: "Roberto was struggling to establish his authority as a business coach for Hispanic entrepreneurs. Despite his extensive experience and proven results, he had minimal online presence and was competing against established coaches with strong digital marketing strategies."
 solution: "We implemented a comprehensive LinkedIn marketing and content strategy focused on establishing Roberto as the go-to business coach for Hispanic entrepreneurs, with valuable content and thought leadership in the Hispanic business community."
-testimonial:
+userReview:
   name: "Roberto Silva"
-  role: "Business Coach & Consultant"
-  quote: "Fascinante Digital helped me become the #1 business coach for Hispanic entrepreneurs in South Florida. My client base increased by 400% and I'm now recognized as a thought leader in the Hispanic business community."
+  image: "/images/avatar/avatar-alexander-oviedo.webp"
+  reviewContent: "Fascinante Digital helped me become the #1 business coach for Hispanic entrepreneurs in South Florida. My client base increased by 400% and I'm now recognized as a thought leader in the Hispanic business community."
+  userRole: "Business Coach & Consultant"
+thumbnail: "/images/case-study/roberto-silva-business-coach.jpg"
 image: "/images/case-study/roberto-silva-business-coach.jpg"
 featured: false
+before:
+  - "3-4 coaching clients per month"
+  - "Minimal online presence"
+  - "No LinkedIn strategy"
+  - "Limited reach to Hispanic entrepreneurs"
+after:
+  - "15-18 coaching clients per month"
+  - "Strong LinkedIn presence"
+  - "Top 1% LinkedIn creator"
+  - "Established authority in community"
+keyFeatures:
+  - "LinkedIn profile optimization"
+  - "Content marketing strategy"
+  - "Thought leadership development"
+  - "Community building"
+  - "Authority establishment"
 ---
 
 # Roberto Silva Business Coach: 400% Increase in Coaching Clients

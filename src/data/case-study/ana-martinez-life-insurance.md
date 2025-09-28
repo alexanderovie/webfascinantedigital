@@ -14,12 +14,30 @@ results:
   - "Top 3 rankings for 20+ life insurance keywords"
 challenge: "Ana was struggling to establish authority in the competitive life insurance market. Her website had minimal traffic, and she was competing against large insurance companies with massive marketing budgets and established online presence."
 solution: "We implemented a comprehensive content marketing and SEO strategy focused on educating Hispanic families about life insurance, building trust through valuable content, and establishing Ana as the go-to expert for Hispanic life insurance needs."
-testimonial:
+userReview:
   name: "Ana Martínez"
-  role: "Life Insurance Agent"
-  quote: "Fascinante Digital helped me become the trusted life insurance expert for Hispanic families in Orlando. My leads increased by 450% and I'm now the #1 agent for Hispanic life insurance in the area."
+  image: "/images/avatar/avatar-alexander-oviedo.webp"
+  reviewContent: "Fascinante Digital helped me become the trusted life insurance expert for Hispanic families in Orlando. My leads increased by 450% and I'm now the #1 agent for Hispanic life insurance in the area."
+  userRole: "Life Insurance Agent"
+thumbnail: "/images/case-study/ana-martinez-life-insurance.jpg"
 image: "/images/case-study/ana-martinez-life-insurance.jpg"
 featured: false
+before:
+  - "Less than 100 visitors per month"
+  - "No online authority"
+  - "Competing with large companies"
+  - "Limited digital marketing knowledge"
+after:
+  - "18-20 qualified leads per month"
+  - "Top 3 rankings for 20+ keywords"
+  - "Established authority in community"
+  - "Strong digital presence"
+keyFeatures:
+  - "Educational content marketing"
+  - "SEO strategy for authority building"
+  - "Bilingual content creation"
+  - "Local SEO optimization"
+  - "Community involvement strategy"
 ---
 
 # Ana Martínez Life Insurance: 450% Increase in Qualified Leads

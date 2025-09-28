@@ -14,12 +14,30 @@ results:
   - "120% increase in policy sales"
 challenge: "Carlos was spending heavily on traditional advertising with minimal results. His Google Ads campaigns were not effectively reaching the Hispanic community, and his cost per lead was too high to maintain profitability."
 solution: "We redesigned his Google Ads strategy with culturally relevant messaging, Spanish-language campaigns, and targeted keywords that Hispanic families actually search for when looking for health insurance."
-testimonial:
+userReview:
   name: "Carlos Rodríguez"
-  role: "Health Insurance Agent"
-  quote: "Fascinante Digital's approach to Google Ads for the Hispanic market is incredible. My cost per lead dropped by 60% while my qualified appointments tripled. They understand our community like no other agency."
+  image: "/images/avatar/avatar-alexander-oviedo.webp"
+  reviewContent: "Fascinante Digital's approach to Google Ads for the Hispanic market is incredible. My cost per lead dropped by 60% while my qualified appointments tripled. They understand our community like no other agency."
+  userRole: "Health Insurance Agent"
+thumbnail: "/images/case-study/carlos-rodriguez-health-insurance.jpg"
 image: "/images/case-study/carlos-rodriguez-health-insurance.jpg"
 featured: false
+before:
+  - "$150+ cost per lead"
+  - "Generic English-only ads"
+  - "2-3% conversion rates"
+  - "Limited Hispanic market reach"
+after:
+  - "$60 cost per lead (60% reduction)"
+  - "Culturally relevant Spanish campaigns"
+  - "8-10% conversion rates"
+  - "Strong Hispanic market presence"
+keyFeatures:
+  - "Spanish-language Google Ads campaigns"
+  - "Cultural messaging strategy"
+  - "Long-tail keyword targeting"
+  - "Bilingual landing pages"
+  - "Geographic targeting optimization"
 ---
 
 # Carlos Rodríguez Health Insurance: 300% ROI with Targeted Google Ads

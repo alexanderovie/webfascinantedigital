@@ -14,12 +14,30 @@ results:
   - "180% increase in Google Business Profile views"
 challenge: "María was struggling to compete with established real estate agencies in West Palm Beach. Her website was not ranking for local searches, and she was losing potential clients to competitors with stronger online presence."
 solution: "We implemented a comprehensive local SEO strategy including Google Business Profile optimization, local keyword targeting, and content marketing focused on the Hispanic community in West Palm Beach."
-testimonial:
+userReview:
   name: "María González"
-  role: "Real Estate Agent"
-  quote: "Fascinante Digital transformed my business completely. I went from getting 2-3 leads per month to 15-20 qualified leads. Now I'm the #1 real estate agent for Hispanic clients in West Palm Beach!"
+  image: "/images/avatar/avatar-alexander-oviedo.webp"
+  reviewContent: "Fascinante Digital transformed my business completely. I went from getting 2-3 leads per month to 15-20 qualified leads. Now I'm the #1 real estate agent for Hispanic clients in West Palm Beach!"
+  userRole: "Real Estate Agent"
+thumbnail: "/images/case-study/maria-gonzalez-real-estate.jpg"
 image: "/images/case-study/maria-gonzalez-real-estate.jpg"
 featured: true
+before:
+  - "2-3 leads per month"
+  - "Page 3+ rankings"
+  - "Incomplete Google Business Profile"
+  - "No local directory presence"
+after:
+  - "15-20 qualified leads per month"
+  - "#1 ranking for main keywords"
+  - "Optimized Google Business Profile"
+  - "Complete local directory presence"
+keyFeatures:
+  - "Google Business Profile optimization"
+  - "Local SEO strategy"
+  - "Bilingual content marketing"
+  - "Local directory submissions"
+  - "Schema markup implementation"
 ---
 
 # María González Real Estate: From Page 3 to #1 in Local Search

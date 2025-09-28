@@ -14,12 +14,30 @@ results:
   - "Ranked #1 for 'house cleaning Tampa Hispanic'"
 challenge: "Limpieza Total was relying heavily on word-of-mouth referrals and had minimal online presence. They were missing out on the growing number of Hispanic families who search for cleaning services online, and their competitors were dominating local search results."
 solution: "We implemented a comprehensive local SEO strategy including Google Business Profile optimization, local directory listings, and content marketing focused on the Hispanic community's cleaning service needs."
-testimonial:
+userReview:
   name: "Roberto Silva"
-  role: "Owner, Limpieza Total"
-  quote: "Fascinante Digital transformed our business from word-of-mouth to digital dominance. We went from 5-6 bookings per month to 30+ online bookings. Now we're the #1 cleaning service for Hispanic families in Tampa!"
+  image: "/images/avatar/avatar-alexander-oviedo.webp"
+  reviewContent: "Fascinante Digital transformed our business from word-of-mouth to digital dominance. We went from 5-6 bookings per month to 30+ online bookings. Now we're the #1 cleaning service for Hispanic families in Tampa!"
+  userRole: "Owner, Limpieza Total"
+thumbnail: "/images/case-study/limpieza-total-home-cleaning.jpg"
 image: "/images/case-study/limpieza-total-home-cleaning.jpg"
 featured: false
+before:
+  - "5-6 bookings per month"
+  - "Minimal online presence"
+  - "No Google Business Profile"
+  - "Word-of-mouth only referrals"
+after:
+  - "30+ online bookings per month"
+  - "Strong digital presence"
+  - "Optimized Google Business Profile"
+  - "Online booking system"
+keyFeatures:
+  - "Google Business Profile optimization"
+  - "Local SEO strategy"
+  - "Online booking system"
+  - "Bilingual content marketing"
+  - "Local directory listings"
 ---
 
 # Limpieza Total: 500% Increase in Online Bookings
