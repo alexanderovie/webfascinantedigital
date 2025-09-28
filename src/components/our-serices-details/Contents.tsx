@@ -27,7 +27,7 @@ const Contents = ({ slug }: { slug: string }) => {
           </div>
 
           {/* Table of Contents */}
-          <div>
+          <div className="lg:flex-shrink-0 lg:w-[449px]">
             <TableOfContent markdownContent={service.content} />
           </div>
         </div>

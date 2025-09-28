@@ -38,7 +38,7 @@ const TableOfContent = ({ markdownContent }: TableOfContentProps) => {
     [lenis],
   );
   return (
-    <div className="table-of-contents lg:max-w-[449px] w-full lg:block lg:sticky lg:top-20 hidden">
+    <div className="table-of-contents lg:max-w-[449px] w-full lg:block lg:sticky lg:top-24 hidden">
       <RevealAnimation delay={0.3}>
         <div className="p-11 rounded-[20px] bg-background-1 dark:bg-background-6 space-y-4 w-full">
           <h3 className="text-heading-5">Table of Contents</h3>
