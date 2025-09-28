@@ -27,7 +27,7 @@ const BlogShowcase = ({ category }: BlogShowcaseProps) => {
                 </>
               ) : (
                 <>
-                  Our recent <span className="text-primary-500 inline-block">news &amp; insights</span>
+                  Our Recent <span className="text-primary-500 inline-block">News &amp; Insights</span>
                 </>
               )}
             </h2>
