@@ -19,7 +19,7 @@ Our platform uses **product-focused optimization and AI strategies** to ensure t
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Product page optimization** – Optimize individual product listings for search
 - **Category page SEO** – Improve visibility for product categories
@@ -30,7 +30,7 @@ Our platform uses **product-focused optimization and AI strategies** to ensure t
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Online stores** – Product visibility and organic sales growth
 - **Marketplace sellers** – Amazon, eBay, and other platform optimization

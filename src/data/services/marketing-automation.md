@@ -30,7 +30,7 @@ Our platform uses **real-time data and AI-driven workflows** to ensure that your
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Automate abandoned cart emails and post-purchase follow-ups.
 - **B2B SaaS** – Nurture leads with drip campaigns and onboarding sequences.

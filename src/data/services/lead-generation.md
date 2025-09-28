@@ -19,7 +19,7 @@ Our platform uses **comprehensive lead generation strategies and AI optimization
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Lead magnet creation** – eBooks, whitepapers, and valuable content offers
 - **Landing page optimization** – High-converting lead capture pages
@@ -30,7 +30,7 @@ Our platform uses **comprehensive lead generation strategies and AI optimization
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B companies** – Generate qualified leads for sales teams
 - **Professional services** – Attract potential clients and consultations

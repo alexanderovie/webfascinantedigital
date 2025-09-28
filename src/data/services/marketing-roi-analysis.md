@@ -19,7 +19,7 @@ Our platform uses **comprehensive ROI analysis and AI insights** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **ROI measurement** – Track return on investment across all marketing channels
 - **Attribution analysis** – Understand customer journey and campaign attribution
@@ -30,7 +30,7 @@ Our platform uses **comprehensive ROI analysis and AI insights** to ensure that 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Multi-channel marketing** – Measure ROI across all marketing channels
 - **Campaign optimization** – Optimize individual campaigns for maximum ROI

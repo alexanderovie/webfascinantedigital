@@ -19,7 +19,7 @@ Our platform uses **real-time data and AI-driven workflows** to ensure that your
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Automated email campaigns** – Welcome series, nurture sequences, and re-engagement
 - **Segmentation & personalization** – Targeted messages based on behavior and demographics
@@ -30,7 +30,7 @@ Our platform uses **real-time data and AI-driven workflows** to ensure that your
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Abandoned cart recovery and product recommendations
 - **B2B SaaS** – Lead nurturing and customer onboarding

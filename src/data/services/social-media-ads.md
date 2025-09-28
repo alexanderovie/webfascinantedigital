@@ -19,7 +19,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Campaign strategy** – Facebook, Instagram, LinkedIn, and Twitter ads
 - **Audience targeting** – Precise demographic and interest targeting
@@ -30,7 +30,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Product promotion and sales campaigns
 - **Lead generation** – B2B and B2C lead acquisition

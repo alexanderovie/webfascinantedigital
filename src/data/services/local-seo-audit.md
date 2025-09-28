@@ -19,7 +19,7 @@ Our platform uses **comprehensive analysis and AI insights** to ensure that your
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Google Business Profile audit** – Complete analysis of your business listing
 - **Local citation analysis** – Review of directory listings and NAP consistency
@@ -30,7 +30,7 @@ Our platform uses **comprehensive analysis and AI insights** to ensure that your
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Local businesses** – Restaurants, retail stores, and service providers
 - **Professional services** – Law firms, medical practices, and consultants

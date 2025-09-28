@@ -19,7 +19,7 @@ Our platform uses **data-driven planning and AI insights** to ensure that your c
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Content audit and analysis** – Review existing content and identify gaps
 - **Audience research** – Understand your target audience and their needs
@@ -30,7 +30,7 @@ Our platform uses **data-driven planning and AI insights** to ensure that your c
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B companies** – Thought leadership and lead generation content
 - **E-commerce** – Product education and buying guide content

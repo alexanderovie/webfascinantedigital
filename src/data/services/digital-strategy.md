@@ -19,7 +19,7 @@ Our platform uses **comprehensive digital analysis and AI insights** to ensure t
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Digital audit** – Comprehensive analysis of your current digital presence
 - **Strategy development** – Align digital efforts with business objectives
@@ -30,7 +30,7 @@ Our platform uses **comprehensive digital analysis and AI insights** to ensure t
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Digital transformation** – Modernize and optimize digital operations
 - **Multi-channel marketing** – Coordinate efforts across all digital platforms

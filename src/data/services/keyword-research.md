@@ -19,7 +19,7 @@ Our platform uses **comprehensive keyword analysis and AI insights** to ensure t
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Primary keyword identification** – High-volume, high-intent keywords
 - **Long-tail keyword research** – Specific, less competitive terms
@@ -30,7 +30,7 @@ Our platform uses **comprehensive keyword analysis and AI insights** to ensure t
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Content marketing** – Blog posts and article optimization
 - **E-commerce** – Product page and category optimization

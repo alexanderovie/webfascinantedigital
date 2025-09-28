@@ -19,7 +19,7 @@ Our platform uses **comprehensive tag management and AI optimization** to ensure
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Tag Manager setup** – Complete GTM container configuration
 - **Tag deployment** – Google Analytics, Facebook Pixel, and custom tracking
@@ -30,7 +30,7 @@ Our platform uses **comprehensive tag management and AI optimization** to ensure
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Track purchases, cart events, and customer behavior
 - **Lead generation** – Monitor form submissions and conversion events

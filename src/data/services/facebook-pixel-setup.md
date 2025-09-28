@@ -19,7 +19,7 @@ Our platform uses **comprehensive pixel implementation and AI optimization** to 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Pixel installation** – Complete Facebook Pixel setup and configuration
 - **Event tracking** – Purchase, lead, and custom event tracking
@@ -30,7 +30,7 @@ Our platform uses **comprehensive pixel implementation and AI optimization** to 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Track purchases and optimize for sales
 - **Lead generation** – Monitor form submissions and optimize for leads

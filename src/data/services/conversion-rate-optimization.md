@@ -19,7 +19,7 @@ Our platform uses **data-driven analysis and AI optimization** to ensure that yo
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Website analysis** – User behavior tracking and heatmap analysis
 - **A/B testing** – Test different versions of pages and elements
@@ -30,7 +30,7 @@ Our platform uses **data-driven analysis and AI optimization** to ensure that yo
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Shopping cart optimization and checkout flow improvement
 - **Lead generation** – Form optimization and landing page enhancement

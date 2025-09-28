@@ -19,7 +19,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Campaign setup** – Google Ads, Facebook, LinkedIn, and Bing campaigns
 - **Keyword research** – High-intent keywords and negative keyword lists
@@ -30,7 +30,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Product promotion and sales campaigns
 - **Lead generation** – B2B and B2C lead acquisition

@@ -19,7 +19,7 @@ Our platform uses **comprehensive market research and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Competitor identification** – Identify direct and indirect competitors
 - **Market positioning analysis** – Understand competitive landscape
@@ -30,7 +30,7 @@ Our platform uses **comprehensive market research and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B companies** – Market positioning and competitive intelligence
 - **E-commerce** – Product positioning and pricing strategies

@@ -19,7 +19,7 @@ Our platform uses **comprehensive brand strategy and AI insights** to ensure tha
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Brand strategy development** – Define your brand purpose, values, and positioning
 - **Visual identity design** – Logo, colors, typography, and brand guidelines
@@ -30,7 +30,7 @@ Our platform uses **comprehensive brand strategy and AI insights** to ensure tha
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Startups** – Build brand identity from the ground up
 - **Rebranding** – Refresh existing brand for new markets or positioning

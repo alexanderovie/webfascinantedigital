@@ -19,7 +19,7 @@ Our platform uses **comprehensive market analysis and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Marketing strategy development** – Comprehensive strategy and roadmap
 - **Campaign optimization** – Improve existing campaigns and performance
@@ -30,7 +30,7 @@ Our platform uses **comprehensive market analysis and AI insights** to ensure th
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Startups** – Build marketing foundation and growth strategy
 - **Established businesses** – Optimize existing marketing efforts

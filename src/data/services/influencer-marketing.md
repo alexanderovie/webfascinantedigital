@@ -19,7 +19,7 @@ Our platform uses **comprehensive influencer research and AI matching** to ensur
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Influencer identification** – Find relevant influencers in your industry
 - **Campaign management** – End-to-end influencer campaign coordination
@@ -30,7 +30,7 @@ Our platform uses **comprehensive influencer research and AI matching** to ensur
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Product launches** – Generate buzz and awareness for new products
 - **Brand awareness** – Reach new audiences and build credibility

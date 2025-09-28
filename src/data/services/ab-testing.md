@@ -19,7 +19,7 @@ Our platform uses **comprehensive testing strategies and AI analysis** to ensure
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Test planning** – Design and prioritize A/B tests for maximum impact
 - **Test implementation** – Set up and configure tests across all platforms
@@ -30,7 +30,7 @@ Our platform uses **comprehensive testing strategies and AI analysis** to ensure
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Landing pages** – Test headlines, CTAs, and page layouts
 - **Email campaigns** – Test subject lines, content, and send times

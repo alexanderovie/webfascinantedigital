@@ -19,7 +19,7 @@ Our platform uses **comprehensive tracking implementation and AI insights** to e
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Google Analytics setup** – Complete configuration and goal tracking
 - **Google Tag Manager** – Centralized tag management and tracking
@@ -30,7 +30,7 @@ Our platform uses **comprehensive tracking implementation and AI insights** to e
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Track sales, cart abandonment, and customer behavior
 - **Lead generation** – Monitor form submissions and conversion funnels

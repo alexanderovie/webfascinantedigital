@@ -19,7 +19,7 @@ Our platform uses **comprehensive performance analysis and AI optimization** to 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Campaign optimization** – Optimize for conversions and ROI across all channels
 - **Attribution modeling** – Track customer journey and campaign attribution
@@ -30,7 +30,7 @@ Our platform uses **comprehensive performance analysis and AI optimization** to 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce** – Drive sales and optimize for revenue
 - **Lead generation** – Generate qualified leads at optimal cost

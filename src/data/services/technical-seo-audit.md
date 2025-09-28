@@ -19,7 +19,7 @@ Our platform uses **comprehensive technical analysis and AI insights** to ensure
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Site speed analysis** – Page load times and performance optimization
 - **Mobile optimization audit** – Responsive design and mobile usability
@@ -30,7 +30,7 @@ Our platform uses **comprehensive technical analysis and AI insights** to ensure
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce websites** – Online stores and marketplaces
 - **Corporate websites** – Business and professional sites

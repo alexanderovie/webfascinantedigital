@@ -19,7 +19,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Content strategy** – Blog posts, articles, and thought leadership content
 - **SEO-optimized writing** – Content that ranks and drives organic traffic
@@ -30,7 +30,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B companies** – Thought leadership and lead generation
 - **E-commerce** – Product descriptions and buying guides

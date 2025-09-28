@@ -19,7 +19,7 @@ Our platform uses **comprehensive funnel analysis and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Funnel mapping** – Design complete buyer journey and touchpoints
 - **Conversion optimization** – Improve each stage of the sales process
@@ -30,7 +30,7 @@ Our platform uses **comprehensive funnel analysis and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B sales** – Complex sales processes and long sales cycles
 - **E-commerce** – Shopping cart optimization and checkout funnels

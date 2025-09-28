@@ -19,7 +19,7 @@ Our platform uses **comprehensive integration solutions and AI automation** to e
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Data synchronization** – Sync contacts, leads, and customer data
 - **Workflow automation** – Automated lead scoring and follow-up sequences
@@ -30,7 +30,7 @@ Our platform uses **comprehensive integration solutions and AI automation** to e
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Sales teams** – Streamline lead management and follow-up processes
 - **Marketing teams** – Automate lead nurturing and campaign management

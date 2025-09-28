@@ -19,7 +19,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Complete profile setup** – Optimize all business information and categories.
 - **Professional photos** – Upload high-quality images and virtual tours.
@@ -30,7 +30,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Local businesses** – Restaurants, retail stores, and service providers.
 - **Professional services** – Law firms, medical practices, and consultants.

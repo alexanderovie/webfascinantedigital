@@ -19,7 +19,7 @@ Our platform uses **modern technologies and best practices** to ensure that your
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Custom web design** – Modern, responsive, and user-friendly
 - **Frontend development** – React, Next.js, and modern frameworks
@@ -30,7 +30,7 @@ Our platform uses **modern technologies and best practices** to ensure that your
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Business websites** – Corporate and professional sites
 - **E-commerce platforms** – Online stores and marketplaces

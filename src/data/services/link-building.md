@@ -19,7 +19,7 @@ Our platform uses **comprehensive outreach strategies and AI optimization** to e
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Link opportunity identification** – Find relevant websites for link building
 - **Outreach campaign management** – Professional email templates and follow-ups
@@ -30,7 +30,7 @@ Our platform uses **comprehensive outreach strategies and AI optimization** to e
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Content marketing** – Guest posting and resource page links
 - **E-commerce** – Product reviews and industry partnerships

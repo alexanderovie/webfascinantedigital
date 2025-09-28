@@ -19,7 +19,7 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Custom landing page design** – Professional, mobile-responsive layouts
 - **Conversion optimization** – Strategic placement of CTAs and forms
@@ -30,7 +30,7 @@ Our platform uses **conversion-focused design and AI optimization** to ensure th
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Lead generation** – Capture qualified leads for your business
 - **Product launches** – Promote new products and services

@@ -19,7 +19,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Website speed** optimization and performance analysis
 - **Mobile optimization** and responsive design fixes
@@ -30,7 +30,7 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **E-commerce websites** – Online stores and marketplaces
 - **Corporate websites** – Business and professional sites

@@ -19,7 +19,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Content creation** – Posts, stories, and engaging visual content
 - **Platform management** – Facebook, Instagram, LinkedIn, Twitter, and TikTok
@@ -30,7 +30,7 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **B2B companies** – Professional networking and thought leadership
 - **E-commerce** – Product showcases and customer testimonials

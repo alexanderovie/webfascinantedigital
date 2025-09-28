@@ -19,7 +19,7 @@ Our platform uses **comprehensive growth analysis and AI experimentation** to en
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Growth strategy development** – Identify and prioritize growth opportunities
 - **Rapid experimentation** – Test and validate growth hypotheses quickly
@@ -30,7 +30,7 @@ Our platform uses **comprehensive growth analysis and AI experimentation** to en
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Startups** – Rapid user acquisition and market validation
 - **SaaS platforms** – User growth and product-market fit

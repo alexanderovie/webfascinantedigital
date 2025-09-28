@@ -19,7 +19,7 @@ Our platform uses **professional video production and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-1.png)
 
-### What's included
+### What's Included
 
 - **Video content creation** – Professional production and editing
 - **Multi-platform optimization** – YouTube, Facebook, Instagram, and LinkedIn
@@ -30,7 +30,7 @@ Our platform uses **professional video production and AI optimization** to ensur
 
 ![Service images](/images/services/service-details-2.png)
 
-### Use cases
+### Use Cases
 
 - **Product demonstrations** – Showcase products and services
 - **Educational content** – Tutorials, how-to videos, and training
