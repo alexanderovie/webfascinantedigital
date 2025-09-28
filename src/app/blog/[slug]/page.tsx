@@ -74,7 +74,12 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero title={categoryTitle} heading="Blog" />
+        <PageHero 
+          title={categoryTitle} 
+          heading="Blog"
+          badge={formatCategory(blogContent.data.tag)}
+          badgeClass="badge-blue-soft"
+        />
         <BlogContent blog={blogContent} />
         <CTAV1
           className="dark:bg-background-7 bg-white"
