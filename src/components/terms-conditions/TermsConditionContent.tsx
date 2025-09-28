@@ -7,7 +7,7 @@ const TermsConditionContent = () => {
       <div className="main-container">
         <RevealAnimation delay={0.3}>
           <div className="space-y-3">
-            <h2>Terms &amp; conditions</h2>
+            <h2>Terms &amp; Conditions</h2>
             <div className="space-y-7">
               <p>
                 This site, fascinantedigital.com (hereafter referred to as Fascinante Digital, site, or website) is owned and operated by
@@ -28,7 +28,7 @@ const TermsConditionContent = () => {
         <article className="terms-conditions-body">
           <RevealAnimation delay={0.4}>
             <div className="space-y-6">
-              <h3>1. Limitation of liability</h3>
+              <h3>1. Limitation Of Liability</h3>
               <p>
                 Under no circumstances shall Fascinante Digital be liable for any direct, indirect, incidental, special, or
                 consequential damages, including but not limited to loss of data, profits, or business interruption,
@@ -43,7 +43,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.5}>
             <div className="space-y-6">
-              <h3>2. Service agreements</h3>
+              <h3>2. Service Agreements</h3>
               <p>
                 Fascinante Digital services are provided under a service agreement that outlines the scope of work,
                 deliverables, timelines, and payment terms. Each service package includes ongoing support and strategy
@@ -58,7 +58,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.6}>
             <div className="space-y-6">
-              <h3>3. Intellectual property and ownership</h3>
+              <h3>3. Intellectual Property And Ownership</h3>
               <p>
                 All Fascinante Digital marketing strategies, methodologies, reports, and materials remain the intellectual property of Fascinante Digital
                 LLC. You may not claim ownership of our proprietary marketing approaches, whether modified or unmodified.
@@ -78,7 +78,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <div className="space-y-6">
-              <h3>4. Refund policy</h3>
+              <h3>4. Refund Policy</h3>
               <p>
                 We believe you&apos;ll love our digital marketing services! Still, if you&apos;re not satisfied, we offer a 14-day
                 no-questions-asked refund policy for new clients. Simply contact our support team within 14 days of your original
@@ -96,7 +96,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.5}>
             <div className="space-y-6">
-              <h3>5. Service warranty</h3>
+              <h3>5. Service Warranty</h3>
               <p>
                 Fascinante Digital services are provided without any warranty, either expressed or implied. We do not guarantee
                 specific results, rankings, or performance metrics. Digital marketing results depend on various factors including
@@ -107,7 +107,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.6}>
             <div className="space-y-6">
-              <h3>6. Service termination and suspension</h3>
+              <h3>6. Service Termination And Suspension</h3>
               <p>
                 Fascinante Digital reserves the right to suspend or terminate any service agreement without prior notice for reasons
                 including but not limited to
@@ -123,7 +123,7 @@ const TermsConditionContent = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <div className="space-y-6">
-              <h3>7. Privacy policy</h3>
+              <h3>7. Privacy Policy</h3>
               <p>
                 We value your privacy. Fascinante Digital does not sell, rent, or share your personal information with third
                 parties. Your data is used solely for purposes such as
