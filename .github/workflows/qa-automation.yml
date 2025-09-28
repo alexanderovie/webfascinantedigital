@@ -17,24 +17,29 @@ jobs:
     - name: 📥 Checkout code
       uses: actions/checkout@v4
       
+    - name: 📦 Setup pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 8
+        
     - name: 📦 Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        cache: 'npm'
+        cache: 'pnpm'
         
     - name: 📦 Install dependencies
-      run: npm ci
+      run: pnpm install --frozen-lockfile
       
     - name: 📦 Install Lighthouse globally
-      run: npm install -g lighthouse
+      run: pnpm add -g lighthouse
       
     - name: 🏗️ Build project
-      run: npm run build
+      run: pnpm build
       
     - name: 🚀 Start application
       run: |
-        npm start &
+        pnpm start &
         sleep 30
       env:
         NODE_ENV: production
@@ -44,7 +49,7 @@ jobs:
         # Create reports directory
         mkdir -p reports
         # Run QA automation
-        npm run qa:full
+        pnpm run qa:full
       
     - name: 📊 Upload QA Reports
       uses: actions/upload-artifact@v4
