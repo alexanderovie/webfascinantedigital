@@ -1,6 +1,7 @@
 'use client';
 import { IBlogPost } from '@/interface';
 import { formatCategory } from '@/utils/formatCategory';
+import BLOG_CONFIG from '@/config/blog';
 import Image from 'next/image';
 import Link from 'next/link';
 import 'swiper/css';
@@ -41,12 +42,12 @@ const FeaturedBlogSwiper = ({ featuredBlogs }: FeaturedBlogSwiperProps) => {
                 <article className="scale-100 hover:scale-[99%] bg-background-1 dark:bg-background-5 rounded-[20px] overflow-hidden transition-transform duration-500 hover:transition-transform hover:duration-500">
                   <figure className="w-full max-h-[550px] rounded-[20px] overflow-hidden">
                     <Image
-                      src={blog.thumbnail}
-                      alt={blog.title}
+                      src={blog.thumbnail || BLOG_CONFIG.DEFAULT_THUMBNAIL}
+                      alt={blog.title || BLOG_CONFIG.DEFAULT_ALT_TEXT}
                       className="w-full h-full object-cover"
                       loading="lazy"
-                      width={800}
-                      height={550}
+                      width={BLOG_CONFIG.FEATURED_IMAGE_DIMENSIONS.width}
+                      height={BLOG_CONFIG.FEATURED_IMAGE_DIMENSIONS.height}
                     />
                   </figure>
                   <div className="p-4 md:p-6 lg:p-8 space-y-4 rounded-b-[20px]">

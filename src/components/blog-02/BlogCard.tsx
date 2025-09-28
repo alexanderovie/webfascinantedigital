@@ -1,21 +1,25 @@
 import { IBlogPost } from '@/interface';
 import { formatCategory } from '@/utils/formatCategory';
+import BLOG_CONFIG from '@/config/blog';
 import Image from 'next/image';
 import Link from 'next/link';
 import LinkButton from '../ui/button/LinkButton';
 
 export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
+  // Default image fallback for articles without specific images
+  const imageSrc = blog.thumbnail || BLOG_CONFIG.DEFAULT_THUMBNAIL;
+  
   return (
     <article className="group">
       <div className="bg-background-1 dark:bg-background-5 rounded-[20px] overflow-hidden relative scale-100 hover:scale-[102%] transition-transform duration-500 hover:transition-transform hover:duration-500">
         <figure className="xl:h-[310px] h-[250px] rounded-b-[20px] overflow-hidden max-w-full">
           <Image
-            src={blog.thumbnail}
-            alt="Illustration representing electronic prescription in finance sector"
+            src={imageSrc}
+            alt={blog.title || BLOG_CONFIG.DEFAULT_ALT_TEXT}
             loading="lazy"
             className="w-full h-full object-cover object-center"
-            width={310}
-            height={310}
+            width={BLOG_CONFIG.IMAGE_DIMENSIONS.width}
+            height={BLOG_CONFIG.IMAGE_DIMENSIONS.height}
           />
         </figure>
         <div className="p-4 md:p-6 lg:p-8 space-y-4 rounded-b-[20px]">
