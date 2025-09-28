@@ -3,7 +3,7 @@ All the varaiables are added here
 =========================== */
 @theme {
   /* =============== FONTS =============== */
-  --font-inter-tight: 'Inter Tight', sans-serif;
+  --font-geist-sans: 'Geist Sans', ui-sans-serif, system-ui, sans-serif;
   /* =============== COLORS =============== */
   --color-primary-50: #f0f4ff;
   --color-primary-100: #e0e9ff;

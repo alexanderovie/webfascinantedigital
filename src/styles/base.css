@@ -8,7 +8,8 @@ Font base styles
   h4,
   h5,
   h6 {
-    @apply font-inter-tight text-secondary dark:text-accent;
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    @apply text-secondary dark:text-accent;
   }
 
   h1 {
