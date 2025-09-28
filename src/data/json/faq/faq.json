@@ -1,22 +1,32 @@
 [
   {
     "id": 1,
-    "question": "What is the primary role of a business agency?",
-    "answer": "A business agency helps companies grow by offering strategic services like branding, digital marketing, business consulting, and customer experience optimization. Their goal is to improve performance and scalability."
+    "question": "What makes Fascinante Digital different from other marketing agencies?",
+    "answer": "Fascinante Digital specializes in helping Hispanic businesses dominate Google search results and grow their revenue. We combine proven SEO strategies, Google Ads optimization, and marketing automation to deliver measurable results for Latino-owned businesses in the USA."
   },
   {
     "id": 2,
-    "question": "What kinds of services should I anticipate from a business agency?",
-    "answer": "Typical services include market research, brand strategy, SEO and content marketing, web development, paid advertising, and ongoing performance analytics to track growth and ROI."
+    "question": "What digital marketing services does Fascinante Digital offer?",
+    "answer": "We provide comprehensive digital marketing services including Local SEO, Technical SEO, Google Business Profile optimization, Google Ads management, web design & development, marketing automation, social media advertising, content marketing, and conversion rate optimization."
   },
   {
     "id": 3,
-    "question": "How often should I consider updating my website?",
-    "answer": "A website should be reviewed every 6–12 months for performance, design trends, SEO updates, and new technology. Major updates are recommended at least every 2–3 years to stay competitive."
+    "question": "How long does it take to see results from SEO?",
+    "answer": "SEO results typically start showing within 3-6 months, with significant improvements in 6-12 months. However, our clients often see initial improvements in local search rankings within 30-60 days. We provide monthly reports to track progress and ROI."
   },
   {
     "id": 4,
-    "question": "Why is digital marketing essential for modern businesses?",
-    "answer": "Digital marketing allows businesses to reach targeted audiences, build brand awareness, and drive conversions through channels like social media, email marketing, SEO, and PPC."
+    "question": "Do you work with businesses outside the Hispanic market?",
+    "answer": "While we specialize in helping Hispanic businesses, we work with all businesses that want to reach Latino audiences or improve their digital marketing. Our strategies are effective for any business looking to dominate local search results and grow their revenue."
+  },
+  {
+    "id": 5,
+    "question": "What is your pricing structure for digital marketing services?",
+    "answer": "Our pricing is customized based on your business needs, goals, and budget. We offer flexible packages for Local SEO, Google Ads management, web development, and marketing automation. Contact us for a free consultation and customized quote."
+  },
+  {
+    "id": 6,
+    "question": "Do you provide monthly reports and analytics?",
+    "answer": "Yes, we provide detailed monthly reports showing your website traffic, search rankings, Google Ads performance, lead generation, and ROI. Our analytics help you understand exactly how your digital marketing investment is growing your business."
   }
 ]
