@@ -5,6 +5,7 @@ import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import getMarkDownContent from '@/utils/getMarkDownContent';
 import getMarkDownData from '@/utils/getMarkDownData';
+import { formatCategory } from '@/utils/formatCategory';
 import { Metadata } from 'next';
 
 export async function generateStaticParams() {
@@ -25,6 +26,7 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
   const slug = (await params).slug;
 
   const blogContent = getMarkDownContent('src/data/blogs/', slug);
+  const categoryTitle = formatCategory(blogContent.data.tag) + ' Articles';
 
   return (
     <>
@@ -33,7 +35,7 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
         btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero title="Our Blog" heading="Blog" />
+        <PageHero title={categoryTitle} heading="Blog" />
         <BlogContent blog={blogContent} />
         <CTAV1
           className="dark:bg-background-7 bg-white"

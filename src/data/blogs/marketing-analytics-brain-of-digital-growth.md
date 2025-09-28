@@ -362,7 +362,7 @@ Our data-driven approach has helped clients achieve 450% average ROI improvement
 
 **What our clients say:**
 
-*"Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves."* - María González, West Palm Beach Restaurant
+*"Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves."* - Carlos González, West Palm Beach Restaurant
 
 ### Get Your Free Analytics Audit
 

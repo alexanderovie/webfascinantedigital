@@ -119,12 +119,12 @@ Common Styles all over the sites
   
   /* Espaciado para elementos strong y em */
   strong, em {
-    @apply mt-6 lg:mt-8 block;
+    @apply mt-6 lg:mt-8 block mb-2;
   }
   
   /* Espaciado para elementos que contienen texto importante */
   p strong, p em {
-    @apply mt-6 lg:mt-8 block;
+    @apply mt-6 lg:mt-8 block mb-2;
   }
   img {
     @apply mt-10 rounded-lg md:mt-[70px] md:rounded-4xl;

@@ -32,7 +32,7 @@ const Reviews = () => {
               We&apos;re building a marketing agency that scales with you, adapts to your needs, and grows with your business.
             </p>
             <strong className="text-lg leading-[1.5] font-medium dark:text-accent">
-              María González, CEO &amp; Founder
+              Carlos González, CEO &amp; Founder
             </strong>
           </div>
         </RevealAnimation>

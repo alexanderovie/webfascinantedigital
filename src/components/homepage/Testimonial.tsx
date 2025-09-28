@@ -24,7 +24,7 @@ interface TestimonialCard {
 const testimonialCards: TestimonialCard[] = [
   {
     id: 1,
-    name: 'María González',
+    name: 'Carlos González',
     company: 'West Palm Beach Restaurant',
     avatar: '/images/home-page-33/avatar-4.webp',
     testimonial:
@@ -42,7 +42,7 @@ const testimonialCards: TestimonialCard[] = [
   },
   {
     id: 3,
-    name: 'Patricia López',
+    name: 'Miguel López',
     company: 'West Palm Beach Dental Practice',
     avatar: '/images/home-page-33/avatar-6.webp',
     testimonial:

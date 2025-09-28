@@ -388,7 +388,7 @@ Our proven approach has helped clients achieve 450% average ROI and dominate the
 
 **What our clients say:**
 
-*"Our SEO optimization with Fascinante Digital has been incredible. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. Highly recommend!"* - Patricia López, West Palm Beach Dental Practice
+*"Our SEO optimization with Fascinante Digital has been incredible. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. Highly recommend!"* - Miguel López, West Palm Beach Dental Practice
 
 ### Get Your Free Advertising Strategy Consultation
 

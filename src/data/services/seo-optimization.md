@@ -5,7 +5,7 @@ icon: 'ns-shape-18'
 image: '/images/home-page-1/services-seo-optimization.svg'
 coverImg: '/images/services/service-seo-optimization-cover.png'
 userReview:
-  name: 'Patricia López'
+  name: 'Miguel López'
   image: '/images/home-page-33/avatar-4.webp'
   reviewContent: 'Our SEO optimization with Fascinante Digital has been incredible. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves.'
   userRole: 'Owner, West Palm Beach Dental Practice'
