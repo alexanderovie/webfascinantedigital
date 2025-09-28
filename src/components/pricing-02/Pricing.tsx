@@ -16,10 +16,10 @@ const Pricing = () => {
       <div className="main-container flex flex-col gap-[70px]">
         <div className="flex flex-col items-center text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-v2 mb-5"> Our Pricing </span>
+            <span className="badge badge-yellow-modern mb-5"> Our Pricing </span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2 className="max-w-[650px] mx-auto mb-8">Select the pricing plan that best suits your needs.</h2>
+            <h2 className="max-w-[650px] mx-auto mb-8">Select the pricing plan that best suits your digital marketing needs.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <div className="relative z-0">
@@ -49,8 +49,8 @@ const Pricing = () => {
             {/* Price Card 1 */}
             <RevealAnimation delay={0.3} instant>
               <div className="bg-background-3 dark:bg-background-5 flex-1 p-8 rounded-[20px] max-lg:w-full">
-                <h3 className="mb-2 font-normal text-heading-5">Simplified</h3>
-                <p className="mb-6 max-w-[250px]">For individuals and small teams with unlimited trial access.</p>
+                <h3 className="mb-2 font-normal text-heading-5">Starter</h3>
+                <p className="mb-6 max-w-[250px]">Perfect for small businesses looking to establish their online presence.</p>
                 {isAnnual ? (
                   <div className="price-year mb-7">
                     <h4 className="text-heading-4 font-normal">
@@ -70,7 +70,7 @@ const Pricing = () => {
                 <Link
                   href="/contact-us"
                   className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block text-center mb-8 before:content-none first-letter:uppercase">
-                  Get started
+                  Get Started
                 </Link>
                 <ul className="relative list-none space-y-2.5">
                   <li className="flex items-center gap-2.5">
@@ -88,7 +88,7 @@ const Pricing = () => {
                         className="fill-white dark:fill-black"
                       />
                     </svg>
-                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">Single Payment</span>
+                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">Local SEO Setup</span>
                   </li>
                   <li className="flex items-center gap-2.5">
                     <svg
@@ -98,15 +98,15 @@ const Pricing = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                       className="shrink-0">
-                      <rect width={20} height={20} rx={10} fill="" className="fill-white dark:fill-background-9" />
+                      <rect width={20} height={20} rx={10} fill="" className="fill-secondary dark:fill-accent" />
                       <path
                         d="M9.31661 13.7561L14.7491 8.42144C15.0836 8.0959 15.0836 7.5697 14.7491 7.24416C14.4145 6.91861 13.8736 6.91861 13.539 7.24416L8.7116 11.9901L6.46096 9.78807C6.12636 9.46253 5.58554 9.46253 5.25095 9.78807C4.91635 10.1136 4.91635 10.6398 5.25095 10.9654L8.1066 13.7561C8.27347 13.9184 8.49253 14 8.7116 14C8.93067 14 9.14974 13.9184 9.31661 13.7561Z"
                         fill=""
-                        className="fill-secondary/60 dark:fill-accent/60"
+                        className="fill-white dark:fill-black"
                       />
                     </svg>
-                    <span className="text-secondary/60 dark:text-accent/60 font-normal text-tagline-1">
-                      Selling your own items
+                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">
+                      Google Business Profile
                     </span>
                   </li>
                   <li className="flex items-center gap-2.5">
@@ -117,15 +117,15 @@ const Pricing = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                       className="shrink-0">
-                      <rect width={20} height={20} rx={10} fill="" className="fill-white dark:fill-background-9" />
+                      <rect width={20} height={20} rx={10} fill="" className="fill-secondary dark:fill-accent" />
                       <path
                         d="M9.31661 13.7561L14.7491 8.42144C15.0836 8.0959 15.0836 7.5697 14.7491 7.24416C14.4145 6.91861 13.8736 6.91861 13.539 7.24416L8.7116 11.9901L6.46096 9.78807C6.12636 9.46253 5.58554 9.46253 5.25095 9.78807C4.91635 10.1136 4.91635 10.6398 5.25095 10.9654L8.1066 13.7561C8.27347 13.9184 8.49253 14 8.7116 14C8.93067 14 9.14974 13.9184 9.31661 13.7561Z"
                         fill=""
-                        className="fill-secondary/60 dark:fill-accent/60"
+                        className="fill-white dark:fill-black"
                       />
                     </svg>
-                    <span className="text-secondary/60 dark:text-accent/60 font-normal text-tagline-1">
-                      Powerful integration
+                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">
+                      Monthly Reports
                     </span>
                   </li>
                 </ul>
@@ -135,9 +135,9 @@ const Pricing = () => {
             <RevealAnimation delay={0.4} instant>
               <div className="p-2.5 rounded-[20px] flex-1 bg-[url('/images/home-page-2/price-bg.png')] bg-no-repeat bg-center bg-cover max-lg:w-full">
                 <div className="bg-white dark:bg-background-8 p-8 rounded-[12px]">
-                  <h3 className="mb-2.5 font-normal text-heading-5">Basic</h3>
+                  <h3 className="mb-2.5 font-normal text-heading-5">Professional</h3>
                   <p className="mb-6 text-secondary/60 dark:text-accent/60 max-w-[250px]">
-                    For individuals and small teams with unlimited trial access.
+                    Ideal for growing businesses ready to scale their digital presence.
                   </p>
                   {isAnnual ? (
                     <div className="price-year mb-7">
@@ -158,7 +158,7 @@ const Pricing = () => {
                   <Link
                     href="/contact-us"
                     className="btn btn-md btn-secondary dark:btn-accent hover:btn-primary w-full block mb-8 before:content-none first-letter:uppercase">
-                    Get started
+                    Get Started
                   </Link>
                   <ul className="relative list-none space-y-2.5">
                     <li className="flex items-center gap-2.5">
@@ -177,7 +177,7 @@ const Pricing = () => {
                         />
                       </svg>
                       <span className="text-secondary dark:text-accent font-normal text-tagline-1">
-                        Unlimited Bandwidth
+                        SEO + Google Ads
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -196,7 +196,7 @@ const Pricing = () => {
                         />
                       </svg>
                       <span className="text-secondary dark:text-accent font-normal text-tagline-1">
-                        Promotional Tools
+                        Social Media Management
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -214,7 +214,7 @@ const Pricing = () => {
                           className="fill-white dark:fill-black"
                         />
                       </svg>
-                      <span className="text-secondary dark:text-accent font-normal text-tagline-1">Single Payment</span>
+                      <span className="text-secondary dark:text-accent font-normal text-tagline-1">Web Development</span>
                     </li>
                     <li className="flex items-center gap-2.5">
                       <svg
@@ -278,9 +278,9 @@ const Pricing = () => {
             {/* Price Card 3 */}
             <RevealAnimation delay={0.5} instant>
               <div className="bg-background-3 dark:bg-background-5 flex-1 p-8 rounded-[20px] max-lg:w-full">
-                <h3 className="mb-2 font-normal text-heading-5">Enhanced</h3>
+                <h3 className="mb-2 font-normal text-heading-5">Enterprise</h3>
                 <p className="mb-6 max-w-[250px] text-secondary/60 dark:text-accent/60">
-                  For individuals and small teams with unlimited trial access.
+                  Complete digital marketing solution for established businesses.
                 </p>
                 {isAnnual ? (
                   <div className="price-year mb-7">
@@ -301,7 +301,7 @@ const Pricing = () => {
                 <Link
                   href="/contact-us"
                   className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block mb-8 before:content-none first-letter:uppercase">
-                  Get started
+                  Get Started
                 </Link>
                 <ul className="relative list-none space-y-2.5">
                   <li className="flex items-center gap-2.5">
@@ -320,7 +320,7 @@ const Pricing = () => {
                       />
                     </svg>
                     <span className="text-secondary dark:text-accent font-normal text-tagline-1">
-                      Selling on your own conditions
+                      Full Marketing Suite
                     </span>
                   </li>
                   <li className="flex items-center gap-2.5">
@@ -339,7 +339,7 @@ const Pricing = () => {
                       />
                     </svg>
                     <span className="text-secondary dark:text-accent font-normal text-tagline-1">
-                      Seamless integrations
+                      Marketing Automation
                     </span>
                   </li>
                   <li className="flex items-center gap-2.5">
@@ -358,7 +358,7 @@ const Pricing = () => {
                       />
                     </svg>
                     <span className="text-secondary/60 dark:text-accent/60 font-normal text-tagline-1">
-                      Real-time streaming
+                      Dedicated Account Manager
                     </span>
                   </li>
                 </ul>

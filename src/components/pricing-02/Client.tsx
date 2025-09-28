@@ -69,8 +69,8 @@ const Client = () => {
             </div>
             {/* Trust Metrics */}
             <div>
-              <p className="text-tagline-2 text-secondary dark:text-accent font-medium">Tushed by 20k+</p>
-              <p className="text-tagline-3">Customers Across the Globe</p>
+              <p className="text-tagline-2 text-secondary dark:text-accent font-medium">Trusted by 500+</p>
+              <p className="text-tagline-3">Hispanic Businesses in the USA</p>
             </div>
           </article>
           {/* Client Logos */}

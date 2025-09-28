@@ -18,7 +18,7 @@ const Faq = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <h2 className="lg:max-w-[439px] mx-auto lg:mx-0" id="faq-heading">
-                  Common inquiries from clients
+                  Common Questions About Our Pricing
                 </h2>
               </RevealAnimation>
             </div>
@@ -32,14 +32,11 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="1"
                     iconType="arrow">
-                    What is the primary role of a business agency?
+                    What digital marketing services are included in each plan?
                   </AccordionTrigger>
 
                   <AccordionContent value="1">
-                    When collaborating with a business agency, you can generally expect an extensive array of services
-                    designed to not only support your current operations but also to foster growth and innovation within
-                    your business. These services often include strategic planning, marketing solutions, financial
-                    consulting, and operational improvements.
+                    Our plans include Local SEO, Google Business Profile optimization, Google Ads management, social media marketing, web development, and marketing automation. The Starter plan focuses on local presence, Professional adds paid advertising, and Enterprise includes full marketing automation and dedicated support.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -49,12 +46,11 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="2"
                     iconType="arrow">
-                    What kinds of services should I anticipate ?
+                    How long does it take to see results from SEO?
                   </AccordionTrigger>
 
                   <AccordionContent value="2">
-                    When working with a business agency, you can typically anticipate a wide range of services tailored
-                    to support and grow your business.
+                    SEO results typically start showing within 3-6 months, with significant improvements in 6-12 months. However, our clients often see initial improvements in local search rankings within 30-60 days. We provide monthly reports to track progress and ROI.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -64,14 +60,11 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="3"
                     iconType="arrow">
-                    How often should I consider updating my website?
+                    Can I change my plan later?
                   </AccordionTrigger>
 
                   <AccordionContent value="3">
-                    When collaborating with a business agency, you can generally expect an extensive array of services
-                    designed to not only support your current operations but also to foster growth and innovation within
-                    your business. These services often include strategic planning, marketing solutions, financial
-                    consulting, and operational improvements.
+                    Yes, you can upgrade or downgrade your plan at any time. We understand that business needs change, and we're flexible with our pricing plans. Contact us to discuss plan changes and we'll help you transition smoothly.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -81,14 +74,11 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="4"
                     iconType="arrow">
-                    How often is it recommended to refresh my website?
+                    Do you provide monthly reports and analytics?
                   </AccordionTrigger>
 
                   <AccordionContent value="4">
-                    When collaborating with a business agency, you can generally expect an extensive array of services
-                    designed to not only support your current operations but also to foster growth and innovation within
-                    your business. These services often include strategic planning, marketing solutions, financial
-                    consulting, and operational improvements.
+                    Yes, we provide detailed monthly reports showing your website traffic, search rankings, Google Ads performance, lead generation, and ROI. Our analytics help you understand exactly how your digital marketing investment is growing your business.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
