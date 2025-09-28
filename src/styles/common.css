@@ -200,6 +200,11 @@ Common Styles all over the sites
           font-weight: bold;
           margin-right: 0.5rem;
         }
+        
+        /* Hide descriptions on mobile, show on desktop */
+        span, em {
+          @apply hidden md:block;
+        }
       }
     }
   }
