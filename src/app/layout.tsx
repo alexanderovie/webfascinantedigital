@@ -87,14 +87,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://track.hubspot.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         
-        {/* ✅ Preload de fuentes críticas - next-sass se usa en iconos */}
-        <link 
-          rel="preload" 
-          href="/fonts/next-sass.woff" 
-          as="font" 
-          type="font/woff" 
-          crossOrigin="anonymous"
-        />
         
         {/* ✅ Preload de imágenes críticas - Hero background ahora optimizado con next/image */}
         {/* <link 
