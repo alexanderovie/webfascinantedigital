@@ -29,19 +29,30 @@ const BlogCardV1 = ({ blog, className }: BlogCardV1Props) => {
           />
         </figure>
         <div className="space-y-6 p-6">
-          <div className="flex items-center gap-2">
-            <span className="badge badge-green mr-1">
-              <Link href={`/blog/category/${blog?.tag.toLowerCase()}`}>
-                {formatCategory(blog?.tag)}
-              </Link>
-            </span>
-            <span rel="author" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
-              {blog?.author}
-            </span>
-            <span className="h-[6px] w-[5px] rounded-full bg-[#ECE8FF]"> </span>
-            <time dateTime="2025-03-20" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
-              {blog?.publishDate}
-            </time>
+          {/* Responsive metadata layout */}
+          <div className="space-y-2">
+            {/* Desktop: Horizontal layout */}
+            <div className="hidden md:flex items-center gap-2">
+              <span className="badge badge-green mr-1">
+                <Link href={`/blog/category/${blog?.tag.toLowerCase()}`}>
+                  {formatCategory(blog?.tag)}
+                </Link>
+              </span>
+              <span rel="author" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
+                {blog?.author}
+              </span>
+              <span className="h-[6px] w-[5px] rounded-full bg-[#ECE8FF]"> </span>
+              <time dateTime="2025-03-20" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
+                {blog?.publishDate}
+              </time>
+            </div>
+            
+            {/* Mobile/Tablet: Vertical stack - only date */}
+            <div className="flex md:hidden items-center gap-2">
+              <time dateTime="2025-03-20" className="text-tagline-3 text-secondary/60 dark:text-accent/60 font-normal">
+                {blog?.publishDate}
+              </time>
+            </div>
           </div>
           <div>
             <h3 className="sm:text-heading-5 text-heading-6 mb-2 font-normal">
