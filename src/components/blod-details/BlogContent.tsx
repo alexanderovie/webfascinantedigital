@@ -11,6 +11,11 @@ interface BlogContentProps {
 }
 
 const BlogContent = ({ blog }: BlogContentProps) => {
+  // Remove the first H1 from markdown content since we already show the title in the hero section
+  const removeFirstH1 = (content: string) => {
+    return content.replace(/^#\s+.*$/m, '').trim();
+  };
+
   return (
     <section className="pt-7 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[200px]">
       <div className="main-container">
@@ -60,7 +65,7 @@ const BlogContent = ({ blog }: BlogContentProps) => {
 
         <RevealAnimation delay={0.5}>
           <article className="details-body">
-            <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{blog.content}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{removeFirstH1(blog.content)}</ReactMarkdown>
           </article>
         </RevealAnimation>
         {/* details-footer */}
