@@ -30,8 +30,8 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
             <RevealAnimation delay={0.3}>
               <div className="xl:max-w-[306px]">
                 <Link href="/">
-                  <figure>
-                    <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert" />
+                  <figure className="max-w-[198px] lg:max-w-[198px] h-[34px] sm:h-[34px] h-[34px]">
+                    <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
                   </figure>
                 </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
