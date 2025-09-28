@@ -15,7 +15,7 @@ const OurMission = () => {
                 <span className="badge badge-cyan mb-5">Our Mission</span>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
-                <h2>To help Hispanic businesses dominate digital marketing and grow their revenue.</h2>
+                <h2>To Help Hispanic Businesses Dominate Digital Marketing And Grow Their Revenue.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p>

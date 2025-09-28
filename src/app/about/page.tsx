@@ -37,21 +37,21 @@ const AboutPage02 = () => {
         <VisionImages />
         <TrustedByUsers
           className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
-          title="Grow together"
+          title="Grow Together"
           description="We're not just a digital marketing agency
         we're a partner in your long-term success."
         />
         <OurMission />
         <TrustedByUsers
           className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]"
-          title="Grow together"
+          title="Grow Together"
           description="We're not just a digital marketing agency
         we're a partner in your long-term success."
         />
         <FinanceIntro />
         <Reviews />
         <CTAV2
-          ctaHeading="Ready to dominate your local market with proven digital marketing strategies?"
+          ctaHeading="Ready To Dominate Your Local Market With Proven Digital Marketing Strategies?"
           ctaDescription="Get a free marketing audit and discover how we can help your Hispanic business grow with data-driven SEO, web development, and marketing automation."
           ctaBtnText="Get Free Marketing Audit"
           ctaCheckListData={[
