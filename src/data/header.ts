@@ -189,7 +189,7 @@ export const headerConfig = {
     logoDarkPath: '@public/images/shared/logo-dark.svg',
   },
   cta: {
-    label: 'Get started',
+    label: 'Get Started',
     href: '/signup',
   },
 };

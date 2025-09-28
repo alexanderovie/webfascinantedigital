@@ -26,7 +26,7 @@ const Audit = () => {
                   <LinkButton
                     href="/pricing"
                     className="btn btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark btn-md">
-                    Claim my free audit
+                    Claim My Free Audit
                   </LinkButton>
                 </div>
               </RevealAnimation>

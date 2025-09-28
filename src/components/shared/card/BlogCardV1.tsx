@@ -58,7 +58,7 @@ const BlogCardV1 = ({ blog, className }: BlogCardV1Props) => {
               href={`/blog/${blog.slug}`}
               className="btn btn-md btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent dark:hover:text-secondary w-full sm:w-auto"
               aria-label="Read full article about electronic prescription">
-              Read more
+              Read More
             </LinkButton>
           </div>
         </div>

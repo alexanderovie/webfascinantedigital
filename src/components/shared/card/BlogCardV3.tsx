@@ -81,7 +81,7 @@ const BlogCardV3 = ({ blog, className }: BlogCardV3Props) => {
             <LinkButton
               href={`/blog/${blog.slug}`}
               className="btn btn-white hover:btn-secondary btn-md dark:btn-transparent dark:hover:btn-accent">
-              Read more
+              Read More
             </LinkButton>
           </div>
         </div>

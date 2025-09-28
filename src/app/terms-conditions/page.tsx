@@ -31,7 +31,7 @@ const TermsConditions = () => {
           ctaHeading="Ready to grow your business with Fascinante Digital?"
           description="If you have any questions about our services or terms, feel free to reach out to our team."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
-          ctaBtnText="Get started"
+          ctaBtnText="Get Started"
         />
       </main>
       <FooterThree />

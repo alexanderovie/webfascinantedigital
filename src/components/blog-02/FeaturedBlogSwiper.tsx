@@ -104,7 +104,7 @@ const FeaturedBlogSwiper = ({ featuredBlogs }: FeaturedBlogSwiperProps) => {
                         href={`/blog/${blog.slug}`}
                         className="btn btn-md btn-white hover:btn-primary dark:btn-transparent inline-block"
                         aria-label={`Read full article about ${blog.title}`}>
-                        <span>Read more</span>
+                        <span>Read More</span>
                       </Link>
                     </div>
                   </div>

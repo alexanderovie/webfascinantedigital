@@ -81,10 +81,10 @@ const CategoryPage = async ({ params }: CategoryPageProps) => {
         <CTAV1
           className="dark:bg-background-7 bg-white"
           badgeClass="!badge-yellow-v2"
-          badgeText="Get started"
+          badgeText="Get Started"
           ctaHeading="Ready to implement these strategies?"
           description="Let our marketing experts help you apply these insights to grow your business."
-          ctaBtnText="Get started"
+          ctaBtnText="Get Started"
         />
       </main>
       <FooterThree />

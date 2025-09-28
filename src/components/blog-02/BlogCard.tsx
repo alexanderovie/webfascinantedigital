@@ -75,7 +75,7 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
               href={`/blog/${blog.slug}`}
               className="btn btn-md btn-white hover:btn-primary dark:btn-transparent inline-block"
               aria-label="Read full article about electronic prescription in finance sector">
-              <span>Read more</span>
+              <span>Read More</span>
             </LinkButton>
           </div>
         </div>

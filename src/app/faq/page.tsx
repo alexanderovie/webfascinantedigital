@@ -41,7 +41,7 @@ const FAQ = () => {
           ctaHeading="Ready to start growing with Fascinante Digital?"
           description="If you have any questions, feel free to reach out to our team."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
-          ctaBtnText="Get started"
+          ctaBtnText="Get Started"
         />
       </main>
       <FooterThree />
