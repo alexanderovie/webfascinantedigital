@@ -83,7 +83,7 @@ Support Team for Help."
         <ContactMap />
         <CTAV1
           className="dark:bg-background-5 bg-white"
-          badgeClass="badge-yellow-v2"
+          badgeClass="badge-yellow-modern"
           badgeText="Get Started"
           ctaBtnText="Contact Us"
           ctaHeading="Get in Touch"
