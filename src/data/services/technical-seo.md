@@ -21,12 +21,16 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ### What's Included
 
-- **Website speed** optimization and performance analysis
-- **Mobile optimization** and responsive design fixes
-- **Site structure** and internal linking optimization
-- **Schema markup** implementation and testing
-- **Analytics & reporting** – Track technical performance metrics
-- **Competitor monitoring** – Stay ahead of technical standards
+<div class="services-included-list">
+
+- **Website Speed** <span>Optimization and performance analysis to ensure fast loading times and better user experience</span>
+- **Mobile Optimization** <span>Responsive design fixes and mobile-first optimization for all devices</span>
+- **Site Structure** <span>Internal linking optimization and improved website architecture</span>
+- **Schema Markup** <span>Implementation and testing of structured data for better search visibility</span>
+- **Analytics & Reporting** <span>Track technical performance metrics and monitor improvements</span>
+- **Competitor Monitoring** <span>Stay ahead of technical standards and industry best practices</span>
+
+</div>
 
 ![Service images](/images/services/service-details-2.png)
 

@@ -21,12 +21,16 @@ Our platform uses **real-time data and AI-driven optimization** to ensure that y
 
 ### What's Included
 
-- **Google Business Profile** optimization and management
-- **Local directory** listings and citations
-- **Local keyword** research and targeting
-- **Review generation** and management strategies
-- **Analytics & reporting** – Track local search performance
-- **Competitor monitoring** – Stay ahead of local competition
+<div class="services-included-list">
+
+- **Google Business Profile** <span>Optimization and management to maximize local visibility and customer engagement</span>
+- **Local Directory Listings** <span>Citations and listings across major local directories and platforms</span>
+- **Local Keyword Research** <span>Targeting and optimization for location-based search terms</span>
+- **Review Generation** <span>Management strategies to build and maintain positive online reputation</span>
+- **Analytics & Reporting** <span>Track local search performance and measure business impact</span>
+- **Competitor Monitoring** <span>Stay ahead of local competition and market trends</span>
+
+</div>
 
 ![Service images](/images/services/service-details-2.png)
 

@@ -136,6 +136,42 @@ Common Styles all over the sites
       @apply text-tagline-1 dark:text-accent before:relative before:left-0 before:mr-3 before:h-5 before:w-5 before:content-[url('/images/icons/checkmark-white.svg')] before:max-md:top-0 before:md:top-1 dark:before:content-[url('/images/icons/checkmark-white.svg')];
     }
   }
+
+  /* Mobile-optimized service lists */
+  .services-included-list {
+    @apply space-y-3 mt-6 lg:mt-8;
+    li {
+      @apply bg-white dark:bg-background-5 rounded-lg p-4 border border-stroke-2 dark:border-stroke-6 transition-all duration-300 hover:shadow-sm hover:border-primary-200 dark:hover:border-primary-800;
+      /* Remove default list styling */
+      list-style: none;
+      position: relative;
+      padding-left: 3rem;
+      
+      /* Custom checkmark positioning */
+      &::before {
+        content: url('/images/icons/checkmark-white.svg');
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      /* Better text layout for mobile */
+      strong {
+        @apply block text-tagline-1 font-semibold text-secondary dark:text-accent mb-1;
+      }
+      
+      /* Description text */
+      span, em {
+        @apply block text-tagline-2 text-secondary/70 dark:text-accent/70 leading-relaxed;
+      }
+    }
+  }
   ol {
     @apply space-y-4 mt-6 lg:mt-8;
     li:first-child {
