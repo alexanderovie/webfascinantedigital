@@ -21,16 +21,12 @@ Our platform uses **data-driven strategies and AI optimization** to ensure that 
 
 ### What's Included
 
-<div class="services-included-list">
-
-- **Search Campaigns** <span>Text ads for high-intent keywords to capture ready-to-buy customers</span>
-- **Display Campaigns** <span>Visual ads across Google's network for brand awareness and retargeting</span>
-- **Shopping Campaigns** <span>Product listings and e-commerce ads to drive sales and conversions</span>
-- **Video Campaigns** <span>YouTube advertising and promotion for engaging video content</span>
-- **Analytics & Reporting** <span>Track ROI and campaign performance with detailed insights</span>
-- **Budget Optimization** <span>Maximize results within your budget through smart bidding strategies</span>
-
-</div>
+- **Search Campaigns** – Text ads for high-intent keywords to capture ready-to-buy customers
+- **Display Campaigns** – Visual ads across Google's network for brand awareness and retargeting
+- **Shopping Campaigns** – Product listings and e-commerce ads to drive sales and conversions
+- **Video Campaigns** – YouTube advertising and promotion for engaging video content
+- **Analytics & Reporting** – Track ROI and campaign performance with detailed insights
+- **Budget Optimization** – Maximize results within your budget through smart bidding strategies
 
 ![Service images](/images/services/service-details-2.png)
 
