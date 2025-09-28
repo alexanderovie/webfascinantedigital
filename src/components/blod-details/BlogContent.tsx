@@ -19,11 +19,11 @@ const BlogContent = ({ blog }: BlogContentProps) => {
   return (
     <section className="pt-7 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[200px]">
       <div className="main-container">
-        <div className="space-y-3 max-w-[1209px] mx-auto">
+        <div className="space-y-3 max-w-[1209px] mx-auto text-center">
           <RevealAnimation delay={0.1}>
-            <h2 className="max-w-[884px]">{blog.data.title}</h2>
+            <h2 className="max-w-[884px] mx-auto">{blog.data.title}</h2>
           </RevealAnimation>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3">
             <RevealAnimation delay={0.2}>
               <figure className="size-12 rounded-full overflow-hidden bg-[#ECEAED]">
                 <Image
