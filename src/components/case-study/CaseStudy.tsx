@@ -8,40 +8,40 @@ const CaseStudy = () => {
         <div className="space-y-[70px]">
           <div className="max-w-[900px] space-y-3">
             <RevealAnimation delay={0.2}>
-              <h1 className="text-heading-3 md:text-heading-2 font-normal">How leading teams grow with NextSaaS</h1>
+              <h1 className="text-heading-3 md:text-heading-2 font-normal">How Hispanic Businesses Grow With Fascinante Digital</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                From fast-moving startups to established enterprises, businesses around the world use NextSaaS to
-                streamline operations, increase visibility, and accelerate growth. Explore how our platform delivers
-                real-world impact.
+                From local restaurants to professional services, Hispanic businesses across the USA use our proven strategies to
+                dominate Google search results, increase visibility, and accelerate growth. Explore how our digital marketing delivers
+                real-world impact for Latino entrepreneurs.
               </p>
             </RevealAnimation>
           </div>
           <div className="space-y-4">
             <RevealAnimation delay={0.4}>
-              <h2 className="text-heading-4">Featured case study</h2>
+              <h2 className="text-heading-4">Featured Case Study</h2>
             </RevealAnimation>
             <ul className="max-w-[435px] space-y-2">
               <RevealAnimation delay={0.5}>
                 <li className="text-lg font-medium leading-[150%] text-secondary dark:text-accent">
                   Client:
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    VelocityFinance
+                    María González Real Estate
                   </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.6}>
                 <li className="text-lg font-medium leading-[150%] text-secondary dark:text-accent">
                   Industry:
-                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">Fintech</span>
+                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">Real Estate</span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.7}>
                 <li className="text-lg font-medium leading-[150%] text-secondary dark:text-accent">
-                  Use case:
+                  Use Case:
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Automating financial reporting &amp; real-time analytics
+                    Local SEO &amp; Google Business Profile Optimization
                   </span>
                 </li>
               </RevealAnimation>

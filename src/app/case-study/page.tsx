@@ -8,8 +8,8 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Case Study - NextSaaS',
-  description: 'Case Study - NextSaaS',
+  title: 'Case Studies - Fascinante Digital',
+  description: 'Real success stories from Hispanic businesses that dominated Google search results and grew their revenue with our proven digital marketing strategies.',
 };
 
 const CaseStudyPage = () => {
@@ -21,8 +21,9 @@ const CaseStudyPage = () => {
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero
-          title="Case Study"
-          heading="Case Study"
+          title="Case Studies"
+          heading="Real Success Stories"
+          description="See how Hispanic businesses like yours achieved remarkable growth with our proven digital marketing strategies."
           link="/case-study"
           className="pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
         />
@@ -31,11 +32,11 @@ const CaseStudyPage = () => {
         <Feature />
         <CTAV1
           className="dark:bg-background-5 bg-white"
-          badgeClass="!badge-yellow-v2"
-          badgeText="Get started"
-          ctaHeading="Build a complete website using the assistance"
-          description="Start your free trial today and see your ideas come to life easily and creatively."
-          ctaBtnText="Get started"
+          badgeClass="badge-yellow-modern"
+          badgeText="Get Started"
+          ctaHeading="Ready To Be Our Next Success Story?"
+          description="Join hundreds of Hispanic businesses that have transformed their digital presence and grown their revenue with our proven strategies."
+          ctaBtnText="Get Started"
           btnClass="hover:btn-secondary dark:hover:btn-accent"
         />
       </main>

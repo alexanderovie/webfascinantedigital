@@ -7,23 +7,23 @@ import RevealAnimation from '../animation/RevealAnimation';
 const featureList = [
   {
     id: 1,
-    text: 'Centralized analytics for leadership teams',
+    text: 'Google Business Profile optimization for local dominance',
   },
   {
     id: 2,
-    text: 'Workflow automation across sales, ops, and product',
+    text: 'SEO strategies that rank #1 for target keywords',
   },
   {
     id: 3,
-    text: 'Improved onboarding and client management',
+    text: 'Google Ads campaigns with 300%+ ROI',
   },
   {
     id: 4,
-    text: 'Marketing attribution and ROI reporting',
+    text: 'Professional websites that convert visitors to customers',
   },
   {
     id: 5,
-    text: 'Secure and compliant data access',
+    text: 'Monthly reporting and continuous optimization',
   },
 ];
 
@@ -46,14 +46,14 @@ const Feature = () => {
             <div className="py-14 px-6 md:px-11 grid max-sm:grid-cols-1 grid-cols-2 max-sm:gap-10 gap-5">
               <div className="max-w-[500px]">
                 <h2 className="text-accent text-heading-5 mb-8">
-                  Here are some of the use cases we&apos;ve successfully addressed: optimizing workflow efficiency,
-                  enhancing customer
+                  Here are some of the strategies we&apos;ve successfully implemented: dominating local search results,
+                  increasing revenue
                 </h2>
                 <div>
                   <Link
                     href="/our-services-01"
                     className="btn btn-md dark:btn-dark dark:hover:btn-white hover:btn-primary border-0 btn-white">
-                    <span>Get started</span>
+                    <span>Get Started</span>
                   </Link>
                 </div>
               </div>
