@@ -5,7 +5,7 @@ authorImage: '/images/avatar/avatar-7.png'
 publishDate: 'Oct 28, 2025'
 title: 'Product-led growth vs sales-led growth which one wins'
 description: 'Efficient operations in modern banking are about blending digital innovation with customer-centric strategies. By streamlining workflows, adopting automation, and enhancing service delivery, banks can maximize efficiency while delivering exceptional customer value.'
-thumbnail: '/images/blogs/seo-strategies-google-search-results-2025.webp'
+thumbnail: '/images/blogs/product-led-vs-sales-led-growth.webp'
 readTime: '6 min read'
 ---
 
