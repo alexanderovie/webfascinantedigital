@@ -43,7 +43,7 @@ const Blog = () => {
               href="/blog"
               className="btn btn-secondary hover:btn-white dark:hover:btn-accent dark:btn-transparent btn-md"
               aria-label="View all blog posts">
-              Explore the blog
+              Explore The Blog
             </LinkButton>
           </RevealAnimation>
         </div>
