@@ -26,6 +26,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "classnames": "^2.5.1",
+    "geist": "^1.5.1",
     "gray-matter": "^4.0.3",
     "gsap": "^3.13.0",
     "leaflet": "^1.9.4",
