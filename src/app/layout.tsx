@@ -1,6 +1,7 @@
 import SmoothScrollProvider from '@/components/shared/SmoothScroll';
 import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import GTMProvider from '@/components/analytics/GTMProvider';
+import FacebookMeta from '@/components/shared/FacebookMeta';
 import { geistSans, geistMono } from '@/utils/font';
 import { ReactNode, Suspense } from 'react';
 import Script from 'next/script';
@@ -49,9 +50,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  other: {
-    'fb:app_id': '1245332900658090',
-  },
   twitter: {
     card: 'summary_large_image',
     title: 'Fascinante Digital — SEO & Web',
@@ -99,6 +97,9 @@ export default function RootLayout({
           href="/images/home-page-33/hero-bg.webp"
           type="image/webp"
         /> */}
+        
+        {/* ✅ Facebook App ID con atributo property correcto */}
+        <FacebookMeta />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning={true}>
         {/* ✅ Google Tag Manager - Modern Next.js Script */}
