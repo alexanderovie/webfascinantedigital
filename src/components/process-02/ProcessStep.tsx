@@ -59,16 +59,16 @@ const ProcessStep = () => {
       <div className="main-container">
         <div className="text-center space-y-5 mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green">Process</span>
+            <span className="badge badge-green">Our Process</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2>How we’ll work together</h2>
+              <h2>How We&apos;ll Work Together</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="max-w-[610px] mx-auto">
-                I follow a process that’s transparent, collaborative, and results-driven—built around clear
-                communication and creative problem-solving.
+                We follow a proven 5-step process that&apos;s transparent, collaborative, and results-driven—built around clear
+                communication and data-driven strategies for Hispanic businesses.
               </p>
             </RevealAnimation>
           </div>
@@ -118,10 +118,9 @@ const ProcessStep = () => {
                   <div className="card-item absolute lg:left-0 lg:top-0 left-1/2 lg:translate-x-0 lg:translate-y-0 -translate-x-1/2 top-1/2 -translate-y-1/2 max-w-[370px] w-full space-y-3 lg:bg-none dark:bg-background-6 lg:dark:bg-transparent lg:p-0 lg:rounded-none p-6 rounded-[20px] max-sm:bg-background-4">
                     <p className="text-tagline-2 text-primary-500">STEP 1</p>
                     <div className="space-y-2">
-                      <h3 className="text-heading-6 lg:text-heading-5">Kickoff call &amp; brand discovery</h3>
+                      <h3 className="text-heading-6 lg:text-heading-5">Discovery &amp; Analysis</h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We analyze your business, competition, and target market to create a customized digital marketing strategy for your Hispanic business.
                       </p>
                     </div>
                   </div>
@@ -170,11 +169,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 2</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[293px]">
-                        Strategy, wireframes &amp; creative direction
+                        Google Business Profile Setup
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We create and optimize your Google Business Profile with professional photos, accurate information, and local SEO best practices to improve your local visibility.
                       </p>
                     </div>
                   </div>
@@ -223,11 +221,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 3</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Design &amp; development in sprints
+                        Website Development
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We design and develop a professional, mobile-responsive website optimized for SEO and integrated with your Google Business Profile to convert visitors into customers.
                       </p>
                     </div>
                   </div>
@@ -276,11 +273,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 4</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Feedback, refinement &amp; final delivery
+                        Paid Advertising Launch
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We launch targeted Google Ads and Meta Ads campaigns specifically designed for the Hispanic market to drive qualified traffic and generate leads for your business.
                       </p>
                     </div>
                   </div>
@@ -300,11 +296,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 5</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[203px]">
-                        Post-launch support &amp; handoff
+                        Optimization &amp; Growth
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We continuously monitor, optimize, and scale your campaigns while providing monthly reports and strategic adjustments to maximize your ROI and business growth.
                       </p>
                     </div>
                   </div>

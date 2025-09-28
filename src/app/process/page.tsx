@@ -8,7 +8,8 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Process 02 - NextSaaS',
+  title: 'Our Process - Fascinante Digital',
+  description: 'Discover our proven 5-step process to dominate Google search results and grow your Hispanic business revenue with SEO, web development, and marketing automation.',
 };
 
 const Process02 = () => {
@@ -21,20 +22,21 @@ const Process02 = () => {
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero
-          title="Process"
+          title="Our Process"
           className="pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
-          heading="Process "
+          heading="Our Proven 5-Step Process"
+          description="From Google Business Profile setup to full marketing automation, we follow a systematic approach to grow your Hispanic business."
           link="/process"
         />
         <ProcessStep />
         <ProcessOperation />
         <CTAV1
           className="dark:bg-background-5 bg-white"
-          badgeText="Get started"
-          badgeClass="!badge-cyan-v2"
-          ctaHeading="Build a complete website using the assistance"
-          description="Start your free trial today and see your ideas come to life easily and creatively."
-          ctaBtnText="Get started"
+          badgeText="Get Started"
+          badgeClass="badge-yellow-modern"
+          ctaHeading="Ready To Start Your Digital Growth Journey?"
+          description="Let&apos;s work together to dominate Google search results and grow your Hispanic business with our proven 5-step process."
+          ctaBtnText="Get Started"
           btnClass="hover:btn-secondary dark:hover:btn-accent"
         />
       </main>

@@ -14,16 +14,15 @@ const ProcessOperation = () => {
       <div className="main-container space-y-[70px]">
         <div className="space-y-5 max-w-[804px] mx-auto text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-cyan-v2">Process</span>
+            <span className="badge badge-cyan-v2">Our Methodology</span>
           </RevealAnimation>
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2 className="max-w-[624px] mx-auto">What are the steps involved in its operation?</h2>
+              <h2 className="max-w-[624px] mx-auto">What Makes Our Process Different?</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="max-w-[802px] mx-auto">
-                The operation of instantaneous data insights and analytics involves several key steps. It begins with
-                data collection, where information is gathered in real-time from various sources such as sensors
+                Our proven methodology combines data-driven strategies with cultural understanding to help Hispanic businesses dominate local search results and grow their revenue through targeted digital marketing.
               </p>
             </RevealAnimation>
           </div>
