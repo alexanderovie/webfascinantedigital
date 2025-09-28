@@ -35,7 +35,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </figure>
                 </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  We help Hispanic businesses in the USA dominate Google search results and grow their revenue through proven SEO, web development, and marketing automation strategies.
+                  We help Hispanic businesses dominate Google search results and grow revenue through proven digital marketing strategies.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com/fascinantedigital/" className="footer-social-link">
@@ -275,7 +275,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-secondary dark:text-accent/60">
-              Copyright &copy;Fascinante Digital – Digital marketing agency for Hispanic businesses in the USA
+              Copyright &copy;Fascinante Digital – Digital Marketing Agency For Hispanic Businesses In The USA
             </p>
           </RevealAnimation>
         </div>
