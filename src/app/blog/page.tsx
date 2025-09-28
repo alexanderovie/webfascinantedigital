@@ -36,10 +36,10 @@ const BlogPage02 = () => {
         <CTAV1
           className="dark:bg-background-7 bg-white"
           badgeClass="!badge-yellow-v2"
-          badgeText="Get started"
+          badgeText="Get Started"
           ctaHeading="Build a complete website using the assistance"
           description="Start your free trial today and see your ideas come to life easily and creatively."
-          ctaBtnText="Get started"
+          ctaBtnText="Get Started"
         />
       </main>
       <FooterThree />
