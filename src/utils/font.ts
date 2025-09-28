@@ -1,17 +1,17 @@
-import { Inter_Tight } from 'next/font/google';
+import { Geist, Geist_Mono } from 'next/font/google';
 
-const geistSans = Inter_Tight({
+const geistSans = Geist({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-geist-sans',
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
-const geistMono = Inter_Tight({
+const geistMono = Geist_Mono({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-geist-mono',
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
 export { geistSans, geistMono };
