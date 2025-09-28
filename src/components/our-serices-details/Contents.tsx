@@ -10,24 +10,24 @@ const Contents = ({ slug }: { slug: string }) => {
   const service = getMarkDownContent('src/data/services/', slug);
 
   return (
-    <section className="pt-8 md:pt-12 lg:pt-16 xl:pt-20 pb-24 md:pb-36 lg:pb-44 xl:pb-[200px] bg-red-100">
-      <div className="main-container bg-blue-100">
-        <div className="flex items-start lg:gap-[72px] bg-green-100">
-          <div className="lg:max-w-[767px] max-w-full w-full bg-yellow-100">
+    <section className="pt-8 md:pt-12 lg:pt-16 xl:pt-20 pb-24 md:pb-36 lg:pb-44 xl:pb-[200px]">
+      <div className="main-container">
+        <div className="flex items-start lg:gap-[72px]">
+          <div className="lg:max-w-[767px] max-w-full w-full">
             <RevealAnimation delay={0.3}>
-              <div className="services-details-content mb-[72px] bg-purple-100 p-4">
+              <div className="services-details-content mb-[72px]">
                 <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{service.content}</ReactMarkdown>
               </div>
             </RevealAnimation>
 
             {/* user review  */}
-            <div className="bg-pink-100 p-4">
+            <div>
               <UserReview service={service.data as IService} />
             </div>
           </div>
 
           {/* Table of Contents */}
-          <div className="bg-indigo-100 p-4">
+          <div>
             <TableOfContent markdownContent={service.content} />
           </div>
         </div>

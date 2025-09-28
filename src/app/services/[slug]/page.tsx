@@ -47,16 +47,14 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
           badgeClass="badge-blue-soft"
         />
         <Contents slug={slug} />
-        <div className="bg-violet-100 p-4">
-          <CTAV1
-            className="dark:bg-background-6 bg-white"
-            badgeClass="hidden"
-            ctaHeading="Ready to grow with Fascinante Digital?"
-            description="Let's discuss how we can help your business achieve its digital marketing goals. Get started with a free consultation today."
-            btnClass="hover:btn-secondary dark:hover:btn-accent"
-            ctaBtnText="Get Started"
-          />
-        </div>
+        <CTAV1
+          className="dark:bg-background-6 bg-white"
+          badgeClass="hidden"
+          ctaHeading="Ready to grow with Fascinante Digital?"
+          description="Let's discuss how we can help your business achieve its digital marketing goals. Get started with a free consultation today."
+          btnClass="hover:btn-secondary dark:hover:btn-accent"
+          ctaBtnText="Get Started"
+        />
       </main>
       <FooterThree />
     </Fragment>
