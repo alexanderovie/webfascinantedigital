@@ -11,7 +11,7 @@ const UserReview = ({ service }: UserReviewProps) => {
     <div className="mt-[70px] space-y-14" id="live-data-insights">
       <div className="space-y-3">
         <RevealAnimation delay={0.1}>
-          <h4 className="text-heading-2">What our users say</h4>
+          <h4 className="text-heading-5 sm:text-heading-4 md:text-heading-3">What our users say</h4>
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
           <p className="text-tagline-1">
