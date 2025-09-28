@@ -14,12 +14,12 @@ interface PageHeroProps {
 
 const PageHero = ({ className, title, heading, description, link, badge, badgeClass }: PageHeroProps) => {
   return (
-    <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
-      <div className="main-container">
+    <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 bg-orange-100', className)} aria-label="Page hero section">
+      <div className="main-container bg-teal-100">
         {/* Hero content */}
-        <div className="text-center pb-8 lg:pb-12">
+        <div className="text-center pb-8 lg:pb-12 bg-cyan-100 p-4">
           <RevealAnimation delay={0.1}>
-            <div className="mb-6">
+            <div className="mb-6 bg-gray-100 p-2">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
               <Link
                 href="/"
@@ -37,13 +37,13 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
           </RevealAnimation>
           {badge && (
             <RevealAnimation delay={0.15}>
-              <div className="mb-6">
+              <div className="mb-6 bg-lime-100 p-2">
                 <span className={cn('badge', badgeClass || 'badge-cyan')}>{badge}</span>
               </div>
             </RevealAnimation>
           )}
           <RevealAnimation delay={0.2}>
-            <div className="mb-6">
+            <div className="mb-6 bg-emerald-100 p-2">
               <h1 className="font-normal md:text-heading-2 text-heading-5 max-w-[649px] mx-auto">
                 {heading?.split('\n').map((line, index) => (
                   <span key={index}>
@@ -56,9 +56,11 @@ const PageHero = ({ className, title, heading, description, link, badge, badgeCl
           </RevealAnimation>
           {description && (
             <RevealAnimation delay={0.3}>
-              <p className="text-secondary/60 max-w-[649px] mx-auto">
-                {description}
-              </p>
+              <div className="bg-amber-100 p-2">
+                <p className="text-secondary/60 max-w-[649px] mx-auto">
+                  {description}
+                </p>
+              </div>
             </RevealAnimation>
           )}
         </div>
