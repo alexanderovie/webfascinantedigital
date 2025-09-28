@@ -1,7 +1,7 @@
 ---
 tag: 'local-seo'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-5.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 19, 2025'
 title: 'Top Local SEO Mistakes Businesses Make (and How to Fix Them)'
 description: 'Avoid these 15 common local SEO mistakes that hurt your rankings. Learn proven fixes to improve local visibility, attract more customers, and dominate local search results.'

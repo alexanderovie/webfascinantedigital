@@ -1,7 +1,7 @@
 ---
 tag: 'analytics'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-4.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 18, 2025'
 title: 'The Brain of Marketing: Why Analytics Is the Key to Growth'
 description: 'Discover why marketing analytics is the brain of digital growth. Learn how data-driven insights drive 300% better results, optimize campaigns, and maximize ROI for small businesses.'

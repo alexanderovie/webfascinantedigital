@@ -1,7 +1,7 @@
 ---
 tag: 'local-seo'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-1.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 15, 2025'
 title: 'How to Optimize Your Google Business Profile for Local SEO (2025 Guide)'
 description: 'Master Google Business Profile optimization with our complete 2025 guide. Learn proven strategies to improve local visibility, attract more customers, and dominate local search results.'

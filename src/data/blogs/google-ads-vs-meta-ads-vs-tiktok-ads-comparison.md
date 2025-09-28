@@ -1,7 +1,7 @@
 ---
 tag: 'ppc-advertising'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-3.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 17, 2025'
 title: 'Google Ads vs Meta Ads vs TikTok Ads: Which One Works Best for Small Businesses?'
 description: 'Compare Google Ads, Meta Ads, and TikTok Ads for small businesses. Learn costs, targeting options, ROI expectations, and which platform delivers the best results for your budget.'

@@ -1,7 +1,7 @@
 ---
 tag: 'local-seo'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-2.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 16, 2025'
 title: 'The Ultimate List of Local Directories Every Business Should Be On (Google, Apple Maps, Yelp & More)'
 description: 'Discover the complete list of local directories that can boost your business visibility. Learn how to optimize listings on Google, Apple Maps, Yelp, and 20+ other essential platforms.'

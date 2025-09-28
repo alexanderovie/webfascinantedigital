@@ -1,7 +1,7 @@
 ---
 tag: 'content-marketing'
 author: 'Fascinante Digital'
-authorImage: '/images/avatar/avatar-6.png'
+authorImage: '/images/avatar/avatar-alexander-oviedo.webp'
 publishDate: 'January 20, 2025'
 title: 'Bilingual Marketing: How to Reach Latino and American Audiences with Digital Ads'
 description: 'Master bilingual marketing strategies to reach both Latino and American audiences. Learn cultural nuances, platform preferences, and proven tactics for successful cross-cultural campaigns.'
