@@ -1,7 +1,9 @@
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
+import { Inter_Tight } from 'next/font/google';
 
-const geistSans = GeistSans;
-const geistMono = GeistMono;
+const interTight = Inter_Tight({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter-tight',
+});
 
-export { geistSans, geistMono };
+export { interTight };

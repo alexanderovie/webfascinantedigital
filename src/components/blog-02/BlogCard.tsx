@@ -31,9 +31,9 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
           {/* Responsive metadata layout */}
           <div className="space-y-2">
             {/* Desktop: Horizontal layout */}
-            <div className="hidden md:flex items-center gap-4">
+            <div className="hidden md:flex items-center gap-6">
               <time
-                className="flex items-center gap-2 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
+                className="flex items-center gap-3 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
                 dateTime="2025-05-14">
                 <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
                   <g clipPath="url(#clip0_3920_8875)">
@@ -52,7 +52,7 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
               </time>
               <div aria-hidden="true" className="w-px inline-block h-3 bg-stroke-2 dark:bg-stroke-6" />
               <time
-                className="flex items-center gap-2 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
+                className="flex items-center gap-3 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
                 dateTime="PT1M">
                 <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
                   <g clipPath="url(#clip0_3920_8882_fixed)">
@@ -74,7 +74,7 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
             {/* Mobile/Tablet: Vertical stack - only date and read time */}
             <div className="flex md:hidden items-center gap-4">
               <time
-                className="flex items-center gap-2 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
+                className="flex items-center gap-3 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
                 dateTime="2025-05-14">
                 <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 20 20" fill="none">
                   <g clipPath="url(#clip0_3920_8875)">
@@ -93,7 +93,7 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
               </time>
               <div aria-hidden="true" className="w-px inline-block h-3 bg-stroke-2 dark:bg-stroke-6" />
               <time
-                className="flex items-center gap-2 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
+                className="flex items-center gap-3 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60"
                 dateTime="PT1M">
                 <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 20 20" fill="none">
                   <g clipPath="url(#clip0_3920_8882_fixed)">

@@ -24,7 +24,7 @@ const BlogContent = ({ blog }: BlogContentProps) => {
                 <Image
                   src={blog.data.authorImage}
                   className="object-center object-cover"
-                  alt="Esther Howard's avatar"
+                  alt={`${blog.data.author}'s avatar`}
                   width={48}
                   height={48}
                   loading="lazy"
@@ -33,7 +33,7 @@ const BlogContent = ({ blog }: BlogContentProps) => {
             </RevealAnimation>
             <div>
               <RevealAnimation delay={0.3}>
-                <h3 className="text-tagline-1 font-medium">{blog.data.authorName}</h3>
+                <h3 className="text-tagline-1 font-medium">{blog.data.author}</h3>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <time
