@@ -12,7 +12,7 @@ Custom Icon FOnts styles
     url('/fonts/next-sass.woff?obdk3g') format('woff'),
     url('/fonts/next-sass.svg?obdk3g#next-sass') format('svg');
   font-family: 'next-sass';
-  font-display: block;
+  font-display: swap;
 }
 
 [class^='ns-'],
