@@ -41,10 +41,11 @@ export const metadata: Metadata = {
     description: 'SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y estrategias probadas para PYMEs hispanas.',
     images: [
       {
-        url: '/static/og-image-1200x630.jpg',
+        url: 'https://fascinantedigital.com/opengraph-image',
         width: 1200,
         height: 630,
         alt: 'Fascinante Digital - Agencia de Marketing Digital',
+        type: 'image/png',
       },
     ],
   },
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fascinante Digital — SEO & Web',
     description: 'Agencia de marketing digital especializada en SEO, desarrollo web y automatización para PYMEs hispanas en West Palm Beach con resultados medibles.',
-    images: ['/static/og-image-1200x630.jpg'],
+    images: ['https://fascinantedigital.com/opengraph-image'],
   },
   appleWebApp: {
     title: 'Fascinante Digital',
