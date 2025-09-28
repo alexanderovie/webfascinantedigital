@@ -65,7 +65,7 @@ const Services = () => {
             {/* Left: Intro */}
             <div className="lg:sticky lg:top-28">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-cyan mb-5">Services overview</span>
+                <span className="badge badge-cyan mb-5">Services Overview</span>
               </RevealAnimation>
               <div className="space-y-2 md:max-w-[595px] mb-14">
                 <RevealAnimation delay={0.2}>
@@ -81,7 +81,7 @@ const Services = () => {
                 <div>
                   <LinkButton
                     href="/services"
-                    className="btn btn-secondary hover:btn-white dark:btn-transparent btn-md">
+                    className="btn btn-secondary btn-xl dark:btn-accent w-[90%] sm:w-auto hover:btn-white dark:hover:btn-white-dark">
                     View full-service breakdown.
                   </LinkButton>
                 </div>
