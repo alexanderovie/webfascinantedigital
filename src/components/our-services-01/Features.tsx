@@ -32,7 +32,7 @@ const Features = ({
                 <span className={cn('badge badge-yellow-v2 mb-5', badgeClassName)}>Feature</span>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
-                <h2 className="mb-8 max-w-[520px] mx-auto lg:mx-0">Streamline your business operations.</h2>
+                <h2 className="mb-8 max-w-[520px] mx-auto lg:mx-0">Streamline Your Business Operations.</h2>
               </RevealAnimation>
               <ul className="space-y-4 mb-14">
                 <RevealAnimation delay={0.3}>
