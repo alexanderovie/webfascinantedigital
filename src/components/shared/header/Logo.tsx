@@ -7,7 +7,7 @@ const Logo = () => {
     <div>
       <Link href="/">
         <span className="sr-only">Home</span>
-        <figure className="w-[198px] h-[44px]">
+        <figure className="w-[153px] h-[34px] sm:w-[198px] sm:h-[44px]">
           <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
         </figure>
       </Link>
