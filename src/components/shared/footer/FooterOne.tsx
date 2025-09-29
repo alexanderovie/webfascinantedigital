@@ -27,8 +27,8 @@ const FooterOne = ({ className }: { className?: string }) => {
           <div className="col-span-12 xl:col-span-4">
             <RevealAnimation delay={0.3}>
               <div className="max-w-[306px]">
-                <figure>
-                  <Image src={mainLogo} alt="Fascinante Digital Logo" className="invert" />
+                <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
+                  <Image src={mainLogo} alt="Fascinante Digital Logo" className="invert w-full h-full object-contain" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
