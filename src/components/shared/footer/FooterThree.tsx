@@ -294,9 +294,15 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
         <div className="relative overflow-hidden pt-6 pb-[60px] text-center">
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
-            <p className="text-secondary dark:text-accent/60">
-              Copyright &copy;Fascinante Digital – Agencia SEO y Desarrollo Web en West Palm Beach
-            </p>
+            <div className="space-y-2">
+              <p className="text-secondary dark:text-accent/60">
+                Copyright &copy;Fascinante Digital – Agencia SEO y Desarrollo Web en West Palm Beach
+              </p>
+              <div className="text-sm text-secondary dark:text-accent/40">
+                <p>📍 2054 Vista Pkwy # 400, West Palm Beach, FL 33411</p>
+                <p>📞 +1-800-886-4981 | ✉️ info@fascinantedigital.com</p>
+              </div>
+            </div>
           </RevealAnimation>
         </div>
       </div>

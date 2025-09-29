@@ -13,7 +13,8 @@ export const metadata: Metadata = {
     template: '%s | Fascinante Digital',
     default: 'Fascinante Digital | Agencia SEO y Desarrollo Web en West Palm Beach',
   },
-  description: 'Agencia de marketing digital especializada en SEO, desarrollo web y automatización. Impulsamos PYMEs hispanas en West Palm Beach con estrategias medibles.',
+  description:
+    'Agencia de marketing digital especializada en SEO, desarrollo web y automatización. Impulsamos PYMEs hispanas en West Palm Beach con estrategias medibles.',
   keywords: ['SEO', 'desarrollo web', 'marketing digital', 'West Palm Beach', 'agencia digital', 'automatización'],
   authors: [{ name: 'Fascinante Digital' }],
   creator: 'Fascinante Digital',
@@ -39,7 +40,8 @@ export const metadata: Metadata = {
     url: 'https://fascinantedigital.com',
     siteName: 'Fascinante Digital',
     title: 'Agencia SEO y Desarrollo Web en West Palm Beach',
-    description: 'SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y estrategias probadas para PYMEs hispanas.',
+    description:
+      'SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y estrategias probadas para PYMEs hispanas.',
     images: [
       {
         url: 'https://fascinantedigital.com/static/og-default-1200x630.jpg',
@@ -53,7 +55,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fascinante Digital — SEO & Web',
-    description: 'Agencia de marketing digital especializada en SEO, desarrollo web y automatización para PYMEs hispanas en West Palm Beach con resultados medibles.',
+    description:
+      'Agencia de marketing digital especializada en SEO, desarrollo web y automatización para PYMEs hispanas en West Palm Beach con resultados medibles.',
     images: ['https://fascinantedigital.com/static/og-default-1200x630.jpg'],
   },
   appleWebApp: {
@@ -83,13 +86,12 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-        
+
         {/* ✅ Preconnect para scripts críticos de terceros */}
         <link rel="preconnect" href="https://js-na1.hs-scripts.com" />
         <link rel="preconnect" href="https://track.hubspot.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        
-        
+
         {/* ✅ Preload de imágenes críticas - Hero background ahora optimizado con next/image */}
         {/* <link 
           rel="preload" 
@@ -97,7 +99,43 @@ export default function RootLayout({
           href="/images/home-page-33/hero-bg.webp"
           type="image/webp"
         /> */}
-        
+
+        {/* ✅ Global Organization Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Fascinante Digital',
+              url: 'https://fascinantedigital.com',
+              logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
+              description:
+                'Agencia SEO y Desarrollo Web en West Palm Beach especializada en marketing digital para empresas hispanas',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: '2054 Vista Pkwy # 400',
+                addressLocality: 'West Palm Beach',
+                addressRegion: 'FL',
+                postalCode: '33411',
+                addressCountry: 'US',
+              },
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '+1-800-886-4981',
+                contactType: 'customer service',
+                email: 'info@fascinantedigital.com',
+              },
+              sameAs: [
+                'https://www.facebook.com/fascinantedigital/',
+                'https://www.instagram.com/fascinantedigital/',
+                'https://www.youtube.com/@fascinantedigital',
+                'https://www.linkedin.com/company/fascinante-digital',
+              ],
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
+
         {/* ✅ Facebook App ID con atributo property correcto */}
         <FacebookMeta />
       </head>
@@ -116,17 +154,17 @@ export default function RootLayout({
             `,
           }}
         />
-        
+
         {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-T7SZM386"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            className="hidden"
           />
         </noscript>
-        
+
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <GTMProvider>
             <Suspense fallback={<div>Loading...</div>}>
