@@ -4,7 +4,7 @@ import facebook from '@public/images/icons/facebook.svg';
 import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
-import darkLogo from '@public/images/shared/dark-logo.svg';
+import mainLogo from '@public/images/shared/main-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../../animation/RevealAnimation';
@@ -39,11 +39,16 @@ const FooterTwo = () => {
           <div className="col-span-12 xl:col-span-4">
             <RevealAnimation delay={0.3}>
               <div className="xl:max-w-[306px]">
-                <figure>
-                  <Image src={darkLogo} alt="Fascinante Digital Logo" />
+                <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
+                  <Image
+                    src={mainLogo}
+                    alt="Fascinante Digital Logo"
+                    className="dark:invert w-full h-full object-contain"
+                  />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
-                  Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
+                  SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y
+                  estrategias probadas para PYMEs hispanas.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com" className="footer-social-link">
