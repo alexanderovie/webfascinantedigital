@@ -20,7 +20,7 @@
     "qa:performance": "node scripts/performance-monitor.js",
     "qa:hydration": "node scripts/hydration-checker.js",
     "qa:analyzer": "node scripts/performance-analyzer.js",
-    "qa:full": "npm run audit:perf && npm run qa:analyzer && npm run qa:hydration && npm run qa:automation",
+    "qa:full": "pnpm run audit:perf && pnpm run qa:analyzer && pnpm run qa:hydration && pnpm run qa:automation",
     "mcp:setup": "npx chrome-devtools-mcp@latest --help"
   },
   "dependencies": {
