@@ -47,28 +47,35 @@ const GdprContent = () => {
     {
       id: 'account-info',
       label: 'Account Information:',
-      description: 'Your name, email address, phone number, and billing address during account registration.',
+      description:
+        'Your name, email address, phone number, and billing address when you contact us or sign up for our services.',
     },
     {
       id: 'order-data',
       label: 'Order Data: IP address:',
       description:
-        'web browser information, payment email, billing address, payment method (e.g., PayPal or credit card details).',
+        'web browser information, payment email, billing address, payment method (e.g., PayPal or credit card details) for service payments.',
     },
     {
       id: 'browsing-behavior',
       label: 'Browsing Behavior:',
       description:
-        'Pages you visit, products you view, time spent on the site, and interaction with our marketing campaigns.',
+        'Pages you visit, services you view, time spent on the site, and interaction with our marketing campaigns and content.',
     },
   ];
 
   // Data collection purposes
   const dataPurposes: ListItem[] = [
-    { id: 'account-management', text: 'To create and manage your NextSaaS account' },
-    { id: 'order-processing', text: 'To process orders, generate invoices, and prevent fraudulent transactions' },
-    { id: 'personalization', text: 'To improve your experience on our site through personalized content' },
-    { id: 'analytics', text: 'To analyze site traffic and optimize marketing efforts' },
+    { id: 'account-management', text: 'To create and manage your Fascinante Digital service account' },
+    {
+      id: 'order-processing',
+      text: 'To process service agreements, generate invoices, and prevent fraudulent transactions',
+    },
+    {
+      id: 'personalization',
+      text: 'To improve your experience on our site and provide personalized marketing strategies',
+    },
+    { id: 'analytics', text: 'To analyze site traffic and optimize our digital marketing services' },
   ];
 
   // Third-party services
@@ -76,12 +83,12 @@ const GdprContent = () => {
     {
       id: 'woocommerce',
       name: 'WooCommerce:',
-      description: 'For secure online transactions. registration.',
+      description: 'For secure online transactions and service payments.',
     },
     {
       id: 'google-analytics',
       name: 'Google Analytics:',
-      description: 'For traffic analysis and understanding user behavior.',
+      description: 'For traffic analysis and understanding user behavior to improve our services.',
     },
   ];
 
@@ -96,10 +103,10 @@ const GdprContent = () => {
 
   // Data management items
   const dataManagementItems: ListItem[] = [
-    { id: 'update-profile', text: 'You can update your profile details anytime from your account dashboard.' },
+    { id: 'update-profile', text: 'You can update your contact details anytime by reaching out to our support team.' },
     {
       id: 'data-deletion',
-      text: 'To request a complete data deletion or data export, simply send an email to: support@nextsaas.com',
+      text: 'To request a complete data deletion or data export, simply send an email to: info@fascinantedigital.com',
     },
   ];
 
@@ -110,15 +117,15 @@ const GdprContent = () => {
           {/* gdrp  */}
           <RevealAnimation delay={0.3}>
             <div className="space-y-3">
-              <h2>NextSaaS and the general data protection regulation (GDPR)</h2>
+              <h2>Fascinante Digital and the general data protection regulation (GDPR)</h2>
               <p>
                 The General Data Protection Regulation (GDPR) is a privacy regulation enacted by the European Union (EU)
                 to strengthen the protection of individuals&apos; data. It became enforceable on May 25, 2018, and
                 applies to any company that handles the data of EU citizens, no matter where the company is based.
                 <br />
                 <br />
-                This page explains how NextSaaS implements GDPR principles and ensures that your data is handled
-                transparently, securely, and respectfully.
+                This page explains how Fascinante Digital implements GDPR principles and ensures that your data is
+                handled transparently, securely, and respectfully.
               </p>
             </div>
           </RevealAnimation>
@@ -128,8 +135,8 @@ const GdprContent = () => {
               <div className="space-y-3">
                 <h3 className="text-heading-4">Purpose of this document</h3>
                 <p>
-                  At NextSaaS, we are fully committed to respecting your privacy. This page provides a clear overview
-                  of:
+                  At Fascinante Digital, we are fully committed to respecting your privacy. This page provides a clear
+                  overview of:
                 </p>
               </div>
               <ul className="space-y-3">
@@ -148,22 +155,22 @@ const GdprContent = () => {
               <h3 className="text-heading-4">What is GDPR?</h3>
               <p>
                 In simple terms, GDPR gives you greater control over your personal information. Service providers (like
-                NextSaaS) must be transparent about what data they collect, how they use it, and how they share it — and
-                users must have full rights to access, modify, or delete their data.
+                Fascinante Digital) must be transparent about what data they collect, how they use it, and how they
+                share it — and users must have full rights to access, modify, or delete their data.
                 <br />
                 <br />
                 Although GDPR is an EU regulation, it affects any business that collects or processes the data of EU
-                residents, including NextSaaS.
+                residents, including Fascinante Digital.
               </p>
             </div>
           </RevealAnimation>
           {/* How NextSaaS Implements GDPR */}
           <RevealAnimation delay={0.3}>
             <div className="space-y-3">
-              <h3 className="text-heading-4">How NextSaaS Implements GDPR</h3>
+              <h3 className="text-heading-4">How Fascinante Digital Implements GDPR</h3>
               <p>
-                NextSaaS has always prioritized user data privacy, even before GDPR came into effect. Our core practices
-                naturally align with GDPR principles, and we&apos;ve made further improvements to ensure full
+                Fascinante Digital has always prioritized user data privacy, even before GDPR came into effect. Our core
+                practices naturally align with GDPR principles, and we&apos;ve made further improvements to ensure full
                 compliance.
               </p>
               <div className="space-y-3">
@@ -263,7 +270,7 @@ const GdprContent = () => {
                       {item.id === 'data-deletion' ? (
                         <>
                           To request a complete data deletion or data export, simply send an email to:{' '}
-                          <span className="text-secondary dark:text-accent">support@nextsaas.com</span>
+                          <span className="text-secondary dark:text-accent">info@fascinantedigital.com</span>
                         </>
                       ) : (
                         item.text
