@@ -181,7 +181,7 @@ Our proven approach has helped clients increase organic traffic by 300% and achi
 
 **What our clients say:**
 
-*"Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves."* - Carlos González, West Palm Beach Restaurant
+*"Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves."* - Alexander Oviedo, Fascinante Digital
 
 ### Get Your Free Local SEO Audit
 

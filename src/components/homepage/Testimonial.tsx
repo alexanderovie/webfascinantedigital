@@ -24,9 +24,9 @@ interface TestimonialCard {
 const testimonialCards: TestimonialCard[] = [
   {
     id: 1,
-    name: 'Carlos González',
-    company: 'West Palm Beach Restaurant',
-    avatar: '/images/home-page-33/avatar-4.webp',
+    name: 'Alexander Oviedo',
+    company: 'Fascinante Digital',
+    avatar: '/images/avatar/avatar-alexander-oviedo.webp',
     testimonial:
       'Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves.',
     twitterUrl: 'https://x.com/heystaticmania',

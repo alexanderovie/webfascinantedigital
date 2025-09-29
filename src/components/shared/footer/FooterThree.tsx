@@ -33,10 +33,10 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
                 </figure>
               </Link>
-                <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  We help Hispanic businesses dominate Google search results and grow revenue through proven digital marketing strategies.
-                </p>
-                <div className="flex items-center gap-3">
+              <p className="text-secondary dark:text-accent mt-4 mb-7">
+                We help Hispanic businesses dominate Google search results and grow revenue through proven digital marketing strategies.
+              </p>
+              <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com/fascinantedigital/" className="footer-social-link">
                     <span className="sr-only">Facebook</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="7" height="16" viewBox="0 0 7 16" fill="none">
