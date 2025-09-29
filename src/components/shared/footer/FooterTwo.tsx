@@ -177,9 +177,15 @@ const FooterTwo = () => {
         <div className="relative pt-6 pb-10 text-center">
           <FooterDivider className="bg-stroke-6 dark:bg-accent/10" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
-            <p className="text-tagline-1 max-sm:text-tagline-2 text-primary-50 font-normal">
-              Copyright &copy;Fascinante Digital – SEO and Web Development Agency in West Palm Beach
-            </p>
+            <div className="space-y-2">
+              <p className="text-secondary dark:text-accent/60">
+                Copyright &copy;Fascinante Digital – SEO and Web Development Agency in West Palm Beach
+              </p>
+              <div className="text-sm text-secondary dark:text-accent/40">
+                <p>📍 2054 Vista Pkwy # 400, West Palm Beach, FL 33411</p>
+                <p>📞 +1-800-886-4981 | ✉️ info@fascinantedigital.com</p>
+              </div>
+            </div>
           </RevealAnimation>
         </div>
       </div>
