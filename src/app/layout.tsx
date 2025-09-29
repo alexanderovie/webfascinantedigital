@@ -11,7 +11,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: {
     template: '%s | Fascinante Digital',
-    default: 'Fascinante Digital | Agencia SEO y Desarrollo Web en West Palm Beach',
+    default: 'Fascinante Digital | SEO and Web Development Agency in West Palm Beach',
   },
   description:
     'Agencia de marketing digital especializada en SEO, desarrollo web y automatización. Impulsamos PYMEs hispanas en West Palm Beach con estrategias medibles.',
@@ -111,7 +111,7 @@ export default function RootLayout({
               url: 'https://fascinantedigital.com',
               logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
               description:
-                'Agencia SEO y Desarrollo Web en West Palm Beach especializada en marketing digital para empresas hispanas',
+                'SEO and Web Development Agency in West Palm Beach specialized in digital marketing for Hispanic businesses',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '2054 Vista Pkwy # 400',

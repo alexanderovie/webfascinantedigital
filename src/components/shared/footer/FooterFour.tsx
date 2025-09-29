@@ -165,7 +165,7 @@ const FooterFour = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright ©Fascinante Digital – Agencia SEO y Desarrollo Web en West Palm Beach
+              Copyright ©Fascinante Digital – SEO and Web Development Agency in West Palm Beach
             </p>
           </RevealAnimation>
         </div>

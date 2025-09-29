@@ -162,7 +162,7 @@ const FooterOne = ({ className }: { className?: string }) => {
           <FooterDivider />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright &copy;Fascinante Digital – Agencia SEO y Desarrollo Web en West Palm Beach
+              Copyright &copy;Fascinante Digital – SEO and Web Development Agency in West Palm Beach
             </p>
           </RevealAnimation>
         </div>
