@@ -28,12 +28,11 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
         <div className="grid grid-cols-12 justify-between gap-x-0 gap-y-16 pt-16 pb-16 lg:gap-x-8 xl:gap-x-0 xl:pt-[100px]">
           <div className="col-span-12 lg:col-span-4">
             <RevealAnimation delay={0.3}>
-              <div className="xl:max-w-[306px]">
-                <Link href="/">
-                  <figure className="max-w-[198px] lg:max-w-[198px] h-[34px] sm:h-[34px] h-[34px]">
-                    <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
-                  </figure>
-                </Link>
+              <Link href="/">
+                <figure className="w-[153px] h-[34px] sm:w-[198px] sm:h-[44px]">
+                  <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
+                </figure>
+              </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
                   We help Hispanic businesses dominate Google search results and grow revenue through proven digital marketing strategies.
                 </p>
