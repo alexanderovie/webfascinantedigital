@@ -36,21 +36,21 @@ const featureItems: FeatureItem[] = [
     id: 4,
     icon: 'ns-shape-7',
     title: 'Healthcare',
-    description: 'Healthcare Build trust, enhance search visibility, and attract more patients.',
+    description: 'Build trust, enhance search visibility, and attract more patients.',
     side: 'right',
   },
   {
     id: 5,
     icon: 'ns-shape-34',
     title: 'Local business',
-    description: 'Local business Rank locally, earn reviews, and excel at hyperlocal marketing.',
+    description: 'Rank locally, earn reviews, and excel at hyperlocal marketing.',
     side: 'right',
   },
   {
     id: 6,
     icon: 'ns-shape-36',
     title: 'Education',
-    description: 'Education Increase enrollments, boost online visibility, and engage students.',
+    description: 'Increase enrollments, boost online visibility, and engage students.',
     side: 'right',
   },
 ];
@@ -66,10 +66,10 @@ const WhyUs = () => {
           <div className="py-[42px] bg-secondary rounded-4xl px-6 sm:px-14 relative z-10 overflow-hidden">
             <RevealAnimation delay={0.1} direction="right" offset={100}>
               <figure className="-z-10 absolute -right-[120%] -top-[44%] sm:-right-[100%] sm:-top-[35%] md:-right-[104%] md:-top-[78%] lg:-right-[74%] lg:-top-[78%] xl:-right-[54%] xl:-top-[58%] -rotate-[290deg] sm:-rotate-[260deg] size-[1060px] pointer-events-none select-none">
-                <Image 
-                  src="/images/gradient/gradient-6.webp" 
-                  alt="gradient" 
-                  width={1060} 
+                <Image
+                  src="/images/gradient/gradient-6.webp"
+                  alt="gradient"
+                  width={1060}
                   height={1060}
                   priority={true}
                   sizes="(max-width: 768px) 100vw, 1060px"
@@ -84,7 +84,8 @@ const WhyUs = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p className="max-w-[448px] md:w-full text-accent/60">
-                      We help Hispanic businesses in the USA dominate Google search results and grow their revenue through proven digital marketing strategies.
+                      We help Hispanic businesses in the USA dominate Google search results and grow their revenue
+                      through proven digital marketing strategies.
                     </p>
                   </RevealAnimation>
                 </div>

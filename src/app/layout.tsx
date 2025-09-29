@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: 'https://fascinantedigital.com',
     siteName: 'Fascinante Digital',
-    title: 'Agencia SEO y Desarrollo Web en West Palm Beach',
+    title: 'SEO and Web Development Agency in West Palm Beach',
     description:
-      'SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y estrategias probadas para PYMEs hispanas.',
+      'Advanced SEO, fast websites, and marketing automation to grow with measurable results and proven strategies for Hispanic SMEs.',
     images: [
       {
         url: 'https://fascinantedigital.com/static/og-default-1200x630.jpg',

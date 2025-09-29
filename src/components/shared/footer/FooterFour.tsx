@@ -34,8 +34,8 @@ const FooterFour = ({ className }: { className?: string }) => {
                   />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
-                  SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y
-                  estrategias probadas para PYMEs hispanas.
+                  Advanced SEO, fast websites, and marketing automation to grow with measurable results and proven
+                  strategies for Hispanic SMEs.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com">

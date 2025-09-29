@@ -35,8 +35,8 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </figure>
                 </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y
-                  estrategias probadas para PYMEs hispanas.
+                  Advanced SEO, fast websites, and marketing automation to grow with measurable results and proven
+                  strategies for Hispanic SMEs.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link
