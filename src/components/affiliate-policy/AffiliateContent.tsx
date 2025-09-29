@@ -24,19 +24,19 @@ const AffiliateContent = () => {
       id: 'how-it-works',
       title: 'How does it work?',
       description:
-        "As a NextSaaS affiliate, you are part of our extended sales team.\nFor every customer you refer who completes a purchase, you'll earn a commission. The more you refer, the more you can earn — there's no limit!",
+        "As a Fascinante Digital affiliate, you are part of our extended sales team.\nFor every client you refer who signs up for our digital marketing services, you'll earn a commission. The more you refer, the more you can earn — there's no limit!",
     },
     {
       id: 'track-sales',
       title: 'How will I know if I made a sale?',
       description:
-        "You'll receive a notification when a referred customer makes a purchase. You can also track your sales and commissions in real-time from your affiliate dashboard.",
+        "You'll receive a notification when a referred client signs up for our services. You can also track your referrals and commissions in real-time from your affiliate dashboard.",
     },
     {
       id: 'cookie-duration',
       title: 'Cookie duration',
       description:
-        "When a visitor clicks your link, a 30-day cookie is set. If they complete a purchase within that period, you receive the commission — unless another affiliate's link overwrites yours.",
+        "When a visitor clicks your link, a 30-day cookie is set. If they sign up for our services within that period, you receive the commission — unless another affiliate's link overwrites yours.",
     },
   ];
 

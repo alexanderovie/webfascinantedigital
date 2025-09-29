@@ -8,7 +8,7 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Affiliate Policy - NextSaaS',
+  title: 'Affiliate Policy - Fascinante Digital',
 };
 
 const AffiliatePolicy = () => {
@@ -27,8 +27,8 @@ const AffiliatePolicy = () => {
           className="dark:bg-background-5 bg-white"
           badgeClass="!badge-yellow-v2"
           badgeText="Get Started"
-          ctaHeading="Ready to start earning with NextSaaS?"
-          description="If you have any questions, feel free to reach out to our team."
+          ctaHeading="Ready to start earning with Fascinante Digital?"
+          description="If you have any questions about our affiliate program, feel free to reach out to our team."
           btnClass="hover:btn-secondary dark:hover:btn-accent"
           ctaBtnText="Get started"
         />
