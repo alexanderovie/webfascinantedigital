@@ -5,7 +5,7 @@ import VisionImages from '@/components/aboutpage-02/VisionImages';
 import TrustedByUsers from '@/components/homepage-07/TrustedByUsers';
 import CTAV2 from '@/components/shared/cta/CTAV2';
 
-import FooterThree from '@/components/shared/footer/FooterThree';
+import FooterOne from '@/components/shared/footer/FooterOne';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
@@ -70,7 +70,7 @@ const AboutPage02 = () => {
           ]}
         />
       </main>
-      <FooterThree />
+      <FooterOne />
     </>
   );
 };

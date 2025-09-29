@@ -1,4 +1,4 @@
-import avatar1Img from '@public/images/avatar/avatar-1.png';
+import avatarAlexanderImg from '@public/images/avatar/avatar-alexander-oviedo.webp';
 import gradient6Img from '@public/images/gradient/gradient-6.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -21,8 +21,8 @@ const Reviews = () => {
             </RevealAnimation>
             <figure className="space-y-4 flex flex-col items-center justify-center">
               <Image
-                src={avatar1Img}
-                alt="Avatar"
+                src={avatarAlexanderImg}
+                alt="Alexander Oviedo"
                 className="size-10 bg-ns-yellow ring-2 ring-white rounded-full object-cover"
               />
               <figcaption className="text-tagline-2 font-medium dark:text-accent">From our CEO</figcaption>
@@ -32,7 +32,7 @@ const Reviews = () => {
               We&apos;re building a marketing agency that scales with you, adapts to your needs, and grows with your business.
             </p>
             <strong className="text-lg leading-[1.5] font-medium dark:text-accent">
-              Carlos González, CEO &amp; Founder
+              Alexander Oviedo, CEO &amp; Founder
             </strong>
           </div>
         </RevealAnimation>
