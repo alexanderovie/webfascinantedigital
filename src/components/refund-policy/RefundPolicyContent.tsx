@@ -22,12 +22,12 @@ const policySections: PolicySection[] = [
   {
     title: 'Return and refund guidelines',
     content:
-      'At NextSaaS, we are committed to providing you with the best possible service and experience. However, if for any reason our platform does not meet your expectations, we offer a simple and hassle-free refund policy.',
+      'At Fascinante Digital, we are committed to providing you with the best possible digital marketing services and results. However, if for any reason our services do not meet your expectations, we offer a fair and transparent refund policy.',
   },
   {
-    title: '14-Day money-back guarantee',
+    title: '30-Day money-back guarantee',
     content:
-      'We are confident that you will love using NextSaaS. Still, if you are not fully satisfied, we offer a full refund within 14 days of your original purchase — no questions asked.',
+      'We are confident that you will see results with our digital marketing services. Still, if you are not fully satisfied, we offer a full refund within 30 days of your service start date — no questions asked.',
   },
 ];
 
@@ -35,23 +35,23 @@ const refundSteps: RefundStep[] = [
   {
     step: 1,
     color: 'bg-ns-yellow',
-    title: 'Submit a support ticket through our [Contact Page].',
+    title: 'Contact us through our Contact Page.',
     description:
-      "If you're experiencing any issues or need assistance, our support team is here to help. Simply visit our [Contact Page] and fill out the support ticket form with the relevant details.",
+      "If you're not satisfied with our services or need assistance, our team is here to help. Simply visit our Contact Page and fill out the form with your project details.",
   },
   {
     step: 2,
     color: 'bg-ns-green',
-    title: 'Share your order ID, email, and a quick description.',
+    title: 'Share your project details, email, and reason for refund.',
     description:
-      'Once we receive this information, our team will review it and get back to you as soon as possible. Thank you for your cooperation!',
+      'Once we receive this information, our team will review your case and get back to you within 24-48 hours. Thank you for your cooperation!',
   },
   {
     step: 3,
     color: 'bg-ns-cyan',
     title: 'Our team will review and process your refund request.',
     description:
-      "Thank you for reaching out. We've received your refund request and our team is currently reviewing the details.",
+      "Thank you for reaching out. We've received your refund request and our team is currently reviewing your case to ensure a fair resolution.",
   },
 ];
 
@@ -59,23 +59,23 @@ const conditionsForRefund: ListSection = {
   title: 'Conditions for refund',
   description: 'You are eligible for a full refund if',
   items: [
-    'You request a refund within 14 days from the date of purchase.',
+    'You request a refund within 30 days from the start of your service.',
     'You can provide a valid reason if requested (optional but helps us improve).',
-    'You request a refund after the 14-day period.',
+    'You request a refund after the 30-day period.',
     'You have violated our Terms and Conditions.',
-    'You simply decide not to use the product anymore without a valid issue.',
-    'You requested a refund for issues already resolved by our support team.',
+    'You simply decide not to continue the service without a valid issue.',
+    'You requested a refund for issues already resolved by our team.',
   ],
 };
 
 const nonRefundableSituations: ListSection = {
   title: 'Non-refundable situations',
   description:
-    'NextSaaS reserves the right to suspend or terminate any user account without prior notice for reasons including but not limited to',
+    'Fascinante Digital reserves the right to suspend or terminate any service agreement without prior notice for reasons including but not limited to',
   items: [
-    'Purchases made through unauthorized sources.',
-    'Requests based on lack of features not available in the product description.',
-    'Downgrades from a higher-tier plan after extensive usage.',
+    'Services contracted through unauthorized sources.',
+    'Requests based on expectations not outlined in the service agreement.',
+    'Cancellations after extensive work has been completed and delivered.',
   ],
 };
 
@@ -83,12 +83,12 @@ const additionalSections: PolicySection[] = [
   {
     title: 'Refund processing time',
     content:
-      'Once your refund is approved, it may take 5–10 business days for the amount to reflect in your bank statement, depending on your payment provider.',
+      'Once your refund is approved, it may take 5–10 business days for the amount to reflect in your bank statement, depending on your payment provider and banking institution.',
   },
   {
     title: 'We appreciate your feedback',
     content:
-      'If you choose to request a refund, we would be grateful if you could let us know why. Your feedback helps us improve NextSaaS for future users!',
+      'If you choose to request a refund, we would be grateful if you could let us know why. Your feedback helps us improve our services for future clients and ensures we deliver the best possible results!',
   },
 ];
 
