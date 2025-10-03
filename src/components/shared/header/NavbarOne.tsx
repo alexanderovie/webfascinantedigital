@@ -66,7 +66,7 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
               <NavCTAButton
                 href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                 btnClassName={btnClassName}
-                label="Schedule Consultation"
+                label="Agendar Consulta"
               />
               {/* mobile menu btn */}
               <MobileMenuButton />
