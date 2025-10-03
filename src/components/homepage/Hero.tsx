@@ -70,7 +70,7 @@ const Hero = () => {
                   <LinkButton
                     href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                     className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
-                    Agendar Consulta Gratuita
+                    Schedule Free Consultation
                   </LinkButton>
                 </li>
               </RevealAnimation>
@@ -79,7 +79,7 @@ const Hero = () => {
                   <LinkButton
                     href="/pricing"
                     className="btn hover:btn-secondary dark:btn-dark btn-white border-0 btn-xl dark:bg-accent/20 dark:text-secondary w-[90%] sm:w-auto">
-                    Ver Precios
+                    View Pricing
                   </LinkButton>
                 </li>
               </RevealAnimation>

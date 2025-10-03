@@ -54,7 +54,7 @@ const AboutPage02 = () => {
         <CTAV2
           ctaHeading="Ready To Dominate Your Local Market With Proven Digital Marketing Strategies?"
           ctaDescription="Schedule a free consultation and discover how we can help your Hispanic business grow with data-driven SEO, web development, and marketing automation."
-          ctaBtnText="Agendar Consulta Gratuita"
+          ctaBtnText="Schedule Free Consultation"
           ctaCheckListData={[
             {
               id: '1',

@@ -98,7 +98,7 @@ const FooterOne = ({ className }: { className?: string }) => {
                       <Link
                         href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                         className="footer-link">
-                        Agendar Consulta
+                        Schedule Consultation
                       </Link>
                     </li>
                   </ul>
