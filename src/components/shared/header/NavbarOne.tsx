@@ -30,10 +30,10 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
     <MobileMenuProvider>
       <header>
         <div className={cn('fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7', className)}>
-          <div className="main-container px-5">
+          <div className="main-container px-5 bg-green-500 p-1">
             <div
               className={cn(
-                'flex items-center justify-between py-2.5 transition-all duration-500 ease-in-out',
+                'flex items-center justify-between py-2.5 transition-all duration-500 ease-in-out bg-yellow-500 p-1',
                 isScrolled && 'xl:py-2 transition-all duration-500 ease-in-out',
               )}>
               {/* logo */}
