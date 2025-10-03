@@ -29,44 +29,49 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
   return (
     <MobileMenuProvider>
       <header>
-        <div
-          className={cn(
-            'main-container fixed top-0 xl:top-0 left-1/2 z-50 mx-auto flex w-full -translate-x-1/2 items-center justify-between rounded-full xl:rounded-full px-5 py-2.5 transition-all duration-500 ease-in-out xl:py-0',
-            isScrolled && 'xl:top-0 transition-all duration-500 ease-in-out',
-            className,
-          )}>
-          {/* logo */}
-          <Logo />
-          {/* navigation */}
-          <nav className="hidden items-center xl:flex">
-            <ul className="flex items-center">
-              {navigationItems.map((item) => {
-                const renderMegaMenu = () => {
-                  switch (item?.megaMenuComponent) {
-                    case 'ServicesMegaMenu':
-                      return <ServicesMegaMenu className={megaMenuColor} />;
-                    default:
-                      return null;
-                  }
-                };
+        <div className={cn('fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7', className)}>
+          <div className="main-container px-5">
+            <div
+              className={cn(
+                'flex items-center justify-between py-2.5 transition-all duration-500 ease-in-out',
+                isScrolled && 'xl:py-2 transition-all duration-500 ease-in-out',
+              )}>
+              {/* logo */}
+              <Logo />
+              {/* navigation */}
+              <nav className="hidden items-center xl:flex">
+                <ul className="flex items-center">
+                  {navigationItems.map((item) => {
+                    const renderMegaMenu = () => {
+                      switch (item?.megaMenuComponent) {
+                        case 'ServicesMegaMenu':
+                          return <ServicesMegaMenu className={megaMenuColor} />;
+                        default:
+                          return null;
+                      }
+                    };
 
-                // mega menu render
-                return (
-                  <li key={item?.id} className={cn('py-2.5', item?.hasDropdown && 'group/nav relative cursor-pointer')}>
-                    <NavItemLink item={item} />
-                    {item.hasDropdown && renderMegaMenu()}
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-          <NavCTAButton
-            href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-            btnClassName={btnClassName}
-            label="Schedule Consultation"
-          />
-          {/* mobile menu btn */}
-          <MobileMenuButton />
+                    // mega menu render
+                    return (
+                      <li
+                        key={item?.id}
+                        className={cn('py-2.5', item?.hasDropdown && 'group/nav relative cursor-pointer')}>
+                        <NavItemLink item={item} />
+                        {item.hasDropdown && renderMegaMenu()}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+              <NavCTAButton
+                href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
+                btnClassName={btnClassName}
+                label="Schedule Consultation"
+              />
+              {/* mobile menu btn */}
+              <MobileMenuButton />
+            </div>
+          </div>
         </div>
         <MobileMenu />
       </header>
