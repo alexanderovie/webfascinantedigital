@@ -4,14 +4,12 @@ import Link from 'next/link';
 
 const Logo = () => {
   return (
-    <div className="bg-red-500 p-2">
-      <Link href="/">
-        <span className="sr-only">Home</span>
-        <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
-          <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
-        </figure>
-      </Link>
-    </div>
+    <Link href="/">
+      <span className="sr-only">Home</span>
+      <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
+        <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
+      </figure>
+    </Link>
   );
 };
 
