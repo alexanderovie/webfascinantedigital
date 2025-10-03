@@ -47,8 +47,8 @@ const MobileMenu = () => {
           <button
             onClick={closeMenu}
             className="nav-hamburger-close bg-background-4 dark:bg-background-9 hover:bg-background-5 dark:hover:bg-background-8 relative flex size-10 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-full transition-all duration-200 hover:scale-105 group"
-            aria-label="Close mobile menu">
-            <span className="sr-only">Close Menu</span>
+            aria-label="Cerrar menú móvil">
+            <span className="sr-only">Cerrar Menú</span>
             <span className="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 rotate-45 transition-all duration-200 group-hover:bg-stroke-1"></span>
             <span className="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 -rotate-45 transition-all duration-200 group-hover:bg-stroke-1"></span>
           </button>
@@ -60,14 +60,14 @@ const MobileMenu = () => {
               <Link
                 href="/"
                 className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
-                Home
+                Inicio
               </Link>
             </li>
             <li>
               <Link
                 href="/about"
                 className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
-                About
+                Nosotros
               </Link>
             </li>
 
@@ -91,7 +91,7 @@ const MobileMenu = () => {
               <Link
                 href="/contact-us"
                 className="text-tagline-1 text-secondary dark:text-accent border-stroke-4 dark:border-stroke-6 block w-full border-b py-3 text-left font-normal transition-all duration-200 hover:text-primary-500 dark:hover:text-primary-400">
-                Contact
+                Contáctanos
               </Link>
             </li>
           </ul>

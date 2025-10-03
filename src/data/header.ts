@@ -39,7 +39,7 @@ export const navigationItems: NavigationItem[] = [
   },
   {
     id: 'faq',
-    label: 'Preguntas Frecuentes',
+    label: 'FAQ',
     href: '/faq',
     hasDropdown: false,
   },
