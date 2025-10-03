@@ -36,7 +36,7 @@ const MobileMenu = () => {
         isOpen ? 'translate-x-0' : 'translate-x-full',
       )}>
       <div className="space-y-4 pt-1 px-5 pb-5 sm:pt-1 sm:px-8 sm:pb-8 lg:pt-1 lg:px-9 lg:pb-9">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between pt-2.5">
           <Link href="/">
             <span className="sr-only">Home</span>
             <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
