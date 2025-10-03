@@ -2,8 +2,7 @@
 
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logo from '@public/images/shared/logo.svg';
+import mainLogo from '@public/images/shared/main-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
@@ -40,9 +39,8 @@ const MobileMenu = () => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <span className="sr-only">Home</span>
-            <figure className="h-[34px]">
-              <Image src={logo} alt="Fascinante Digital" className="block w-full h-full object-contain dark:hidden" />
-              <Image src={logoDark} alt="Fascinante Digital" className="hidden w-full h-full object-contain dark:block" />
+            <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
+              <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
             </figure>
           </Link>
           {/* close menu btn */}
@@ -72,9 +70,9 @@ const MobileMenu = () => {
                 About
               </Link>
             </li>
-            
+
             <ServicesMenu />
-            
+
             <li>
               <Link
                 href="/faq"
@@ -96,7 +94,6 @@ const MobileMenu = () => {
                 Contact
               </Link>
             </li>
-
           </ul>
         </div>
       </div>
