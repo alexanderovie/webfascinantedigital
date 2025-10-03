@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Logo = () => {
   return (
-    <div>
+    <div className="bg-red-500 p-2">
       <Link href="/">
         <span className="sr-only">Home</span>
         <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">

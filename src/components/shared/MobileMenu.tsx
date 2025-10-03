@@ -37,12 +37,14 @@ const MobileMenu = () => {
       )}>
       <div className="space-y-4 pt-1 px-5 pb-5 sm:pt-1 sm:px-8 sm:pb-8 lg:pt-1 lg:px-9 lg:pb-9">
         <div className="flex items-center justify-between">
-          <Link href="/">
-            <span className="sr-only">Home</span>
-            <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
-              <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
-            </figure>
-          </Link>
+          <div className="bg-blue-500 p-2">
+            <Link href="/">
+              <span className="sr-only">Home</span>
+              <figure className="w-[153px] h-[34px] md:w-[162px] md:h-[36px] lg:w-[171px] lg:h-[38px]">
+                <Image src={mainLogo} alt="Fascinante Digital" className="dark:invert w-full h-full object-contain" />
+              </figure>
+            </Link>
+          </div>
           {/* close menu btn */}
           <button
             onClick={closeMenu}
