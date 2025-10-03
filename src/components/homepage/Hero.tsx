@@ -68,18 +68,18 @@ const Hero = () => {
               <RevealAnimation delay={0.3} direction="left" offset={50}>
                 <li className="w-full sm:w-auto">
                   <LinkButton
-                    href="/pricing"
-                    className="btn btn-secondary btn-xl dark:btn-accent w-[90%] sm:w-auto hover:btn-white dark:hover:btn-white-dark">
-                    Get Free Marketing Audit
+                    href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
+                    className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
+                    Agendar Consulta Gratuita
                   </LinkButton>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.4} direction="left" offset={50}>
                 <li className="w-full sm:w-auto">
                   <LinkButton
-                    href="/services"
+                    href="/pricing"
                     className="btn hover:btn-secondary dark:btn-dark btn-white border-0 btn-xl dark:bg-accent/20 dark:text-secondary w-[90%] sm:w-auto">
-                    Explore Our Work
+                    Ver Precios
                   </LinkButton>
                 </li>
               </RevealAnimation>

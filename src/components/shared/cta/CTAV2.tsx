@@ -40,7 +40,7 @@ const CTAV2 = ({
             <div className="md:inline-block text-center">
               <div>
                 <LinkButton
-                  href="/contact-us"
+                  href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                   className={cn(
                     'btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md block w-full md:w-auto md:inline-block text-center mx-auto md:mx-0 text-tagline-2',
                     btnClass,

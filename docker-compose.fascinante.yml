@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  fascinante-web:
+    build:
+      context: .
+      dockerfile: Dockerfile.fascinante
+      target: development
+    container_name: fascinante-web
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+      - DATABASE_URL=${DATABASE_URL}
+      - REDIS_URL=redis://fascinante-redis:6379
+    networks:
+      - fascinante-network
+    depends_on:
+      - fascinante-redis
+    command: pnpm dev
+    restart: unless-stopped
+
+  fascinante-redis:
+    image: redis:7-alpine
+    container_name: fascinante-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - fascinante-redis-data:/data
+    networks:
+      - fascinante-network
+    restart: unless-stopped
+
+volumes:
+  fascinante-redis-data:
+    external: true
+
+networks:
+  fascinante-network:
+    external: true

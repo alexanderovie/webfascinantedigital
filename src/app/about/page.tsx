@@ -12,7 +12,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Fascinante Digital, the leading digital marketing agency in West Palm Beach. We help Hispanic businesses grow with proven strategies.',
+  description:
+    'Learn about Fascinante Digital, the leading digital marketing agency in West Palm Beach. We help Hispanic businesses grow with proven strategies.',
   alternates: {
     canonical: '/about',
   },
@@ -26,8 +27,8 @@ const AboutPage02 = () => {
         btnClassName="btn-secondary hover:btn-white dark:hover:btn-white-dark dark:btn-accent"
       />
       <main className="bg-background-3 dark:bg-background-7">
-        <PageHero 
-          title="About" 
+        <PageHero
+          title="About"
           heading="Empowering Hispanic Businesses<br />to Dominate Digital"
           description="At Fascinante Digital, we believe every Hispanic business deserves to thrive in the digital landscape. That's why we've created comprehensive marketing strategies that help businesses increase visibility, drive qualified traffic, and scale revenue without the complexity."
           link="/about"
@@ -52,8 +53,8 @@ const AboutPage02 = () => {
         <Reviews />
         <CTAV2
           ctaHeading="Ready To Dominate Your Local Market With Proven Digital Marketing Strategies?"
-          ctaDescription="Get a free marketing audit and discover how we can help your Hispanic business grow with data-driven SEO, web development, and marketing automation."
-          ctaBtnText="Get Free Marketing Audit"
+          ctaDescription="Schedule a free consultation and discover how we can help your Hispanic business grow with data-driven SEO, web development, and marketing automation."
+          ctaBtnText="Agendar Consulta Gratuita"
           ctaCheckListData={[
             {
               id: '1',
