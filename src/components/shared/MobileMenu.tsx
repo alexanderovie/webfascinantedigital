@@ -35,7 +35,7 @@ const MobileMenu = () => {
         'dark:bg-background-7 scroll-bar fixed top-0 right-0 z-[999] h-screen w-full bg-white transition-transform duration-300 ease-in-out sm:w-1/2 xl:hidden',
         isOpen ? 'translate-x-0' : 'translate-x-full',
       )}>
-      <div className="space-y-4 p-5 sm:p-8 lg:p-9">
+      <div className="space-y-4 pt-2.5 px-5 pb-5 sm:pt-2.5 sm:px-8 sm:pb-8 lg:pt-2.5 lg:px-9 lg:pb-9">
         <div className="flex items-center justify-between">
           <Link href="/">
             <span className="sr-only">Home</span>
