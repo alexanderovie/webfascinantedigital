@@ -22,7 +22,7 @@ const CTA = () => {
             <RevealAnimation delay={0.4}>
               <div className="flex justify-center">
                 <LinkButton
-                  href="/pricing"
+                  href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                   className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
                   Book Your Free Strategy Call.
                 </LinkButton>
