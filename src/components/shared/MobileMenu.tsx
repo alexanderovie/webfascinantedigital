@@ -53,7 +53,7 @@ const MobileMenu = () => {
             <span className="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 -rotate-45 transition-all duration-200 group-hover:bg-stroke-1"></span>
           </button>
         </div>
-        <div className="scroll-bar h-[calc(100dvh-90px)] w-full overflow-x-hidden overflow-y-auto pb-10 bg-yellow-400">
+        <div className="scroll-bar h-[calc(100dvh-150px)] w-full overflow-x-hidden overflow-y-auto pb-10 bg-yellow-400">
           <ul>
             {/* Direct Links - Updated Order */}
             <li>
