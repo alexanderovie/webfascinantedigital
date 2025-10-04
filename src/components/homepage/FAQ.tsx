@@ -93,8 +93,8 @@ const FAQ = () => {
                           <p>
                             Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000
                             por mes. Te damos una{' '}
-                            <BotonCal className="text-primary-500 hover:text-primary-600 underline cursor-pointer font-medium">
-                              consulta gratis
+                            <BotonCal className="text-primary-600 hover:text-primary-700 cursor-pointer font-semibold border-b border-primary-200 hover:border-primary-400 transition-all duration-200 pb-0.5">
+                              consulta gratuita
                             </BotonCal>{' '}
                             para ver qué necesitas.
                           </p>
