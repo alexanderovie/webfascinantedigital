@@ -26,7 +26,7 @@ const SuccessStories = () => {
         </div>
 
         {/* Primera fila de casos */}
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-10">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-10 mb-8">
           {/* Caso 1 - Ana Martínez */}
           <RevealAnimation delay={0.3}>
             <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
@@ -101,6 +101,32 @@ const SuccessStories = () => {
               </p>
               <Link
                 href="/case-study#limpieza-total"
+                className="text-primary-500 hover:text-primary-600 font-medium text-sm transition-colors duration-200"
+              >
+                Leer más →
+              </Link>
+            </div>
+          </RevealAnimation>
+
+          {/* Caso 4 - Restaurante El Sabor */}
+          <RevealAnimation delay={0.6}>
+            <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
+              <div className="relative h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/images/case-study/case-study-img-01.png"
+                  alt="Restaurante El Sabor"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-secondary dark:text-accent">
+                Restaurante El Sabor: 300% más Pedidos Online
+              </h3>
+              <p className="text-secondary/60 dark:text-accent/60 mb-4 text-sm">
+                Cómo un restaurante mexicano triplicó sus pedidos online y se convirtió en el favorito de la comunidad hispana local con Google Business Profile y marketing en redes sociales.
+              </p>
+              <Link
+                href="/case-study#restaurante-el-sabor"
                 className="text-primary-500 hover:text-primary-600 font-medium text-sm transition-colors duration-200"
               >
                 Leer más →
