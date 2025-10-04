@@ -12,7 +12,7 @@ const CTA = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                ¿Listo para atraer clientes de calidad y hacer crecer tu negocio hispano en Estados Unidos?
+                ¿Listo para Crecer tu Negocio?
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
