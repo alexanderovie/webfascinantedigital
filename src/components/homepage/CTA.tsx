@@ -1,5 +1,4 @@
 import RevealAnimation from '../animation/RevealAnimation';
-import CalInline from '../shared/CalInline';
 import LinkButton from '../ui/button/LinkButton';
 
 const CTA = () => {
@@ -21,20 +20,12 @@ const CTA = () => {
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
-              <div className="flex justify-center mb-8">
+              <div className="flex justify-center">
                 <LinkButton
                   href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                   className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
                   Book Your Free Strategy Call
                 </LinkButton>
-              </div>
-            </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <div className="max-w-4xl mx-auto">
-                <h3 className="text-xl font-semibold text-secondary dark:text-accent mb-4 text-center">
-                  O agenda directamente aquí:
-                </h3>
-                <CalInline height="600px" className="shadow-lg" />
               </div>
             </RevealAnimation>
           </div>
