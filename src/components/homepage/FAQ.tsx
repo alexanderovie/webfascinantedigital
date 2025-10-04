@@ -35,7 +35,6 @@ const FAQ = () => {
       question: '¿Cuánto cuesta?',
       answer:
         'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.',
-      ctaText: 'Agenda tu consulta gratis aquí',
     },
     {
       id: 6,
@@ -90,13 +89,17 @@ const FAQ = () => {
                     </AccordionTrigger>
                     <AccordionContent value={item.id.toString()}>
                       <div className="space-y-3">
-                        <p>{item.answer}</p>
-                        {item.ctaText && (
-                          <div className="pt-2">
-                            <BotonCal className="inline-block px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors text-sm font-medium">
-                              {item.ctaText}
-                            </BotonCal>
-                          </div>
+                        {item.id === 5 ? (
+                          <p>
+                            Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000
+                            por mes. Te damos una{' '}
+                            <BotonCal className="text-primary-500 hover:text-primary-600 underline cursor-pointer font-medium">
+                              consulta gratis
+                            </BotonCal>{' '}
+                            para ver qué necesitas.
+                          </p>
+                        ) : (
+                          <p>{item.answer}</p>
                         )}
                       </div>
                     </AccordionContent>
