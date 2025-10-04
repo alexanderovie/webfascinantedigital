@@ -8,33 +8,39 @@ const FAQ = () => {
     {
       id: 1,
       question: '¿Por qué elegir Fascinante Digital?',
-      answer: 'Ayudamos a negocios hispanos a aparecer primero en Google. Usamos SEO, Google Ads y marketing automático. Los resultados son claros y medibles.'
+      answer:
+        'Ayudamos a negocios hispanos a aparecer primero en Google. Usamos SEO, Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, YouTube Ads y marketing automático. Los resultados son claros y medibles.',
     },
     {
       id: 2,
       question: '¿Qué servicios ofrecen?',
-      answer: 'SEO local, Google Ads, sitios web, marketing automático y redes sociales. Todo lo que necesitas para crecer online.'
+      answer:
+        'SEO local, Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, YouTube Ads, sitios web, marketing automático y redes sociales. Todo lo que necesitas para crecer online.',
     },
     {
       id: 3,
       question: '¿Cuándo veré resultados?',
-      answer: 'Los primeros resultados aparecen en 1-2 meses. El crecimiento fuerte viene en 3-6 meses. Te enviamos reportes cada mes para que veas el progreso.'
+      answer:
+        'Los primeros resultados aparecen en 1-2 meses. El crecimiento fuerte viene en 3-6 meses. Te enviamos reportes cada mes para que veas el progreso.',
     },
     {
       id: 4,
       question: '¿Trabajan con otros negocios?',
-      answer: 'Sí, trabajamos con todos los negocios. Pero somos expertos en ayudar a latinos. Nuestras estrategias funcionan para cualquier negocio que quiera crecer.'
+      answer:
+        'Sí, trabajamos con todos los negocios. Pero somos expertos en ayudar a latinos. Nuestras estrategias funcionan para cualquier negocio que quiera crecer.',
     },
     {
       id: 5,
       question: '¿Cuánto cuesta?',
-      answer: 'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.'
+      answer:
+        'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.',
     },
     {
       id: 6,
       question: '¿Me envían reportes?',
-      answer: 'Sí, cada mes te enviamos un reporte. Te mostramos cuántas personas visitan tu sitio, dónde apareces en Google y cuántos clientes nuevos tienes. Así sabes que tu dinero está funcionando.'
-    }
+      answer:
+        'Sí, cada mes te enviamos un reporte. Te mostramos cuántas personas visitan tu sitio, dónde apareces en Google y cuántos clientes nuevos tienes. Así sabes que tu dinero está funcionando.',
+    },
   ];
 
   return (
@@ -94,8 +100,7 @@ const FAQ = () => {
                 </p>
                 <a
                   href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                  className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md"
-                >
+                  className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md">
                   Hablar con un Experto
                 </a>
               </div>
