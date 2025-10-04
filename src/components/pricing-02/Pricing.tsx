@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import { useState } from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -10,6 +9,58 @@ Pricing section
 }
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<string | null>(null);
+
+  // 🛡️ ELITE: Función para manejar el pago con Stripe
+  const handlePlanClick = async (planId: string) => {
+    setIsLoading(planId);
+
+    try {
+      // 🛡️ ELITE: Validación del plan antes de enviar
+      const validPlans = ['starter', 'professional', 'enterprise'];
+      if (!validPlans.includes(planId)) {
+        throw new Error('Plan no válido');
+      }
+
+      const response = await fetch('/api/create-checkout-session', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          planId,
+          billingCycle: isAnnual ? 'yearly' : 'monthly',
+        }),
+      });
+
+      // 🛡️ ELITE: Verificar respuesta HTTP
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error || `HTTP ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      // 🛡️ ELITE: Validar respuesta
+      if (!data.url) {
+        throw new Error('No se recibió URL de checkout');
+      }
+
+      // 🛡️ ELITE: Redirigir a Stripe Checkout
+      window.location.href = data.url;
+    } catch (error) {
+      console.error('Error procesando pago:', error);
+
+      // 🛡️ ELITE: Mensaje de error específico
+      const errorMessage =
+        error instanceof Error ? error.message : 'Error al procesar el pago. Por favor, inténtalo de nuevo.';
+
+      alert(errorMessage);
+    } finally {
+      setIsLoading(null);
+    }
+  };
 
   return (
     <section className="relative pb-20 md:pb-[100px] lg:pb-[150px] xl:pb-[200px] pt-[100px]">
@@ -64,11 +115,12 @@ const Pricing = () => {
                   </div>
                 )}
 
-                <Link
-                  href="/contact-us"
-                  className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block text-center mb-8 before:content-none first-letter:uppercase">
-                  Comenzar
-                </Link>
+                <button
+                  onClick={() => handlePlanClick('starter')}
+                  disabled={isLoading === 'starter'}
+                  className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block text-center mb-8 before:content-none first-letter:uppercase disabled:opacity-50 disabled:cursor-not-allowed">
+                  {isLoading === 'starter' ? 'Procesando...' : 'Comenzar'}
+                </button>
                 <ul className="relative list-none space-y-2.5">
                   <li className="flex items-center gap-2.5">
                     <svg
@@ -155,11 +207,12 @@ const Pricing = () => {
                     </div>
                   )}
 
-                  <Link
-                    href="/contact-us"
-                    className="btn btn-md btn-secondary dark:btn-accent hover:btn-primary w-full block mb-8 before:content-none first-letter:uppercase">
-                    Comenzar
-                  </Link>
+                  <button
+                    onClick={() => handlePlanClick('professional')}
+                    disabled={isLoading === 'professional'}
+                    className="btn btn-md btn-secondary dark:btn-accent hover:btn-primary w-full block mb-8 before:content-none first-letter:uppercase disabled:opacity-50 disabled:cursor-not-allowed">
+                    {isLoading === 'professional' ? 'Procesando...' : 'Comenzar'}
+                  </button>
                   <ul className="relative list-none space-y-2.5">
                     <li className="flex items-center gap-2.5">
                       <svg
@@ -302,11 +355,12 @@ const Pricing = () => {
                   </div>
                 )}
 
-                <Link
-                  href="/contact-us"
-                  className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block mb-8 before:content-none first-letter:uppercase">
-                  Comenzar
-                </Link>
+                <button
+                  onClick={() => handlePlanClick('enterprise')}
+                  disabled={isLoading === 'enterprise'}
+                  className="btn btn-md btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent w-full block mb-8 before:content-none first-letter:uppercase disabled:opacity-50 disabled:cursor-not-allowed">
+                  {isLoading === 'enterprise' ? 'Procesando...' : 'Comenzar'}
+                </button>
                 <ul className="relative list-none space-y-2.5">
                   <li className="flex items-center gap-2.5">
                     <svg

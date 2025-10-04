@@ -21,7 +21,12 @@
     "qa:hydration": "node scripts/hydration-checker.js",
     "qa:analyzer": "node scripts/performance-analyzer.js",
     "qa:full": "pnpm run audit:perf && pnpm run qa:analyzer && pnpm run qa:hydration && pnpm run qa:automation",
-    "mcp:setup": "npx chrome-devtools-mcp@latest --help"
+    "mcp:setup": "npx chrome-devtools-mcp@latest --help",
+    "stripe:test": "node scripts/test-stripe.mjs",
+    "stripe:listen": "stripe listen --forward-to localhost:3000/api/webhook",
+    "stripe:products": "stripe products list",
+    "stripe:prices": "stripe prices list",
+    "stripe:trigger": "stripe trigger payment_intent.succeeded"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -42,6 +47,7 @@
     "rehype-slug": "^6.0.0",
     "resend": "6.1.2",
     "sharp": "^0.34.4",
+    "stripe": "19.1.0",
     "swiper": "^11.2.10"
   },
   "devDependencies": {
