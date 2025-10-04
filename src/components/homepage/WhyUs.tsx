@@ -92,7 +92,7 @@ const WhyUs = () => {
                 <RevealAnimation delay={0.4}>
                   <div>
                     <LinkButton href="/" className="btn btn-dark btn-md hover:btn-white">
-                      explora todas las características
+                      Explora Todas las Características
                     </LinkButton>
                   </div>
                 </RevealAnimation>

@@ -73,7 +73,7 @@ const Results = () => {
                 <LinkButton
                   href="/case-study"
                   className="btn btn-secondary dark:btn-transparent btn-md hover:btn-white">
-                  descubre más casos de éxito.
+                  Descubre Más Casos de Éxito.
                 </LinkButton>
               </div>
             </RevealAnimation>
