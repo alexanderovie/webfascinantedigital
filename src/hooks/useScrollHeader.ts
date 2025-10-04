@@ -13,22 +13,30 @@ export const useNavbarScroll = (threshold: number = 100) => {
   const [lastScrollY, setLastScrollY] = useState<number>(0);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
 
-      // Check if scrolled past threshold
-      setIsScrolled(currentScrollY > threshold);
+          // Check if scrolled past threshold
+          setIsScrolled(currentScrollY > threshold);
 
-      // Hide/show navbar based on scroll direction
-      if (currentScrollY > lastScrollY && currentScrollY > threshold) {
-        // Scrolling down - hide navbar
-        setIsVisible(false);
-      } else {
-        // Scrolling up - show navbar
-        setIsVisible(true);
+          // Hide/show navbar based on scroll direction with debounce
+          if (currentScrollY > lastScrollY && currentScrollY > threshold) {
+            // Scrolling down - hide navbar
+            setIsVisible(false);
+          } else if (currentScrollY < lastScrollY) {
+            // Scrolling up - show navbar
+            setIsVisible(true);
+          }
+
+          setLastScrollY(currentScrollY);
+          ticking = false;
+        });
+        ticking = true;
       }
-
-      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -37,7 +45,7 @@ export const useNavbarScroll = (threshold: number = 100) => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [threshold, lastScrollY]);
+  }, [threshold]);
 
   return { isScrolled, isVisible };
 };
