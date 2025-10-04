@@ -21,33 +21,33 @@ interface ResultCard {
 const resultCards: ResultCard[] = [
   {
     id: 1,
-    category: 'Clients',
+    category: 'Clientes',
     value: '300+',
-    description: 'Hispanic businesses served in the USA',
+    description: 'Negocios hispanos impulsados en Estados Unidos',
   },
   {
     id: 2,
-    category: 'Average traffic increase',
+    category: 'Aumento promedio de tráfico',
     value: '300%',
-    description: 'Organic traffic growth for our clients',
+    description: 'Crecimiento orgánico en las visitas de nuestros clientes',
   },
   {
     id: 3,
-    category: 'Satisfied clients',
+    category: 'Clientes satisfechos',
     value: '98%',
-    description: 'Client retention and satisfaction rate',
+    description: 'Retención y satisfacción comprobada en cada proyecto',
   },
   {
     id: 4,
-    category: 'Average ROI',
+    category: 'Retorno promedio de inversión',
     value: '450%',
-    description: 'Return on marketing investment',
+    description: 'ROI real alcanzado con nuestras campañas digitales',
   },
   {
     id: 5,
-    category: 'Years of experience',
+    category: 'Años de experiencia',
     value: '15+',
-    description: 'Proven expertise in digital marketing',
+    description: 'Trayectoria sólida en marketing digital de alto impacto',
   },
 ];
 
@@ -63,7 +63,7 @@ const Results = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p className="text-secondary/60 dark:text-accent/60">
-                  Más clientes calificados, mayor tasa de conversión y un crecimiento sostenible impulsado por campañas
+                  Más clientes de calidad, mejores tasas de conversión y crecimiento constante gracias a estrategias
                   digitales inteligentes.
                 </p>
               </RevealAnimation>
@@ -73,7 +73,7 @@ const Results = () => {
                 <LinkButton
                   href="/case-study"
                   className="btn btn-secondary dark:btn-transparent btn-md hover:btn-white">
-                  Read More Success Stories.
+                  descubre más casos de éxito.
                 </LinkButton>
               </div>
             </RevealAnimation>
