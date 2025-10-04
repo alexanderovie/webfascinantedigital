@@ -1,15 +1,35 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
 
-// 🛡️ ELITE: Configuración Stripe para webhooks
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-09-30.clover',
-  timeout: 20 * 1000,
-  maxNetworkRetries: 3,
-  telemetry: false,
-});
+// 🛡️ ELITE: Configuración Stripe moderna con lazy initialization
+let stripe: Stripe | null = null;
+
+const getStripe = (): Stripe => {
+  if (!stripe) {
+    stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+      apiVersion: '2025-09-30.clover',
+      timeout: 20 * 1000,
+      maxNetworkRetries: 3,
+      telemetry: false,
+    });
+  }
+  return stripe;
+};
 
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
+
+// 🛡️ ELITE: Tipos modernos para webhook handlers
+type WebhookHandler<T> = (data: T) => Promise<void>;
+
+interface WebhookEventHandlers {
+  'checkout.session.completed': WebhookHandler<Stripe.Checkout.Session>;
+  'payment_intent.succeeded': WebhookHandler<Stripe.PaymentIntent>;
+  'payment_intent.payment_failed': WebhookHandler<Stripe.PaymentIntent>;
+  'invoice.payment_succeeded': WebhookHandler<Stripe.Invoice>;
+  'customer.subscription.created': WebhookHandler<Stripe.Subscription>;
+  'customer.subscription.updated': WebhookHandler<Stripe.Subscription>;
+  'customer.subscription.deleted': WebhookHandler<Stripe.Subscription>;
+}
 
 export async function POST(request: NextRequest) {
   const body = await request.text();
@@ -18,46 +38,31 @@ export async function POST(request: NextRequest) {
   let event: Stripe.Event;
 
   try {
-    // 🛡️ ELITE: Verificar firma del webhook
-    event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
+    // 🛡️ ELITE: Verificar firma del webhook con manejo moderno de errores
+    event = getStripe().webhooks.constructEvent(body, signature, webhookSecret);
   } catch (err) {
     console.error('Webhook signature verification failed:', err);
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 });
   }
 
-  // 🛡️ ELITE: Procesar eventos específicos
+  // 🛡️ ELITE: Procesar eventos con type safety moderno
   try {
-    switch (event.type) {
-      case 'checkout.session.completed':
-        await handleCheckoutSessionCompleted(event.data.object as Stripe.Checkout.Session);
-        break;
+    const handlers: WebhookEventHandlers = {
+      'checkout.session.completed': handleCheckoutSessionCompleted,
+      'payment_intent.succeeded': handlePaymentIntentSucceeded,
+      'payment_intent.payment_failed': handlePaymentIntentFailed,
+      'invoice.payment_succeeded': handleInvoicePaymentSucceeded,
+      'customer.subscription.created': handleSubscriptionCreated,
+      'customer.subscription.updated': handleSubscriptionUpdated,
+      'customer.subscription.deleted': handleSubscriptionDeleted,
+    };
 
-      case 'payment_intent.succeeded':
-        await handlePaymentIntentSucceeded(event.data.object as Stripe.PaymentIntent);
-        break;
+    const handler = handlers[event.type as keyof WebhookEventHandlers];
 
-      case 'payment_intent.payment_failed':
-        await handlePaymentIntentFailed(event.data.object as Stripe.PaymentIntent);
-        break;
-
-      case 'invoice.payment_succeeded':
-        await handleInvoicePaymentSucceeded(event.data.object as Stripe.Invoice);
-        break;
-
-      case 'customer.subscription.created':
-        await handleSubscriptionCreated(event.data.object as Stripe.Subscription);
-        break;
-
-      case 'customer.subscription.updated':
-        await handleSubscriptionUpdated(event.data.object as Stripe.Subscription);
-        break;
-
-      case 'customer.subscription.deleted':
-        await handleSubscriptionDeleted(event.data.object as Stripe.Subscription);
-        break;
-
-      default:
-        console.log(`Unhandled event type: ${event.type}`);
+    if (handler) {
+      await handler(event.data.object as Parameters<typeof handler>[0]);
+    } else {
+      console.log(`Unhandled event type: ${event.type}`);
     }
 
     return NextResponse.json({ received: true });
@@ -67,7 +72,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// 🛡️ ELITE: Handlers específicos para cada evento
+// 🛡️ ELITE: Handlers modernos con type safety
 async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session) {
   console.log('Checkout session completed:', {
     sessionId: session.id,
@@ -77,11 +82,11 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session) 
     metadata: session.metadata,
   });
 
-  // Aquí puedes:
-  // 1. Enviar email de confirmación
-  // 2. Crear usuario en tu base de datos
-  // 3. Activar servicios
-  // 4. Enviar notificación a Slack/Discord
+  // 🚀 MODERNO: Aquí puedes integrar con:
+  // - Resend para emails
+  // - Supabase para base de datos
+  // - Slack/Discord para notificaciones
+  // - Analytics tracking
 }
 
 async function handlePaymentIntentSucceeded(paymentIntent: Stripe.PaymentIntent) {
@@ -92,10 +97,10 @@ async function handlePaymentIntentSucceeded(paymentIntent: Stripe.PaymentIntent)
     metadata: paymentIntent.metadata,
   });
 
-  // Aquí puedes:
-  // 1. Actualizar estado del pedido
-  // 2. Enviar recibo
-  // 3. Activar servicios premium
+  // 🚀 MODERNO: Integraciones modernas
+  // - Actualizar estado en tiempo real
+  // - Enviar recibo automático
+  // - Activar servicios premium
 }
 
 async function handlePaymentIntentFailed(paymentIntent: Stripe.PaymentIntent) {
@@ -105,10 +110,10 @@ async function handlePaymentIntentFailed(paymentIntent: Stripe.PaymentIntent) {
     metadata: paymentIntent.metadata,
   });
 
-  // Aquí puedes:
-  // 1. Enviar email de fallo
-  // 2. Notificar al equipo
-  // 3. Intentar pago alternativo
+  // 🚀 MODERNO: Manejo de errores moderno
+  // - Notificaciones automáticas
+  // - Retry logic inteligente
+  // - Fallback a métodos alternativos
 }
 
 async function handleInvoicePaymentSucceeded(invoice: Stripe.Invoice) {
