@@ -38,12 +38,9 @@ export async function POST(request: NextRequest) {
   // 🛡️ ELITE: Rate limiting básico por IP
   const clientIP = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
 
-  // 🛡️ ELITE: Declarar body fuera del try para acceso en catch
-  let body: { planId?: string; billingCycle?: string } | null = null;
-
   try {
     // 🛡️ ELITE: Validación estricta de entrada
-    body = await request.json();
+    const body = (await request.json()) as { planId?: string; billingCycle?: string };
     const { planId, billingCycle = 'monthly' } = body;
 
     // Validar tipos y valores
@@ -113,8 +110,6 @@ export async function POST(request: NextRequest) {
     // 🛡️ ELITE: Manejo de errores específicos de Stripe
     if (error instanceof Stripe.errors.StripeError) {
       console.error(`Stripe error: ${error.type} - ${error.message}`, {
-        planId: body?.planId,
-        billingCycle: body?.billingCycle,
         clientIP,
       });
 
