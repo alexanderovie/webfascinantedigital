@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
   },
   description:
-    'Agencia de marketing digital para latinos en EE.UU. SEO, publicidad y analítica que convierten clics en clientes.',
+    'Agencia de marketing digital para latinos en EE.UU. SEO, publicidad y datos que convierten clics en clientes.',
   keywords: ['agencia de marketing digital', 'SEO para latinos', 'publicidad digital', 'analítica avanzada', 'marketing en español', 'SEO local EE.UU.'],
   authors: [{ name: 'Fascinante Digital' }],
   creator: 'Fascinante Digital',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'Fascinante Digital',
     title: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'SEO, publicidad y analítica para negocios hispanos en EE.UU. Resultados medibles y reales.',
+      'SEO, publicidad y datos para negocios hispanos en EE.UU. Resultados reales y medibles.',
     images: [
       {
         url: 'https://fascinantedigital.com/static/og-default-1200x630.jpg',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fascinante Digital — Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'Estrategias digitales en español para negocios latinos. SEO, publicidad y datos reales.',
+      'Estrategias digitales en español para negocios latinos. SEO, publicidad y resultados reales.',
     images: ['https://fascinantedigital.com/static/og-default-1200x630.jpg'],
   },
   appleWebApp: {
@@ -111,7 +111,7 @@ export default function RootLayout({
               url: 'https://fascinantedigital.com',
               logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
               description:
-                'Agencia de marketing digital para latinos en EE.UU. Especialistas en SEO, publicidad y analítica avanzada que convierten clics en clientes reales.',
+                'Agencia de marketing digital para latinos en EE.UU. Especialistas en SEO, publicidad y datos que convierten clics en clientes reales.',
               founder: {
                 '@type': 'Person',
                 name: 'Alexander Oviedo',
@@ -138,6 +138,30 @@ export default function RootLayout({
                 'https://www.youtube.com/@fascinantedigital',
                 'https://www.linkedin.com/company/fascinante-digital',
               ],
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
+
+        {/* ✅ Case Studies Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'CreativeWorkSeries',
+              name: 'Casos de Éxito Fascinante Digital',
+              description: 'Casos de éxito reales de negocios hispanos que crecieron con nuestras estrategias de marketing digital',
+              url: 'https://fascinantedigital.com/case-study',
+              publisher: {
+                '@type': 'Organization',
+                name: 'Fascinante Digital',
+                url: 'https://fascinantedigital.com'
+              },
+              inLanguage: 'es',
+              audience: {
+                '@type': 'Audience',
+                audienceType: 'Hispanic business owners in USA'
+              }
             }).replace(/</g, '\\u003c'),
           }}
         />

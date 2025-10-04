@@ -41,8 +41,8 @@ const SuccessStories = () => {
                   <p className="text-secondary/60 dark:text-accent/60 mb-4 text-sm">
                     Cómo una agente de seguros de vida logró un aumento del 450% en leads calificados y se posicionó como autoridad entre familias hispanas con marketing de contenido y SEO.
                   </p>
-                  <Link 
-                    href="/case-study#ana-martinez" 
+                  <Link
+                    href="/case-study#ana-martinez"
                     className="text-primary-500 hover:text-primary-600 font-medium text-sm transition-colors duration-200"
                   >
                     Leer más →
@@ -67,8 +67,8 @@ const SuccessStories = () => {
                   <p className="text-secondary/60 dark:text-accent/60 mb-4 text-sm">
                     Cómo un agente de seguros médicos logró un retorno del 300% y 250% más citas calificadas con campañas estratégicas de Google Ads dirigidas a la comunidad hispana.
                   </p>
-                  <Link 
-                    href="/case-study#carlos-rodriguez" 
+                  <Link
+                    href="/case-study#carlos-rodriguez"
                     className="text-primary-500 hover:text-primary-600 font-medium text-sm transition-colors duration-200"
                   >
                     Leer más →
@@ -93,8 +93,8 @@ const SuccessStories = () => {
                   <p className="text-secondary/60 dark:text-accent/60 mb-4 text-sm">
                     Cómo una empresa de limpieza alcanzó un aumento del 500% en reservas online y se posicionó como líder en su ciudad gracias al SEO local y Google Business Profile.
                   </p>
-                  <Link 
-                    href="/case-study#limpieza-total" 
+                  <Link
+                    href="/case-study#limpieza-total"
                     className="text-primary-500 hover:text-primary-600 font-medium text-sm transition-colors duration-200"
                   >
                     Leer más →
