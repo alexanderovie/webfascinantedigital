@@ -83,7 +83,7 @@ const Services = () => {
                   <LinkButton
                     href="/services"
                     className="btn btn-secondary btn-xl dark:btn-accent w-[90%] sm:w-auto hover:btn-white dark:hover:btn-white-dark">
-                    Ver Desglose Completo de Servicios.
+                    Ver Desglose Completo de Servicios
                   </LinkButton>
                 </div>
               </RevealAnimation>
