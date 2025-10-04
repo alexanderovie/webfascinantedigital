@@ -1,38 +1,39 @@
 'use client';
 
 import RevealAnimation from '../animation/RevealAnimation';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 
 const FAQ = () => {
   const faqData = [
     {
       id: 1,
-      question: '¿Cómo funciona el SEO para negocios latinos en EE.UU.?',
-      answer: 'Optimizamos tu sitio web para aparecer en búsquedas locales y nacionales. Trabajamos con palabras clave en español e inglés para captar clientes hispanos que buscan tus servicios.'
+      question: '¿Qué hace diferente a Fascinante Digital de otras agencias de marketing?',
+      answer: 'Fascinante Digital se especializa en ayudar a negocios hispanos a dominar los resultados de búsqueda de Google y hacer crecer sus ingresos. Combinamos estrategias de SEO probadas, optimización de Google Ads y automatización de marketing para entregar resultados medibles a negocios latinos en EE.UU.'
     },
     {
       id: 2,
-      question: '¿Cuánto tiempo toma ver resultados con marketing digital?',
-      answer: 'Los primeros resultados aparecen en 30-60 días. El crecimiento sostenido comienza a los 3-6 meses. Cada negocio es diferente, pero nuestros clientes ven mejoras constantes.'
+      question: '¿Qué servicios de marketing digital ofrece Fascinante Digital?',
+      answer: 'Ofrecemos servicios integrales de marketing digital incluyendo SEO Local, SEO Técnico, optimización de Google Business Profile, gestión de Google Ads, diseño y desarrollo web, automatización de marketing, publicidad en redes sociales, marketing de contenido y optimización de tasa de conversión.'
     },
     {
       id: 3,
-      question: '¿Trabajan con presupuestos pequeños?',
-      answer: 'Sí. Creamos estrategias personalizadas para cada presupuesto. Desde $500/mes para SEO básico hasta campañas completas de $5,000/mes. Siempre con ROI positivo.'
+      question: '¿Cuánto tiempo toma ver resultados con SEO?',
+      answer: 'Los resultados de SEO típicamente comienzan a mostrarse en 3-6 meses, con mejoras significativas en 6-12 meses. Sin embargo, nuestros clientes a menudo ven mejoras iniciales en rankings de búsqueda local en 30-60 días. Proporcionamos reportes mensuales para rastrear el progreso y ROI.'
     },
     {
       id: 4,
-      question: '¿Qué incluye la auditoría gratuita?',
-      answer: 'Análisis completo de tu sitio web, competencia local, palabras clave, Google Business Profile y redes sociales. Te damos un plan de acción claro con prioridades específicas.'
+      question: '¿Trabajan con negocios fuera del mercado hispano?',
+      answer: 'Aunque nos especializamos en ayudar a negocios hispanos, trabajamos con todos los negocios que quieren llegar a audiencias latinas o mejorar su marketing digital. Nuestras estrategias son efectivas para cualquier negocio que busque dominar los resultados de búsqueda local y hacer crecer sus ingresos.'
     },
     {
       id: 5,
-      question: '¿Manejan Google Ads para la comunidad hispana?',
-      answer: 'Absolutamente. Creamos campañas en español e inglés dirigidas a latinos en EE.UU. Conocemos las diferencias culturales y lingüísticas que generan mejores conversiones.'
+      question: '¿Cuál es su estructura de precios para servicios de marketing digital?',
+      answer: 'Nuestros precios se personalizan según las necesidades, objetivos y presupuesto de tu negocio. Ofrecemos paquetes flexibles para SEO Local, gestión de Google Ads, desarrollo web y automatización de marketing. Contáctanos para una consulta gratuita y cotización personalizada.'
     },
     {
       id: 6,
-      question: '¿Ofrecen soporte en español?',
-      answer: 'Sí, todo nuestro equipo habla español nativo. Reuniones, reportes y comunicación 100% en español. Entendemos tu cultura y tu negocio.'
+      question: '¿Proporcionan reportes mensuales y analíticas?',
+      answer: 'Sí, proporcionamos reportes mensuales detallados mostrando el tráfico de tu sitio web, rankings de búsqueda, rendimiento de Google Ads, generación de leads y ROI. Nuestras analíticas te ayudan a entender exactamente cómo tu inversión en marketing digital está haciendo crecer tu negocio.'
     }
   ];
 
@@ -44,34 +45,46 @@ const FAQ = () => {
             {/* Header */}
             <div className="text-center space-y-3">
               <RevealAnimation delay={0.1}>
+                <span className="badge badge-cyan mb-5">FAQ</span>
+              </RevealAnimation>
+              <RevealAnimation delay={0.2}>
                 <h2 className="text-secondary dark:text-accent">
                   Preguntas Frecuentes sobre Marketing
                   <br className="hidden lg:block" />
                   <span className="lg:hidden"> </span>Digital para Latinos
                 </h2>
               </RevealAnimation>
-              <RevealAnimation delay={0.2}>
+              <RevealAnimation delay={0.3}>
                 <p className="max-w-[600px] mx-auto text-secondary/60 dark:text-accent/60">
                   Respuestas claras a las dudas más comunes de empresarios hispanos sobre marketing digital en EE.UU.
                 </p>
               </RevealAnimation>
             </div>
 
-            {/* FAQ Grid */}
-            <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-              {faqData.map((faq, index) => (
-                <RevealAnimation key={faq.id} delay={0.3 + index * 0.1}>
-                  <div className="bg-white dark:bg-background-6 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <h3 className="text-lg font-semibold mb-3 text-secondary dark:text-accent">
-                      {faq.question}
-                    </h3>
-                    <p className="text-secondary/60 dark:text-accent/60 text-sm leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </RevealAnimation>
-              ))}
-            </div>
+            {/* FAQ Accordion */}
+            <RevealAnimation delay={0.4}>
+              <Accordion
+                className="mx-auto w-full max-w-[850px] space-y-4"
+                defaultValue="1"
+                enableScrollAnimation={true}
+                animationDelay={0.1}>
+                {faqData.map((item) => (
+                  <AccordionItem
+                    className="dark:bg-background-7 rounded-[20px] bg-white px-6 sm:px-8"
+                    key={item.id}
+                    value={item.id.toString()}>
+                    <AccordionTrigger
+                      titleClassName="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
+                      className="flex w-full cursor-pointer items-center justify-between pt-5 pb-5 sm:pt-8 sm:pb-8"
+                      value={item.id.toString()}
+                      iconType="arrow">
+                      {item.question}
+                    </AccordionTrigger>
+                    <AccordionContent value={item.id.toString()}>{item.answer}</AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </RevealAnimation>
 
             {/* CTA */}
             <RevealAnimation delay={0.8}>
