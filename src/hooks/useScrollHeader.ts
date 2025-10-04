@@ -26,12 +26,11 @@ export const useNavbarScroll = (threshold: number = 100) => {
           // Hide/show navbar based on scroll direction with debounce
           if (currentScrollY > lastScrollY && currentScrollY > threshold) {
             // Scrolling down - hide navbar
+            console.log('Hiding navbar - scrolling down');
             setIsVisible(false);
-          } else if (currentScrollY < lastScrollY) {
-            // Scrolling up - show navbar immediately
-            setIsVisible(true);
-          } else if (currentScrollY <= threshold) {
-            // At top - always show navbar
+          } else if (currentScrollY < lastScrollY || currentScrollY <= threshold) {
+            // Scrolling up OR at top - show navbar immediately
+            console.log('Showing navbar - scrolling up or at top');
             setIsVisible(true);
           }
 
