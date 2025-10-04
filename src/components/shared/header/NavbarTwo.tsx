@@ -24,15 +24,16 @@ interface NavbarTwoProps {
 }
 
 const NavbarTwo: FC<NavbarTwoProps> = ({ className, megaMenuColor, btnClassName }) => {
-  const { isScrolled } = useNavbarScroll(150);
+  const { isScrolled, isVisible } = useNavbarScroll(150);
 
   return (
     <MobileMenuProvider>
       <header>
         <div
           className={cn(
-            'lp:!max-w-[1290px] bg-accent/10 dark:bg-background-7/40 fixed top-14 left-1/2 z-50 mx-auto flex w-full max-w-[360px] -translate-x-1/2 items-center justify-between rounded-full px-2.5 py-2.5 backdrop-blur-[25px] max-md:!top-8 min-[425px]:max-w-[380px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xl:py-0',
+            'lp:!max-w-[1290px] bg-accent/10 dark:bg-background-7/40 fixed top-14 left-1/2 z-50 mx-auto flex w-full max-w-[360px] -translate-x-1/2 items-center justify-between rounded-full px-2.5 py-2.5 backdrop-blur-[25px] max-md:!top-8 min-[425px]:max-w-[380px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xl:py-0 transition-transform duration-300 ease-in-out',
             className,
+            !isVisible && '-translate-y-full',
             isScrolled && 'bg-background-7 top-4 transition-all duration-500 ease-in-out',
           )}>
           {/* logo */}

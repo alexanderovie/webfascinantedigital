@@ -24,12 +24,17 @@ interface NavbarOneProps {
 }
 
 const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName }) => {
-  const { isScrolled } = useNavbarScroll(100);
+  const { isScrolled, isVisible } = useNavbarScroll(100);
 
   return (
     <MobileMenuProvider>
       <header>
-        <div className={cn('fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7', className)}>
+        <div
+          className={cn(
+            'fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7 transition-transform duration-300 ease-in-out',
+            !isVisible && '-translate-y-full',
+            className,
+          )}>
           <div className="main-container px-5">
             <div
               className={cn(
