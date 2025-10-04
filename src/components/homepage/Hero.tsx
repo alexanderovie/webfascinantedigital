@@ -126,14 +126,14 @@ const Hero = () => {
                 <Image
                   src="/images/icons/client-logo-1-white.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto dark:hidden"
+                  className="w-[144px] dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-1-dark.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto hidden dark:block"
+                  className="w-[144px] hidden dark:block"
                   width={144}
                   height={40}
                 />
@@ -142,14 +142,14 @@ const Hero = () => {
                 <Image
                   src="/images/icons/client-logo-2-white.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto dark:hidden"
+                  className="w-[144px] dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-2-dark.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto hidden dark:block"
+                  className="w-[144px] hidden dark:block"
                   width={144}
                   height={40}
                 />
@@ -158,14 +158,14 @@ const Hero = () => {
                 <Image
                   src="/images/icons/client-logo-3-white.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto dark:hidden"
+                  className="w-[144px] dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-3-dark.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto hidden dark:block"
+                  className="w-[144px] hidden dark:block"
                   width={144}
                   height={40}
                 />
@@ -174,14 +174,14 @@ const Hero = () => {
                 <Image
                   src="/images/icons/client-logo-4-white.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto dark:hidden"
+                  className="w-[144px] dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-4-dark.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto hidden dark:block"
+                  className="w-[144px] hidden dark:block"
                   width={144}
                   height={40}
                 />
@@ -190,14 +190,14 @@ const Hero = () => {
                 <Image
                   src="/images/icons/client-logo-5-white.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto dark:hidden"
+                  className="w-[144px] dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-5-dark.svg"
                   alt="Logo de cliente"
-                  className="lg:w-auto hidden dark:block"
+                  className="w-[144px] hidden dark:block"
                   width={144}
                   height={40}
                 />

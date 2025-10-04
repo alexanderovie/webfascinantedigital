@@ -59,7 +59,7 @@ const Results = () => {
           <div className="space-y-14 mb-[70px] text-center sm:text-left mx-4 sm:mx-0">
             <div className="space-y-3">
               <RevealAnimation delay={0.1}>
-                <h2 className="text-secondary dark:text-accent">Resultados que Hablan por Sí Solos.</h2>
+                <h2 className="text-secondary dark:text-accent">Resultados que Hablan por Sí Solos</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p className="text-secondary/60 dark:text-accent/60">

@@ -13,7 +13,7 @@ const Audit = () => {
               <div className="space-y-3">
                 <RevealAnimation delay={0.1}>
                   <h2 className="text-secondary dark:text-accent">
-                    Solicita tu auditoría gratuita y recibe un plan claro para atraer más clientes desde hoy mismo.
+                    Solicita tu Auditoría Gratuita y recibe un Plan Claro
                   </h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.2}>

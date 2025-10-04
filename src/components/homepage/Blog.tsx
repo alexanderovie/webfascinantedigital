@@ -17,7 +17,7 @@ const Blog = () => {
             <span className="badge badge-blue-modern mb-5">Blog</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="mb-3">Actionable Insights from Real Experts.</h2>
+            <h2 className="mb-3">Actionable Insights from Real Experts</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="max-w-[738px] mx-auto">
