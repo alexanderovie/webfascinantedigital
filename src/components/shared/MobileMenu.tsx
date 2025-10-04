@@ -96,6 +96,16 @@ const MobileMenu = () => {
             </li>
           </ul>
         </div>
+
+        {/* CTA Button - Bottom of mobile menu */}
+        <div className="px-5 pb-5 sm:px-8 sm:pb-8 lg:px-9 lg:pb-9">
+          <Link
+            href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
+            className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md w-full text-center block"
+            onClick={closeMenu}>
+            Agendar Consulta
+          </Link>
+        </div>
       </div>
     </aside>
   );
