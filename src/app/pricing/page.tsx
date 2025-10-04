@@ -9,9 +9,12 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Pricing - Fascinante Digital',
+  title: 'Planes y Precios | Fascinante Digital',
   description:
-    'Transparent pricing for digital marketing services. Choose the plan that fits your business needs - from Local SEO to comprehensive marketing automation.',
+    'Precios transparentes en marketing digital. Elige el plan que se adapta a tu negocio: desde SEO local hasta automatización completa.',
+  alternates: {
+    canonical: '/pricing',
+  },
 };
 
 const Pricing02 = () => {
@@ -24,11 +27,11 @@ const Pricing02 = () => {
       />
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero
-          title="Pricing"
-          heading="Transparent Pricing for<br />Digital Marketing Success"
-          description="Choose the perfect plan for your Hispanic business growth. From local SEO to comprehensive marketing automation, we offer flexible pricing that scales with your success."
+          title="Precios"
+          heading="Precios Transparentes para<br />tu Éxito Digital"
+          description="Elige el plan ideal para impulsar el crecimiento de tu negocio hispano. Desde SEO local hasta automatización avanzada, nuestros precios se adaptan a tu éxito."
           link="/pricing"
-          badge="Our Pricing"
+          badge="Nuestros Precios"
           badgeClass="badge-blue-soft"
         />
         <Pricing />
@@ -36,11 +39,11 @@ const Pricing02 = () => {
         <Faq />
         <CTAV1
           className="dark:bg-background-5 bg-background-1"
-          badgeText="Get Started"
+          badgeText="Comenzar Ahora"
           badgeClass="badge-yellow-modern"
-          ctaHeading="Ready To Dominate Your Local Market?"
-          description="Start your digital marketing journey today and see your business grow with proven strategies."
-          ctaBtnText="Get Started"
+          ctaHeading="¿Listo para dominar tu mercado local?"
+          description="Comienza hoy tu estrategia digital y observa cómo tu negocio crece con estrategias comprobadas."
+          ctaBtnText="Comenzar Ahora"
           btnClass="btn-primary hover:btn-secondary dark:hover:btn-accent"
         />
       </main>

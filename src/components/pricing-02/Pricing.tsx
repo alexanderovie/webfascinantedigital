@@ -16,10 +16,12 @@ const Pricing = () => {
       <div className="main-container flex flex-col gap-[70px]">
         <div className="flex flex-col items-center text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-modern mb-5"> Our Pricing </span>
+            <span className="badge badge-yellow-modern mb-5"> Nuestros Precios </span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2 className="max-w-[650px] mx-auto mb-8">Select the pricing plan that best suits your digital marketing needs.</h2>
+            <h2 className="max-w-[650px] mx-auto mb-8">
+              Selecciona el plan que mejor se adapte a tus necesidades de marketing digital.
+            </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <div className="relative z-0">
@@ -50,7 +52,9 @@ const Pricing = () => {
             <RevealAnimation delay={0.3} instant>
               <div className="bg-background-3 dark:bg-background-5 flex-1 p-8 rounded-[20px] max-lg:w-full">
                 <h3 className="mb-2 font-normal text-heading-5">Starter</h3>
-                <p className="mb-6 max-w-[250px]">Perfect for small businesses looking to establish their online presence.</p>
+                <p className="mb-6 max-w-[250px]">
+                  Ideal para pequeñas empresas que desean construir su presencia digital.
+                </p>
                 {isAnnual ? (
                   <div className="price-year mb-7">
                     <h4 className="text-heading-4 font-normal">
@@ -124,9 +128,7 @@ const Pricing = () => {
                         className="fill-white dark:fill-black"
                       />
                     </svg>
-                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">
-                      Monthly Reports
-                    </span>
+                    <span className="text-secondary dark:text-accent font-normal text-tagline-1">Monthly Reports</span>
                   </li>
                 </ul>
               </div>
@@ -137,7 +139,7 @@ const Pricing = () => {
                 <div className="bg-white dark:bg-background-8 p-8 rounded-[12px]">
                   <h3 className="mb-2.5 font-normal text-heading-5">Professional</h3>
                   <p className="mb-6 text-secondary/60 dark:text-accent/60 max-w-[250px]">
-                    Ideal for growing businesses ready to scale their digital presence.
+                    Perfecto para negocios en crecimiento que buscan escalar su presencia digital.
                   </p>
                   {isAnnual ? (
                     <div className="price-year mb-7">
@@ -214,7 +216,9 @@ const Pricing = () => {
                           className="fill-white dark:fill-black"
                         />
                       </svg>
-                      <span className="text-secondary dark:text-accent font-normal text-tagline-1">Web Development</span>
+                      <span className="text-secondary dark:text-accent font-normal text-tagline-1">
+                        Web Development
+                      </span>
                     </li>
                     <li className="flex items-center gap-2.5">
                       <svg
@@ -280,7 +284,7 @@ const Pricing = () => {
               <div className="bg-background-3 dark:bg-background-5 flex-1 p-8 rounded-[20px] max-lg:w-full">
                 <h3 className="mb-2 font-normal text-heading-5">Enterprise</h3>
                 <p className="mb-6 max-w-[250px] text-secondary/60 dark:text-accent/60">
-                  Complete digital marketing solution for established businesses.
+                  La solución completa de marketing digital para empresas consolidadas.
                 </p>
                 {isAnnual ? (
                   <div className="price-year mb-7">
@@ -365,6 +369,14 @@ const Pricing = () => {
               </div>
             </RevealAnimation>
           </div>
+        </div>
+
+        {/* Texto de refuerzo SEO */}
+        <div className="text-center mt-6">
+          <p className="text-secondary/60 dark:text-accent/60 text-sm">
+            Nuestros planes están diseñados para negocios latinos en EE.UU. que buscan resultados reales en SEO,
+            publicidad y crecimiento digital.
+          </p>
         </div>
       </div>
     </section>

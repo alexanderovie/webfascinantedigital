@@ -18,7 +18,7 @@ const Faq = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <h2 className="lg:max-w-[439px] mx-auto lg:mx-0" id="faq-heading">
-                  Common Questions About Our Pricing
+                  Preguntas Frecuentes sobre Nuestros Planes y Precios
                 </h2>
               </RevealAnimation>
             </div>
@@ -32,11 +32,14 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="1"
                     iconType="arrow">
-                    What digital marketing services are included in each plan?
+                    ¿Qué servicios de marketing digital incluye cada plan?
                   </AccordionTrigger>
 
                   <AccordionContent value="1">
-                    Our plans include Local SEO, Google Business Profile optimization, Google Ads management, social media marketing, web development, and marketing automation. The Starter plan focuses on local presence, Professional adds paid advertising, and Enterprise includes full marketing automation and dedicated support.
+                    Nuestros planes incluyen SEO local, optimización del Perfil de Google Business, gestión de Google
+                    Ads, redes sociales, desarrollo web y automatización de marketing. El plan Starter se centra en la
+                    visibilidad local, el Professional añade publicidad de pago, y el Enterprise integra automatización
+                    total y soporte dedicado.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -50,7 +53,9 @@ const Faq = () => {
                   </AccordionTrigger>
 
                   <AccordionContent value="2">
-                    SEO results typically start showing within 3-6 months, with significant improvements in 6-12 months. However, our clients often see initial improvements in local search rankings within 30-60 days. We provide monthly reports to track progress and ROI.
+                    SEO results typically start showing within 3-6 months, with significant improvements in 6-12 months.
+                    However, our clients often see initial improvements in local search rankings within 30-60 days. We
+                    provide monthly reports to track progress and ROI.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -64,7 +69,9 @@ const Faq = () => {
                   </AccordionTrigger>
 
                   <AccordionContent value="3">
-                    Yes, you can upgrade or downgrade your plan at any time. We understand that business needs change, and we&apos;re flexible with our pricing plans. Contact us to discuss plan changes and we&apos;ll help you transition smoothly.
+                    Yes, you can upgrade or downgrade your plan at any time. We understand that business needs change,
+                    and we&apos;re flexible with our pricing plans. Contact us to discuss plan changes and we&apos;ll
+                    help you transition smoothly.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -78,7 +85,9 @@ const Faq = () => {
                   </AccordionTrigger>
 
                   <AccordionContent value="4">
-                    Yes, we provide detailed monthly reports showing your website traffic, search rankings, Google Ads performance, lead generation, and ROI. Our analytics help you understand exactly how your digital marketing investment is growing your business.
+                    Yes, we provide detailed monthly reports showing your website traffic, search rankings, Google Ads
+                    performance, lead generation, and ROI. Our analytics help you understand exactly how your digital
+                    marketing investment is growing your business.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
