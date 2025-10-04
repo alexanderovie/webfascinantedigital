@@ -89,18 +89,7 @@ const FAQ = () => {
                     </AccordionTrigger>
                     <AccordionContent value={item.id.toString()}>
                       <div className="space-y-3">
-                        {item.id === 5 ? (
-                          <p>
-                            Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000
-                            por mes. Te damos una{' '}
-                            <BotonCal className="text-primary-600 hover:text-primary-700 cursor-pointer font-semibold border-b border-primary-200 hover:border-primary-400 transition-all duration-200 pb-0.5">
-                              consulta gratuita
-                            </BotonCal>{' '}
-                            para ver qué necesitas.
-                          </p>
-                        ) : (
-                          <p>{item.answer}</p>
-                        )}
+                        <p>{item.answer}</p>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
