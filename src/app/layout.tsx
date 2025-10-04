@@ -111,7 +111,11 @@ export default function RootLayout({
               url: 'https://fascinantedigital.com',
               logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
               description:
-                'Agencia de marketing digital para negocios hispanos en West Palm Beach',
+                'Agencia de marketing digital para latinos en EE.UU. Especialistas en SEO, publicidad y analítica avanzada que convierten clics en clientes reales.',
+              founder: {
+                '@type': 'Person',
+                name: 'Alexander Oviedo',
+              },
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '2054 Vista Pkwy # 400',
@@ -125,6 +129,8 @@ export default function RootLayout({
                 telephone: '+1-800-886-4981',
                 contactType: 'customer service',
                 email: 'info@fascinantedigital.com',
+                areaServed: 'US',
+                availableLanguage: ['Spanish', 'English'],
               },
               sameAs: [
                 'https://www.facebook.com/fascinantedigital/',
