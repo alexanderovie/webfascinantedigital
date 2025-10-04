@@ -18,18 +18,18 @@ const getStripe = (): Stripe => {
 
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
 
-// 🛡️ ELITE: Tipos modernos para webhook handlers
-type WebhookHandler<T> = (data: T) => Promise<void>;
+// 🛡️ ELITE: Tipos modernos para webhook handlers con type mapping
+type StripeEventDataMap = {
+  'checkout.session.completed': Stripe.Checkout.Session;
+  'payment_intent.succeeded': Stripe.PaymentIntent;
+  'payment_intent.payment_failed': Stripe.PaymentIntent;
+  'invoice.payment_succeeded': Stripe.Invoice;
+  'customer.subscription.created': Stripe.Subscription;
+  'customer.subscription.updated': Stripe.Subscription;
+  'customer.subscription.deleted': Stripe.Subscription;
+};
 
-interface WebhookEventHandlers {
-  'checkout.session.completed': WebhookHandler<Stripe.Checkout.Session>;
-  'payment_intent.succeeded': WebhookHandler<Stripe.PaymentIntent>;
-  'payment_intent.payment_failed': WebhookHandler<Stripe.PaymentIntent>;
-  'invoice.payment_succeeded': WebhookHandler<Stripe.Invoice>;
-  'customer.subscription.created': WebhookHandler<Stripe.Subscription>;
-  'customer.subscription.updated': WebhookHandler<Stripe.Subscription>;
-  'customer.subscription.deleted': WebhookHandler<Stripe.Subscription>;
-}
+type WebhookHandler<T extends keyof StripeEventDataMap> = (data: StripeEventDataMap[T]) => Promise<void>;
 
 export async function POST(request: NextRequest) {
   const body = await request.text();
@@ -47,7 +47,9 @@ export async function POST(request: NextRequest) {
 
   // 🛡️ ELITE: Procesar eventos con type safety moderno
   try {
-    const handlers: WebhookEventHandlers = {
+    const handlers: {
+      [K in keyof StripeEventDataMap]: WebhookHandler<K>;
+    } = {
       'checkout.session.completed': handleCheckoutSessionCompleted,
       'payment_intent.succeeded': handlePaymentIntentSucceeded,
       'payment_intent.payment_failed': handlePaymentIntentFailed,
@@ -57,10 +59,11 @@ export async function POST(request: NextRequest) {
       'customer.subscription.deleted': handleSubscriptionDeleted,
     };
 
-    const handler = handlers[event.type as keyof WebhookEventHandlers];
+    const eventType = event.type as keyof StripeEventDataMap;
+    const handler = handlers[eventType];
 
     if (handler) {
-      await handler(event.data.object as Parameters<typeof handler>[0]);
+      await handler(event.data.object as StripeEventDataMap[typeof eventType]);
     } else {
       console.log(`Unhandled event type: ${event.type}`);
     }
