@@ -26,6 +26,9 @@ const Steps = dynamic(() => import('@/components/homepage/Steps'), {
 const Testimonial = dynamic(() => import('@/components/homepage/Testimonial'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />,
 });
+const SuccessStories = dynamic(() => import('@/components/homepage/SuccessStories'), {
+  loading: () => <div className="h-96 bg-gray-100 animate-pulse" />,
+});
 const WhyUs = dynamic(() => import('@/components/homepage/WhyUs'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />,
 });
@@ -91,6 +94,7 @@ const Homepage33 = () => {
         <Steps />
         <WhyUs />
         <Results />
+        <SuccessStories />
         <Testimonial />
         <Audit />
         <Blog />

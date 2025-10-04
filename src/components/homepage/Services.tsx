@@ -69,7 +69,7 @@ const Services = () => {
               </RevealAnimation>
               <div className="space-y-2 md:max-w-[595px] mb-14">
                 <RevealAnimation delay={0.2}>
-                  <h2>Nuestros Servicios Enfocados en Resultados</h2>
+                  <h2>Servicios que Impulsan tu Negocio Hispano</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[512px]">
