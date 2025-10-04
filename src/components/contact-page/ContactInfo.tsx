@@ -16,7 +16,7 @@ const contactInfoItems = [
   {
     id: 1,
     icon: homeIcon,
-    title: 'Our Address',
+    title: 'Nuestra Dirección',
     content: '2054 Vista Pkwy # 400, West Palm Beach, FL 33411',
     gradient: gradient22,
     gradientClass: 'top-[-187px] left-[174px] -rotate-[78deg]',
@@ -24,7 +24,7 @@ const contactInfoItems = [
   {
     id: 2,
     icon: mailIcon,
-    title: 'Email Us',
+    title: 'Escríbenos',
     content: 'info@fascinantedigital.com',
     link: 'mailto:info@fascinantedigital.com',
     gradient: gradient17,
@@ -33,7 +33,7 @@ const contactInfoItems = [
   {
     id: 3,
     icon: phoneIcon,
-    title: 'Call Us',
+    title: 'Llámanos',
     content: '(800) 886-4981',
     link: 'tel:+18008864981',
     gradient: gradient6,
@@ -107,13 +107,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="fullname"
                       className="block text-tagline-2 text-secondary dark:text-accent font-medium">
-                      Your name
+                      Tu nombre
                     </label>
                     <input
                       type="text"
                       id="fullname"
                       name="fullname"
-                      placeholder="Enter your name"
+                      placeholder="Ingresa tu nombre"
                       required={true}
                       autoComplete="name"
                       className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
@@ -124,13 +124,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="number"
                       className="block text-tagline-2 text-secondary dark:text-accent font-medium">
-                      Your number
+                      Tu teléfono
                     </label>
                     <input
                       type="text"
                       id="number"
                       name="number"
-                      placeholder="Enter your number"
+                      placeholder="Ingresa tu teléfono"
                       required={true}
                       autoComplete="tel"
                       className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
@@ -140,13 +140,13 @@ const ContactInfo = () => {
                 {/* email  */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="block text-tagline-2 text-secondary dark:text-accent font-medium">
-                    Email address
+                    Dirección de email
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Enter your email"
+                    placeholder="Ingresa tu email"
                     required={true}
                     autoComplete="email"
                     className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
@@ -155,13 +155,13 @@ const ContactInfo = () => {
                 {/* subject  */}
                 <div className="space-y-2">
                   <label htmlFor="subject" className="block text-tagline-2 text-secondary dark:text-accent font-medium">
-                    Subject
+                    Asunto
                   </label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Enter your subject"
+                    placeholder="Ingresa el asunto"
                     required={true}
                     className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
                   />
@@ -169,13 +169,13 @@ const ContactInfo = () => {
                 {/* message */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="block text-tagline-2 text-secondary dark:text-accent font-medium">
-                    Write message
+                    Escribe tu mensaje
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={7}
-                    placeholder="Enter your messages"
+                    placeholder="Ingresa tu mensaje"
                     required={true}
                     className="w-full px-[18px] py-3 rounded-xl border dark:bg-background-6 dark:border-stroke-7 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary dark:focus-visible:border-stroke-4/20 placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
                     defaultValue={''}
@@ -190,10 +190,10 @@ const ContactInfo = () => {
                   <label
                     htmlFor="terms"
                     className="text-tagline-3 cursor-pointer text-secondary/60 dark:text-accent/60">
-                    I agree with the
+                    Acepto los
                     <Link href="/terms-conditions" className="text-primary-500 underline text-tagline-3">
                       {' '}
-                      terms and conditions
+                      términos y condiciones
                     </Link>
                   </label>
                 </fieldset>
@@ -216,7 +216,7 @@ const ContactInfo = () => {
                   type="submit"
                   disabled={isLoading}
                   className="btn btn-md btn-secondary w-full hover:btn-primary dark:btn-accent before:content-none first-letter:uppercase disabled:opacity-50 disabled:cursor-not-allowed">
-                  {isLoading ? 'Enviando...' : 'Submit'}
+                  {isLoading ? 'Enviando...' : 'Enviar Mensaje'}
                 </button>
               </form>
             </RevealAnimation>

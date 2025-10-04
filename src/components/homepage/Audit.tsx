@@ -1,10 +1,10 @@
 'use client';
 
+import { useEmailForm } from '@/hooks/useEmailForm';
 import Image from 'next/image';
+import { useState } from 'react';
 import auditImage from '../../../public/images/home-page-33/audit-image.webp';
 import RevealAnimation from '../animation/RevealAnimation';
-import { useEmailForm } from '@/hooks/useEmailForm';
-import { useState } from 'react';
 
 const Audit = () => {
   const [showForm, setShowForm] = useState(false);
@@ -105,7 +105,7 @@ const Audit = () => {
                         rows={3}
                         className="input-field w-full"
                       />
-                      
+
                       {error && (
                         <div className="text-red-600 text-sm bg-red-50 dark:bg-red-900/20 p-3 rounded-lg">
                           {error}

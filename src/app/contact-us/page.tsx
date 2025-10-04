@@ -7,9 +7,9 @@ import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contáctanos',
   description:
-    'Get in touch with Fascinante Digital. Contact our digital marketing experts in West Palm Beach for SEO, web development, and marketing automation services.',
+    'Ponte en contacto con Fascinante Digital. Contacta a nuestros expertos en marketing digital en West Palm Beach para servicios de SEO, desarrollo web y automatización de marketing.',
   alternates: {
     canonical: '/contact-us',
   },
@@ -72,11 +72,11 @@ const ContactUs = () => {
       />
       <main className="bg-background-3 dark:bg-background-7">
         <PageHero
-          title="Contact Us"
-          heading="Reach Out to Our<br />Support Team"
-          description="Whether you have a question, need technical assistance, or just want some guidance, our support team is here to help. We're available around the clock to provide quick and friendly support."
+          title="Contáctanos"
+          heading="Ponte en Contacto con<br />Nuestro Equipo de Soporte"
+          description="Ya sea que tengas una pregunta, necesites asistencia técnica o simplemente quieras orientación, nuestro equipo de soporte está aquí para ayudarte. Estamos disponibles las 24 horas para brindarte soporte rápido y amigable."
           link="/contact-us"
-          badge="Get in Touch"
+          badge="Ponte en Contacto"
           badgeClass="badge-blue-soft"
         />
         <ContactInfo />
@@ -84,10 +84,10 @@ const ContactUs = () => {
         <CTAV1
           className="dark:bg-background-5 bg-white"
           badgeClass="badge-yellow-modern"
-          badgeText="Get Started"
-          ctaBtnText="Contact Us"
-          ctaHeading="Get in Touch"
-          description="We're here to help you with your inquiries and needs. Feel free to reach out to us using the contact form below, and we'll get back to you as soon as possible."
+          badgeText="Comenzar"
+          ctaBtnText="Contáctanos"
+          ctaHeading="Ponte en Contacto"
+          description="Estamos aquí para ayudarte con tus consultas y necesidades. No dudes en contactarnos usando el formulario de contacto a continuación, y te responderemos lo antes posible."
         />
       </main>
       <FooterOne />
