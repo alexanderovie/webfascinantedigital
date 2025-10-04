@@ -3,7 +3,7 @@
 /**
  * 🚀 CONFIGURACIÓN ELITE DNS CLOUDFLARE
  * Configuración profesional para Fascinante Digital
- * 
+ *
  * Objetivo: Permitir que tanto Google Workspace como Resend
  * usen info@fascinantedigital.com
  */
@@ -58,10 +58,10 @@ function cloudflareRequest(endpoint, method = 'GET', data = null) {
 // Función para obtener records DNS
 async function getDNSRecords() {
   console.log('🔍 Obteniendo records DNS actuales...');
-  
+
   try {
     const response = await cloudflareRequest(`/client/v4/zones/${ZONE_ID}/dns_records`);
-    
+
     if (response.status === 200) {
       console.log('✅ Records DNS obtenidos correctamente');
       return response.data.result;
@@ -77,11 +77,11 @@ async function getDNSRecords() {
 // Función para actualizar SPF record
 async function updateSPFRecord(records) {
   console.log('📧 Actualizando SPF record...');
-  
+
   // Buscar record SPF existente
-  const spfRecord = records.find(record => 
-    record.type === 'TXT' && 
-    record.name === DOMAIN && 
+  const spfRecord = records.find(record =>
+    record.type === 'TXT' &&
+    record.name === DOMAIN &&
     record.content.includes('v=spf1')
   );
 
@@ -130,14 +130,14 @@ async function updateSPFRecord(records) {
 // Función para verificar DKIM records
 async function verifyDKIMRecords(records) {
   console.log('🔐 Verificando DKIM records...');
-  
-  const googleDKIM = records.find(record => 
-    record.type === 'TXT' && 
+
+  const googleDKIM = records.find(record =>
+    record.type === 'TXT' &&
     record.name === `google._domainkey.${DOMAIN}`
   );
 
-  const resendDKIM = records.find(record => 
-    record.type === 'TXT' && 
+  const resendDKIM = records.find(record =>
+    record.type === 'TXT' &&
     record.name === `resend._domainkey.${DOMAIN}`
   );
 
@@ -150,9 +150,9 @@ async function verifyDKIMRecords(records) {
 // Función para verificar DMARC
 async function verifyDMARC(records) {
   console.log('🛡️ Verificando DMARC...');
-  
-  const dmarcRecord = records.find(record => 
-    record.type === 'TXT' && 
+
+  const dmarcRecord = records.find(record =>
+    record.type === 'TXT' &&
     record.name === `_dmarc.${DOMAIN}`
   );
 
@@ -168,8 +168,8 @@ async function verifyDMARC(records) {
 // Función principal
 async function configureEliteDNS() {
   console.log('🚀 INICIANDO CONFIGURACIÓN ELITE DNS CLOUDFLARE');
-  console.log('=' .repeat(50));
-  
+  console.log('='.repeat(50));
+
   // Verificar API token
   if (!API_TOKEN) {
     console.error('❌ CLOUDFLARE_API_TOKEN no configurado');
@@ -183,16 +183,16 @@ async function configureEliteDNS() {
 
   // Verificar DKIM records
   const dkimStatus = await verifyDKIMRecords(records);
-  
+
   // Verificar DMARC
   const dmarcStatus = await verifyDMARC(records);
-  
+
   // Actualizar SPF
   const spfStatus = await updateSPFRecord(records);
 
   // Resumen
   console.log('\n📊 RESUMEN DE CONFIGURACIÓN:');
-  console.log('=' .repeat(30));
+  console.log('='.repeat(30));
   console.log('SPF (Google + Resend):', spfStatus ? '✅' : '❌');
   console.log('DKIM Google:', dkimStatus.google ? '✅' : '❌');
   console.log('DKIM Resend:', dkimStatus.resend ? '✅' : '❌');

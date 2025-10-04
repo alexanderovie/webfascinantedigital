@@ -1,10 +1,10 @@
+import { ContactFormData, sendContactNotification, sendWelcomeEmail } from '@/lib/email';
 import { NextRequest, NextResponse } from 'next/server';
-import { sendContactNotification, sendWelcomeEmail, ContactFormData } from '@/lib/email';
 
 export async function POST(request: NextRequest) {
   try {
     const body: ContactFormData = await request.json();
-    
+
     // Validate required fields
     if (!body.name || !body.email || !body.message) {
       return NextResponse.json(
@@ -15,14 +15,14 @@ export async function POST(request: NextRequest) {
 
     // Send notification to admin
     const notificationResult = await sendContactNotification(body);
-    
+
     if (!notificationResult.success) {
       console.error('Failed to send notification:', notificationResult.error);
     }
 
     // Send welcome email to user
     const welcomeResult = await sendWelcomeEmail(body.email, body.name);
-    
+
     if (!welcomeResult.success) {
       console.error('Failed to send welcome email:', welcomeResult.error);
     }

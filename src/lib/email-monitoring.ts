@@ -89,11 +89,11 @@ export const emailMonitor = new EmailMonitor();
 // Webhook handler para eventos de Resend
 export const handleResendWebhook = (event: Record<string, unknown>) => {
   const { type, data } = event;
-  
+
   if (typeof data !== 'object' || data === null) return;
-  
+
   const eventData = data as Record<string, unknown>;
-  
+
   switch (type) {
     case 'email.sent':
       if (typeof eventData.to === 'string') {

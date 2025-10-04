@@ -11,10 +11,10 @@ async function verifyDNS() {
     // Verificar SPF
     console.log('📧 Verificando SPF record...');
     const spfRecords = await dns.resolveTxt(domain);
-    const spfRecord = spfRecords.find(record => 
+    const spfRecord = spfRecords.find(record =>
       record[0].includes('v=spf1')
     );
-    
+
     if (spfRecord) {
       console.log('✅ SPF encontrado:', spfRecord[0]);
       if (spfRecord[0].includes('resend.com')) {

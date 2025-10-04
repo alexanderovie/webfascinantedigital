@@ -35,7 +35,7 @@ async function makeRequest(url, options = {}) {
         }
       });
     });
-    
+
     req.on('error', reject);
     if (options.body) {
       req.write(JSON.stringify(options.body));
@@ -46,10 +46,10 @@ async function makeRequest(url, options = {}) {
 
 async function getZoneId() {
   console.log('🔍 Buscando Zone ID para', DOMAIN);
-  
+
   try {
     const response = await makeRequest('https://api.cloudflare.com/client/v4/zones');
-    
+
     if (response.success) {
       const zone = response.result.find(z => z.name === DOMAIN);
       if (zone) {
@@ -71,10 +71,10 @@ async function getZoneId() {
 
 async function getDNSRecords(zoneId) {
   console.log('🔍 Obteniendo records DNS...');
-  
+
   try {
     const response = await makeRequest(`https://api.cloudflare.com/client/v4/zones/${zoneId}/dns_records`);
-    
+
     if (response.success) {
       console.log('✅ Records obtenidos:', response.result.length);
       return response.result;
@@ -90,24 +90,24 @@ async function getDNSRecords(zoneId) {
 
 async function updateSPFRecord(zoneId, records) {
   console.log('🔧 Actualizando SPF record...');
-  
+
   const spfRecord = records.find(r => r.type === 'TXT' && r.name === DOMAIN && r.content.includes('v=spf1'));
-  
+
   if (!spfRecord) {
     console.log('❌ SPF record no encontrado');
     return false;
   }
-  
+
   const currentSPF = spfRecord.content;
-  const newSPF = currentSPF.includes('resend.com') 
-    ? currentSPF 
+  const newSPF = currentSPF.includes('resend.com')
+    ? currentSPF
     : currentSPF.replace('~all', 'include:_spf.resend.com ~all');
-  
+
   if (currentSPF === newSPF) {
     console.log('✅ SPF ya incluye Resend');
     return true;
   }
-  
+
   try {
     const response = await makeRequest(`https://api.cloudflare.com/client/v4/zones/${zoneId}/dns_records/${spfRecord.id}`, {
       method: 'PUT',
@@ -118,7 +118,7 @@ async function updateSPFRecord(zoneId, records) {
         ttl: 1 // Auto
       }
     });
-    
+
     if (response.success) {
       console.log('✅ SPF actualizado correctamente');
       console.log('   Antes:', currentSPF);
@@ -136,19 +136,19 @@ async function updateSPFRecord(zoneId, records) {
 
 async function main() {
   console.log('🚀 Configurando Cloudflare para Resend...\n');
-  
+
   // Obtener Zone ID
   const zoneId = await getZoneId();
   if (!zoneId) {
     process.exit(1);
   }
-  
+
   // Obtener records DNS
   const records = await getDNSRecords(zoneId);
   if (records.length === 0) {
     process.exit(1);
   }
-  
+
   // Mostrar records actuales
   console.log('\n📊 Records DNS actuales:');
   records.forEach(record => {
@@ -156,15 +156,15 @@ async function main() {
       console.log(`   ${record.type} ${record.name}: ${record.content}`);
     }
   });
-  
+
   // Actualizar SPF
   const spfUpdated = await updateSPFRecord(zoneId, records);
-  
+
   console.log('\n📊 Resumen:');
   console.log('1. Zone ID:', zoneId);
   console.log('2. Records encontrados:', records.length);
   console.log('3. SPF actualizado:', spfUpdated ? '✅' : '❌');
-  
+
   if (spfUpdated) {
     console.log('\n🎉 Configuración completada!');
     console.log('⏱️  Esperar 1-24 horas para propagación DNS');

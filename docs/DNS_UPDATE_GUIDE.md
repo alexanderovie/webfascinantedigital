@@ -2,7 +2,7 @@
 
 ## 📊 Estado Actual
 - **DKIM:** ✅ Configurado
-- **DMARC:** ✅ Configurado  
+- **DMARC:** ✅ Configurado
 - **SPF:** ⚠️ Necesita actualización
 - **CNAME:** ❌ Necesita verificación
 
@@ -51,7 +51,7 @@ node scripts/verify-dns.js
 ```
 📊 Resumen:
 1. SPF: ✅
-2. DKIM: ✅  
+2. DKIM: ✅
 3. DMARC: ✅
 4. CNAME: ✅
 ```

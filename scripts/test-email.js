@@ -16,7 +16,7 @@ async function sendTestEmail() {
   console.log('📧 Enviando email de prueba...');
   console.log('📧 Desde: info@fascinantedigital.com');
   console.log('📧 Para: alexanderovie@gmail.com');
-  
+
   try {
     const { data, error } = await resend.emails.send({
       from: 'Fascinante Digital <info@fascinantedigital.com>',
@@ -27,7 +27,7 @@ async function sendTestEmail() {
           <h1 style="color: #2563eb;">🧪 Email de Prueba</h1>
           <p>¡Hola Alexander!</p>
           <p>Este es un email de prueba para verificar que el sistema de Resend está funcionando correctamente.</p>
-          
+
           <div style="background-color: #f3f4f6; padding: 15px; border-radius: 8px; margin: 20px 0;">
             <h3 style="color: #374151; margin-top: 0;">📊 Detalles del Test:</h3>
             <ul style="color: #6b7280;">
@@ -37,14 +37,14 @@ async function sendTestEmail() {
               <li><strong>Status:</strong> ✅ Funcionando</li>
             </ul>
           </div>
-          
+
           <p>Si recibes este email, significa que:</p>
           <ul>
             <li>✅ Resend está configurado correctamente</li>
             <li>✅ El dominio está verificado</li>
             <li>✅ Los formularios de contacto funcionarán</li>
           </ul>
-          
+
           <p style="color: #6b7280; font-size: 14px; margin-top: 30px;">
             Saludos,<br>
             El equipo de Fascinante Digital
@@ -61,7 +61,7 @@ async function sendTestEmail() {
     console.log('✅ Email enviado exitosamente!');
     console.log('📧 ID del email:', data?.id);
     console.log('📧 Revisa tu bandeja de entrada en alexanderovie@gmail.com');
-    
+
   } catch (error) {
     console.error('❌ Error:', error.message);
   }
