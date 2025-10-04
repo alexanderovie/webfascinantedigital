@@ -6,6 +6,7 @@ import mainLogo from '@public/images/shared/main-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
+import BotonCal from './BotonCal';
 // import AboutUsMenu from './mobile-menu/AboutUsMenu'; // Removed - About is now direct link
 // import BlogMenu from './mobile-menu/BlogMenu'; // Removed - Blog is now direct link
 // import HomeMenu from './mobile-menu/HomeMenu'; // Removed - Home is now direct link
@@ -99,12 +100,10 @@ const MobileMenu = () => {
 
         {/* CTA Button - Bottom of mobile menu */}
         <div className="px-5 pb-6 sm:px-8 sm:pb-8 lg:px-9 lg:pb-10">
-          <Link
-            href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
+          <BotonCal
             className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md w-full text-center block"
-            onClick={closeMenu}>
-            Agendar Consulta
-          </Link>
+            onBookingSuccess={closeMenu}
+          />
         </div>
       </div>
     </aside>

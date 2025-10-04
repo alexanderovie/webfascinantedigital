@@ -12,6 +12,7 @@ import MobileMenu from '../MobileMenu';
 // import HomeMegaMenu from '../mega-menu/HomeMegaMenu'; // Removed - Home is now direct link
 // import PageMegaMenu from '../mega-menu/PageMegaMenu'; // Removed - Pages menu removed
 import ServicesMegaMenu from '../mega-menu/ServicesMegaMenu';
+import BotonCal from '../BotonCal';
 import Logo from './Logo';
 import MobileMenuButton from './MobileMenuButton';
 import NavCTAButton from './NavCTAButton';
@@ -68,11 +69,7 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
                   })}
                 </ul>
               </nav>
-              <NavCTAButton
-                href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                btnClassName={btnClassName}
-                label="Agendar Consulta"
-              />
+              <BotonCal className={btnClassName} />
               {/* mobile menu btn */}
               <MobileMenuButton />
             </div>
