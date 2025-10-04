@@ -44,7 +44,11 @@ const FAQ = () => {
             {/* Header */}
             <div className="text-center space-y-3">
               <RevealAnimation delay={0.1}>
-                <h2 className="text-secondary dark:text-accent">Preguntas Frecuentes sobre Marketing Digital para Latinos</h2>
+                <h2 className="text-secondary dark:text-accent">
+                  Preguntas Frecuentes sobre Marketing Digital
+                  <br className="hidden lg:block" />
+                  <span className="lg:hidden"> </span>para Latinos
+                </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p className="max-w-[600px] mx-auto text-secondary/60 dark:text-accent/60">
