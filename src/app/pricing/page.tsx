@@ -2,7 +2,7 @@ import Client from '@/components/pricing-02/Client';
 import Faq from '@/components/pricing-02/Faq';
 import Pricing from '@/components/pricing-02/Pricing';
 import CTAV1 from '@/components/shared/cta/CTAV1';
-import FooterOne from '@/components/shared/footer/FooterOne';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
@@ -10,7 +10,8 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   title: 'Pricing - Fascinante Digital',
-  description: 'Transparent pricing for digital marketing services. Choose the plan that fits your business needs - from Local SEO to comprehensive marketing automation.',
+  description:
+    'Transparent pricing for digital marketing services. Choose the plan that fits your business needs - from Local SEO to comprehensive marketing automation.',
 };
 
 const Pricing02 = () => {
@@ -22,8 +23,8 @@ const Pricing02 = () => {
         megaMenuColor="!bg-accent dark:!bg-background-9"
       />
       <main className="bg-background-1 dark:bg-background-6">
-        <PageHero 
-          title="Pricing" 
+        <PageHero
+          title="Pricing"
           heading="Transparent Pricing for<br />Digital Marketing Success"
           description="Choose the perfect plan for your Hispanic business growth. From local SEO to comprehensive marketing automation, we offer flexible pricing that scales with your success."
           link="/pricing"
@@ -43,7 +44,7 @@ const Pricing02 = () => {
           btnClass="btn-primary hover:btn-secondary dark:hover:btn-accent"
         />
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };

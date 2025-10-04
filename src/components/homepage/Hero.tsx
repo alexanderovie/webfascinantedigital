@@ -62,6 +62,7 @@ const Hero = () => {
             <RevealAnimation delay={0.2}>
               <p className="text-secondary/60 max-w-[850px] mb-7 md:mb-14">
                 Impulsamos negocios hispanos en EE.UU. con SEO, publicidad digital y analítica avanzada orientada a
+                <br className="hidden lg:block" />
                 resultados.
               </p>
             </RevealAnimation>

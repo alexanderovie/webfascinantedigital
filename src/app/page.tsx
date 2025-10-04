@@ -1,8 +1,8 @@
 import Hero from '@/components/homepage/Hero';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import { Metadata } from 'next';
-import { Fragment } from 'react';
 import dynamic from 'next/dynamic';
+import { Fragment } from 'react';
 
 // ✅ Lazy load componentes no críticos para reducir JavaScript inicial
 const Audit = dynamic(() => import('@/components/homepage/Audit'), {
@@ -35,7 +35,7 @@ const FAQ = dynamic(() => import('@/components/homepage/FAQ'), {
 const WhyUs = dynamic(() => import('@/components/homepage/WhyUs'), {
   loading: () => <div className="h-96 bg-gray-100 animate-pulse" />,
 });
-const FooterOne = dynamic(() => import('@/components/shared/footer/FooterOne'), {
+const FooterThree = dynamic(() => import('@/components/shared/footer/FooterThree'), {
   loading: () => <div className="h-32 bg-gray-100 animate-pulse" />,
 });
 
@@ -104,7 +104,7 @@ const Homepage33 = () => {
         <Blog />
         <CTA />
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };

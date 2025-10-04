@@ -1,7 +1,7 @@
 import ContactInfo from '@/components/contact-page/ContactInfo';
 import ContactMap from '@/components/contact-page/ContactMap';
 import CTAV1 from '@/components/shared/cta/CTAV1';
-import FooterOne from '@/components/shared/footer/FooterOne';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
@@ -90,7 +90,7 @@ const ContactUs = () => {
           description="Estamos aquí para ayudarte con tus consultas y necesidades. No dudes en contactarnos usando el formulario de contacto a continuación, y te responderemos lo antes posible."
         />
       </main>
-      <FooterOne />
+      <FooterThree />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
-import FooterOne from '@/components/shared/footer/FooterOne';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import LinkButton from '@/components/ui/button/LinkButton';
 import { Metadata } from 'next';
@@ -54,7 +54,7 @@ const NotFound = () => {
           </div>
         </section>
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };

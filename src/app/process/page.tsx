@@ -1,7 +1,7 @@
 import ProcessOperation from '@/components/process-02/ProcessOperation';
 import ProcessStep from '@/components/process-02/ProcessStep';
 import CTAV1 from '@/components/shared/cta/CTAV1';
-import FooterOne from '@/components/shared/footer/FooterOne';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
@@ -9,7 +9,8 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   title: 'Our Process - Fascinante Digital',
-  description: 'Discover our proven 5-step process to dominate Google search results and grow your Hispanic business revenue with SEO, web development, and marketing automation.',
+  description:
+    'Discover our proven 5-step process to dominate Google search results and grow your Hispanic business revenue with SEO, web development, and marketing automation.',
 };
 
 const Process02 = () => {
@@ -35,12 +36,12 @@ const Process02 = () => {
           badgeText="Get Started"
           badgeClass="badge-yellow-modern"
           ctaHeading="Ready To Start Your Digital Growth Journey?"
-          description="Let&apos;s work together to dominate Google search results and grow your Hispanic business with our proven 5-step process."
+          description="Let's work together to dominate Google search results and grow your Hispanic business with our proven 5-step process."
           ctaBtnText="Get Started"
           btnClass="hover:btn-secondary dark:hover:btn-accent"
         />
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };

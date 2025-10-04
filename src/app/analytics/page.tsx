@@ -2,7 +2,7 @@ import AnalyticsDetails from '@/components/analytics/AnalyticsDetails';
 import AnalyticsHero from '@/components/analytics/AnalyticsHero';
 import AnalyticsTestimonial from '@/components/analytics/AnalyticsTestimonial';
 import CTAV1 from '@/components/shared/cta/CTAV1';
-import FooterOne from '@/components/shared/footer/FooterOne';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import PageHero from '@/components/shared/PageHero';
 import { Metadata } from 'next';
@@ -35,7 +35,7 @@ const Analytics = () => {
           btnClass="hover:btn-secondary dark:hover:btn-accent"
         />
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };

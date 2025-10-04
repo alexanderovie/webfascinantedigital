@@ -35,8 +35,8 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </figure>
                 </Link>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  Advanced SEO, fast websites, and marketing automation to grow with measurable results and proven
-                  strategies for Hispanic SMEs.
+                  SEO avanzado, sitios web rápidos y automatización de marketing para crecer con resultados medibles y
+                  estrategias probadas para PYMEs hispanas.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link
@@ -196,27 +196,27 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
               <RevealAnimation delay={0.4}>
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-secondary dark:text-accent font-normal">
-                    Company
+                    Empresa
                   </p>
                   <ul className="space-y-5">
                     <li>
                       <Link href="/about" className="footer-link-v2">
-                        About Us
+                        Nosotros
                       </Link>
                     </li>
                     <li>
                       <Link href="/career" className="footer-link-v2">
-                        Career
+                        Carreras
                       </Link>
                     </li>
                     <li>
                       <Link href="/case-study" className="footer-link-v2">
-                        Case Studies
+                        Casos de Éxito
                       </Link>
                     </li>
                     <li>
                       <Link href="/contact-us" className="footer-link-v2">
-                        Contact Us
+                        Contáctanos
                       </Link>
                     </li>
                   </ul>
@@ -227,22 +227,22 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
               <RevealAnimation delay={0.5}>
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-secondary dark:text-accent font-normal">
-                    Support
+                    Soporte
                   </p>
                   <ul className="space-y-5">
                     <li>
                       <Link href="/faq" className="footer-link-v2">
-                        FAQ
+                        Preguntas Frecuentes
                       </Link>
                     </li>
                     <li>
                       <Link href="/tutorial" className="footer-link-v2">
-                        Tutorial
+                        Tutoriales
                       </Link>
                     </li>
                     <li>
                       <Link href="/support" className="footer-link-v2">
-                        Support
+                        Soporte
                       </Link>
                     </li>
                   </ul>
