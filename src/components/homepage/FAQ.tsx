@@ -45,9 +45,9 @@ const FAQ = () => {
             <div className="text-center space-y-3">
               <RevealAnimation delay={0.1}>
                 <h2 className="text-secondary dark:text-accent">
-                  Preguntas Frecuentes sobre Marketing Digital
+                  Preguntas Frecuentes sobre Marketing
                   <br className="hidden lg:block" />
-                  <span className="lg:hidden"> </span>para Latinos
+                  <span className="lg:hidden"> </span>Digital para Latinos
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
