@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export interface ButtonConfig {
   scrolledClass: string;
@@ -24,14 +24,23 @@ export const useNavbarScroll = (threshold: number = 100) => {
       // Check if scrolled past threshold
       setIsScrolled(currentScrollY > threshold);
 
-      // Hide/show navbar based on scroll direction
-      if (currentScrollY > lastScrollY.current && currentScrollY > threshold) {
-        // Scrolling down - hide navbar
-        console.log('Hiding navbar - scrolling down');
-        setIsVisible(false);
-      } else if (currentScrollY < lastScrollY.current || currentScrollY <= threshold) {
-        // Scrolling up OR at top - show navbar immediately
-        console.log('Showing navbar - scrolling up or at top');
+      // 🎯 FIX: Solo aplicar hide/show en móvil, mantener navbar visible en escritorio
+      const isMobile = window.innerWidth < 1280; // xl breakpoint
+
+      if (isMobile) {
+        // Comportamiento original solo en móvil
+        if (currentScrollY > lastScrollY.current && currentScrollY > threshold) {
+          // Scrolling down - hide navbar
+          console.log('Hiding navbar - scrolling down (mobile)');
+          setIsVisible(false);
+        } else if (currentScrollY < lastScrollY.current || currentScrollY <= threshold) {
+          // Scrolling up OR at top - show navbar immediately
+          console.log('Showing navbar - scrolling up or at top (mobile)');
+          setIsVisible(true);
+        }
+      } else {
+        // En escritorio, mantener navbar siempre visible
+        console.log('Desktop detected - keeping navbar visible');
         setIsVisible(true);
       }
 
