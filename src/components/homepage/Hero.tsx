@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="main-container z-10">
           <div className="flex flex-col items-center text-center mb-[70p]">
             <RevealAnimation delay={0.1}>
-              <h1 className="text-secondary font-medium mb-4 max-w-[1000px]">
+              <h1 className="text-secondary font-semibold mb-4 max-w-[1000px]">
                 Agencia de <span className="text-primary-500">Marketing Digital</span> para Latinos en EE.UU
               </h1>
             </RevealAnimation>
