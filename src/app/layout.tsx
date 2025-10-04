@@ -11,11 +11,11 @@ import './globals.css';
 export const metadata: Metadata = {
   title: {
     template: '%s | Fascinante Digital',
-    default: 'Fascinante Digital | SEO and Web Development Agency in West Palm Beach',
+    default: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
   },
   description:
-    'Agencia de marketing digital especializada en SEO, desarrollo web y automatización. Impulsamos PYMEs hispanas en West Palm Beach con estrategias medibles.',
-  keywords: ['SEO', 'desarrollo web', 'marketing digital', 'West Palm Beach', 'agencia digital', 'automatización'],
+    'Agencia de marketing digital para latinos en EE.UU. Creamos estrategias de SEO, publicidad y analítica avanzada que convierten clics en clientes reales.',
+  keywords: ['agencia de marketing digital', 'SEO para latinos', 'publicidad digital', 'analítica avanzada', 'marketing en español', 'SEO local EE.UU.'],
   authors: [{ name: 'Fascinante Digital' }],
   creator: 'Fascinante Digital',
   publisher: 'Fascinante Digital',
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: 'https://fascinantedigital.com',
     siteName: 'Fascinante Digital',
-    title: 'SEO and Web Development Agency in West Palm Beach',
+    title: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'Advanced SEO, fast websites, and marketing automation to grow with measurable results and proven strategies for Hispanic SMEs.',
+      'Estrategias de SEO, publicidad y analítica avanzada para negocios hispanos en EE.UU. Crece con resultados medibles y reales.',
     images: [
       {
         url: 'https://fascinantedigital.com/static/og-default-1200x630.jpg',
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fascinante Digital — SEO & Web',
+    title: 'Fascinante Digital — Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'Agencia de marketing digital especializada en SEO, desarrollo web y automatización para PYMEs hispanas en West Palm Beach con resultados medibles.',
+      'Creamos estrategias digitales en español que impulsan negocios latinos en EE.UU. con SEO, publicidad y datos reales.',
     images: ['https://fascinantedigital.com/static/og-default-1200x630.jpg'],
   },
   appleWebApp: {
@@ -80,7 +80,7 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <head>
         {/* ✅ DNS prefetch para performance (invisible) */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
