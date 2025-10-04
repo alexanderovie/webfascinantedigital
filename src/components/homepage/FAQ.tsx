@@ -15,7 +15,7 @@ const FAQ = () => {
       id: 2,
       question: '¿Qué servicios ofrecen?',
       answer:
-        'SEO local, Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, YouTube Ads, sitios web, marketing automático y redes sociales. Todo lo que necesitas para crecer online.',
+        'SEO local, Google Business Profile (optimización y verificación), Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, YouTube Ads, sitios web profesionales, publicidad paga y marketing automático. Todo lo que necesitas para crecer online.',
     },
     {
       id: 3,
