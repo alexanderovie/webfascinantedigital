@@ -56,12 +56,13 @@ const Hero = () => {
           <div className="flex flex-col items-center text-center mb-[70p]">
             <RevealAnimation delay={0.1}>
               <h1 className="text-secondary font-medium mb-4 max-w-[1000px]">
-                Fuel Your Growth with Data-Driven Digital Marketing
+                Impulsa Tu Crecimiento con Marketing Digital Basado en Datos
               </h1>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="text-secondary/60 max-w-[850px] mb-7 md:mb-14">
-                Over 15 years of transforming traffic into profit through SEO, SEM, and conversion-focused campaigns.
+                Más de 15 años transformando tráfico en ganancias a través de SEO, SEM y campañas enfocadas en
+                conversión.
               </p>
             </RevealAnimation>
             <ul className="flex flex-col md:flex-row gap-4 mb-7 md:mb-14 w-[90%] md:w-auto">
@@ -70,7 +71,7 @@ const Hero = () => {
                   <LinkButton
                     href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                     className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
-                    Schedule Free Consultation
+                    Agendar Consulta Gratuita
                   </LinkButton>
                 </li>
               </RevealAnimation>
@@ -79,7 +80,7 @@ const Hero = () => {
                   <LinkButton
                     href="/pricing"
                     className="btn hover:btn-secondary dark:btn-dark btn-white border-0 btn-xl dark:bg-accent/20 dark:text-secondary w-[90%] sm:w-auto">
-                    View Pricing
+                    Ver Precios
                   </LinkButton>
                 </li>
               </RevealAnimation>
@@ -110,10 +111,10 @@ const Hero = () => {
             <RevealAnimation delay={0.9} direction="right" offset={50}>
               <div>
                 <p className="font-medium block text-left text-secondary text-tagline-2">
-                  Trusted by over 300 clients.
+                  Confiado por más de 300 clientes.
                 </p>
                 <p className="text-secondary/60 text-tagline-3 max-w-[172px]">
-                  Your brand&apos;s success will be our next case study.
+                  El éxito de tu marca será nuestro próximo caso de estudio.
                 </p>
               </div>
             </RevealAnimation>
