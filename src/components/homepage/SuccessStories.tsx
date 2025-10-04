@@ -6,24 +6,26 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const SuccessStories = () => {
   return (
-    <RevealAnimation delay={0.1}>
-      <section id="casos-de-exito" className="py-14 md:py-16 lg:py-[88px] xl:py-[100px] bg-background-2 dark:bg-background-5">
-        <div className="main-container">
-          <div className="space-y-14">
-            {/* Header */}
-            <div className="text-center space-y-3">
-              <RevealAnimation delay={0.1}>
-                <h2 className="text-secondary dark:text-accent">Casos de Éxito de Negocios Hispanos</h2>
-              </RevealAnimation>
-              <RevealAnimation delay={0.2}>
-                <p className="max-w-[738px] mx-auto text-secondary/60 dark:text-accent/60">
-                  Descubre cómo otros negocios latinos en EE.UU. lograron un crecimiento extraordinario con nuestras estrategias digitales personalizadas.
-                </p>
-              </RevealAnimation>
-            </div>
+    <section
+      id="casos-de-exito"
+      className="pt-20 pb-28 md:pt-32 md:pb-32 lg:pt-[128px] lg:pb-[128px] xl:pt-[100px] xl:pb-[100px] bg-background-2 dark:bg-background-5"
+      aria-label="Casos de éxito de negocios hispanos">
+      <div className="main-container">
+        <div className="text-center mb-[70px]">
+          <RevealAnimation delay={0.1}>
+            <span className="badge badge-blue-modern mb-5">Casos de Éxito</span>
+          </RevealAnimation>
+          <RevealAnimation delay={0.2}>
+            <h2 className="mb-3">Casos de Éxito de Negocios Hispanos</h2>
+          </RevealAnimation>
+          <RevealAnimation delay={0.3}>
+            <p className="max-w-[738px] mx-auto">
+              Descubre cómo otros negocios latinos en EE.UU. lograron un crecimiento extraordinario con nuestras estrategias digitales personalizadas.
+            </p>
+          </RevealAnimation>
+        </div>
 
-            {/* Case Studies Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-10 xl:grid-cols-3">
               {/* Caso 1 - Ana Martínez */}
               <RevealAnimation delay={0.3}>
                 <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
@@ -103,21 +105,18 @@ const SuccessStories = () => {
               </RevealAnimation>
             </div>
 
-            {/* CTA */}
-            <RevealAnimation delay={0.6}>
-              <div className="text-center">
-                <Link
-                  href="/case-study"
-                  className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md"
-                >
-                  Ver Todos los Casos de Éxito
-                </Link>
-              </div>
-            </RevealAnimation>
-          </div>
+        <div className="flex justify-center mt-7 md:mt-14">
+          <RevealAnimation delay={0.7}>
+            <Link
+              href="/case-study"
+              className="btn btn-secondary hover:btn-white dark:hover:btn-accent dark:btn-transparent btn-md"
+              aria-label="Ver todos los casos de éxito">
+              Ver Todos los Casos de Éxito
+            </Link>
+          </RevealAnimation>
         </div>
-      </section>
-    </RevealAnimation>
+      </div>
+    </section>
   );
 };
 
