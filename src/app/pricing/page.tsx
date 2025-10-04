@@ -28,7 +28,7 @@ const Pricing02 = () => {
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero
           title="Precios"
-          heading="Precios Transparentes para<br />tu Éxito Digital"
+          heading="Precios Transparentes<br />Para Tu Éxito Digital"
           description="Elige el plan ideal para impulsar el crecimiento de tu negocio hispano. Desde SEO local hasta automatización avanzada, nuestros precios se adaptan a tu éxito."
           link="/pricing"
           badge="Nuestros Precios"

@@ -15,9 +15,6 @@ const Pricing = () => {
     <section className="relative pb-20 md:pb-[100px] lg:pb-[150px] xl:pb-[200px] pt-[100px]">
       <div className="main-container flex flex-col gap-[70px]">
         <div className="flex flex-col items-center text-center">
-          <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-modern mb-5"> Nuestros Precios </span>
-          </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <div className="relative z-0">
               <RevealAnimation delay={1} duration={1.2} direction="up" offset={200}>
