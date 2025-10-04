@@ -116,10 +116,7 @@ async function handleInvoicePaymentSucceeded(invoice: Stripe.Invoice) {
     invoiceId: invoice.id,
     customerId: invoice.customer,
     amountPaid: invoice.amount_paid,
-    subscriptionId:
-      'subscription' in invoice
-        ? (invoice as Stripe.Invoice & { subscription: string | Stripe.Subscription }).subscription
-        : null,
+    subscriptionId: invoice.subscription,
   });
 }
 
@@ -128,8 +125,6 @@ async function handleSubscriptionCreated(subscription: Stripe.Subscription) {
     subscriptionId: subscription.id,
     customerId: subscription.customer,
     status: subscription.status,
-    currentPeriodStart: subscription.current_period_start,
-    currentPeriodEnd: subscription.current_period_end,
   });
 }
 
@@ -137,8 +132,6 @@ async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
   console.log('Subscription updated:', {
     subscriptionId: subscription.id,
     status: subscription.status,
-    currentPeriodStart: subscription.current_period_start,
-    currentPeriodEnd: subscription.current_period_end,
   });
 }
 
