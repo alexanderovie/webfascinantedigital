@@ -24,7 +24,7 @@ interface NavbarOneProps {
 }
 
 const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName }) => {
-  const { isScrolled, isVisible } = useNavbarScroll(50);
+  const { isScrolled, isVisible } = useNavbarScroll(20);
 
   return (
     <MobileMenuProvider>

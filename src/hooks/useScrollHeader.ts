@@ -27,8 +27,11 @@ export const useNavbarScroll = (threshold: number = 100) => {
           if (currentScrollY > lastScrollY && currentScrollY > threshold) {
             // Scrolling down - hide navbar
             setIsVisible(false);
-          } else if (currentScrollY < lastScrollY || currentScrollY <= threshold) {
-            // Scrolling up or at top - show navbar
+          } else if (currentScrollY < lastScrollY) {
+            // Scrolling up - show navbar immediately
+            setIsVisible(true);
+          } else if (currentScrollY <= threshold) {
+            // At top - always show navbar
             setIsVisible(true);
           }
 
