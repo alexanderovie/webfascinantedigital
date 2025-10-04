@@ -1,5 +1,5 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
-import LinkButton from '@/components/ui/button/LinkButton';
+import BotonCal from '@/components/shared/BotonCal';
 import { cn } from '@/utils/cn';
 import CTACheckList from './CTACheckList';
 interface CTAV2Props {
@@ -39,14 +39,13 @@ const CTAV2 = ({
           <RevealAnimation delay={0.3}>
             <div className="md:inline-block text-center">
               <div>
-                <LinkButton
-                  href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
+                <BotonCal
                   className={cn(
                     'btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md block w-full md:w-auto md:inline-block text-center mx-auto md:mx-0 text-tagline-2',
                     btnClass,
                   )}>
                   {ctaBtnText}
-                </LinkButton>
+                </BotonCal>
               </div>
             </div>
           </RevealAnimation>

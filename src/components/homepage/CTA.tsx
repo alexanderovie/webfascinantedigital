@@ -1,5 +1,5 @@
 import RevealAnimation from '../animation/RevealAnimation';
-import LinkButton from '../ui/button/LinkButton';
+import BotonCal from '../shared/BotonCal';
 
 const CTA = () => {
   return (
@@ -21,11 +21,9 @@ const CTA = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <div className="flex justify-center">
-                <LinkButton
-                  href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                  className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
+                <BotonCal className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
                   Book Your Free Strategy Call
-                </LinkButton>
+                </BotonCal>
               </div>
             </RevealAnimation>
           </div>

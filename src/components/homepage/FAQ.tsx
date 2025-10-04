@@ -1,6 +1,7 @@
 'use client';
 
 import RevealAnimation from '../animation/RevealAnimation';
+import BotonCal from '../shared/BotonCal';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 
 const FAQ = () => {
@@ -35,7 +36,6 @@ const FAQ = () => {
       answer:
         'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.',
       ctaText: 'Agenda tu consulta gratis aquí',
-      ctaLink: 'https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE',
     },
     {
       id: 6,
@@ -91,15 +91,11 @@ const FAQ = () => {
                     <AccordionContent value={item.id.toString()}>
                       <div className="space-y-3">
                         <p>{item.answer}</p>
-                        {item.ctaText && item.ctaLink && (
+                        {item.ctaText && (
                           <div className="pt-2">
-                            <a
-                              href={item.ctaLink}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors text-sm font-medium">
+                            <BotonCal className="inline-block px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors text-sm font-medium">
                               {item.ctaText}
-                            </a>
+                            </BotonCal>
                           </div>
                         )}
                       </div>
@@ -115,11 +111,9 @@ const FAQ = () => {
                 <p className="text-secondary/60 dark:text-accent/60 mb-4">
                   ¿Tienes más preguntas? Te respondemos en español.
                 </p>
-                <a
-                  href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                  className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md">
+                <BotonCal className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md">
                   Hablar con un Experto
-                </a>
+                </BotonCal>
               </div>
             </RevealAnimation>
           </div>

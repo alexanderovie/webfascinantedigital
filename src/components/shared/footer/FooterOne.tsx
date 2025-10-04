@@ -9,6 +9,7 @@ import youtube from '@public/images/icons/youtube.svg';
 import mainLogo from '@public/images/shared/main-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+import BotonCal from '../BotonCal';
 import ThemeToggle from '../ThemeToggle';
 import FooterDivider from './FooterDivider';
 import FooterLeftGradient from './FooterLeftGradient';
@@ -95,11 +96,7 @@ const FooterOne = ({ className }: { className?: string }) => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                        className="footer-link">
-                        Schedule Consultation
-                      </Link>
+                      <BotonCal className="footer-link cursor-pointer">Schedule Consultation</BotonCal>
                     </li>
                   </ul>
                 </div>

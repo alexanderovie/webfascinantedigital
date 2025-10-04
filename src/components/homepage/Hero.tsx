@@ -3,6 +3,7 @@ import avatar1 from '../../../public/images/home-page-33/avatar-1.webp';
 import avatar2 from '../../../public/images/home-page-33/avatar-2.webp';
 import avatar3 from '../../../public/images/home-page-33/avatar-3.webp';
 import RevealAnimation from '../animation/RevealAnimation';
+import BotonCal from '../shared/BotonCal';
 import LinkButton from '../ui/button/LinkButton';
 
 interface AvatarData {
@@ -69,11 +70,9 @@ const Hero = () => {
             <ul className="flex flex-col md:flex-row gap-4 mb-7 md:mb-14 w-[90%] md:w-auto">
               <RevealAnimation delay={0.3} direction="left" offset={50}>
                 <li className="w-full sm:w-auto">
-                  <LinkButton
-                    href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
-                    className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
+                  <BotonCal className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
                     Auditoría Gratuita
-                  </LinkButton>
+                  </BotonCal>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.4} direction="left" offset={50}>
