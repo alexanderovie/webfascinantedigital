@@ -69,7 +69,10 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
                   })}
                 </ul>
               </nav>
-              <BotonCal className={btnClassName} />
+              {/* Desktop CTA Button - Hidden on mobile */}
+              <div className="hidden xl:block">
+                <BotonCal className={btnClassName} />
+              </div>
               {/* mobile menu btn */}
               <MobileMenuButton />
             </div>
