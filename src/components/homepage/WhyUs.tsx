@@ -14,43 +14,43 @@ const featureItems: FeatureItem[] = [
   {
     id: 1,
     icon: 'ns-shape-15',
-    title: 'SaaS & tech',
-    description: 'Reduce customer acquisition costs, increase signups, and scale predictable growth.',
+    title: 'SaaS y tecnología',
+    description: 'Reduce costos de adquisición de clientes, aumenta registros y escala el crecimiento predecible.',
     side: 'left',
   },
   {
     id: 2,
     icon: 'ns-shape-24',
-    title: 'Real estate',
-    description: 'Generate qualified leads, optimize local SEO, and dominate niche searches.',
+    title: 'Bienes raíces',
+    description: 'Genera leads calificados, optimiza SEO local y domina búsquedas de nicho.',
     side: 'left',
   },
   {
     id: 3,
     icon: 'ns-shape-9',
     title: 'E-commerce',
-    description: 'Boost conversions, minimize cart abandonment, and increase average order value.',
+    description: 'Impulsa conversiones, minimiza abandono de carrito y aumenta el valor promedio del pedido.',
     side: 'left',
   },
   {
     id: 4,
     icon: 'ns-shape-7',
-    title: 'Healthcare',
-    description: 'Build trust, enhance search visibility, and attract more patients.',
+    title: 'Salud',
+    description: 'Construye confianza, mejora la visibilidad en búsquedas y atrae más pacientes.',
     side: 'right',
   },
   {
     id: 5,
     icon: 'ns-shape-34',
-    title: 'Local business',
-    description: 'Rank locally, earn reviews, and excel at hyperlocal marketing.',
+    title: 'Negocio local',
+    description: 'Posiciónate localmente, gana reseñas y destaca en marketing hiperlocal.',
     side: 'right',
   },
   {
     id: 6,
     icon: 'ns-shape-36',
-    title: 'Education',
-    description: 'Increase enrollments, boost online visibility, and engage students.',
+    title: 'Educación',
+    description: 'Aumenta inscripciones, mejora la visibilidad online y compromete a los estudiantes.',
     side: 'right',
   },
 ];
@@ -92,7 +92,7 @@ const WhyUs = () => {
                 <RevealAnimation delay={0.4}>
                   <div>
                     <LinkButton href="/" className="btn btn-dark btn-md hover:btn-white">
-                      Explore all features
+                      explora todas las características
                     </LinkButton>
                   </div>
                 </RevealAnimation>
@@ -119,7 +119,7 @@ const WhyUs = () => {
                   <figure className="md:max-w-[350px] lg:max-w-[400px] xl:max-w-[480px] rounded-2xl md:w-full order-last md:order-none">
                     <Image
                       src="/images/home-page-33/feature-img.webp"
-                      alt="Investment platform interface showing key features"
+                      alt="Interfaz de plataforma de inversión mostrando características clave"
                       className="rounded-2xl"
                       width={480}
                       height={400}
