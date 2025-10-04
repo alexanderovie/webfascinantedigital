@@ -7,33 +7,33 @@ const FAQ = () => {
   const faqData = [
     {
       id: 1,
-      question: '¿Qué hace diferente a Fascinante Digital de otras agencias de marketing?',
-      answer: 'Fascinante Digital se especializa en ayudar a negocios hispanos a dominar los resultados de búsqueda de Google y hacer crecer sus ingresos. Combinamos estrategias de SEO probadas, optimización de Google Ads y automatización de marketing para entregar resultados medibles a negocios latinos en EE.UU.'
+      question: '¿Por qué elegir Fascinante Digital?',
+      answer: 'Ayudamos a negocios hispanos a aparecer primero en Google. Usamos SEO, Google Ads y marketing automático. Los resultados son claros y medibles.'
     },
     {
       id: 2,
-      question: '¿Qué servicios de marketing digital ofrece Fascinante Digital?',
-      answer: 'Ofrecemos servicios integrales de marketing digital incluyendo SEO Local, SEO Técnico, optimización de Google Business Profile, gestión de Google Ads, diseño y desarrollo web, automatización de marketing, publicidad en redes sociales, marketing de contenido y optimización de tasa de conversión.'
+      question: '¿Qué servicios ofrecen?',
+      answer: 'SEO local, Google Ads, sitios web, marketing automático y redes sociales. Todo lo que necesitas para crecer online.'
     },
     {
       id: 3,
-      question: '¿Cuánto tiempo toma ver resultados con SEO?',
-      answer: 'Los resultados de SEO típicamente comienzan a mostrarse en 3-6 meses, con mejoras significativas en 6-12 meses. Sin embargo, nuestros clientes a menudo ven mejoras iniciales en rankings de búsqueda local en 30-60 días. Proporcionamos reportes mensuales para rastrear el progreso y ROI.'
+      question: '¿Cuándo veré resultados?',
+      answer: 'Los primeros resultados aparecen en 1-2 meses. El crecimiento fuerte viene en 3-6 meses. Te enviamos reportes cada mes para que veas el progreso.'
     },
     {
       id: 4,
-      question: '¿Trabajan con negocios fuera del mercado hispano?',
-      answer: 'Aunque nos especializamos en ayudar a negocios hispanos, trabajamos con todos los negocios que quieren llegar a audiencias latinas o mejorar su marketing digital. Nuestras estrategias son efectivas para cualquier negocio que busque dominar los resultados de búsqueda local y hacer crecer sus ingresos.'
+      question: '¿Trabajan con otros negocios?',
+      answer: 'Sí, trabajamos con todos los negocios. Pero somos expertos en ayudar a latinos. Nuestras estrategias funcionan para cualquier negocio que quiera crecer.'
     },
     {
       id: 5,
-      question: '¿Cuál es su estructura de precios para servicios de marketing digital?',
-      answer: 'Nuestros precios se personalizan según las necesidades, objetivos y presupuesto de tu negocio. Ofrecemos paquetes flexibles para SEO Local, gestión de Google Ads, desarrollo web y automatización de marketing. Contáctanos para una consulta gratuita y cotización personalizada.'
+      question: '¿Cuánto cuesta?',
+      answer: 'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.'
     },
     {
       id: 6,
-      question: '¿Proporcionan reportes mensuales y analíticas?',
-      answer: 'Sí, proporcionamos reportes mensuales detallados mostrando el tráfico de tu sitio web, rankings de búsqueda, rendimiento de Google Ads, generación de leads y ROI. Nuestras analíticas te ayudan a entender exactamente cómo tu inversión en marketing digital está haciendo crecer tu negocio.'
+      question: '¿Me envían reportes?',
+      answer: 'Sí, cada mes te enviamos un reporte. Te mostramos cuántas personas visitan tu sitio, dónde apareces en Google y cuántos clientes nuevos tienes. Así sabes que tu dinero está funcionando.'
     }
   ];
 

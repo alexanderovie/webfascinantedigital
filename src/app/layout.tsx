@@ -166,6 +166,53 @@ export default function RootLayout({
           }}
         />
 
+        {/* ✅ Enhanced Organization Schema for Local Authority */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Fascinante Digital',
+              url: 'https://fascinantedigital.com',
+              logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
+              description: 'Agencia de marketing digital para latinos en EE.UU. SEO, publicidad y datos que convierten clics en clientes.',
+              sameAs: [
+                'https://www.facebook.com/fascinantedigital/',
+                'https://www.instagram.com/fascinantedigital/',
+                'https://www.linkedin.com/company/fascinante-digital',
+                'https://www.youtube.com/@fascinantedigital'
+              ],
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '+1-800-886-4981',
+                contactType: 'customer service',
+                areaServed: 'US',
+                availableLanguage: ['Spanish', 'English']
+              },
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: '2054 Vista Pkwy # 400',
+                addressLocality: 'West Palm Beach',
+                addressRegion: 'FL',
+                postalCode: '33411',
+                addressCountry: 'US'
+              },
+              areaServed: {
+                '@type': 'Country',
+                name: 'United States'
+              },
+              knowsAbout: [
+                'SEO para latinos',
+                'Google Ads en español',
+                'Marketing digital hispano',
+                'SEO local EE.UU.',
+                'Automatización de marketing'
+              ]
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
+
         {/* ✅ Facebook App ID con atributo property correcto */}
         <FacebookMeta />
       </head>
