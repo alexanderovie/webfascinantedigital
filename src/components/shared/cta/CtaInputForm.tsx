@@ -30,11 +30,11 @@ const CtaInputForm = ({ btnClass, ctaBtnText = 'Get Started', inputFieldClass }:
         <button
           type="submit"
           className={cn(
-            'btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent h-12 w-[85%] md:w-auto',
+            'btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent h-12 w-[85%] md:w-auto md:min-w-fit md:px-6',
             btnClass,
           )}
           aria-label="cta-button">
-          <span>{ctaBtnText}</span>
+          <span className="whitespace-nowrap">{ctaBtnText}</span>
         </button>
       </form>
     </RevealAnimation>
