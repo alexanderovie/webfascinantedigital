@@ -93,15 +93,21 @@ const Results = () => {
                       index === 0 && 'ml-8',
                     )}>
                     <div className="-z-10 absolute -top-[107%] -right-[90%] size-[500px] -rotate-[60deg] opacity-0 group-hover:opacity-100 transition-all duration-300 scale-90 group-hover:scale-100 select-none pointer-events-none">
-                      <Image src="/images/gradient/gradient-26.webp" alt="gradient" width={500} height={500} />
+                      <Image
+                        src="/images/gradient/gradient-26.webp"
+                        alt="Efecto visual de gradiente para resultados de marketing digital"
+                        title="Fascinante Digital - Resultados comprobados en marketing digital"
+                        width={500}
+                        height={500}
+                      />
                     </div>
                     <div className="transition-all duration-700 ease-in-out transform group-hover:translate-y-[4px]">
                       <p className="group-hover:text-white text-secondary/60 dark:text-accent/60 text-lg mb-2 transition-colors duration-700 ease-in-out">
                         {result.category}
                       </p>
-                      <h3 className="group-hover:text-ns-yellow text-secondary dark:text-accent transition-colors duration-700 ease-in-out">
+                      <strong className="group-hover:text-ns-yellow text-secondary dark:text-accent transition-colors duration-700 ease-in-out text-3xl font-bold">
                         {result.value}
-                      </h3>
+                      </strong>
                     </div>
                     <p className="group-hover:text-accent/60 text-secondary/60 dark:text-accent/60 transition-all duration-700 ease-in-out transform group-hover:translate-y-[-6px] group-hover:opacity-90">
                       {result.description}

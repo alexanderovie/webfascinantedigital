@@ -37,7 +37,8 @@ const Hero = () => {
         {/* Hero Background Image */}
         <Image
           src="/images/home-page-33/hero-bg.webp"
-          alt="Fondo del hero"
+          alt="Fondo profesional de agencia de marketing digital para latinos en Estados Unidos"
+          title="Fascinante Digital - Agencia de Marketing Digital para Latinos"
           fill
           priority
           className="object-cover -z-20"
@@ -47,7 +48,8 @@ const Hero = () => {
         <figure className="absolute left-1/2 -translate-x-1/2 bottom-0 h-full w-full max-w-[1362px] -z-10">
           <Image
             src="/images/home-page-33/hero-dot.svg"
-            alt="Forma decorativa del hero"
+            alt="Patrón decorativo de puntos para diseño visual profesional"
+            title="Diseño visual profesional - Fascinante Digital"
             className="w-full h-full"
             width={1362}
             height={800}

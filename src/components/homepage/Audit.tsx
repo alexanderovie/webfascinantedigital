@@ -60,32 +60,10 @@ const Audit = () => {
                   ) : (
                     <form onSubmit={handleFormSubmit} className="space-y-4">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Nombre completo"
-                          required
-                          className="input-field"
-                        />
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email"
-                          required
-                          className="input-field"
-                        />
-                        <input
-                          type="tel"
-                          name="phone"
-                          placeholder="Teléfono"
-                          className="input-field"
-                        />
-                        <input
-                          type="text"
-                          name="company"
-                          placeholder="Empresa"
-                          className="input-field"
-                        />
+                        <input type="text" name="name" placeholder="Nombre completo" required className="input-field" />
+                        <input type="email" name="email" placeholder="Email" required className="input-field" />
+                        <input type="tel" name="phone" placeholder="Teléfono" className="input-field" />
+                        <input type="text" name="company" placeholder="Empresa" className="input-field" />
                       </div>
                       <input
                         type="url"
@@ -107,9 +85,7 @@ const Audit = () => {
                       />
 
                       {error && (
-                        <div className="text-red-600 text-sm bg-red-50 dark:bg-red-900/20 p-3 rounded-lg">
-                          {error}
-                        </div>
+                        <div className="text-red-600 text-sm bg-red-50 dark:bg-red-900/20 p-3 rounded-lg">{error}</div>
                       )}
 
                       {isSuccess && (
@@ -125,10 +101,7 @@ const Audit = () => {
                           className="btn btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark btn-md flex-1 disabled:opacity-50">
                           {isLoading ? 'Enviando...' : 'Enviar Solicitud'}
                         </button>
-                        <button
-                          type="button"
-                          onClick={() => setShowForm(false)}
-                          className="btn btn-outline btn-md">
+                        <button type="button" onClick={() => setShowForm(false)} className="btn btn-outline btn-md">
                           Cancelar
                         </button>
                       </div>
@@ -139,7 +112,12 @@ const Audit = () => {
             </div>
             <RevealAnimation delay={0.4}>
               <figure className="bg-[#D9D9D9] rounded-2xl overflow-hidden">
-                <Image src={auditImage} alt="audit image" className="size-full object-cover" />
+                <Image
+                  src={auditImage}
+                  alt="Imagen representativa de auditoría digital y análisis de marketing para negocios hispanos"
+                  title="Auditoría Digital Gratuita - Fascinante Digital"
+                  className="size-full object-cover"
+                />
               </figure>
             </RevealAnimation>
           </div>
