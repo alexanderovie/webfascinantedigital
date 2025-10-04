@@ -12,16 +12,16 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 // 🛡️ ELITE: Mapeo de planes con validación estricta
 const PLAN_PRICES = {
   starter: {
-    monthly: 'price_1SEbsXDsZNgEc56Ld4nKqi0Z', // $20/mes
-    yearly: 'price_1SEbvCDsZNgEc56LZp2ZksJH', // $200/año
+    monthly: 'price_1SEcGcDsZNgEc56LH5iYsPs5', // $20/mes
+    yearly: 'price_1SEcGhDsZNgEc56Lp2hN1io4', // $200/año
   },
   professional: {
-    monthly: 'price_1SEbsfDsZNgEc56LHkjFO4Yu', // $49/mes
-    yearly: 'price_1SEbvFDsZNgEc56LozU0raNj', // $490/año
+    monthly: 'price_1SEcGrDsZNgEc56LKdGPdhA4', // $49/mes
+    yearly: 'price_1SEcKfDsZNgEc56LEIVRo9xW', // $490/año
   },
   enterprise: {
-    monthly: 'price_1SEbuSDsZNgEc56LpE0dZ8Dy', // $99/mes
-    yearly: 'price_1SEbvJDsZNgEc56Lq896cB5a', // $990/año
+    monthly: 'price_1SEcKpDsZNgEc56LFD8ZIA0E', // $99/mes
+    yearly: 'price_1SEcKtDsZNgEc56LVZsTIrbB', // $990/año
   },
 } as const;
 
@@ -38,9 +38,12 @@ export async function POST(request: NextRequest) {
   // 🛡️ ELITE: Rate limiting básico por IP
   const clientIP = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
 
+  // 🛡️ ELITE: Declarar body fuera del try para acceso en catch
+  let body: { planId?: string; billingCycle?: string } | null = null;
+
   try {
     // 🛡️ ELITE: Validación estricta de entrada
-    const body = await request.json();
+    body = await request.json();
     const { planId, billingCycle = 'monthly' } = body;
 
     // Validar tipos y valores
