@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export interface ButtonConfig {
   scrolledClass: string;
@@ -10,7 +10,7 @@ export interface ButtonConfig {
 export const useNavbarScroll = (threshold: number = 100) => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
   const [isVisible, setIsVisible] = useState<boolean>(true);
-  const [lastScrollY, setLastScrollY] = useState<number>(0);
+  const lastScrollY = useRef<number>(0);
 
   console.log('useNavbarScroll hook initialized with threshold:', threshold);
 
@@ -19,23 +19,23 @@ export const useNavbarScroll = (threshold: number = 100) => {
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      console.log('Scroll detected:', currentScrollY, 'lastScrollY:', lastScrollY);
+      console.log('Scroll detected:', currentScrollY, 'lastScrollY:', lastScrollY.current);
 
       // Check if scrolled past threshold
       setIsScrolled(currentScrollY > threshold);
 
       // Hide/show navbar based on scroll direction
-      if (currentScrollY > lastScrollY && currentScrollY > threshold) {
+      if (currentScrollY > lastScrollY.current && currentScrollY > threshold) {
         // Scrolling down - hide navbar
         console.log('Hiding navbar - scrolling down');
         setIsVisible(false);
-      } else if (currentScrollY < lastScrollY || currentScrollY <= threshold) {
+      } else if (currentScrollY < lastScrollY.current || currentScrollY <= threshold) {
         // Scrolling up OR at top - show navbar immediately
         console.log('Showing navbar - scrolling up or at top');
         setIsVisible(true);
       }
 
-      setLastScrollY(currentScrollY);
+      lastScrollY.current = currentScrollY;
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -45,7 +45,7 @@ export const useNavbarScroll = (threshold: number = 100) => {
       console.log('Removing scroll listener');
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [threshold, lastScrollY]);
+  }, [threshold]);
 
   return { isScrolled, isVisible };
 };
