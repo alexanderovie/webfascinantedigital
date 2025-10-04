@@ -28,25 +28,34 @@ const testimonialCards: TestimonialCard[] = [
     company: 'Fascinante Digital',
     avatar: '/images/avatar/avatar-alexander-oviedo.webp',
     testimonial:
-      'Fascinante Digital transformed our local SEO strategy. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. The results speak for themselves.',
+      'Fascinante Digital transformó nuestra estrategia de SEO local. Pasamos de la página 3 al #1 para nuestras palabras clave principales, y nuestro tráfico orgánico aumentó 450%. Los resultados hablan por sí solos.',
     twitterUrl: 'https://x.com/heystaticmania',
   },
   {
     id: 2,
     name: 'Roberto Silva',
-    company: 'Silva & Associates Law Firm',
+    company: 'Bufete de Abogados Silva & Asociados',
     avatar: '/images/home-page-33/avatar-5.webp',
     testimonial:
-      'Working with Fascinante Digital was a game-changer for our law firm. They created an amazing website that loads fast, looks professional, and we get compliments from clients every day.',
+      'Trabajar con Fascinante Digital fue un cambio total para nuestro bufete. Crearon un sitio web increíble que carga rápido, se ve profesional, y recibimos elogios de clientes todos los días.',
     twitterUrl: 'https://x.com/heystaticmania',
   },
   {
     id: 3,
     name: 'Miguel López',
-    company: 'West Palm Beach Dental Practice',
+    company: 'Clínica Dental West Palm Beach',
     avatar: '/images/home-page-33/avatar-6.webp',
     testimonial:
-      'Our SEO optimization with Fascinante Digital has been incredible. We went from page 3 to #1 for our main keywords, and our organic traffic increased by 450%. Highly recommend!',
+      'Nuestra optimización SEO con Fascinante Digital ha sido increíble. Pasamos de la página 3 al #1 para nuestras palabras clave principales, y nuestro tráfico orgánico aumentó 450%. ¡Altamente recomendado!',
+    twitterUrl: 'https://x.com/heystaticmania',
+  },
+  {
+    id: 4,
+    name: 'Carmen Vega',
+    company: 'Restaurante El Sabor Latino',
+    avatar: '/images/avatar/avatar-7.png',
+    testimonial:
+      'El perfil de Google Business que crearon para nuestro restaurante nos trajo 3 veces más clientes. Ahora aparecemos en las primeras búsquedas locales y las reservas no paran de llegar.',
     twitterUrl: 'https://x.com/heystaticmania',
   },
 ];
