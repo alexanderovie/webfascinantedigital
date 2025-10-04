@@ -98,7 +98,7 @@ const MobileMenu = () => {
         </div>
 
         {/* CTA Button - Bottom of mobile menu */}
-        <div className="px-5 pb-[132px] sm:px-8 sm:pb-[140px] lg:px-9 lg:pb-[148px]">
+        <div className="px-5 pb-6 sm:px-8 sm:pb-8 lg:px-9 lg:pb-10">
           <Link
             href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
             className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md w-full text-center block"
