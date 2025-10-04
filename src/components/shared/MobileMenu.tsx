@@ -32,10 +32,10 @@ const MobileMenu = () => {
     <aside
       ref={sidebarRef}
       className={cn(
-        'dark:bg-background-7 scroll-bar fixed top-0 right-0 z-[999] h-screen w-full bg-white transition-transform duration-300 ease-in-out sm:w-1/2 xl:hidden',
+        'dark:bg-background-7 scroll-bar fixed top-0 right-0 z-[999] h-screen w-full bg-red-500 transition-transform duration-300 ease-in-out sm:w-1/2 xl:hidden',
         isOpen ? 'translate-x-0' : 'translate-x-full',
       )}>
-      <div className="space-y-4 pt-1 px-5 pb-5 sm:pt-1 sm:px-8 sm:pb-8 lg:pt-1 lg:px-9 lg:pb-9">
+      <div className="space-y-4 pt-1 px-5 pb-5 sm:pt-1 sm:px-8 sm:pb-8 lg:pt-1 lg:px-9 lg:pb-9 bg-blue-500">
         <div className="flex items-center justify-between pt-2.5">
           <Link href="/">
             <span className="sr-only">Home</span>
@@ -53,7 +53,7 @@ const MobileMenu = () => {
             <span className="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 -rotate-45 transition-all duration-200 group-hover:bg-stroke-1"></span>
           </button>
         </div>
-        <div className="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10">
+        <div className="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10 bg-green-500">
           <ul>
             {/* Direct Links - Updated Order */}
             <li>
