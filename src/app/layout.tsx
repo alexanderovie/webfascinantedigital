@@ -1,11 +1,11 @@
-import SmoothScrollProvider from '@/components/shared/SmoothScroll';
-import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import GTMProvider from '@/components/analytics/GTMProvider';
 import FacebookMeta from '@/components/shared/FacebookMeta';
-import { geistSans, geistMono } from '@/utils/font';
-import { ReactNode, Suspense } from 'react';
-import Script from 'next/script';
+import SmoothScrollProvider from '@/components/shared/SmoothScroll';
+import { ThemeProvider } from '@/components/shared/ThemeProvider';
+import { geistMono, geistSans } from '@/utils/font';
 import type { Metadata } from 'next';
+import Script from 'next/script';
+import { ReactNode, Suspense } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
   },
   description:
-    'Agencia de marketing digital para latinos en EE.UU. Creamos estrategias de SEO, publicidad y analítica avanzada que convierten clics en clientes reales.',
+    'Agencia de marketing digital para latinos en EE.UU. SEO, publicidad y analítica que convierten clics en clientes.',
   keywords: ['agencia de marketing digital', 'SEO para latinos', 'publicidad digital', 'analítica avanzada', 'marketing en español', 'SEO local EE.UU.'],
   authors: [{ name: 'Fascinante Digital' }],
   creator: 'Fascinante Digital',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'Fascinante Digital',
     title: 'Fascinante Digital | Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'Estrategias de SEO, publicidad y analítica avanzada para negocios hispanos en EE.UU. Crece con resultados medibles y reales.',
+      'SEO, publicidad y analítica para negocios hispanos en EE.UU. Resultados medibles y reales.',
     images: [
       {
         url: 'https://fascinantedigital.com/static/og-default-1200x630.jpg',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fascinante Digital — Agencia de Marketing Digital para Latinos en EE.UU.',
     description:
-      'Creamos estrategias digitales en español que impulsan negocios latinos en EE.UU. con SEO, publicidad y datos reales.',
+      'Estrategias digitales en español para negocios latinos. SEO, publicidad y datos reales.',
     images: ['https://fascinantedigital.com/static/og-default-1200x630.jpg'],
   },
   appleWebApp: {
@@ -93,9 +93,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.googletagmanager.com" />
 
         {/* ✅ Preload de imágenes críticas - Hero background ahora optimizado con next/image */}
-        {/* <link 
-          rel="preload" 
-          as="image" 
+        {/* <link
+          rel="preload"
+          as="image"
           href="/images/home-page-33/hero-bg.webp"
           type="image/webp"
         /> */}
@@ -111,7 +111,7 @@ export default function RootLayout({
               url: 'https://fascinantedigital.com',
               logo: 'https://fascinantedigital.com/images/shared/main-logo.svg',
               description:
-                'SEO and Web Development Agency in West Palm Beach specialized in digital marketing for Hispanic businesses',
+                'Agencia de marketing digital para negocios hispanos en West Palm Beach',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '2054 Vista Pkwy # 400',
