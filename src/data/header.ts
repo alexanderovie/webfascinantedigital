@@ -35,7 +35,7 @@ export const navigationItems: NavigationItem[] = [
     label: 'Servicios',
     href: '#',
     hasDropdown: true,
-    megaMenuComponent: 'ServicesMegaMenu',
+    megaMenuComponent: 'ServicesMenu',
   },
   {
     id: 'faq',
