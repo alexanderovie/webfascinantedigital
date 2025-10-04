@@ -17,42 +17,42 @@ const servicesData: ServiceCard[] = [
     icon: 'ns-shape-25',
     iconType: 'shape',
     title: 'SEO',
-    description: 'Enhance visibility, authority, and important keyword rankings.',
+    description: 'Mejora la visibilidad, autoridad y posicionamiento de palabras clave importantes.',
   },
   {
     id: 2,
     icon: 'ns-shape-19',
     iconType: 'shape',
     title: 'SEM',
-    description: 'Data-optimized campaigns designed to attract ready-to-buy audiences.',
+    description: 'Campañas optimizadas con datos diseñadas para atraer audiencias listas para comprar.',
   },
   {
     id: 3,
     icon: 'ns-shape-17',
     iconType: 'shape',
-    title: 'Email Marketing & Automation',
-    description: 'Nurture leads and convert subscribers with timely campaigns.',
+    title: 'Email Marketing y Automatización',
+    description: 'Nutre leads y convierte suscriptores con campañas oportunas.',
   },
   {
     id: 4,
     icon: 'ns-shape-34',
     iconType: 'shape',
-    title: 'Link Building & Authority Outreach',
-    description: 'Secure high-quality backlinks that enhance your SEO',
+    title: 'Construcción de Enlaces y Outreach de Autoridad',
+    description: 'Obtén enlaces de alta calidad que mejoren tu SEO.',
   },
   {
     id: 5,
     icon: 'local-seo',
     iconType: 'svg',
-    title: 'Local SEO & Google Business Optimization',
-    description: 'Help local customers discover you—first, fast, and frequently.',
+    title: 'SEO Local y Optimización de Google Business',
+    description: 'Ayuda a los clientes locales a descubrirte—primero, rápido y frecuentemente.',
   },
   {
     id: 6,
     icon: 'analytics',
     iconType: 'svg',
-    title: 'Analytics & Conversion Optimization',
-    description: 'Collect data to convert clicks into customers & optimize every dollar spent.',
+    title: 'Analytics y Optimización de Conversión',
+    description: 'Recopila datos para convertir clics en clientes y optimiza cada dólar gastado.',
   },
 ];
 
@@ -65,15 +65,16 @@ const Services = () => {
             {/* Left: Intro */}
             <div className="lg:sticky lg:top-28">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-blue-modern mb-5">Services Overview</span>
+                <span className="badge badge-blue-modern mb-5">Resumen de Servicios</span>
               </RevealAnimation>
               <div className="space-y-2 md:max-w-[595px] mb-14">
                 <RevealAnimation delay={0.2}>
-                  <h2>Our Performance-Focused Services.</h2>
+                  <h2>Nuestros Servicios Enfocados en Resultados.</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[512px]">
-                    Smart, secure, and designed for simplicity—Fascinante Digital empowers you to take control effortlessly.
+                    Inteligentes, seguros y diseñados para la simplicidad—Fascinante Digital te empodera para tomar el
+                    control sin esfuerzo.
                   </p>
                 </RevealAnimation>
               </div>
@@ -82,7 +83,7 @@ const Services = () => {
                   <LinkButton
                     href="/services"
                     className="btn btn-secondary btn-xl dark:btn-accent w-[90%] sm:w-auto hover:btn-white dark:hover:btn-white-dark">
-                    View Full-Service Breakdown.
+                    Ver Desglose Completo de Servicios.
                   </LinkButton>
                 </div>
               </RevealAnimation>

@@ -31,7 +31,7 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
       <header>
         <div
           className={cn(
-            'fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7 transition-transform duration-300 ease-in-out',
+            'fixed top-0 left-0 w-full z-50 bg-white dark:bg-background-7 transition-transform duration-300 ease-in-out shadow-sm',
             !isVisible && '-translate-y-full',
             className,
           )}>
