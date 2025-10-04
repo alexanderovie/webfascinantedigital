@@ -70,7 +70,7 @@ const Pricing = () => {
             <div className="relative z-0">
               <RevealAnimation delay={1} duration={1.2} direction="up" offset={200}>
                 <span className="absolute z-11 -right-6 -top-2.5 bg-secondary dark:bg-accent text-accent dark:text-secondary inline-block font-normal capitalize text-tagline-2 px-3.5 py-1.5 shadow-xs rounded-[36px] rotate-[20deg] w-[90px]">
-                  ahorra 40%
+                  Ahorra 2 meses
                 </span>
               </RevealAnimation>
               <label className="relative inline-flex items-center cursor-pointer z-[10] bg-white dark:bg-background-9 py-6 px-[57px] rounded-full">
