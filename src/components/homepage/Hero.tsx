@@ -15,17 +15,17 @@ const avatarData: AvatarData[] = [
   {
     id: 1,
     src: avatar1,
-    alt: 'Avatar 1',
+    alt: 'Cliente satisfecho 1',
   },
   {
     id: 2,
     src: avatar2,
-    alt: 'Avatar 2',
+    alt: 'Cliente satisfecho 2',
   },
   {
     id: 3,
     src: avatar3,
-    alt: 'Avatar 3',
+    alt: 'Cliente satisfecho 3',
   },
 ];
 
@@ -36,7 +36,7 @@ const Hero = () => {
         {/* Hero Background Image */}
         <Image
           src="/images/home-page-33/hero-bg.webp"
-          alt="Hero background"
+          alt="Fondo del hero"
           fill
           priority
           className="object-cover -z-20"
@@ -46,7 +46,7 @@ const Hero = () => {
         <figure className="absolute left-1/2 -translate-x-1/2 bottom-0 h-full w-full max-w-[1362px] -z-10">
           <Image
             src="/images/home-page-33/hero-dot.svg"
-            alt="Hero shape"
+            alt="Forma decorativa del hero"
             className="w-full h-full"
             width={1362}
             height={800}
@@ -125,14 +125,14 @@ const Hero = () => {
               <figure className="lg:min-w-36 md:ml-8">
                 <Image
                   src="/images/icons/client-logo-1-white.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-1-dark.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto hidden dark:block"
                   width={144}
                   height={40}
@@ -141,14 +141,14 @@ const Hero = () => {
               <figure className="lg:min-w-36">
                 <Image
                   src="/images/icons/client-logo-2-white.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-2-dark.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto hidden dark:block"
                   width={144}
                   height={40}
@@ -157,14 +157,14 @@ const Hero = () => {
               <figure className="lg:min-w-36">
                 <Image
                   src="/images/icons/client-logo-3-white.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-3-dark.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto hidden dark:block"
                   width={144}
                   height={40}
@@ -173,14 +173,14 @@ const Hero = () => {
               <figure className="lg:min-w-36">
                 <Image
                   src="/images/icons/client-logo-4-white.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-4-dark.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto hidden dark:block"
                   width={144}
                   height={40}
@@ -189,14 +189,14 @@ const Hero = () => {
               <figure className="lg:min-w-36">
                 <Image
                   src="/images/icons/client-logo-5-white.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto dark:hidden"
                   width={144}
                   height={40}
                 />
                 <Image
                   src="/images/icons/client-logo-5-dark.svg"
-                  alt="Client logo"
+                  alt="Logo de cliente"
                   className="lg:w-auto hidden dark:block"
                   width={144}
                   height={40}
