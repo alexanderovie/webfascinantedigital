@@ -80,7 +80,7 @@ const Steps = () => {
                   className="btn btn-secondary btn-md dark:btn-transparent hover:btn-white"
                   role="button"
                   aria-label="Conoce Nuestra Metodología">
-                  Conoce Nuestra Metodología.
+                  Conoce Nuestra Metodología
                 </LinkButton>
               </div>
             </RevealAnimation>

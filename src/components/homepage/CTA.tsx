@@ -26,7 +26,7 @@ const CTA = () => {
                 <LinkButton
                   href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                   className="btn btn-secondary hover:btn-white btn-md dark:btn-accent dark:hover:btn-white-dark">
-                  Book Your Free Strategy Call.
+                  Book Your Free Strategy Call
                 </LinkButton>
               </div>
             </RevealAnimation>
