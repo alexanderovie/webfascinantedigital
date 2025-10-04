@@ -29,11 +29,12 @@ const SuccessStories = () => {
         <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-10 mb-8">
           {/* Caso 1 - Ana Martínez */}
           <RevealAnimation delay={0.3}>
-            <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <div className="grid-item bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-48 mb-4 rounded-xl overflow-hidden">
                 <Image
                   src="/images/case-study/case-study-img-01.png"
-                  alt="Ana Martínez Life Insurance"
+                  alt="Caso de éxito SEO: Ana Martínez Life Insurance - 450% más leads calificados"
+                  title="Agencia de marketing para negocios hispanos - Casos de éxito reales"
                   fill
                   className="object-cover"
                 />
@@ -55,11 +56,12 @@ const SuccessStories = () => {
 
           {/* Caso 2 - Carlos Rodríguez */}
           <RevealAnimation delay={0.4}>
-            <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <div className="grid-item bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-48 mb-4 rounded-xl overflow-hidden">
                 <Image
                   src="/images/case-study/case-study-img-01.png"
-                  alt="Carlos Rodríguez Health Insurance"
+                  alt="Caso de éxito Google Ads: Carlos Rodríguez Health Insurance - 300% ROI"
+                  title="Agencia de marketing para negocios hispanos - Casos de éxito reales"
                   fill
                   className="object-cover"
                 />
@@ -84,11 +86,12 @@ const SuccessStories = () => {
         <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-10">
           {/* Caso 3 - Limpieza Total */}
           <RevealAnimation delay={0.5}>
-            <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <div className="grid-item bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-48 mb-4 rounded-xl overflow-hidden">
                 <Image
                   src="/images/case-study/case-study-img-01.png"
-                  alt="Limpieza Total"
+                  alt="Caso de éxito SEO local: Limpieza Total - 500% más reservas online"
+                  title="Agencia de marketing para negocios hispanos - Casos de éxito reales"
                   fill
                   className="object-cover"
                 />
@@ -110,11 +113,12 @@ const SuccessStories = () => {
 
           {/* Caso 4 - Restaurante El Sabor */}
           <RevealAnimation delay={0.6}>
-            <div className="bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <div className="grid-item bg-white dark:bg-background-6 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-48 mb-4 rounded-xl overflow-hidden">
                 <Image
                   src="/images/case-study/case-study-img-01.png"
-                  alt="Restaurante El Sabor"
+                  alt="Caso de éxito Google Business: Restaurante El Sabor - 300% más pedidos online"
+                  title="Agencia de marketing para negocios hispanos - Casos de éxito reales"
                   fill
                   className="object-cover"
                 />

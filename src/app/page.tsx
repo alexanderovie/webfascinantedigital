@@ -40,7 +40,7 @@ const FooterOne = dynamic(() => import('@/components/shared/footer/FooterOne'), 
 });
 
 export const metadata: Metadata = {
-  title: 'Fascinante Digital | SEO and Web Development in West Palm Beach',
+  title: 'Fascinante Digital | SEO y Desarrollo Web en West Palm Beach',
   alternates: {
     canonical: '/',
   },

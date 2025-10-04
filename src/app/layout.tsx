@@ -213,6 +213,67 @@ export default function RootLayout({
           }}
         />
 
+        {/* ✅ FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: '¿Por qué elegir Fascinante Digital?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Ayudamos a negocios hispanos a aparecer primero en Google. Usamos SEO, Google Ads y marketing automático. Los resultados son claros y medibles.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  name: '¿Qué servicios ofrecen?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'SEO local, Google Ads, sitios web, marketing automático y redes sociales. Todo lo que necesitas para crecer online.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  name: '¿Cuándo veré resultados?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Los primeros resultados aparecen en 1-2 meses. El crecimiento fuerte viene en 3-6 meses. Te enviamos reportes cada mes para que veas el progreso.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  name: '¿Trabajan con otros negocios?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Sí, trabajamos con todos los negocios. Pero somos expertos en ayudar a latinos. Nuestras estrategias funcionan para cualquier negocio que quiera crecer.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  name: '¿Cuánto cuesta?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Los precios dependen de tu negocio y presupuesto. Tenemos paquetes desde $500 hasta $5,000 por mes. Te damos una consulta gratis para ver qué necesitas.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  name: '¿Me envían reportes?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Sí, cada mes te enviamos un reporte. Te mostramos cuántas personas visitan tu sitio, dónde apareces en Google y cuántos clientes nuevos tienes. Así sabes que tu dinero está funcionando.'
+                  }
+                }
+              ]
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
+
         {/* ✅ Facebook App ID con atributo property correcto */}
         <FacebookMeta />
       </head>
