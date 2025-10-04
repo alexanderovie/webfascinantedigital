@@ -116,7 +116,7 @@ async function handleInvoicePaymentSucceeded(invoice: Stripe.Invoice) {
     invoiceId: invoice.id,
     customerId: invoice.customer,
     amountPaid: invoice.amount_paid,
-    subscriptionId: invoice.subscription,
+    subscriptionId: typeof invoice.subscription === 'string' ? invoice.subscription : invoice.subscription?.id,
   });
 }
 
