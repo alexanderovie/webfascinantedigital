@@ -1,5 +1,7 @@
 'use client';
 
+import { useEmailForm } from '@/hooks/useEmailForm';
+import useGTM from '@/hooks/useGTM';
 import gradient17 from '@public/images/gradient/gradient-17.png';
 import gradient22 from '@public/images/gradient/gradient-22.png';
 import gradient6 from '@public/images/gradient/gradient-6.png';
@@ -9,7 +11,6 @@ import phoneIcon from '@public/images/icons/phone-right.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
-import useGTM from '@/hooks/useGTM';
 
 const contactInfoItems = [
   {
@@ -42,12 +43,24 @@ const contactInfoItems = [
 
 const ContactInfo = () => {
   const { trackContactForm } = useGTM();
+  const { submitForm, isLoading, isSuccess, error } = useEmailForm({
+    endpoint: 'contact',
+    onSuccess: () => {
+      trackContactForm('contact_page_form');
+    },
+  });
 
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    trackContactForm('contact_page_form');
-    // Aquí puedes agregar la lógica de envío del formulario
-    console.log('Form submitted with GTM tracking');
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get('fullname') as string,
+      email: formData.get('email') as string,
+      phone: formData.get('number') as string,
+      subject: formData.get('subject') as string,
+      message: formData.get('message') as string,
+    };
+    await submitForm(data);
   };
 
   return (
@@ -184,11 +197,26 @@ const ContactInfo = () => {
                     </Link>
                   </label>
                 </fieldset>
+                {/* Error message */}
+                {error && (
+                  <div className="text-red-600 text-sm bg-red-50 dark:bg-red-900/20 p-3 rounded-lg">
+                    {error}
+                  </div>
+                )}
+
+                {/* Success message */}
+                {isSuccess && (
+                  <div className="text-green-600 text-sm bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
+                    ¡Mensaje enviado! Te responderemos pronto.
+                  </div>
+                )}
+
                 {/* submit button */}
                 <button
                   type="submit"
-                  className="btn btn-md btn-secondary w-full hover:btn-primary dark:btn-accent before:content-none first-letter:uppercase">
-                  Submit
+                  disabled={isLoading}
+                  className="btn btn-md btn-secondary w-full hover:btn-primary dark:btn-accent before:content-none first-letter:uppercase disabled:opacity-50 disabled:cursor-not-allowed">
+                  {isLoading ? 'Enviando...' : 'Submit'}
                 </button>
               </form>
             </RevealAnimation>

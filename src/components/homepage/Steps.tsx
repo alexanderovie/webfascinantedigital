@@ -16,22 +16,22 @@ const processItems: ProcessItem[] = [
   {
     id: 1,
     stepNumber: '01',
-    title: 'Deep audit & discovery.',
-    description: 'We assess your current digital footprint and uncover hidden opportunities.',
+    title: 'Auditoría profunda y descubrimiento.',
+    description: 'Analizamos tu presencia digital actual e identificamos oportunidades ocultas de crecimiento real.',
     progressWidth: '0%',
   },
   {
     id: 2,
     stepNumber: '02',
-    title: 'Campaign planning & execution.',
-    description: 'Strategy-first campaigns tailored to your goals, industry, and audience.',
+    title: 'Planificación y ejecución estratégica.',
+    description: 'Diseñamos campañas alineadas con tus objetivos, industria y audiencia hispana en EE.UU.',
     progressWidth: '0%',
   },
   {
     id: 3,
     stepNumber: '03',
-    title: 'Weekly optimization cycles.',
-    description: 'We test, iterate, and adjust for maximum performance every week.',
+    title: 'Ciclos de optimización semanales.',
+    description: 'Probamos, ajustamos y mejoramos continuamente para lograr el máximo rendimiento cada semana.',
     progressWidth: '0%',
   },
 ];
@@ -79,8 +79,8 @@ const Steps = () => {
                   href="/process"
                   className="btn btn-secondary btn-md dark:btn-transparent hover:btn-white"
                   role="button"
-                  aria-label="Start your application">
-                  Learn About Our Approach.
+                  aria-label="Conoce nuestra metodología">
+                  Conoce nuestra metodología.
                 </LinkButton>
               </div>
             </RevealAnimation>
