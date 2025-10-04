@@ -18,11 +18,6 @@ const Pricing = () => {
           <RevealAnimation delay={0.2}>
             <span className="badge badge-yellow-modern mb-5"> Nuestros Precios </span>
           </RevealAnimation>
-          <RevealAnimation delay={0.3}>
-            <h2 className="max-w-[650px] mx-auto mb-8">
-              Selecciona el plan que mejor se adapte a tus necesidades de marketing digital.
-            </h2>
-          </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <div className="relative z-0">
               <RevealAnimation delay={1} duration={1.2} direction="up" offset={200}>
@@ -369,14 +364,6 @@ const Pricing = () => {
               </div>
             </RevealAnimation>
           </div>
-        </div>
-
-        {/* Texto de refuerzo SEO */}
-        <div className="text-center mt-6">
-          <p className="text-secondary/60 dark:text-accent/60 text-sm">
-            Nuestros planes están diseñados para negocios latinos en EE.UU. que buscan resultados reales en SEO,
-            publicidad y crecimiento digital.
-          </p>
         </div>
       </div>
     </section>

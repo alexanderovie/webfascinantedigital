@@ -41,7 +41,7 @@ const Pricing02 = () => {
           className="dark:bg-background-5 bg-background-1"
           badgeText="Comenzar Ahora"
           badgeClass="badge-yellow-modern"
-          ctaHeading="¿Listo para dominar tu mercado local?"
+          ctaHeading="¿Listo Para Dominar Tu Mercado Local?"
           description="Comienza hoy tu estrategia digital y observa cómo tu negocio crece con estrategias comprobadas."
           ctaBtnText="Comenzar Ahora"
           btnClass="btn-primary hover:btn-secondary dark:hover:btn-accent"

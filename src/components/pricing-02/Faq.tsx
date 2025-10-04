@@ -18,7 +18,7 @@ const Faq = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <h2 className="lg:max-w-[439px] mx-auto lg:mx-0" id="faq-heading">
-                  Preguntas Frecuentes sobre Nuestros Planes y Precios
+                  Preguntas Frecuentes
                 </h2>
               </RevealAnimation>
             </div>
