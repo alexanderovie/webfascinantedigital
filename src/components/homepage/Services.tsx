@@ -17,42 +17,42 @@ const servicesData: ServiceCard[] = [
     icon: 'ns-shape-25',
     iconType: 'shape',
     title: 'SEO',
-    description: 'Mejora la visibilidad, autoridad y posicionamiento de palabras clave importantes.',
+    description: 'SEO para mayor visibilidad.',
   },
   {
     id: 2,
     icon: 'ns-shape-19',
     iconType: 'shape',
     title: 'SEM',
-    description: 'Campañas optimizadas con datos diseñadas para atraer audiencias listas para comprar.',
+    description: 'SEM para clientes inmediatos.',
   },
   {
     id: 3,
     icon: 'ns-shape-17',
     iconType: 'shape',
     title: 'Email Marketing y Automatización',
-    description: 'Nutre leads y convierte suscriptores con campañas oportunas.',
+    description: 'Automatización de email.',
   },
   {
     id: 4,
     icon: 'ns-shape-34',
     iconType: 'shape',
     title: 'Construcción de Enlaces y Outreach de Autoridad',
-    description: 'Obtén enlaces de alta calidad que mejoren tu SEO.',
+    description: 'Autoridad con enlaces.',
   },
   {
     id: 5,
     icon: 'local-seo',
     iconType: 'svg',
     title: 'SEO Local y Optimización de Google Business',
-    description: 'Ayuda a los clientes locales a descubrirte—primero, rápido y frecuentemente.',
+    description: 'SEO local optimizado.',
   },
   {
     id: 6,
     icon: 'analytics',
     iconType: 'svg',
     title: 'Analytics y Optimización de Conversión',
-    description: 'Recopila datos para convertir clics en clientes y optimiza cada dólar gastado.',
+    description: 'Analytics para decisiones inteligentes.',
   },
 ];
 
@@ -73,8 +73,8 @@ const Services = () => {
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[512px]">
-                    Inteligentes, seguros y diseñados para la simplicidad—Fascinante Digital te empodera para tomar el
-                    control sin esfuerzo.
+                    Auditoría profunda y personalizada. Planificación estratégica y ejecución. Optimización continua
+                    respaldada con datos precisos y reales.
                   </p>
                 </RevealAnimation>
               </div>

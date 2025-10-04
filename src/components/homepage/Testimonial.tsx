@@ -1,16 +1,16 @@
 'use client';
 
 import { cn } from '@/utils/cn';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
+import gradient22Img from '../../../public/images/gradient/gradient-22.webp';
+import RevealAnimation from '../animation/RevealAnimation';
 
 const Marquee = dynamic(() => import('react-fast-marquee'), {
   ssr: false,
-  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />,
 });
-import gradient22Img from '../../../public/images/gradient/gradient-22.webp';
-import RevealAnimation from '../animation/RevealAnimation';
 
 interface TestimonialCard {
   id: number;
@@ -58,7 +58,7 @@ const Testimonial = () => {
         <div className="main-container">
           <div className="mb-[72px] text-center">
             <RevealAnimation delay={0.1}>
-              <h2 className="text-secondary dark:text-accent">Client Words</h2>
+              <h2 className="text-secondary dark:text-accent">Palabras de Nuestros Clientes</h2>
             </RevealAnimation>
           </div>
         </div>

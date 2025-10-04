@@ -1,15 +1,15 @@
 'use client';
 
 import { cn } from '@/utils/cn';
-import Image from 'next/image';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import RevealAnimation from '../animation/RevealAnimation';
+import LinkButton from '../ui/button/LinkButton';
 
 const Marquee = dynamic(() => import('react-fast-marquee'), {
   ssr: false,
-  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />
+  loading: () => <div className="flex gap-x-10 items-center scroll-bar" />,
 });
-import RevealAnimation from '../animation/RevealAnimation';
-import LinkButton from '../ui/button/LinkButton';
 
 interface ResultCard {
   id: number;
@@ -59,11 +59,12 @@ const Results = () => {
           <div className="space-y-14 mb-[70px] text-center sm:text-left mx-4 sm:mx-0">
             <div className="space-y-3">
               <RevealAnimation delay={0.1}>
-                <h2 className="text-secondary dark:text-accent">Results That Speak for Themselves.</h2>
+                <h2 className="text-secondary dark:text-accent">Resultados que Hablan por Sí Solos.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p className="text-secondary/60 dark:text-accent/60">
-                  A dynamic digital marketing agency trusted by clients around the globe.
+                  Más clientes calificados, mayor tasa de conversión y un crecimiento sostenible impulsado por campañas
+                  digitales inteligentes.
                 </p>
               </RevealAnimation>
             </div>

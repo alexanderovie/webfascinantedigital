@@ -61,7 +61,7 @@ const Hero = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="text-secondary/60 max-w-[850px] mb-7 md:mb-14">
-                Impulsamos negocios latinos en EE.UU. con estrategias digitales efectivas, creativas y enfocadas en
+                Impulsamos negocios hispanos en EE.UU. con SEO, publicidad digital y analítica avanzada orientada a
                 resultados.
               </p>
             </RevealAnimation>
@@ -71,7 +71,7 @@ const Hero = () => {
                   <LinkButton
                     href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                     className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
-                    Agendar Consulta Gratuita
+                    Recibe tu auditoría gratuita y descubre cómo multiplicar clientes en menos de 90 días.
                   </LinkButton>
                 </li>
               </RevealAnimation>

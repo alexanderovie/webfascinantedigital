@@ -12,12 +12,14 @@ const Audit = () => {
             <div className="space-y-14">
               <div className="space-y-3">
                 <RevealAnimation delay={0.1}>
-                  <h2 className="text-secondary dark:text-accent">Get a Free Audit with a Personalized Plan.</h2>
+                  <h2 className="text-secondary dark:text-accent">
+                    Solicita tu auditoría gratuita y recibe un plan claro para atraer más clientes desde hoy mismo.
+                  </h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.2}>
                   <p className="text-secondary/60 dark:text-accent/60">
-                    We&apos;ll analyze your current performance and show you exactly how we&apos;d enhance it—before you
-                    spend a dime.
+                    Expertos en marketing digital para latinos en EE.UU., con estrategias claras y datos que generan
+                    impacto.
                   </p>
                 </RevealAnimation>
               </div>

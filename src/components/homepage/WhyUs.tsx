@@ -80,12 +80,12 @@ const WhyUs = () => {
               <div className="md:w-full space-y-7 text-center md:text-left">
                 <div className="md:w-full space-y-3">
                   <RevealAnimation delay={0.2}>
-                    <h2 className="max-w-[571px] text-accent">Why Fascinante Digital?</h2>
+                    <h2 className="max-w-[571px] text-accent">¿Por qué Fascinante Digital?</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p className="max-w-[448px] md:w-full text-accent/60">
-                      We help Hispanic businesses in the USA dominate Google search results and grow their revenue
-                      through proven digital marketing strategies.
+                      Estrategias comprobadas y personalizadas, diseñadas para negocios latinos que buscan crecer con
+                      datos y resultados reales.
                     </p>
                   </RevealAnimation>
                 </div>

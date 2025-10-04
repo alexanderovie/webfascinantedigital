@@ -8,15 +8,17 @@ const CTA = () => {
         <div className="main-container">
           <div className="text-center max-w-[649px] mx-auto">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-cyan mb-5">Let&apos;s start</span>
+              <span className="badge badge-cyan mb-5">Comencemos</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <h2 className="mb-3">Ready to Grow Smarter?</h2>
+              <h2 className="mb-3">
+                ¿Listo para atraer clientes de calidad y hacer crecer tu negocio hispano en Estados Unidos?
+              </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mb-6">
-                Let&apos;s make your marketing budget work harder—not bigger. Book your strategy call today and take the
-                first step toward predictable growth.
+                Nuestros clientes latinos confían en nosotros porque convertimos inversión en crecimiento real y
+                medible.
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
