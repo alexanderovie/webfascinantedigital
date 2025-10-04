@@ -71,7 +71,7 @@ const Hero = () => {
                   <LinkButton
                     href="https://cal.fascinantedigital.com/fascinante/consultoria-estrategica-digital?user=FASCINANTE"
                     className="btn btn-primary btn-xl w-[90%] sm:w-auto hover:btn-white-dark dark:hover:btn-white">
-                    Recibe tu auditoría gratuita y descubre cómo multiplicar clientes en menos de 90 días.
+                    Auditoría Gratuita
                   </LinkButton>
                 </li>
               </RevealAnimation>
