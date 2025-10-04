@@ -28,7 +28,7 @@ const Pricing02 = () => {
       <main className="bg-background-1 dark:bg-background-6">
         <PageHero
           title="Precios"
-          heading="Planes y Precios de Marketing Digital<br />Para Negocios Latinos en EE.UU."
+          heading="Planes y Precios de Marketing<br />Digital para Negocios Latinos en EE.UU."
           description="En Fascinante Digital creemos en la transparencia. Nuestros planes están diseñados para adaptarse a las necesidades y presupuesto de tu negocio. Desde SEO local hasta estrategias completas de marketing digital, obtén resultados medibles sin costos ocultos."
           link="/pricing"
           badge="Nuestros Precios"
