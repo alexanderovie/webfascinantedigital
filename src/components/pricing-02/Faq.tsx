@@ -49,7 +49,7 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="2"
                     iconType="arrow">
-                    How long does it take to see results from SEO?
+                    ¿Cuánto tiempo toma ver resultados del SEO?
                   </AccordionTrigger>
 
                   <AccordionContent value="2">
@@ -65,7 +65,7 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="3"
                     iconType="arrow">
-                    Can I change my plan later?
+                    ¿Puedo cambiar mi plan más adelante?
                   </AccordionTrigger>
 
                   <AccordionContent value="3">
@@ -81,7 +81,7 @@ const Faq = () => {
                     titleClassName="flex-1 text-left xl:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
                     value="4"
                     iconType="arrow">
-                    Do you provide monthly reports and analytics?
+                    ¿Proporcionan reportes mensuales y análisis?
                   </AccordionTrigger>
 
                   <AccordionContent value="4">
