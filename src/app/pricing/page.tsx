@@ -45,6 +45,7 @@ const Pricing02 = () => {
           description="Comienza hoy con una agencia de marketing digital confiable y accesible. Solicita una auditoría gratuita y descubre el plan que mejor se ajusta a tus objetivos."
           ctaBtnText="Solicitar Auditoría Gratuita"
           btnClass="btn-primary hover:btn-secondary dark:hover:btn-accent"
+          useCalButton={true}
         />
       </main>
       <FooterThree />

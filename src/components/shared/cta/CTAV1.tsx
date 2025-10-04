@@ -1,5 +1,6 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { cn } from '@/utils/cn';
+import BotonCal from '../BotonCal';
 import CTACheckList from './CTACheckList';
 import CtaInputForm from './CtaInputForm';
 
@@ -17,6 +18,7 @@ interface CTAV1Props {
   listTextClass?: string;
   inputFieldClass?: string;
   checkListVariant?: 'default' | 'gray';
+  useCalButton?: boolean;
 }
 
 const CTAV1 = ({
@@ -33,6 +35,7 @@ const CTAV1 = ({
   listTextClass,
   inputFieldClass,
   checkListVariant = 'default',
+  useCalButton = false,
 }: CTAV1Props) => {
   return (
     <section className={cn('py-[50px] md:py-20 lg:py-28', className)} aria-label="cta section">
@@ -65,7 +68,18 @@ const CTAV1 = ({
               'w-full max-w-[562px] space-y-6 lg:pl-9 xl:pl-[96px]',
               badgeText && 'mt-[40px] lg:mt-[67px] space-y-6',
             )}>
-            <CtaInputForm btnClass={btnClass} ctaBtnText={ctaBtnText} inputFieldClass={inputFieldClass} />
+            {useCalButton ? (
+              <RevealAnimation delay={0.4}>
+                <div className="flex justify-center">
+                  <BotonCal
+                    className={cn('btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent h-12', btnClass)}>
+                    {ctaBtnText}
+                  </BotonCal>
+                </div>
+              </RevealAnimation>
+            ) : (
+              <CtaInputForm btnClass={btnClass} ctaBtnText={ctaBtnText} inputFieldClass={inputFieldClass} />
+            )}
             <CTACheckList
               className="xl:justify-start gap-x-4 gap-y-5 sm:gap-x-6 sm:gap-y-0"
               ctaCheckListData={[
