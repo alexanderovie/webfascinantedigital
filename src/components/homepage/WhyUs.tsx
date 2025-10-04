@@ -14,14 +14,14 @@ const featureItems: FeatureItem[] = [
   {
     id: 1,
     icon: 'ns-shape-15',
-    title: 'SaaS y tecnología',
+    title: 'SaaS y Tecnología',
     description: 'Reduce costos de adquisición de clientes, aumenta registros y escala el crecimiento predecible.',
     side: 'left',
   },
   {
     id: 2,
     icon: 'ns-shape-24',
-    title: 'Bienes raíces',
+    title: 'Bienes Raíces',
     description: 'Genera leads calificados, optimiza SEO local y domina búsquedas de nicho.',
     side: 'left',
   },
@@ -42,7 +42,7 @@ const featureItems: FeatureItem[] = [
   {
     id: 5,
     icon: 'ns-shape-34',
-    title: 'Negocio local',
+    title: 'Negocio Local',
     description: 'Posiciónate localmente, gana reseñas y destaca en marketing hiperlocal.',
     side: 'right',
   },
