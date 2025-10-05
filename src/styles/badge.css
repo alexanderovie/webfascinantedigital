@@ -2,7 +2,7 @@
 Site Badges Styles
 =========================== */
 @utility badge {
-  @apply text-tagline-2 text-secondary backdrop-blur-ns-badge-blur inline-block rounded-full px-5 py-1.5 font-normal text-nowrap;
+  @apply text-tagline-1 text-secondary backdrop-blur-ns-badge-blur inline-block rounded-full px-5 py-1.5 font-normal text-nowrap;
 }
 
 @utility badge-green {
@@ -104,25 +104,25 @@ Soft Color Badges for Core Pages
 Modern Soft Color Combinations
 =========================== */
 @utility badge-blue-modern {
-  background-color: #E0E8FB;
-  color: #5370BC;
+  background-color: #e0e8fb;
+  color: #5370bc;
   border: 1px solid rgba(83, 112, 188, 0.2);
 }
 
 @utility badge-purple-modern {
-  background-color: #EEEBFC;
-  color: #8357BB;
+  background-color: #eeebfc;
+  color: #8357bb;
   border: 1px solid rgba(131, 87, 187, 0.2);
 }
 
 @utility badge-green-modern {
-  background-color: #E8F5E8;
-  color: #4A7C59;
+  background-color: #e8f5e8;
+  color: #4a7c59;
   border: 1px solid rgba(74, 124, 89, 0.2);
 }
 
 @utility badge-yellow-modern {
-  background-color: #FEF7E0;
-  color: #B8860B;
+  background-color: #fef7e0;
+  color: #b8860b;
   border: 1px solid rgba(184, 134, 11, 0.2);
 }
